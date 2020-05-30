@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "portfolio",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vuepress dev docs/",
+    "build": "vuepress build docs/"
   },
   "author": "Yuuki Takahashi",
   "license": "ISC",
