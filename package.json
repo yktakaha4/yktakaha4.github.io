@@ -1,0 +1,13 @@
+{
+  "name": "yktakaha4.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuuki Takahashi",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  }
+}
