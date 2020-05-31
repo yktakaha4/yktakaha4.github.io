@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ./yktakaha4.webp
+heroImage: ./images/yktakaha4.webp
 heroText: yktakaha4.github.io
 tagline: 🐧
 footer: © 2020 Yuuki Takahashi
