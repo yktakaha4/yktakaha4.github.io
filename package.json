@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vuepress dev docs/",
     "build": "vuepress build docs/",
-    "deploy": "push-dir --dir=./dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=./dist --branch=master --cleanup"
   },
   "author": "Yuuki Takahashi",
   "license": "ISC",
