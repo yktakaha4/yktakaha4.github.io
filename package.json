@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "portfolio",
   "scripts": {
+    "lint": "textlint docs/",
+    "lint:fix": "textlint --fix docs/",
     "dev": "vuepress dev docs/",
     "build": "vuepress build docs/"
   },
@@ -10,6 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "push-dir": "^0.4.1",
+    "textlint": "^11.6.3",
+    "textlint-rule-preset-jtf-style": "^2.3.4",
     "vuepress": "^1.5.0"
   }
 }

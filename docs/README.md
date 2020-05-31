@@ -10,14 +10,14 @@ footer: © 2020 Yuuki Takahashi
 
 ## プロフィール
 
-**髙橋 祐輝(Yuuki Takahashi / yktakaha4)**
+**髙橋祐輝（Yuuki Takahashi / yktakaha4)**
 
-- 1989/8/22 生
+- 1989/8/22生
 - 男性/独身
 - 東京都在住
-- 東京工科大学 メディア学部卒業
+- 東京工科大学メディア学部卒業
 - ストレングスファインダー
-  - 収集心, 学習欲, 責任感, 内省, 最上志向
+  - 収集心/学習欲/責任感/内省/最上志向
 - 趣味
   - 音楽/楽器/DTM
   - 食事/自炊
@@ -38,6 +38,7 @@ footer: © 2020 Yuuki Takahashi
     - Node.js/**TypeScript**/Express/NestJS/**Serverless Framework**
     - **Java**/J2EE/JAX-RS/Spring
     - VB.NET/ASP.NET
+    - Ruby/Ruby on Rails
   - バッチ・その他
     - Python
     - Shell Script
@@ -87,13 +88,13 @@ footer: © 2020 Yuuki Takahashi
 | 2019/1 | AWS Certified Solutions Architect - Associate |
 | 2018/8 | Oracle Certified Java Programmer, Gold SE 8 |
 | 2017/11 | Linux Professional Institute Certification Level 1 |
-| 2014/11 | VBAエキスパート Excel VBAスタンダード |
+| 2014/11 | VBAエキスパートExcel VBAスタンダード |
 | 2014/6 | データベーススペシャリスト |
 | 2013/12 | 情報セキュリティスペシャリスト |
 
 ## 職務経歴
 
-### ハンズラボ株式会社 (2018/9~現在)
+### ハンズラボ株式会社 (2018/9~現在）
 
 - 小売系社内システムの開発
   - ポイントAPIシステムの開発・保守
@@ -115,7 +116,7 @@ footer: © 2020 Yuuki Takahashi
 
 ## 個人開発
 
-### ベンチャー企業のIT支援 (2019/4~現在)
+### ベンチャー企業のIT支援 (2019/4~現在）
 
 - 学生時代の知人が経営している業務用空調機器販売を行うベンチャー企業のシステム開発を個人事業主として請負
   - [https://ac-change.jp/](https://ac-change.jp/)
@@ -126,3 +127,7 @@ footer: © 2020 Yuuki Takahashi
   - [https://apps.apple.com/jp/app/babel/id1083929413](https://apps.apple.com/jp/app/babel/id1083929413)
 - 香典袋に名前がうまく書けなかったことから文字投影アプリを開発
   - [https://apps.apple.com/jp/app/ar文章画像/id1423014616](https://apps.apple.com/jp/app/ar%E6%96%87%E7%AB%A0%E7%94%BB%E5%83%8F/id1423014616)
+
+## このページについて
+
+[https://github.com/yktakaha4/yktakaha4.github.io](https://github.com/yktakaha4/yktakaha4.github.io)
