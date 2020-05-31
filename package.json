@@ -4,11 +4,13 @@
   "description": "portfolio",
   "scripts": {
     "dev": "vuepress dev docs/",
-    "build": "vuepress build docs/"
+    "build": "vuepress build docs/",
+    "deploy": "push-dir --dir=./dist --branch=gh-pages --cleanup"
   },
   "author": "Yuuki Takahashi",
   "license": "ISC",
   "devDependencies": {
+    "push-dir": "^0.4.1",
     "vuepress": "^1.5.0"
   }
 }
