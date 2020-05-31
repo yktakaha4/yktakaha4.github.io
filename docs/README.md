@@ -1,4 +1,12 @@
-# yktakaha4.github.io
+---
+home: true
+heroImage: ./yktakaha4.webp
+heroText: yktakaha4.github.io
+tagline: 🐧
+footer: © 2020 Yuuki Takahashi
+---
+
+[[toc]]
 
 ## プロフィール
 
@@ -11,7 +19,7 @@
 - ストレングスファインダー
   - 収集心, 学習欲, 責任感, 内省, 最上志向
 - 趣味
-  - 音楽観賞/楽器演奏/DTM
+  - 音楽/楽器/DTM
   - 食事/自炊
   - 漫画/動画
 
@@ -19,50 +27,43 @@
 
 業務・個人開発で利用経験があるものを抜粋しています
 
+**太字**は好きなもの
+
 - 言語
   - フロントエンド
     - HTML/CSS/JavaScript/jQuery
-    - Vue.js
+    - Vue.js/Nuxt.js
+    - React
   - バックエンド
-    - Node.js/TypeScript/Express/Serverless Framework
-    - Java/J2EE/JAX-RS
+    - Node.js/**TypeScript**/Express/NestJS/**Serverless Framework**
+    - **Java**/J2EE/JAX-RS/Spring
     - VB.NET/ASP.NET
   - バッチ・その他
     - Python
     - Shell Script
-    - SQL
-    - HCL/Terraform
-    - Swift/UIKit
+    - **SQL**
+    - HCL/**Terraform**
+    - Swift/UIKit/CoreData
     - VBA
 - データストア
   - MySQL, PostgreSQL, DB2, SQLServer
   - ElasticSearch, IBM Watson, Kintone
 - インフラ
-  - AWS
+  - **AWS**
     - EC2, Elastic Beanstalk, ECS
     - Route53, ACM, CloudFront
-    - Lambda, API Gateway, SQS, SNS
+    - **Lambda**, API Gateway, SQS, SNS
     - RDS, Redshift, DynamoDB, ElasticSearch Service
-    - VPC, IAM, S3, CloudFormation, SES, Connect, etc...
+    - VPC, IAM, S3, CloudFormation, CloudWatch, SES, Connect, etc...
   - オンプレミス
     - Windows Server
     - RHEL
 - その他
   - Docker
-  - GitHub Actions
-
-### 資格・認定
-
-下位資格は省略しています
-
-| 取得時期 | 名称 |
-| --- | --- |
-| 2019/1 | AWS Certified Solutions Architect - Associate |
-| 2018/8 | Oracle Certified Java Programmer, Gold SE 8 |
-| 2017/11 | Linux Professional Institute Certification Level 1 |
-| 2014/11 | VBAエキスパート Excel VBAスタンダード |
-| 2014/6 | データベーススペシャリスト |
-| 2013/12 | 情報セキュリティスペシャリスト |
+  - **GitHub Actions**
+  - Sentry
+  - Datadog
+  - JP1/AJS3
 
 ### ソーシャル
 
@@ -77,11 +78,23 @@
   - [SoundCloud](https://soundcloud.com/yktakaha4)
   - [YouTube](https://www.youtube.com/channel/UCPcWh58YJKVS2R15Aq9OGMQ)
 
+### 資格・認定
+
+下位資格は省略しています
+
+| 取得時期 | 名称 |
+| ---:| --- |
+| 2019/1 | AWS Certified Solutions Architect - Associate |
+| 2018/8 | Oracle Certified Java Programmer, Gold SE 8 |
+| 2017/11 | Linux Professional Institute Certification Level 1 |
+| 2014/11 | VBAエキスパート Excel VBAスタンダード |
+| 2014/6 | データベーススペシャリスト |
+| 2013/12 | 情報セキュリティスペシャリスト |
+
 ## 職務経歴
 
-### ハンズラボ株式会社
+### ハンズラボ株式会社 (2018/9~現在)
 
-- 2018/9~現在
 - 小売系社内システムの開発
   - ポイントAPIシステムの開発・保守
     - [https://hands.net/guide/hc/index.html](https://hands.net/guide/hc/index.html)
@@ -90,9 +103,8 @@
 - チームリーダーとして、メンバーの1on1・目標管理・評価を実施
 - 選考・面接担当者として中途採用活動に参加
 
-### 株式会社JIEC
+### 株式会社JIEC (2012/4~2018/6)
 
-- 2012/4~2018/6
 - 金融系社内システムの開発
   - 銀行員向けFAQ回答支援Webシステムの開発・保守
     - [https://www.nikkei.com/article/DGXLRSP437574_U7A220C1000000](https://www.nikkei.com/article/DGXLRSP437574_U7A220C1000000)
@@ -103,14 +115,14 @@
 
 ## 個人開発
 
-### ベンチャー企業のIT支援
+### ベンチャー企業のIT支援 (2019/4~現在)
 
-- 2019/4~現在
 - 学生時代の知人が経営している業務用空調機器販売を行うベンチャー企業のシステム開発を個人事業主として請負
   - [https://ac-change.jp/](https://ac-change.jp/)
 
-### iOSアプリ開発
+### iOSアプリ開発 (2015/9~2016/4, 2018/6~2018/8)
 
-- 2015/9~2016/4
 - 友人と協力しゲームアプリを開発
   - [https://apps.apple.com/jp/app/babel/id1083929413](https://apps.apple.com/jp/app/babel/id1083929413)
+- 香典袋に名前がうまく書けなかったことから文字投影アプリを開発
+  - [https://apps.apple.com/jp/app/ar文章画像/id1423014616](https://apps.apple.com/jp/app/ar%E6%96%87%E7%AB%A0%E7%94%BB%E5%83%8F/id1423014616)
