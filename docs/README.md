@@ -38,6 +38,7 @@ footer: © 2020 Yuuki Takahashi
     - Node.js/**TypeScript**/Express/NestJS/**Serverless Framework**
     - **Java**/J2EE/JAX-RS/Spring
     - VB.NET/ASP.NET
+    - Ruby/Ruby on Rails
   - バッチ・その他
     - Python
     - Shell Script
