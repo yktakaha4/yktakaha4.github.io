@@ -127,3 +127,7 @@ footer: © 2020 Yuuki Takahashi
   - [https://apps.apple.com/jp/app/babel/id1083929413](https://apps.apple.com/jp/app/babel/id1083929413)
 - 香典袋に名前がうまく書けなかったことから文字投影アプリを開発
   - [https://apps.apple.com/jp/app/ar文章画像/id1423014616](https://apps.apple.com/jp/app/ar%E6%96%87%E7%AB%A0%E7%94%BB%E5%83%8F/id1423014616)
+
+## このページについて
+
+[https://github.com/yktakaha4/yktakaha4.github.io](https://github.com/yktakaha4/yktakaha4.github.io)
