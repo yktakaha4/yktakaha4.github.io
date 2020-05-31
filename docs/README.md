@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ./images/yktakaha4.webp
+heroImage: ./images/yktakaha4.jpg
 heroText: yktakaha4.github.io
 tagline: 🐧
 footer: © 2020 Yuuki Takahashi
@@ -97,20 +97,16 @@ footer: © 2020 Yuuki Takahashi
 ### ハンズラボ株式会社 (2018/9~現在）
 
 - 小売系社内システムの開発
-  - ポイントAPIシステムの開発・保守
-    - [https://hands.net/guide/hc/index.html](https://hands.net/guide/hc/index.html)
-  - EC注文・出荷管理Webシステムの開発・保守
-    - [https://www.hands-lab.com/tech/entry/4835.html](https://www.hands-lab.com/tech/entry/4835.html)
+  - [ポイントAPIシステムの開発・保守](https://hands.net/guide/hc/index.html)
+  - [EC注文・出荷管理Webシステムの開発・保守](https://www.hands-lab.com/tech/entry/4835.html)
 - チームリーダーとして、メンバーの1on1・目標管理・評価を実施
 - 選考・面接担当者として中途採用活動に参加
 
 ### 株式会社JIEC (2012/4~2018/6)
 
 - 金融系社内システムの開発
-  - 銀行員向けFAQ回答支援Webシステムの開発・保守
-    - [https://www.nikkei.com/article/DGXLRSP437574_U7A220C1000000](https://www.nikkei.com/article/DGXLRSP437574_U7A220C1000000)
-  - 損保マスタデータ管理Webシステムの開発・保守
-    - [https://www.sompo-hd.com/~/media/hd/files/doc/pdf/news2011/20120323_1.pdf](https://www.sompo-hd.com/~/media/hd/files/doc/pdf/news2011/20120323_1.pdf)
+  - [銀行員向けFAQ回答支援Webシステムの開発・保守](https://www.nikkei.com/article/DGXLRSP437574_U7A220C1000000)
+  - [損保マスタデータ管理Webシステムの開発・保守](https://www.sompo-hd.com/~/media/hd/files/doc/pdf/news2011/20120323_1.pdf)
 - チームリーダーとして、メンバーの作業進捗管理・プロジェクト管理を実施
 - 新卒社員に対する研修・OJTを実施
 
@@ -119,14 +115,14 @@ footer: © 2020 Yuuki Takahashi
 ### ベンチャー企業のIT支援 (2019/4~現在）
 
 - 学生時代の知人が経営している業務用空調機器販売を行うベンチャー企業のシステム開発を個人事業主として請負
-  - [https://ac-change.jp/](https://ac-change.jp/)
+  - [エアチェン](https://ac-change.jp/)
 
 ### iOSアプリ開発 (2015/9~2016/4, 2018/6~2018/8)
 
 - 友人と協力しゲームアプリを開発
-  - [https://apps.apple.com/jp/app/babel/id1083929413](https://apps.apple.com/jp/app/babel/id1083929413)
+  - [babel](https://apps.apple.com/jp/app/babel/id1083929413)
 - 香典袋に名前がうまく書けなかったことから文字投影アプリを開発
-  - [https://apps.apple.com/jp/app/ar文章画像/id1423014616](https://apps.apple.com/jp/app/ar%E6%96%87%E7%AB%A0%E7%94%BB%E5%83%8F/id1423014616)
+  - [AR文章画像](https://apps.apple.com/jp/app/ar%E6%96%87%E7%AB%A0%E7%94%BB%E5%83%8F/id1423014616)
 
 ## このページについて
 
