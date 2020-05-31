@@ -66,7 +66,7 @@ footer: © 2020 Yuuki Takahashi
   - Datadog
   - JP1/AJS3
 
-### ソーシャル
+### アカウント
 
 - SNS
   - [Twitter](https://twitter.com/yktakaha4)
@@ -129,5 +129,7 @@ footer: © 2020 Yuuki Takahashi
   - [https://apps.apple.com/jp/app/ar文章画像/id1423014616](https://apps.apple.com/jp/app/ar%E6%96%87%E7%AB%A0%E7%94%BB%E5%83%8F/id1423014616)
 
 ## このページについて
+
+VuePress/GitHub Pagesにて作成しました
 
 [https://github.com/yktakaha4/yktakaha4.github.io](https://github.com/yktakaha4/yktakaha4.github.io)
