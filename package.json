@@ -4,8 +4,7 @@
   "description": "portfolio",
   "scripts": {
     "dev": "vuepress dev docs/",
-    "build": "vuepress build docs/",
-    "deploy": "push-dir --dir=./dist --branch=master --cleanup"
+    "build": "vuepress build docs/"
   },
   "author": "Yuuki Takahashi",
   "license": "ISC",
