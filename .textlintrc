@@ -1,0 +1,7 @@
+{
+    "rules": {
+        "preset-jtf-style": {
+          "4.2.5.波線(〜)": false
+        }
+    }
+}
