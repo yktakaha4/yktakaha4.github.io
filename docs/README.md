@@ -4,6 +4,7 @@ heroImage: ./images/yktakaha4.jpg
 heroText: yktakaha4.github.io
 tagline: 🐧
 footer: © 2020 Yuuki Takahashi
+sidebar: false
 ---
 
 [[toc]]
