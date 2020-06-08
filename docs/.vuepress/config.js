@@ -15,6 +15,9 @@ module.exports = {
   ],
   themeConfig: {
     navbar: false,
-    sidebar: false,
+    search: false,
+    nextLinks: false,
+    prevLinks: false,
+    lastUpdated: 'Last Updated',
   }
 };
