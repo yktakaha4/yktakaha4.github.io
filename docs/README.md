@@ -4,7 +4,6 @@ heroImage: ./images/yktakaha4.jpg
 heroText: yktakaha4.github.io
 tagline: 🐧
 footer: © 2020 Yuuki Takahashi
-sidebar: false
 ---
 
 [[toc]]
@@ -127,4 +126,4 @@ sidebar: false
 
 ## このページについて
 
-[https://github.com/yktakaha4/yktakaha4.github.io](https://github.com/yktakaha4/yktakaha4.github.io)
+[ソースコード](https://github.com/yktakaha4/yktakaha4.github.io)
