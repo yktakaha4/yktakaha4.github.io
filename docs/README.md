@@ -31,20 +31,18 @@ footer: © 2020 Yuuki Takahashi
 
 - 言語
   - フロントエンド
-    - HTML/CSS/JavaScript/jQuery
-    - Vue.js/Nuxt.js
-    - React
+    - HTML, CSS, JavaScript, jQuery
+    - **Vue.js**, Nuxt.js
   - バックエンド
-    - Node.js/**TypeScript**/Express/NestJS/**Serverless Framework**
-    - **Java**/J2EE/JAX-RS/Spring
-    - VB.NET/ASP.NET
-    - Ruby/Ruby on Rails
+    - Node.js, **TypeScript**, Express, NestJS, **Serverless Framework**
+    - **Java**, J2EE, JAX-RS, Spring
+    - VB.NET, ASP.NET
+    - Python, Django
   - バッチ・その他
-    - Python
     - Shell Script
     - **SQL**
-    - HCL/**Terraform**
-    - Swift/UIKit/CoreData
+    - HCL, **Terraform**
+    - Swift, UIKit, CoreData
     - VBA
 - データストア
   - MySQL, PostgreSQL, DB2, SQLServer
@@ -78,6 +76,8 @@ footer: © 2020 Yuuki Takahashi
 - 音楽
   - [SoundCloud](https://soundcloud.com/yktakaha4)
   - [YouTube](https://www.youtube.com/channel/UCPcWh58YJKVS2R15Aq9OGMQ)
+- 仕事
+  - [Wantedly](https://www.wantedly.com/users/77860251)
 
 ### 資格・認定
 
@@ -125,7 +125,5 @@ footer: © 2020 Yuuki Takahashi
   - [AR文章画像](https://apps.apple.com/jp/app/ar%E6%96%87%E7%AB%A0%E7%94%BB%E5%83%8F/id1423014616)
 
 ## このページについて
-
-VuePress/GitHub Pagesにて作成しました
 
 [https://github.com/yktakaha4/yktakaha4.github.io](https://github.com/yktakaha4/yktakaha4.github.io)
