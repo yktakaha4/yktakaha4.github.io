@@ -18,6 +18,5 @@ module.exports = {
     search: false,
     nextLinks: false,
     prevLinks: false,
-    lastUpdated: 'Last Updated',
   }
 };
