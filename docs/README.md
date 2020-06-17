@@ -25,7 +25,7 @@ footer: © 2020 Yuuki Takahashi
 
 ### スキル
 
-業務・個人開発で利用経験があるものを抜粋しています
+業務・個人でのプロダクト開発で経験があるものを抜粋しています
 
 **太字**は好きなもの
 
@@ -38,15 +38,15 @@ footer: © 2020 Yuuki Takahashi
     - **Java**, J2EE, JAX-RS, Spring
     - VB.NET, ASP.NET
     - Python, Django
-  - バッチ・その他
+  - その他
     - Shell Script
     - **SQL**
     - HCL, **Terraform**
     - Swift, UIKit, CoreData
-    - VBA
+    - VBA, Google Apps Script
 - データストア
   - MySQL, PostgreSQL, DB2, SQLServer
-  - ElasticSearch, IBM Watson, Kintone
+  - ElasticSearch, IBM Watson
 - インフラ
   - **AWS**
     - EC2, Elastic Beanstalk, ECS
@@ -63,6 +63,7 @@ footer: © 2020 Yuuki Takahashi
   - Sentry
   - Datadog
   - JP1/AJS3
+  - **Kintone**
 
 ### アカウント
 
@@ -78,6 +79,8 @@ footer: © 2020 Yuuki Takahashi
   - [YouTube](https://www.youtube.com/channel/UCPcWh58YJKVS2R15Aq9OGMQ)
 - 仕事
   - [Wantedly](https://www.wantedly.com/users/77860251)
+  - [Lapras](https://lapras.com/public/3FCYYZ7)
+  - [forkwell](https://portfolio.forkwell.com/@yktakaha4/reports)
 
 ### 資格・認定
 
@@ -99,23 +102,24 @@ footer: © 2020 Yuuki Takahashi
 - 小売系社内システムの開発
   - [ポイントAPIシステムの開発・保守](https://hands.net/guide/hc/index.html)
   - [EC注文・出荷管理Webシステムの開発・保守](https://www.hands-lab.com/tech/entry/4835.html)
-- チームリーダーとして、メンバーの1on1・目標管理・評価を実施
-- 選考・面接担当者として中途採用活動に参加
+- チームリーダーとして、メンバーとの1on1・目標管理・評価を実施
+- 選考・面接担当者としてエンジニアによる中途採用活動を主導
 
 ### 株式会社JIEC (2012/4~2018/6)
 
 - 金融系社内システムの開発
   - [銀行員向けFAQ回答支援Webシステムの開発・保守](https://www.nikkei.com/article/DGXLRSP437574_U7A220C1000000)
   - [損保マスタデータ管理Webシステムの開発・保守](https://www.sompo-hd.com/~/media/hd/files/doc/pdf/news2011/20120323_1.pdf)
-- チームリーダーとして、メンバーの作業進捗管理・プロジェクト管理を実施
+- チームリーダーとして、メンバーの作業進捗管理・プロジェクト管理・オフショア開発を実施
 - 新卒社員に対する研修・OJTを実施
 
 ## 個人開発
 
 ### ベンチャー企業のIT支援 (2019/4~現在）
 
-- 学生時代の知人が経営している業務用空調機器販売を行うベンチャー企業のシステム開発を個人事業主として請負
-  - [エアチェン](https://ac-change.jp/)
+- 知人が経営している業務用空調機器販売を行うベンチャー企業のシステム開発を、個人事業主として請負
+  - [空調機器買い替え促進LPの開発・保守](https://ac-change.jp/)
+  - アウトバウンド向けCTIシステムの開発・保守
 
 ### iOSアプリ開発 (2015/9~2016/4, 2018/6~2018/8)
 
