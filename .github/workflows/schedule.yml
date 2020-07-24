@@ -13,7 +13,7 @@ jobs:
           node-version: '12'
       - run: npm install
       - id: check_link
-        run: npm run check:link > ./out/check_link_result.txt 2>&1
+        run: npm run check:link > ./out/check_link_result.txt
         continue-on-error: true
       - run: |
           CHECK_LINK_RESULT="$(cat ./out/check_link_result.txt)"
