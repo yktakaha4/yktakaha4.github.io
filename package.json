@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "textlint docs/",
     "lint:fix": "textlint --fix docs/",
+    "check:link": "find docs -name *.md -exec markdown-link-check {} \\;",
     "dev": "vuepress dev docs/",
     "build": "vuepress build docs/",
     "upgrade": "ncu -u"
@@ -12,6 +13,7 @@
   "author": "Yuuki Takahashi",
   "license": "ISC",
   "devDependencies": {
+    "markdown-link-check": "^3.8.1",
     "npm-check-updates": "^6.0.1",
     "textlint": "^11.6.3",
     "textlint-rule-preset-jtf-style": "^2.3.4",
