@@ -34,7 +34,7 @@ footer: © 2020 Yuuki Takahashi
     - HTML, CSS, JavaScript, jQuery
     - **Vue.js**, Nuxt.js
   - バックエンド
-    - Node.js, **TypeScript**, Express, NestJS, **Serverless Framework**
+    - Node.js, **TypeScript**, Express, NestJS
     - **Java**, J2EE, JAX-RS, Spring
     - VB.NET, ASP.NET
     - Python, Django
@@ -66,6 +66,7 @@ footer: © 2020 Yuuki Takahashi
   - GitHub, **GitHub Actions**, SVN
   - Sentry, Datadog
   - Docker
+  - **Serverless Framework**
   - **Kintone**
   - JP1/AJS3
 
@@ -110,7 +111,7 @@ footer: © 2020 Yuuki Takahashi
 
 - 小売系社内システムの開発
   - [ポイントAPIシステムの開発・保守](https://hands.net/guide/hc/index.html)
-    - アクティブユーザ数百万人規模、数億円規模の取引量を持つポイントシステムの開発・保守を担当
+    - 数百万人規模の会員数、数億円規模の取引量を持つポイントシステムの開発・保守を担当
     - 案件対応に加えて、長期運用に伴い複雑化したアーキテクチャの可視化・整理や運用業務の改善を実施
   - [EC注文・出荷管理Webシステムの開発・保守](https://www.hands-lab.com/tech/entry/4835.html)
     - 消費増税対応に伴うシステム改修を担当
