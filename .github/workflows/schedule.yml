@@ -1,0 +1,22 @@
+name: Check
+
+on: pull_request
+
+jobs:
+  deploy:
+    name: Check
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - run: npm install
+      - run: npm run check:link 2>&1 ./check_link_result.md
+      - uses: JasonEtco/create-an-issue@v2
+        # if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHECK_LINK_RESULT: $(cat ./check_link_result.md)
+        with:
+          filename: .github/issue_template_link_check.md
