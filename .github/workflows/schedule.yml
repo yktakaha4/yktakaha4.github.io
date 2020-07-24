@@ -8,11 +8,18 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - uses: peter-evans/link-checker@v1
+      - uses: actions/setup-node@v1
         with:
-          args: -v -r docs/
-      - uses: peter-evans/create-issue-from-file@v2
+          node-version: '12'
+      - run: npm install
+      - id: check_link
+        run: npm run check:link > "./check_link_result.md" 2>&1
+        continue-on-error: true
+      - run: export CHECK_LINK_RESULT="$(cat "./check_link_result.md")"
+      - uses: JasonEtco/create-an-issue@v2
+        if: steps.check_link.outcome == 'failure'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHECK_LINK_RESULT: ${{ env.CHECK_LINK_RESULT }}
         with:
-          title: Link Checker Report
-          content-filepath: ./link-checker/out.md
-          labels: report, automated issue
+          filename: .github/issue_template_link_check.md
