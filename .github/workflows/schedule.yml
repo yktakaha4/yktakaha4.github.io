@@ -12,9 +12,10 @@ jobs:
         with:
           node-version: '12'
       - run: npm install
-      - run: npm run check:link > ./check_link_result.md 2>&1
+      - id: check_link
+        run: npm run check:link > ./check_link_result.md 2>&1
       - uses: JasonEtco/create-an-issue@v2
-        if: failure()
+        if: steps.check_link.outcome == 'failure'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CHECK_LINK_RESULT: $(cat ./check_link_result.md)
