@@ -1,6 +1,8 @@
 name: Schedule
 
-on: pull_request
+on:
+  schedule:
+    - cron: 0 0 * * 0
 
 jobs:
   schedule:
