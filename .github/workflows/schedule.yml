@@ -13,9 +13,14 @@ jobs:
           node-version: '12'
       - run: npm install
       - id: check_link
-        run: npm run check:link > "./check_link_result.md" 2>&1
+        run: npm run check:link > ./out/check_link_result.txt 2>&1
         continue-on-error: true
-      - run: export CHECK_LINK_RESULT="$(cat "./check_link_result.md")"
+      - run: |
+          CHECK_LINK_RESULT="$(cat ./out/check_link_result.txt)"
+          CHECK_LINK_RESULT="${CHECK_LINK_RESULT//'%'/'%25'}"
+          CHECK_LINK_RESULT="${CHECK_LINK_RESULT//$'\n'/'%0A'}"
+          CHECK_LINK_RESULT="${CHECK_LINK_RESULT//$'\r'/'%0D'}"
+          echo "::set-env name=CHECK_LINK_RESULT::$CHECK_LINK_RESULT"
       - uses: JasonEtco/create-an-issue@v2
         if: steps.check_link.outcome == 'failure'
         env:
