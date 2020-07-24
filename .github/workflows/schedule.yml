@@ -17,7 +17,7 @@ jobs:
       - run: export CHECK_LINK_RESULT="$(cat "./check_link_result.md")"
         if: always()
       - uses: JasonEtco/create-an-issue@v2
-        if: steps.check_link.outcome == 'failure'
+        if: always() && steps.check_link.outcome == 'failure'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CHECK_LINK_RESULT: ${{ env.CHECK_LINK_RESULT }}
