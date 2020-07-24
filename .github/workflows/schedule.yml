@@ -15,6 +15,7 @@ jobs:
       - id: check_link
         run: npm run check:link > "./check_link_result.md" 2>&1
       - run: export CHECK_LINK_RESULT="$(cat "./check_link_result.md")"
+        if: always()
       - uses: JasonEtco/create-an-issue@v2
         if: steps.check_link.outcome == 'failure'
         env:
