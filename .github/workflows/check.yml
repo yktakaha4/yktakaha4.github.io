@@ -3,7 +3,7 @@ name: Check
 on: pull_request
 
 jobs:
-  deploy:
+  check:
     name: Check
     runs-on: ubuntu-18.04
     steps:
