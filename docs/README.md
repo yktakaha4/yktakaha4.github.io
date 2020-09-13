@@ -35,24 +35,24 @@ footer: © 2020 Yuuki Takahashi
     - **Vue.js**, Nuxt.js
   - バックエンド
     - Node.js, **TypeScript**, Express, NestJS
-    - **Java**, J2EE, JAX-RS, Spring
+    - **Java**, J2EE, JAX-RS, Spring boot
     - VB.NET, ASP.NET
     - Python, Django
+    - Ruby on Rails
   - その他
-    - Shell Script
+    - **Shell Script**
     - **SQL**
-    - HCL, **Terraform**
     - Swift, UIKit, CoreData
     - VBA, Google Apps Script
 - データストア
-  - MySQL, PostgreSQL, DB2, SQLServer
+  - MySQL, **PostgreSQL**, DB2, SQLServer
   - ElasticSearch, IBM Watson
 - インフラ
   - **AWS**
     - EC2, Elastic Beanstalk, ECS
     - Route53, ACM, CloudFront
     - **Lambda**, API Gateway, SQS, SNS
-    - RDS, Redshift, DynamoDB, ElasticSearch Service
+    - RDS, Redshift, **DynamoDB**, ElasticSearch Service
     - VPC, IAM, S3, CloudFormation, CloudWatch, SES, Connect, etc...
   - サーバ
     - Apache, Nginx
@@ -66,6 +66,7 @@ footer: © 2020 Yuuki Takahashi
   - GitHub, **GitHub Actions**, SVN
   - Sentry, Datadog
   - Docker
+  - **Terraform**
   - **Serverless Framework**
   - **Kintone**
   - JP1/AJS3
@@ -102,7 +103,7 @@ footer: © 2020 Yuuki Takahashi
 
 ## 職務経歴
 
-### ハンズラボ株式会社 (2018/9~現在）
+### ハンズラボ株式会社 (2018/9~2020/9）
 
 フルAWSによる社内システム開発と、スクリプト言語を採用している点に興味を持ち入社しました
 インフラからアプリケーションまで一貫して担当することができ、技術的な視野を広げることができたと思います
@@ -117,7 +118,7 @@ footer: © 2020 Yuuki Takahashi
     - 消費増税対応に伴うシステム改修を担当
       - 改修と並行して、レガシーマイグレーションやアーキテクチャ更改を実施
 - チームリーダーとして、メンバーのオンボーディング・1on1・目標管理・評価を実施
-  - 3~5名程度のメンバーに対して、個人レベルのOKRベースでの目標達成の支援を実施
+  - 3~5名程度のメンバーに対して目標達成の支援を実施
   - 新規参画メンバーの業務知識や技術のキャッチアップの支援
 - チーム・エンジニア主体での中途採用活動を主導
   - 社内の人事担当者とサブプロジェクトを組み、面接やコーディングテストの運用ルール策定を主導
