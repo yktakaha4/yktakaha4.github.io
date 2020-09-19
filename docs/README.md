@@ -19,9 +19,15 @@ footer: © 2020 Yuuki Takahashi
 - ストレングスファインダー
   - 収集心/学習欲/責任感/内省/最上志向
 - 趣味
-  - 音楽/楽器/DTM
-  - 食事/自炊
-  - 漫画/動画
+  - 音楽
+    - 70's/80's/Fusion/Game Music
+    - Bass/Guitar/Synthesizer
+    - DTM
+  - 動画
+    - eSports/TAS
+      - ぷよぷよ/TETRIS
+    - VTuber
+    - 料理/ASMR
 
 ### スキル
 
