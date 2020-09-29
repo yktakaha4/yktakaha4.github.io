@@ -16,7 +16,7 @@
     "markdown-link-check": "^3.8.3",
     "npm-check-updates": "^9.0.1",
     "textlint": "^11.7.6",
-    "textlint-rule-preset-jtf-style": "^2.3.5",
+    "textlint-rule-preset-jtf-style": "^2.3.6",
     "vuepress": "^1.5.4"
   }
 }
