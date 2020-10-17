@@ -27,7 +27,7 @@ footer: © 2020 Yuuki Takahashi
     - eSports/TAS
       - ぷよぷよ/TETRIS
     - VTuber
-    - 料理/ASMR
+    - 料理
 
 ### スキル
 
@@ -85,6 +85,7 @@ footer: © 2020 Yuuki Takahashi
 - 開発
   - [GitHub](https://github.com/yktakaha4)
   - [Qiita](https://qiita.com/yktakaha4)
+  - [Zenn](https://zenn.dev/yktakaha4)
   - [Connpass](https://connpass.com/user/yktakaha4)
 - 音楽
   - [SoundCloud](https://soundcloud.com/yktakaha4)
@@ -93,6 +94,7 @@ footer: © 2020 Yuuki Takahashi
   - [Wantedly](https://www.wantedly.com/users/77860251)
   - [Lapras](https://lapras.com/public/3FCYYZ7)
   - [forkwell](https://portfolio.forkwell.com/@yktakaha4/reports)
+  - [LinkedIn](https://www.linkedin.com/in/yktakaha4)
 
 ### 資格・認定
 
