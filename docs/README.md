@@ -94,7 +94,7 @@ footer: © 2020 Yuuki Takahashi
   - [Wantedly](https://www.wantedly.com/users/77860251)
   - [Lapras](https://lapras.com/public/3FCYYZ7)
   - [forkwell](https://portfolio.forkwell.com/@yktakaha4/reports)
-  - [LinkedIn](https://www.linkedin.com/in/yktakaha4)
+  - [LinkedIn](https://www.linkedin.com/in/yktakaha4/)
 
 ### 資格・認定
 
