@@ -191,7 +191,8 @@ footer: © 2020 Yuuki Takahashi
   - Kintone / AWS
   - 受注から施工に至るまでの工程管理を行う社内向けシステムや、営業に用いるCTIシステムをKintoneとAmazon Connectにて構築
     - Kintoneのカスタムプラグインにて実装
-  - オペレーターの架電効率を分析するためのデータ分析基盤を、MetabaseとECS(Fargate)
+  - オペレーターの架電効率を分析するためのデータ分析基盤を、MetabaseとECS(Fargate)を用いて構築・運用
+    - ユーザ要望に合わせてダッシュボードの作成を実施
 
 ### iOSアプリ開発（2015/9~2018/8）
 
