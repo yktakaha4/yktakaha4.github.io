@@ -13,6 +13,14 @@ module.exports = {
       }
     ]
   ],
+  plugins: [
+    ['@snowdog/vuepress-plugin-pdf-export', {
+      outputFileName: './out/site.pdf',
+      puppeteerLaunchOptions: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+      }
+    }]
+  ],
   themeConfig: {
     navbar: false,
     search: false,
