@@ -5,6 +5,9 @@ on:
     branches:
       - source
 
+env:
+  TZ: Asia/Tokyo
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages
