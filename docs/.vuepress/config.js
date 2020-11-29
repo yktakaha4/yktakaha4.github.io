@@ -17,6 +17,6 @@ module.exports = {
     navbar: false,
     search: false,
     nextLinks: false,
-    prevLinks: false,
+    prevLinks: false
   }
 };
