@@ -8,6 +8,8 @@ footer: © 2020 Yuuki Takahashi
 
 [[toc]]
 
+<div class="pagebreak"></div>
+
 ## プロフィール
 
 **髙橋祐輝（Yuuki Takahashi / yktakaha4）**
@@ -45,6 +47,8 @@ footer: © 2020 Yuuki Takahashi
 - SNS
   - [Twitter](https://twitter.com/yktakaha4)
   - [Facebook](https://www.facebook.com/profile.php?id=100008421756149)
+
+<div class="pagebreak"></div>
 
 ### スキル
 
@@ -107,6 +111,8 @@ footer: © 2020 Yuuki Takahashi
 | 2014/6 | データベーススペシャリスト |
 | 2013/12 | 情報セキュリティスペシャリスト |
 
+<div class="pagebreak"></div>
+
 ## 職務経歴
 
 ### ハンズラボ株式会社（2018/9~2020/9）
@@ -137,6 +143,8 @@ footer: © 2020 Yuuki Takahashi
   - 社内の人事担当者とサブプロジェクトを組み、面接やコーディングテストの運用ルール策定を主導
   - カジュアル面談や面接にエンジニアとして参加
 
+<div class="pagebreak"></div>
+
 ### 株式会社JIEC（2012/4~2018/6）
 
 大学卒業後新卒として入社し、お客様先にて2つのプロジェクトに参画しました
@@ -159,6 +167,8 @@ footer: © 2020 Yuuki Takahashi
   - 他チームのトラブルプロジェクトの立て直しについても何度か経験しました（大変でした）
 - 新卒社員に対するOJTを実施
   - チームに配属された新卒社員に対して、先輩として目標設定や技術面での支援を実施
+
+<div class="pagebreak"></div>
 
 ## 個人開発・副業
 
@@ -194,6 +204,10 @@ footer: © 2020 Yuuki Takahashi
   - Swift(UIKit) / iOS
   - 当時発表されたARKitに興味を持ったのと、香典袋に名前がうまく書けなかったことから文字投影アプリを開発
 
+<div class="pagebreak"></div>
+
 ## このページについて
 
 [ソースコード](https://github.com/yktakaha4/yktakaha4.github.io)
+
+[PDF](https://github.com/yktakaha4/yktakaha4.github.io/releases/latest/download/site.pdf)
