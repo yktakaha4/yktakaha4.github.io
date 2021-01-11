@@ -3,7 +3,7 @@ home: true
 heroImage: ./images/yktakaha4.jpg
 heroText: yktakaha4.github.io
 tagline: 🐧
-footer: © 2020 Yuuki Takahashi
+footer: © 2021 Yuuki Takahashi
 ---
 
 [[toc]]
@@ -21,20 +21,22 @@ footer: © 2020 Yuuki Takahashi
   - 収集心/学習欲/責任感/内省/最上志向
 - 趣味
   - 音楽
-    - 70's/80's/Fusion/Game Music
+    - 70's/80's/Fusion/Game
     - Bass/Guitar/Synthesizer
     - DTM
+  - ゲーム
+    - ぷよぷよ
+    - Indie
+    - RTA/TAS
   - 動画
-    - eSports/TAS
-      - ぷよぷよ/TETRIS
-    - VTuber
-    - 料理/ASMR
+    - YouTuber/VTuber
+    - 料理
 
 ### アカウント
 
 - 仕事
-  - [Wantedly](https://www.wantedly.com/id/yktakaha4)
   - [Lapras](https://lapras.com/public/3FCYYZ7)
+  - [Wantedly](https://www.wantedly.com/id/yktakaha4)
   - [forkwell](https://portfolio.forkwell.com/@yktakaha4/reports)
 - 開発
   - [GitHub](https://github.com/yktakaha4)
@@ -70,9 +72,14 @@ footer: © 2020 Yuuki Takahashi
     - **SQL**
     - Swift, UIKit, CoreData
     - VBA, Google Apps Script
-- データストア
-  - MySQL, **PostgreSQL**, DB2, SQLServer
-  - ElasticSearch, IBM Watson
+- ミドルウェア
+  - データストア
+    - MySQL, **PostgreSQL**, DB2, SQLServer
+    - ElasticSearch, IBM Watson
+  - その他
+    - Apache, Nginx, IIS
+    - WebSphere Application Server
+    - JP1/AJS3
 - インフラ
   - **AWS**
     - EC2, Elastic Beanstalk, ECS(Fargate), ELB, ALB
@@ -80,23 +87,18 @@ footer: © 2020 Yuuki Takahashi
     - **Lambda**, API Gateway, SQS, SNS
     - RDS, Redshift, **DynamoDB**, ElasticSearch Service
     - VPC, IAM, S3, CloudFormation, CloudWatch, SES, Connect, etc...
-  - サーバ
-    - Apache, Nginx
-    - WebSphere Application Server
-    - IIS
   - OS
     - Windows, Windows Server
     - macOS, iOS
-    - Red Hat Enterprise Linux, AIX, Amazon Linux
+    - Ubuntu, Red Hat Enterprise Linux, Amazon Linux
 - その他
   - GitHub, **GitHub Actions**, SVN
   - Sentry, Datadog
   - Docker
-  - **Terraform**
+  - **Terraform**, Packer
   - **Serverless Framework**
   - **Kintone**
   - Stripe
-  - JP1/AJS3
 
 ### 資格・認定
 
@@ -115,6 +117,12 @@ footer: © 2020 Yuuki Takahashi
 
 ## 職務経歴
 
+### LAPRAS株式会社（2021/1~）
+
+一ユーザーとして転職活動に利用していたところから、開発に携わるチャンスを頂けることとなり、アプリケーションエンジニアとして入社しました
+
+サービスをよりよいものにしていけるよう尽力したいと思います！
+
 ### ハンズラボ株式会社（2018/9~2020/9）
 
 フルAWSによる業務システム開発と、全社的にスクリプト言語を採用している点に興味を持ち入社しました
@@ -122,6 +130,9 @@ footer: © 2020 Yuuki Takahashi
 インフラからアプリケーションまで一貫して担当することができ、技術的な視野を広げることができたと思います
 
 また、働く形態が客先常駐から少数の自社社員による内製開発に変わったことで、持続性のある開発や運用について興味を持つようになりました
+
+在籍した2年間の中で、ある程度のトランザクション量を持つシステムの運用・改善について一通り経験することができたと感じたため、
+次はよりサービス開発に近い環境で働くことに挑戦したいと思い、転職することとしました
 
 - 小売系社内システムの開発
   - [ポイントAPIシステムの開発・保守 (2018/9~2020/9)](https://hands.net/guide/hc/index.html)
@@ -143,13 +154,12 @@ footer: © 2020 Yuuki Takahashi
   - 社内の人事担当者とサブプロジェクトを組み、面接やコーディングテストの運用ルール策定を主導
   - カジュアル面談や面接にエンジニアとして参加
 
-<div class="pagebreak"></div>
-
 ### 株式会社JIEC（2012/4~2018/6）
 
-大学卒業後新卒として入社し、お客様先にて2つのプロジェクトに参画しました
+大学卒業後、新卒採用にて入社し、お客様先にて2つのプロジェクトに参画しました
 
-信頼感のある関係の中で主体的に働くことができ、それについては満足していましたが、技術面のキャリアを考えたとき、今後はクラウドネイティブの環境で働きたいと思い、転職しました
+信頼感のある関係の中で主体的に働くことができ、その点では満足していましたが、
+技術面でのキャリアを考えた時、今後はクラウドネイティブの環境で働きたいと思い、転職しました
 
 - 金融系社内システムの開発
   - [銀行員向けFAQ回答支援Webシステムの開発・保守 (2016/6~2018/6)](https://www.nikkei.com/article/DGXLRSP437574_U7A220C1000000)
