@@ -46,9 +46,10 @@ footer: © 2021 Yuuki Takahashi
 - 音楽
   - [SoundCloud](https://soundcloud.com/yktakaha4)
   - [YouTube](https://www.youtube.com/channel/UCPcWh58YJKVS2R15Aq9OGMQ)
-- SNS
+- SNS・その他
   - [Twitter](https://twitter.com/yktakaha4)
   - [Facebook](https://www.facebook.com/profile.php?id=100008421756149)
+  - [note](https://note.com/yktakaha4)
 
 <div class="pagebreak"></div>
 
