@@ -55,7 +55,7 @@ footer: © 2021 Yuuki Takahashi
 
 ### スキル
 
-業務・個人でのプロダクト開発で経験があるものを抜粋しています
+業務・個人でのプロダクト開発で利用経験があるものを抜粋しています
 
 **太字**は好きなもの
 
@@ -65,9 +65,9 @@ footer: © 2021 Yuuki Takahashi
     - **Vue.js**, Nuxt.js
   - バックエンド
     - Node.js, **TypeScript**, Express, NestJS
-    - **Java**, J2EE, JAX-RS, Spring boot
+    - **Python**, Django
+    - Java, J2EE, JAX-RS, Spring boot
     - VB.NET, ASP.NET
-    - Python, Django
   - その他
     - **Shell Script**
     - **SQL**
@@ -80,24 +80,29 @@ footer: © 2021 Yuuki Takahashi
   - その他
     - Apache, Nginx, IIS
     - WebSphere Application Server
-    - JP1/AJS3
+    - Rundeck, JP1/AJS3
 - インフラ
   - **AWS**
-    - EC2, Elastic Beanstalk, ECS(Fargate), ELB, ALB
+    - EC2, Elastic Beanstalk, ECS(Fargate)
+    - VPC, ELB, ALB
     - Route53, ACM, CloudFront
     - **Lambda**, API Gateway, SQS, SNS
     - RDS, Redshift, **DynamoDB**, ElasticSearch Service
-    - VPC, IAM, S3, CloudFormation, CloudWatch, SES, Connect, etc...
+    - IAM, WAF
+    - S3, CloudFormation, CloudWatch, SES, Workmail, Connect, etc...
   - OS
     - Windows, Windows Server
     - macOS, iOS
     - Ubuntu, Red Hat Enterprise Linux, Amazon Linux
 - その他
-  - GitHub, **GitHub Actions**, SVN
+  - Git, SVN, TFS
+  - **GitHub Actions**, CircleCI
   - Sentry, Datadog
-  - Docker
+  - Metabase, Redash
+  - Docker, Kubernetes
   - **Terraform**, Packer
   - **Serverless Framework**
+  - OpenAPI, gRPC
   - **Kintone**
   - Stripe
 
@@ -120,7 +125,7 @@ footer: © 2021 Yuuki Takahashi
 
 ### LAPRAS株式会社（2021/1~）
 
-一ユーザーとして転職活動に利用していたところから、開発に携わるチャンスを頂けることとなり、アプリケーションエンジニアとして入社しました
+ひとりのユーザーとして転職活動に利用していたところから開発に携わるチャンスを頂けることとなり、アプリケーションエンジニアとして入社しました
 
 サービスをよりよいものにしていけるよう尽力したいと思います！
 
