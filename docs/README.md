@@ -105,6 +105,10 @@ footer: © 2021 Yuuki Takahashi
   - OpenAPI, gRPC
   - **Kintone**
   - Stripe
+  - 設計・開発手法
+    - スクラム
+    - ホラクラシー
+    - デザインパターン
 
 ### 資格・認定
 
