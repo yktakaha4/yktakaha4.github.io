@@ -66,11 +66,12 @@ footer: © 2021 Yuuki Takahashi
   - バックエンド
     - Node.js, **TypeScript**, Express, NestJS
     - **Python**, Django
+    - Go
     - Java, J2EE, JAX-RS, Spring boot
     - VB.NET, ASP.NET
   - その他
     - **Shell Script**
-    - **SQL**
+    - **SQL**, PL/SQL
     - Swift, UIKit, CoreData
     - VBA, Google Apps Script
 - ミドルウェア
@@ -105,7 +106,7 @@ footer: © 2021 Yuuki Takahashi
   - OpenAPI, gRPC
   - **Kintone**
   - Stripe
-  - 設計・開発手法
+  - 手法
     - スクラム
     - ホラクラシー
     - デザインパターン
@@ -132,6 +133,12 @@ footer: © 2021 Yuuki Takahashi
 ひとりのユーザーとして転職活動に利用していたところから開発に携わるチャンスを頂けることとなり、アプリケーションエンジニアとして入社しました
 
 サービスをよりよいものにしていけるよう尽力したいと思います！
+
+- [LAPRAS / LAPRAS SCOUTの開発・保守 (2021/1~現在)](https://lapras.com)
+  - Vue.js / TypeScript / Django / Python / Kubernetes / AWS
+  - スクラムチームのメンバーとして、エンジニア向けポートフォリオサービスおよび採用サービスの機能開発
+  - サポートエンジニアとしてシステム利用者からの問い合わせに対する調査・バグ修正
+  - 新規事業におけるプロトタイピング
 
 ### ハンズラボ株式会社（2018/9~2020/9）
 
