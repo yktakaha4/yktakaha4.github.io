@@ -9,7 +9,9 @@ module.exports = {
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css?family=Noto+Sans+JP"
-      },
+      }
+    ],
+    [
       "meta",
       {
         "http-equiv": "Cache-Control",
