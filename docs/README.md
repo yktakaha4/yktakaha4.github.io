@@ -35,7 +35,7 @@ footer: © 2021 Yuuki Takahashi
 ### アカウント
 
 - 仕事
-  - [LAPRAS](https://lapras.com/public/3FCYYZ7)
+  - [LAPRAS](https://lapras.com/public/yktakaha4)
   - [MENTA](https://menta.work/plan/4060)
   - [Wantedly](https://www.wantedly.com/id/yktakaha4)
   - [Forkwell](https://portfolio.forkwell.com/@yktakaha4/reports)
