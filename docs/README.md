@@ -35,9 +35,10 @@ footer: © 2021 Yuuki Takahashi
 ### アカウント
 
 - 仕事
-  - [Lapras](https://lapras.com/public/3FCYYZ7)
+  - [LAPRAS](https://lapras.com/public/3FCYYZ7)
+  - [MENTA](https://menta.work/plan/4060)
   - [Wantedly](https://www.wantedly.com/id/yktakaha4)
-  - [forkwell](https://portfolio.forkwell.com/@yktakaha4/reports)
+  - [Forkwell](https://portfolio.forkwell.com/@yktakaha4/reports)
 - 開発
   - [GitHub](https://github.com/yktakaha4)
   - [Qiita](https://qiita.com/yktakaha4)
@@ -76,14 +77,16 @@ footer: © 2021 Yuuki Takahashi
 - ミドルウェア
   - データストア
     - MySQL, **PostgreSQL**, DB2, SQLServer
+    - ElastiCache, Redis
     - ElasticSearch, IBM Watson
   - その他
     - Apache, Nginx, IIS
+    - Fluentd
     - WebSphere Application Server
     - Rundeck, JP1/AJS3
 - インフラ
   - **AWS**
-    - EC2, Elastic Beanstalk, ECS(Fargate)
+    - EC2, Elastic Beanstalk, ECS(Fargate), EKS
     - VPC, ELB, ALB
     - Route53, ACM, CloudFront
     - **Lambda**, API Gateway, SQS, SNS
@@ -114,14 +117,14 @@ footer: © 2021 Yuuki Takahashi
 
 下位資格は省略しています
 
-| 取得時期 | 名称 |
-| ---:| --- |
-| 2019/1 | AWS Certified Solutions Architect - Associate |
-| 2018/8 | Oracle Certified Java Programmer, Gold SE 8 |
-| 2017/11 | Linux Professional Institute Certification Level 1 |
-| 2014/11 | VBAエキスパートExcel VBAスタンダード |
-| 2014/6 | データベーススペシャリスト |
-| 2013/12 | 情報セキュリティスペシャリスト |
+| 取得時期 | 名称                                               |
+| -------: | -------------------------------------------------- |
+|   2019/1 | AWS Certified Solutions Architect - Associate      |
+|   2018/8 | Oracle Certified Java Programmer, Gold SE 8        |
+|  2017/11 | Linux Professional Institute Certification Level 1 |
+|  2014/11 | VBAエキスパートExcel VBAスタンダード            |
+|   2014/6 | データベーススペシャリスト                         |
+|  2013/12 | 情報セキュリティスペシャリスト                     |
 
 <div class="pagebreak"></div>
 
@@ -145,14 +148,14 @@ footer: © 2021 Yuuki Takahashi
 次はよりサービス開発に近い環境で働くことに挑戦したいと思い、転職することとしました
 
 - 小売系社内システムの開発
-  - [ポイントAPIシステムの開発・保守 (2018/9~2020/9)](https://hands.net/guide/hc/index.html)
+  - [ポイント API システムの開発・保守 (2018/9~2020/9)](https://hands.net/guide/hc/index.html)
     - HTML(jQuery) / Node.js(Express) / TypeScript / AWS
     - 数百万人規模の会員数、数億円規模の取引量を持つポイントシステムの開発・保守を担当
       - Beanstalk、DynamoDBによるAPIと、SQS、Lambda、Redshift、EC2によるデータ集計基盤
     - 案件対応に加えて、長期運用に伴い複雑化したアーキテクチャの可視化・整理や運用業務の改善を実施
       - GitHub Actionsを用いたCI/CDの導入
     - 年に一度のセールのピークリクエストに対応するための負荷対策
-  - [EC注文・出荷管理Webシステムの開発・保守 (2019/3~2020/3)](https://www.hands-lab.com/tech/entry/4835.html)
+  - [EC 注文・出荷管理 Web システムの開発・保守 (2019/3~2020/3)](https://www.hands-lab.com/tech/entry/4835.html)
     - HTML(jQuery) / Node.js(Express) / Python / AWS
     - 消費増税対応に伴うシステム改修を担当
     - 負債化していた業務重要度の高い機能のマイクロサービス化によるマイグレーションを実施
@@ -172,13 +175,13 @@ footer: © 2021 Yuuki Takahashi
 技術面でのキャリアを考えた時、今後はクラウドネイティブの環境で働きたいと思い、転職しました
 
 - 金融系社内システムの開発
-  - [銀行員向けFAQ回答支援Webシステムの開発・保守 (2016/6~2018/6)](https://www.nikkei.com/article/DGXLRSP437574_U7A220C1000000)
+  - [銀行員向け FAQ 回答支援 Web システムの開発・保守 (2016/6~2018/6)](https://www.nikkei.com/article/DGXLRSP437574_U7A220C1000000)
     - HTML(jQuery) / Java(J2EE) / オンプレミス（Linux）
     - 機械学習を取り入れた全文検索製品を用いたWebシステムの開発について、2~3名程度で担当
     - SPA、ドキュメントクローラの開発や、回答精度向上のために辞書及び学習モデルのチューニングを実施
     - 単一構成で運用していたWeb・バッチの各サーバの冗長化を実施
       - インフラに興味を持つ良いきっかけとなりました
-  - [損保マスタデータ管理Webシステムの開発・保守 (2012/8~2016/5)](https://www.sompo-hd.com/~/media/hd/files/doc/pdf/news2011/20120323_1.pdf)
+  - [損保マスタデータ管理 Web システムの開発・保守 (2012/8~2016/5)](https://www.sompo-hd.com/~/media/hd/files/doc/pdf/news2011/20120323_1.pdf)
     - VB.NET(ASP.NET) / オンプレミス（Windows）
     - 約150画面、10程度のサブシステム。バッチとビジネスロジックはCOBOLにて構築
     - 構築に約2年間、その後の保守開発にも約2年間携わり、複数の案件で要件定義からリリースを担当
@@ -192,6 +195,12 @@ footer: © 2021 Yuuki Takahashi
 
 ## 個人開発・副業
 
+### スキルシェアサービスによるメンタリング（2021/7~現在）
+
+- [MENTAにおける技術相談](https://menta.work/plan/4060)
+  - メンターとして、Kintoneによる業務アプリケーション構築のサポートをおこなっています
+  - 普段とは異なるコンテキストでの業務課題について取り組むことになるため、楽しく進められています
+
 ### 個人でのECサイト構築・運営（2020/2~現在）
 
 - [肯定選品 (2020/2~現在)](https://kotei-senpin.net)
@@ -202,7 +211,7 @@ footer: © 2021 Yuuki Takahashi
 
 ### ベンチャー企業のIT支援（2019/4~現在）
 
-- [空調機器買い替え促進LPの開発・保守 (2019/4~2019/9)](https://ac-change.jp/)
+- [空調機器買い替え促進 LP の開発・保守 (2019/4~2019/9)](https://ac-change.jp/)
   - Vue.js / TypeScript / AWS
   - 知人が経営している業務用空調機器販売を行うベンチャー企業のシステム開発を、個人事業主として請負
     - インフラからお問い合わせフォーム、電話によるIVRまで、フルAWS・サーバレス構成にて構築
@@ -216,12 +225,12 @@ footer: © 2021 Yuuki Takahashi
 
 ### iOSアプリ開発（2015/9~2018/8）
 
-- [babel(2015/9~2016/4)](https://apps.apple.com/jp/app/id1083929413)
+- babel(2015/9~2016/4)
   - Swift(UIKit) / iOS
   - 非エンジニアの友人がゲーム企画と仕様、私がプログラミングと作曲を担当し、2名体制で開発
     - 画像については素材サイトを利用
     - 個人開発で完成までこぎつけた初めてのプロダクトで、保守性・エンハンスを考慮せず作り上げてしまったことに後悔があります
-- [AR文章画像 (2018/6~2018/8)](https://apps.apple.com/jp/app/id1423014616)
+- AR文章画像 (2018/6~2018/8)
   - Swift(UIKit) / iOS
   - 当時発表されたARKitに興味を持ったのと、香典袋に名前がうまく書けなかったことから文字投影アプリを開発
 
