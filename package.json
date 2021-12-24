@@ -19,6 +19,6 @@
     "npm-check-updates": "^11.3.0",
     "textlint": "^11.9.0",
     "textlint-rule-preset-jtf-style": "^2.3.8",
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.9.4"
   }
 }
