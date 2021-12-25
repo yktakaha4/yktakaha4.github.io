@@ -82,10 +82,12 @@ footer: © 2021 Yuuki Takahashi
   - サーバ・コンテナ
     - Apache, Nginx, IIS
     - WebSphere Application Server
-    - Docker, Kubernetes
+    - Docker, Kubernetes, Helm
     - **Terraform**, Packer
     - **Serverless Framework**
   - その他
+    - OAuth2.0, OpenID Connect
+    - SMTP, IMAP
     - Fluentd
     - Rundeck, JP1/AJS3
     - OpenAPI, gRPC
@@ -96,7 +98,7 @@ footer: © 2021 Yuuki Takahashi
     - VPC, ELB, ALB
     - Route53, ACM, CloudFront
     - **Lambda**, API Gateway, SQS, SNS
-    - RDS, Redshift, **DynamoDB**, ElasticSearch Service
+    - RDS, Redshift, **DynamoDB**, OpenSearch Service
     - IAM, WAF
     - S3, CloudFormation, CloudWatch, SES, Workmail, Connect, etc...
   - OS
@@ -134,9 +136,31 @@ footer: © 2021 Yuuki Takahashi
 
 ### LAPRAS株式会社（2021/1~）
 
-ひとりのユーザーとして転職活動に利用していたところから開発に携わるチャンスを頂けることとなり、アプリケーションエンジニアとして入社しました
+ひとりのユーザーとして転職活動に利用していたところから開発に携わるチャンスを頂けることとなり、アプリケーションエンジニアとして入社しました。現在はSREとして働いています
 
 サービスをよりよいものにしていけるよう尽力したいと思います！
+
+- エンジニア向けポートフォリオサービスおよび採用サービスの開発
+  - [LAPRAS](http://lapras.com/) および [LAPRAS SCOUT](https://scout.lapras.com/) の開発・保守（2021/1~）
+    - Vue.js / TypeScript / Python / Django / AWS
+    - 数十万行規模のモノリスアプリケーションの開発
+    - スクラム開発者として幾つかの機能追加に携わったのち、単独にて認証やメール送受信といったビジネス重要度の高い不具合解消を担当
+    - チーム内ローテーションによるオンコール担当
+  - 新規事業PoCの実施（2021/4~2021/8）
+    - PdM・デザイナーとユーザーインタビューを実施し、エンジニアとしてMVP開発を担当
+    - アーキテクチャとしてSPAとServerless Frameworkを採用し、インフラ構築コストを最小限にした上で必要機能を実装
+- SREとしての活動（2021/9~）
+  - 前任の創業エンジニアの退職に伴いアプリケーションエンジニアから担当変更し、以下の業務に従事
+    - 主要サービスにおけるSLOの運用改善
+    - 既存インフラの不具合修正および可用性向上、ランタイムアップデート
+    - スクラムチームによる新規機能開発時のインフラ設計・構築支援
+    - インフラおよびシステム構成の可視化および開発メンバーへの共有
+- その他
+  - ホラクラシー組織における複数ロール（職務上の役割）を担当
+    - ドキュメントの更新状況および陳腐化の監視（2021/3~）
+    - コーポレートサイトや社内システム等を含む自社で運営している全てのシステムの運用・監視（2021/9~）
+    - フィジカル・メンタルチェックにてスコアが芳しくなかったエンジニアメンバーとの1on1（2021/9~）
+    - SREの採用要件の規定および採用選考の設計・参加（2021/9~）
 
 ### ハンズラボ株式会社（2018/9~2020/9）
 
