@@ -89,6 +89,7 @@ footer: © 2021 Yuuki Takahashi
     - Fluentd
     - Rundeck, JP1/AJS3
     - OpenAPI, gRPC
+    - Metabase, Redash
 - インフラ
   - **AWS**
     - EC2, Elastic Beanstalk, ECS(Fargate), EKS
