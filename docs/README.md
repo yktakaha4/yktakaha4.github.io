@@ -79,11 +79,16 @@ footer: © 2021 Yuuki Takahashi
     - MySQL, **PostgreSQL**, DB2, SQLServer
     - ElastiCache, Redis
     - ElasticSearch, IBM Watson
-  - その他
+  - サーバ・コンテナ
     - Apache, Nginx, IIS
-    - Fluentd
     - WebSphere Application Server
+    - Docker, Kubernetes
+    - **Terraform**, Packer
+    - **Serverless Framework**
+  - その他
+    - Fluentd
     - Rundeck, JP1/AJS3
+    - OpenAPI, gRPC
 - インフラ
   - **AWS**
     - EC2, Elastic Beanstalk, ECS(Fargate), EKS
@@ -98,17 +103,14 @@ footer: © 2021 Yuuki Takahashi
     - macOS, iOS
     - Ubuntu, Red Hat Enterprise Linux, Amazon Linux
 - その他
-  - Git, SVN, TFS
-  - **GitHub Actions**, CircleCI
-  - Sentry, Datadog
-  - Metabase, Redash
-  - Docker, Kubernetes
-  - **Terraform**, Packer
-  - **Serverless Framework**
-  - OpenAPI, gRPC
-  - **Kintone**
-  - Stripe
-  - 設計・開発・マネジメント手法
+  - SaaS
+      - **GitHub Actions**, CircleCI
+      - Sentry, Datadog
+      - Metabase, Redash
+      - **Kintone**
+      - Stripe
+  - 設計・開発・マネジメント手法など
+    - Git-flow
     - スクラム
     - ホラクラシー
     - デザインパターン
@@ -117,14 +119,14 @@ footer: © 2021 Yuuki Takahashi
 
 下位資格は省略しています
 
-| 取得時期 | 名称                                               |
+| 取得時期 | 名称 |
 | -------: | -------------------------------------------------- |
-|   2019/1 | AWS Certified Solutions Architect - Associate      |
-|   2018/8 | Oracle Certified Java Programmer, Gold SE 8        |
+|   2019/1 | AWS Certified Solutions Architect - Associate |
+|   2018/8 | Oracle Certified Java Programmer, Gold SE 8 |
 |  2017/11 | Linux Professional Institute Certification Level 1 |
-|  2014/11 | VBAエキスパートExcel VBAスタンダード            |
-|   2014/6 | データベーススペシャリスト                         |
-|  2013/12 | 情報セキュリティスペシャリスト                     |
+|  2014/11 | VBAエキスパートExcel VBAスタンダード |
+|   2014/6 | データベーススペシャリスト |
+|  2013/12 | 情報セキュリティスペシャリスト |
 
 <div class="pagebreak"></div>
 
