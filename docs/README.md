@@ -107,7 +107,6 @@ footer: © 2021 Yuuki Takahashi
   - SaaS
       - **GitHub Actions**, CircleCI
       - Sentry, Datadog
-      - Metabase, Redash
       - **Kintone**
       - Stripe
   - 設計・開発・マネジメント手法など
