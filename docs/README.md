@@ -3,7 +3,7 @@ home: true
 heroImage: ./images/yktakaha4.jpg
 heroText: yktakaha4.github.io
 tagline: 🐧
-footer: © 2021 Yuuki Takahashi
+footer: © 2022 Yuuki Takahashi
 ---
 
 [[toc]]
@@ -184,6 +184,8 @@ footer: © 2021 Yuuki Takahashi
   - 当時発表されたARKitに興味を持ったのと、香典袋に名前がうまく書けなかったことから文字投影アプリを開発
 
 <div class="pagebreak"></div>
+
+## 詳細
 
 ### スキル
 
