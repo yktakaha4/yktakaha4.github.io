@@ -54,84 +54,6 @@ footer: © 2021 Yuuki Takahashi
 
 <div class="pagebreak"></div>
 
-### スキル
-
-業務・個人でのプロダクト開発で利用経験があるものを抜粋しています
-
-**太字**は好きなもの
-
-- 言語
-  - フロントエンド
-    - HTML, CSS, JavaScript, jQuery
-    - **Vue.js**, Nuxt.js
-  - バックエンド
-    - Node.js, **TypeScript**, Express, NestJS
-    - **Python**, Django
-    - Java, J2EE, JAX-RS, Spring boot
-    - VB.NET, ASP.NET
-  - その他
-    - **Shell Script**
-    - **SQL**
-    - Swift, UIKit, CoreData
-    - VBA, Google Apps Script
-- ミドルウェア
-  - データストア
-    - MySQL, **PostgreSQL**, DB2, SQLServer
-    - ElastiCache, Redis
-    - ElasticSearch, IBM Watson
-  - サーバ・コンテナ
-    - Apache, Nginx, IIS
-    - WebSphere Application Server
-    - Docker, Kubernetes, Helm
-    - **Terraform**, Packer
-    - **Serverless Framework**
-  - その他
-    - OAuth2.0, OpenID Connect
-    - SMTP, IMAP
-    - Fluentd
-    - Rundeck, JP1/AJS3
-    - OpenAPI, gRPC
-    - Metabase, Redash
-- インフラ
-  - **AWS**
-    - EC2, Elastic Beanstalk, ECS(Fargate), EKS
-    - VPC, ELB, ALB
-    - Route53, ACM, CloudFront
-    - **Lambda**, API Gateway, SQS, SNS
-    - RDS, Redshift, **DynamoDB**, OpenSearch Service
-    - IAM, WAF
-    - S3, CloudFormation, CloudWatch, SES, Workmail, Connect, etc...
-  - OS
-    - Windows, Windows Server
-    - macOS, iOS
-    - Ubuntu, Red Hat Enterprise Linux, Amazon Linux
-- その他
-  - SaaS
-      - **GitHub Actions**, CircleCI
-      - Sentry, Datadog
-      - **Kintone**
-      - Stripe
-  - 設計・開発・マネジメント手法など
-    - Git-flow
-    - スクラム
-    - ホラクラシー
-    - デザインパターン
-
-### 資格・認定
-
-下位資格は省略しています
-
-| 取得時期 | 名称 |
-| -------: | -------------------------------------------------- |
-|   2019/1 | AWS Certified Solutions Architect - Associate |
-|   2018/8 | Oracle Certified Java Programmer, Gold SE 8 |
-|  2017/11 | Linux Professional Institute Certification Level 1 |
-|  2014/11 | VBAエキスパートExcel VBAスタンダード |
-|   2014/6 | データベーススペシャリスト |
-|  2013/12 | 情報セキュリティスペシャリスト |
-
-<div class="pagebreak"></div>
-
 ## 職務経歴
 
 ### LAPRAS株式会社（2021/1~）
@@ -260,6 +182,85 @@ footer: © 2021 Yuuki Takahashi
 - AR文章画像 (2018/6~2018/8)
   - Swift(UIKit) / iOS
   - 当時発表されたARKitに興味を持ったのと、香典袋に名前がうまく書けなかったことから文字投影アプリを開発
+
+<div class="pagebreak"></div>
+
+### スキル
+
+業務・個人でのプロダクト開発で利用経験があるものを抜粋しています
+
+**太字**は好きなもの
+
+- 言語
+  - フロントエンド
+    - HTML, CSS, JavaScript, jQuery
+    - **Vue.js**, Nuxt.js
+  - バックエンド
+    - Node.js, **TypeScript**, Express, NestJS
+    - **Python**, Django
+    - Java, J2EE, JAX-RS, Spring boot
+    - VB.NET, ASP.NET
+  - その他
+    - **Shell Script**
+    - **SQL**
+    - Swift, UIKit, CoreData
+    - VBA, Google Apps Script
+- ミドルウェア
+  - データストア
+    - MySQL, **PostgreSQL**, DB2, SQLServer
+    - ElastiCache, Redis
+    - ElasticSearch, IBM Watson
+  - サーバ・コンテナ
+    - Apache, Nginx, IIS
+    - WebSphere Application Server
+    - Docker, Kubernetes, Helm
+    - **Terraform**, Packer
+    - **Serverless Framework**
+  - その他
+    - OAuth2.0, OpenID Connect
+    - SMTP, IMAP
+    - Fluentd
+    - Rundeck, JP1/AJS3
+    - OpenAPI, gRPC
+    - Metabase, Redash
+- インフラ
+  - **AWS**
+    - EC2, Elastic Beanstalk, ECS(Fargate), EKS
+    - VPC, ELB, ALB
+    - Route53, ACM, CloudFront
+    - **Lambda**, API Gateway, SQS, SNS
+    - RDS, Redshift, **DynamoDB**, OpenSearch Service
+    - IAM, WAF
+    - S3, CloudFormation, CloudWatch, SES, Workmail, Connect, etc...
+  - OS
+    - Windows, Windows Server
+    - macOS, iOS
+    - Ubuntu, Red Hat Enterprise Linux, Amazon Linux
+- その他
+  - SaaS
+      - **GitHub Actions**, CircleCI
+      - Sentry, Datadog
+      - **Kintone**
+      - Stripe
+  - 設計・開発・マネジメント手法など
+    - Git-flow
+    - スクラム
+    - ホラクラシー
+    - デザインパターン
+
+### 資格・認定
+
+下位資格は省略しています
+
+| 取得時期 | 名称 |
+| -------: | -------------------------------------------------- |
+|   2021/1 | Certified Kubernetes Application Developer |
+|   2019/1 | AWS Certified Solutions Architect - Associate |
+|   2018/8 | Oracle Certified Java Programmer, Gold SE 8 |
+|  2017/11 | Linux Professional Institute Certification Level 1 |
+|  2014/11 | VBAエキスパートExcel VBAスタンダード |
+|   2014/6 | データベーススペシャリスト |
+|  2013/12 | 情報セキュリティスペシャリスト |
 
 <div class="pagebreak"></div>
 
