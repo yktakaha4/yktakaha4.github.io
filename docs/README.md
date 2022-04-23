@@ -38,6 +38,7 @@ footer: © 2022 Yuuki Takahashi
   - [LAPRAS](https://lapras.com/public/yktakaha4)
   - [MENTA](https://menta.work/plan/4060)
   - [Wantedly](https://www.wantedly.com/id/yktakaha4)
+  - [Findy](https://findy-code.io/share_profiles/yxRhevGYaAliv)
   - [Forkwell](https://portfolio.forkwell.com/@yktakaha4/reports)
 - 開発
   - [GitHub](https://github.com/yktakaha4)
