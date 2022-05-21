@@ -1,3 +1,5 @@
+const gaTrackingId = process.env.GA_TRACKING_ID;
+
 module.exports = {
   title: "yktakaha4.github.io",
   description: "",
@@ -24,7 +26,21 @@ module.exports = {
         "http-equiv": "Cache-Control",
         content: "no-cache"
       }
-    ]
+    ],
+    [
+			"script",
+			{
+				async: true,
+				src: `https://www.googletagmanager.com/gtag/js?id=${gaTrackingId}`,
+			},
+		],
+		[
+			"script",
+			{},
+			[
+				`window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', '${gaTrackingId}');`,
+			],
+		],
   ],
   plugins: {
     "@snowdog/vuepress-plugin-pdf-export": {
@@ -32,9 +48,6 @@ module.exports = {
       puppeteerLaunchOptions: {
         args: ["--no-sandbox", "--disable-setuid-sandbox"]
       }
-    },
-    "@vuepress/google-analytics": {
-      "ga": process.env.GA_TRACKING_ID
     },
   },
   themeConfig: {
