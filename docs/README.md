@@ -17,20 +17,6 @@ footer: © 2022 Yuuki Takahashi
 - 1989生/男性
 - 東京都在住
 - 東京工科大学メディア学部卒業
-- ストレングスファインダー
-  - 収集心/学習欲/責任感/内省/最上志向
-- 趣味
-  - 音楽
-    - 70's/80's/Fusion/Game
-    - Bass/Guitar/Synthesizer
-    - DTM
-  - ゲーム
-    - ぷよぷよ
-    - Indie
-    - RTA/TAS
-  - 動画
-    - YouTuber/VTuber
-    - 料理
 
 ### アカウント
 
