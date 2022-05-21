@@ -21,14 +21,14 @@ module.exports = {
   ],
   plugins: {
     "@snowdog/vuepress-plugin-pdf-export": {
-      outputFileName: "./out/site.pdf",
+      outputFileName: "./out/resume.pdf",
       puppeteerLaunchOptions: {
         args: ["--no-sandbox", "--disable-setuid-sandbox"]
       }
     },
-    '@vuepress/google-analytics': {
-      'ga': process.env.GA_TRACKING_ID
-    }
+    "@vuepress/google-analytics": {
+      "ga": process.env.GA_TRACKING_ID
+    },
   },
   themeConfig: {
     navbar: false,

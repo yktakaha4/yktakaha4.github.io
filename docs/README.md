@@ -271,4 +271,4 @@ footer: © 2022 Yuuki Takahashi
 
 [ソースコード](https://github.com/yktakaha4/yktakaha4.github.io)
 
-[PDF](https://github.com/yktakaha4/yktakaha4.github.io/releases/latest/download/site.pdf)
+[PDF](https://github.com/yktakaha4/yktakaha4.github.io/releases/latest/download/resume.pdf)
