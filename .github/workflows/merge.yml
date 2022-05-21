@@ -18,8 +18,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12"
-      - run: npm ci
-      - run: npm run build
+      - run: yarn install --immutable
+      - run: yarn build
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -34,8 +34,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12"
-      - run: npm ci
-      - run: npm run export
+      - run: yarn install --immutable
+      - run: yarn export
       - run: echo "release_tag=v$(date '+%Y%m%d_%H%M%S')" >> $GITHUB_ENV
       - uses: actions/create-release@v1
         id: create_release

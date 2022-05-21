@@ -6,5 +6,5 @@ https://yktakaha4.github.io/
 
 ```
 $ npm ci
-$ npm run dev
+$ yarn dev
 ```
