@@ -15,10 +15,11 @@
   "license": "ISC",
   "devDependencies": {
     "@snowdog/vuepress-plugin-pdf-export": "^1.1.0",
+    "@vuepress/plugin-google-analytics": "^1.9.7",
     "markdown-link-check": "^3.8.7",
     "npm-check-updates": "^11.3.0",
-    "textlint": "^11.9.0",
+    "textlint": "^12.1.1",
     "textlint-rule-preset-jtf-style": "^2.3.8",
-    "vuepress": "^1.8.2"
+    "vuepress": "^0.14.11"
   }
 }
