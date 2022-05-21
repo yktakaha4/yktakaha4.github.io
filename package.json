@@ -8,7 +8,6 @@
     "check:link": "find docs -name \"*.md\" -print0 | xargs -0 -n1 markdown-link-check -c markdown-link-check.json",
     "dev": "vuepress dev docs/",
     "build": "vuepress build docs/",
-    "upgrade": "ncu -u",
     "export": "vuepress export docs/"
   },
   "author": "Yuuki Takahashi",
@@ -17,7 +16,6 @@
     "@snowdog/vuepress-plugin-pdf-export": "^1.1.0",
     "@vuepress/plugin-google-analytics": "^1.9.7",
     "markdown-link-check": "^3.10.2",
-    "npm-check-updates": "^13.0.1",
     "textlint": "^12.1.1",
     "textlint-rule-preset-jtf-style": "^2.3.12",
     "vuepress": "^1.9.7"
