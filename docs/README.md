@@ -40,10 +40,11 @@ footer: © 2022 Yuuki Takahashi
   - [Wantedly](https://www.wantedly.com/id/yktakaha4)
   - [Findy](https://findy-code.io/share_profiles/yxRhevGYaAliv)
   - [Forkwell](https://portfolio.forkwell.com/@yktakaha4/reports)
+  - [Credly](https://www.credly.com/users/yuuki-takahashi.6dec413f)
 - 開発
   - [GitHub](https://github.com/yktakaha4)
-  - [Qiita](https://qiita.com/yktakaha4)
   - [Zenn](https://zenn.dev/yktakaha4)
+  - [Qiita](https://qiita.com/yktakaha4)
   - [Connpass](https://connpass.com/user/yktakaha4)
 - 音楽
   - [SoundCloud](https://soundcloud.com/yktakaha4)
