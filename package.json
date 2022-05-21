@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "textlint docs/",
     "lint:fix": "textlint --fix docs/",
-    "check:link": "find docs -name \"*.md\" -print0 | xargs -0 -n1 markdown-link-check",
+    "check:link": "find docs -name \"*.md\" -print0 | xargs -0 -n1 markdown-link-check -c markdown-link-check.json",
     "dev": "vuepress dev docs/",
     "build": "vuepress build docs/",
     "upgrade": "ncu -u",
