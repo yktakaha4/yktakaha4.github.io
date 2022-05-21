@@ -66,7 +66,7 @@ footer: © 2022 Yuuki Takahashi
 
 - エンジニア向けポートフォリオサービスおよび採用サービスの開発
   - [LAPRAS](http://lapras.com/) および [LAPRAS SCOUT](https://scout.lapras.com/) の開発・保守（2021/1~）
-    - Vue.js / TypeScript / Python / Django / AWS
+    - Vue.js / TypeScript / Python / Django / Kubernetes / AWS
     - 数十万行規模のモノリスアプリケーションの開発
     - スクラム開発者として幾つかの機能追加に携わったのち、単独にて認証やメール送受信といったビジネス重要度の高い不具合解消を担当
     - チーム内ローテーションによるオンコール担当
@@ -144,21 +144,30 @@ footer: © 2022 Yuuki Takahashi
 
 <div class="pagebreak"></div>
 
-## 個人開発・副業
+## 個人開発（2015~現在）
+
+- [Ducktify](https://zenn.dev/yktakaha4/articles/how_to_develop_ducktify)（2022/3）
+  - React / TypeScript / Serverless Framework / Chrome Extension
+  - Chromeの発音状況に対して自動でSpofityの音量を増減させるChrome拡張
+- [kintone-form-model-generator](https://zenn.dev/yktakaha4/articles/kintone-form-model-generator)（2022/1）
+  - TypeScript / npm
+  - TypeScript Compiler APIを用いてKintoneの型情報を自動生成するCLIツール
+- AR文章画像 (2018/6~2018/8)
+  - Swift(UIKit) / iOS
+  - 当時発表されたARKitに興味を持ったのと、香典袋に名前がうまく書けなかったことから文字投影アプリを開発
+- babel(2015/9~2016/4)
+  - Swift(UIKit) / iOS
+  - 非エンジニアの友人がゲーム企画と仕様、私がプログラミングと作曲を担当し、2名体制で開発
+    - 画像については素材サイトを利用
+    - 個人開発で完成までこぎつけた初めてのプロダクトで、保守性・エンハンスを考慮せず作り上げてしまったことに後悔があります
+
+## 副業
 
 ### スキルシェアサービスによるメンタリング（2021/7~現在）
 
 - [MENTAにおける技術相談](https://menta.work/plan/4060)
   - メンターとして、Kintoneによる業務アプリケーション構築のサポートをおこなっています
   - 普段とは異なるコンテキストでの業務課題について取り組むことになるため、楽しく進められています
-
-### 個人でのECサイト構築・運営（2020/2~現在）
-
-- [肯定選品 (2020/2~現在)](https://kotei-senpin.net)
-  - Vue.js(Nuxt.js) / TypeScript(NestJS) / AWS
-  - 個人所有しているCD等を販売するECサイトを、サーバレス構成にて構築。2020/11より一般公開開始
-    - Lambda、DynamoDBをはじめとしたマネージドサービスを積極利用することで、月額コストを100円未満に抑えられています
-  - 技術的な研鑽・実験の場としたいと思っています
 
 ### ベンチャー企業のIT支援（2019/4~現在）
 
@@ -168,22 +177,11 @@ footer: © 2022 Yuuki Takahashi
     - インフラからお問い合わせフォーム、電話によるIVRまで、フルAWS・サーバレス構成にて構築
       - LPデザインについてはクラウドソーシングサービスにて発注し、先方とのやりとり（要件調整、検収など）を実施
 - 社内向け業務システムの開発・保守（2020/5~現在）
-  - Kintone / AWS
+  - Kintone / TypeScript / AWS
   - 受注から施工に至るまでの工程管理を行う社内向けシステムや、営業に用いるCTIシステムをKintoneとAmazon Connectにて構築
     - Kintoneのカスタムプラグインにて実装
   - オペレーターの架電効率を分析するためのデータ分析基盤を、MetabaseとECS(Fargate)を用いて構築・運用
     - ユーザ要望に合わせてダッシュボードの作成を実施
-
-### iOSアプリ開発（2015/9~2018/8）
-
-- babel(2015/9~2016/4)
-  - Swift(UIKit) / iOS
-  - 非エンジニアの友人がゲーム企画と仕様、私がプログラミングと作曲を担当し、2名体制で開発
-    - 画像については素材サイトを利用
-    - 個人開発で完成までこぎつけた初めてのプロダクトで、保守性・エンハンスを考慮せず作り上げてしまったことに後悔があります
-- AR文章画像 (2018/6~2018/8)
-  - Swift(UIKit) / iOS
-  - 当時発表されたARKitに興味を持ったのと、香典袋に名前がうまく書けなかったことから文字投影アプリを開発
 
 <div class="pagebreak"></div>
 
@@ -221,7 +219,7 @@ footer: © 2022 Yuuki Takahashi
     - **Terraform**, Packer
     - **Serverless Framework**
   - その他
-    - OAuth2.0, OpenID Connect
+    - OAuth2.0
     - SMTP, IMAP
     - Fluentd
     - Rundeck, JP1/AJS3
