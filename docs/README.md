@@ -130,14 +130,22 @@ footer: © 2022 Yuuki Takahashi
 
 <div class="pagebreak"></div>
 
-## 個人開発（2015~現在）
+## 個人開発
+
+### ブラウザ拡張
 
 - [Ducktify](https://zenn.dev/yktakaha4/articles/how_to_develop_ducktify)（2022/3）
   - React / TypeScript / Serverless Framework / Chrome Extension
   - Chromeの発音状況に対して自動でSpofityの音量を増減させるChrome拡張
+
+### OSS
+
 - [kintone-form-model-generator](https://zenn.dev/yktakaha4/articles/kintone-form-model-generator)（2022/1）
   - TypeScript / npm
   - TypeScript Compiler APIを用いてKintoneの型情報を自動生成するCLIツール
+
+### iOSアプリ
+
 - AR文章画像 (2018/6~2018/8)
   - Swift(UIKit) / iOS
   - 当時発表されたARKitに興味を持ったのと、香典袋に名前がうまく書けなかったことから文字投影アプリを開発
