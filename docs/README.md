@@ -39,6 +39,7 @@ footer: © 2022 Yuuki Takahashi
   - [Twitter](https://twitter.com/yktakaha4)
   - [Facebook](https://www.facebook.com/profile.php?id=100008421756149)
   - [note](https://note.com/yktakaha4)
+  - [Meety](https://meety.net/matches/HpCFteudffqb)
 
 <div class="pagebreak"></div>
 
@@ -61,13 +62,13 @@ footer: © 2022 Yuuki Takahashi
     - アーキテクチャとしてSPAとServerless Frameworkを採用し、インフラ構築コストを最小限にした上で必要機能を実装
 - SREとしての活動（2021/9~）
   - 前任の創業エンジニアの退職に伴いアプリケーションエンジニアから担当変更し、以下の業務に従事
-    - 主要サービスにおけるSLOの運用改善
+    - [主要サービスにおけるSLOの運用改善](https://zenn.dev/yktakaha4/articles/production_freeze_manual)
     - 既存インフラの不具合修正および可用性向上、ランタイムアップデート
-    - スクラムチームによる新規機能開発時のインフラ設計・構築支援
+    - [スクラムチームによる新規機能開発時のインフラ設計・構築支援](https://zenn.dev/yktakaha4/articles/how_to_make_sorry_page)
     - インフラおよびシステム構成、利用コストの可視化および開発メンバーへの共有
 - その他
   - ホラクラシー組織における複数ロール（職務上の役割）を担当
-    - ドキュメントの更新状況および陳腐化の監視（2021/3~）
+    - [ドキュメントの更新状況および陳腐化の監視](https://zenn.dev/yktakaha4/articles/documentation_inspired_by_http_cache)（2021/3~）
     - コーポレートサイトや社内システム等を含む自社で運営している全てのシステムの運用・監視（2021/9~）
     - 社員の離着任に伴うアカウント発行、ドメイン管理等の情シス業務（2021/9~）
     - フィジカル・メンタルチェックにてスコアが芳しくなかったエンジニアメンバーとの1on1（2021/9~）
