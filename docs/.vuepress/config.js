@@ -19,17 +19,17 @@ module.exports = {
       }
     ]
   ],
-  plugins: [
-    [
-      "@snowdog/vuepress-plugin-pdf-export",
-      {
-        outputFileName: "./out/site.pdf",
-        puppeteerLaunchOptions: {
-          args: ["--no-sandbox", "--disable-setuid-sandbox"]
-        }
+  plugins: {
+    "@snowdog/vuepress-plugin-pdf-export": {
+      outputFileName: "./out/site.pdf",
+      puppeteerLaunchOptions: {
+        args: ["--no-sandbox", "--disable-setuid-sandbox"]
       }
-    ]
-  ],
+    },
+    '@vuepress/google-analytics': {
+      'ga': process.env.GA_TRACKING_ID
+    }
+  },
   themeConfig: {
     navbar: false,
     search: false,
