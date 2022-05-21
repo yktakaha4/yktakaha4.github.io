@@ -130,31 +130,6 @@ footer: © 2022 Yuuki Takahashi
 
 <div class="pagebreak"></div>
 
-## 個人開発
-
-### ブラウザ拡張
-
-- [Ducktify](https://zenn.dev/yktakaha4/articles/how_to_develop_ducktify)（2022/3）
-  - React / TypeScript / Serverless Framework / Chrome Extension
-  - Chromeの発音状況に対して自動でSpofityの音量を増減させるChrome拡張
-
-### OSS
-
-- [kintone-form-model-generator](https://zenn.dev/yktakaha4/articles/kintone-form-model-generator)（2022/1）
-  - TypeScript / npm
-  - TypeScript Compiler APIを用いてKintoneの型情報を自動生成するCLIツール
-
-### iOSアプリ
-
-- AR文章画像 (2018/6~2018/8)
-  - Swift(UIKit) / iOS
-  - 当時発表されたARKitに興味を持ったのと、香典袋に名前がうまく書けなかったことから文字投影アプリを開発
-- babel(2015/9~2016/4)
-  - Swift(UIKit) / iOS
-  - 非エンジニアの友人がゲーム企画と仕様、私がプログラミングと作曲を担当し、2名体制で開発
-    - 画像については素材サイトを利用
-    - 個人開発で完成までこぎつけた初めてのプロダクトで、保守性・エンハンスを考慮せず作り上げてしまったことに後悔があります
-
 ## 副業
 
 ### スキルシェアサービスによるメンタリング（2021/7~現在）
@@ -176,6 +151,23 @@ footer: © 2022 Yuuki Takahashi
     - Kintoneのカスタムプラグインにて実装
   - オペレーターの架電効率を分析するためのデータ分析基盤を、MetabaseとECS(Fargate)を用いて構築・運用
     - ユーザ要望に合わせてダッシュボードの作成を実施
+
+## 個人開発
+
+- [Ducktify](https://zenn.dev/yktakaha4/articles/how_to_develop_ducktify)（2022/3）
+  - React / TypeScript / Serverless Framework / Chrome Extension
+  - Chromeの発音状況に対して自動でSpofityの音量を増減させるChrome拡張
+- [kintone-form-model-generator](https://zenn.dev/yktakaha4/articles/kintone-form-model-generator)（2022/1）
+  - TypeScript / npm
+  - TypeScript Compiler APIを用いてKintoneの型情報を自動生成するCLIツール
+- AR文章画像 (2018/6~2018/8)
+  - Swift(UIKit) / iOS
+  - 当時発表されたARKitに興味を持ったのと、香典袋に名前がうまく書けなかったことから文字投影アプリを開発
+- babel(2015/9~2016/4)
+  - Swift(UIKit) / iOS
+  - 非エンジニアの友人がゲーム企画と仕様、私がプログラミングと作曲を担当し、2名体制で開発
+    - 画像については素材サイトを利用
+    - 個人開発で完成までこぎつけた初めてのプロダクトで、保守性・エンハンスを考慮せず作り上げてしまったことに後悔があります
 
 <div class="pagebreak"></div>
 
