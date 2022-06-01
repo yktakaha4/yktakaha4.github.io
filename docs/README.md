@@ -251,6 +251,7 @@ footer: © 2022 Yuuki Takahashi
 
 | 取得時期 | 名称 |
 | -------: | -------------------------------------------------- |
+|   2022/6 | Certified Kubernetes Administrator |
 |   2022/1 | Certified Kubernetes Application Developer |
 |   2019/1 | AWS Certified Solutions Architect - Associate |
 |   2018/8 | Oracle Certified Java Programmer, Gold SE 8 |
