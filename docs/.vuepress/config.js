@@ -7,6 +7,9 @@ const metas = [
   ["og:description", "自己紹介"],
   ["og:site_name", "yktakaha4.github.io"],
   ["og:image", "https://yktakaha4.github.io/images/yktakaha4.jpg"],
+  ["twitter:card", "summary"],
+  ["twitter:site", "@yktakaha4"],
+  ["twitter:player", "@yktakaha4"],
 ];
 
 module.exports = {
