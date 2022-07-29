@@ -66,6 +66,7 @@ footer: © 2022 Yuuki Takahashi
     - 既存インフラの不具合修正および可用性向上、ランタイムアップデート
     - [スクラムチームによる新規機能開発時のインフラ設計・構築支援](https://zenn.dev/yktakaha4/articles/how_to_make_sorry_page)
     - インフラおよびシステム構成、利用コストの可視化および開発メンバーへの共有
+    - [公式テックブログのインフラ構築](https://tech-blog.lapras.com/techBlogs/tech-blog-infra)
 - その他
   - ホラクラシー組織における複数ロール（職務上の役割）を担当
     - [ドキュメントの更新状況および陳腐化の監視](https://zenn.dev/yktakaha4/articles/documentation_inspired_by_http_cache)（2021/3~）
