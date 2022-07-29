@@ -3,6 +3,9 @@ home: true
 heroImage: ./images/yktakaha4.jpg
 heroText: yktakaha4.github.io
 tagline: 🐧
+title: yktakaha4.github.io
+lang: ja-JP
+description: 自己紹介
 footer: © 2022 Yuuki Takahashi
 ---
 
