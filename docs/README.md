@@ -180,6 +180,12 @@ footer: © 2022 Yuuki Takahashi
     - 画像については素材サイトを利用
     - 個人開発で完成までこぎつけた初めてのプロダクトで、保守性・エンハンスを考慮せず作り上げてしまったことに後悔があります
 
+## その他の活動
+
+- ISUCONへの参加（2021/7~）
+  - ISUCON12予選（209位 / 4703点）
+  - [ISUCON11予選（130位 / 33750点）](https://zenn.dev/yktakaha4/articles/postmortem_isucon11)
+
 <div class="pagebreak"></div>
 
 ## 詳細
