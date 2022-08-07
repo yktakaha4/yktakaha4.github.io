@@ -3,6 +3,9 @@ home: true
 heroImage: ./images/yktakaha4.jpg
 heroText: yktakaha4.github.io
 tagline: 🐧
+title: yktakaha4.github.io
+lang: ja-JP
+description: 自己紹介
 footer: © 2022 Yuuki Takahashi
 ---
 
@@ -66,6 +69,7 @@ footer: © 2022 Yuuki Takahashi
     - 既存インフラの不具合修正および可用性向上、ランタイムアップデート
     - [スクラムチームによる新規機能開発時のインフラ設計・構築支援](https://zenn.dev/yktakaha4/articles/how_to_make_sorry_page)
     - インフラおよびシステム構成、利用コストの可視化および開発メンバーへの共有
+    - [公式テックブログのインフラ構築](https://tech-blog.lapras.com/techBlogs/tech-blog-infra)
 - その他
   - ホラクラシー組織における複数ロール（職務上の役割）を担当
     - [ドキュメントの更新状況および陳腐化の監視](https://zenn.dev/yktakaha4/articles/documentation_inspired_by_http_cache)（2021/3~）
@@ -176,6 +180,12 @@ footer: © 2022 Yuuki Takahashi
     - 画像については素材サイトを利用
     - 個人開発で完成までこぎつけた初めてのプロダクトで、保守性・エンハンスを考慮せず作り上げてしまったことに後悔があります
 
+## その他の活動
+
+- ISUCONへの参加（2021/7~）
+  - ISUCON12予選（209位 / 4703点）
+  - [ISUCON11予選（130位 / 33750点）](https://zenn.dev/yktakaha4/articles/postmortem_isucon11)
+
 <div class="pagebreak"></div>
 
 ## 詳細
@@ -193,6 +203,7 @@ footer: © 2022 Yuuki Takahashi
   - バックエンド
     - Node.js, **TypeScript**, Express, NestJS
     - **Python**, Django
+    - Go
     - Java, J2EE, JAX-RS, Spring boot
     - VB.NET, ASP.NET
   - その他
@@ -206,9 +217,9 @@ footer: © 2022 Yuuki Takahashi
     - ElastiCache, Redis
     - ElasticSearch, IBM Watson
   - サーバ・コンテナ
-    - Apache, Nginx, IIS
+    - Nginx, Apache, IIS
     - WebSphere Application Server
-    - Docker, Kubernetes, Helm
+    - Kubernetes, Helm, Docker
     - **Terraform**, Packer
     - **Serverless Framework**
   - その他
@@ -235,7 +246,7 @@ footer: © 2022 Yuuki Takahashi
   - SaaS
       - **GitHub Actions**, CircleCI
       - Sentry, Datadog
-      - **Kintone**
+      - **Kintone**, microCMS, Salesforce
       - Stripe
   - 設計・開発・マネジメント手法など
     - Git-flow
