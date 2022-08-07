@@ -180,6 +180,12 @@ footer: © 2022 Yuuki Takahashi
     - 画像については素材サイトを利用
     - 個人開発で完成までこぎつけた初めてのプロダクトで、保守性・エンハンスを考慮せず作り上げてしまったことに後悔があります
 
+## その他の活動
+
+- ISUCONへの参加（2021/7~）
+  - ISUCON12予選（209位 / 4703点）
+  - [ISUCON11予選（130位 / 33750点）](https://zenn.dev/yktakaha4/articles/postmortem_isucon11)
+
 <div class="pagebreak"></div>
 
 ## 詳細
@@ -197,6 +203,7 @@ footer: © 2022 Yuuki Takahashi
   - バックエンド
     - Node.js, **TypeScript**, Express, NestJS
     - **Python**, Django
+    - Go
     - Java, J2EE, JAX-RS, Spring boot
     - VB.NET, ASP.NET
   - その他
@@ -210,9 +217,9 @@ footer: © 2022 Yuuki Takahashi
     - ElastiCache, Redis
     - ElasticSearch, IBM Watson
   - サーバ・コンテナ
-    - Apache, Nginx, IIS
+    - Nginx, Apache, IIS
     - WebSphere Application Server
-    - Docker, Kubernetes, Helm
+    - Kubernetes, Helm, Docker
     - **Terraform**, Packer
     - **Serverless Framework**
   - その他
@@ -239,7 +246,7 @@ footer: © 2022 Yuuki Takahashi
   - SaaS
       - **GitHub Actions**, CircleCI
       - Sentry, Datadog
-      - **Kintone**
+      - **Kintone**, microCMS, Salesforce
       - Stripe
   - 設計・開発・マネジメント手法など
     - Git-flow
