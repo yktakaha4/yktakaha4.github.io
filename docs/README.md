@@ -197,6 +197,7 @@ footer: © 2022 Yuuki Takahashi
   - バックエンド
     - Node.js, **TypeScript**, Express, NestJS
     - **Python**, Django
+    - Go
     - Java, J2EE, JAX-RS, Spring boot
     - VB.NET, ASP.NET
   - その他
@@ -210,9 +211,9 @@ footer: © 2022 Yuuki Takahashi
     - ElastiCache, Redis
     - ElasticSearch, IBM Watson
   - サーバ・コンテナ
-    - Apache, Nginx, IIS
+    - Nginx, Apache, IIS
     - WebSphere Application Server
-    - Docker, Kubernetes, Helm
+    - Kubernetes, Helm, Docker
     - **Terraform**, Packer
     - **Serverless Framework**
   - その他
@@ -239,7 +240,7 @@ footer: © 2022 Yuuki Takahashi
   - SaaS
       - **GitHub Actions**, CircleCI
       - Sentry, Datadog
-      - **Kintone**
+      - **Kintone**, microCMS, Salesforce
       - Stripe
   - 設計・開発・マネジメント手法など
     - Git-flow
