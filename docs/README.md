@@ -274,7 +274,7 @@ footer: © 2022 Yuuki Takahashi
 
 ### 登壇
 
-- [PyCon JP 2022](https://2022.pycon.jp/)
+- [PyCon JP 2022](https://2022.pycon.jp/)（2022/10/15）
   - [Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処](https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu)
 
 <div class="pagebreak"></div>
