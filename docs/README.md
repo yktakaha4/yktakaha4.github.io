@@ -35,6 +35,7 @@ footer: © 2022 Yuuki Takahashi
   - [Zenn](https://zenn.dev/yktakaha4)
   - [Qiita](https://qiita.com/yktakaha4)
   - [Connpass](https://connpass.com/user/yktakaha4)
+  - [Speaker Deck](https://speakerdeck.com/yktakaha4)
 - 音楽
   - [SoundCloud](https://soundcloud.com/yktakaha4)
   - [YouTube](https://www.youtube.com/@yktakaha4)
