@@ -35,9 +35,10 @@ footer: © 2022 Yuuki Takahashi
   - [Zenn](https://zenn.dev/yktakaha4)
   - [Qiita](https://qiita.com/yktakaha4)
   - [Connpass](https://connpass.com/user/yktakaha4)
+  - [Speaker Deck](https://speakerdeck.com/yktakaha4)
 - 音楽
   - [SoundCloud](https://soundcloud.com/yktakaha4)
-  - [YouTube](https://www.youtube.com/channel/UCPcWh58YJKVS2R15Aq9OGMQ)
+  - [YouTube](https://www.youtube.com/@yktakaha4)
 - SNS・その他
   - [Twitter](https://twitter.com/yktakaha4)
   - [Facebook](https://www.facebook.com/profile.php?id=100008421756149)
@@ -199,14 +200,15 @@ footer: © 2022 Yuuki Takahashi
 - 言語
   - フロントエンド
     - HTML, CSS, JavaScript, jQuery
-    - **Vue.js**, Nuxt.js
+    - Vue.js, Nuxt.js
+    - React
   - バックエンド
     - Node.js, **TypeScript**, Express, NestJS
     - **Python**, Django
-    - Go
     - Java, J2EE, JAX-RS, Spring boot
     - VB.NET, ASP.NET
   - その他
+    - **Go**
     - **Shell Script**
     - **SQL**
     - Swift, UIKit, CoreData
@@ -241,13 +243,13 @@ footer: © 2022 Yuuki Takahashi
   - OS
     - Windows, Windows Server
     - macOS, iOS
-    - Ubuntu, Red Hat Enterprise Linux, Amazon Linux
+    - **Ubuntu**, Red Hat Enterprise Linux, Amazon Linux
 - その他
   - SaaS
-      - **GitHub Actions**, CircleCI
-      - Sentry, Datadog
-      - **Kintone**, microCMS, Salesforce
-      - Stripe
+    - **GitHub Actions**, CircleCI
+    - Sentry, Datadog, UptimeRobot
+    - **Kintone**, microCMS, Salesforce
+    - Stripe
   - 設計・開発・マネジメント手法など
     - Git-flow
     - スクラム
@@ -270,7 +272,6 @@ footer: © 2022 Yuuki Takahashi
 |  2014/11 | VBAエキスパートExcel VBAスタンダード |
 |   2014/6 | データベーススペシャリスト |
 |  2013/12 | 情報セキュリティスペシャリスト |
-
 
 ### 登壇
 
