@@ -199,13 +199,13 @@ footer: © 2022 Yuuki Takahashi
 
 - 言語
   - フロントエンド
-    - HTML, CSS, JavaScript, jQuery
-    - Vue.js, Nuxt.js
-    - React
+    - HTML, CSS
+    - JavaScript, jQuery
+    - TypeScript, Vue.js, React
   - バックエンド
     - Node.js, **TypeScript**, Express, NestJS
     - **Python**, Django
-    - Java, J2EE, JAX-RS, Spring boot
+    - Java, Spring boot
     - VB.NET, ASP.NET
   - その他
     - **Go**
@@ -217,7 +217,7 @@ footer: © 2022 Yuuki Takahashi
   - データストア
     - MySQL, **PostgreSQL**, DB2, SQLServer
     - ElastiCache, Redis
-    - ElasticSearch, IBM Watson
+    - Elasticsearch, IBM Watson
   - サーバ・コンテナ
     - Nginx, Apache, IIS
     - WebSphere Application Server
@@ -252,7 +252,7 @@ footer: © 2022 Yuuki Takahashi
     - Stripe
   - 設計・開発・マネジメント手法など
     - Git-flow
-    - スクラム
+    - スクラム, アジャイル
     - ホラクラシー
     - デザインパターン
 
