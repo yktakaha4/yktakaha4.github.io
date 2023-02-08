@@ -15,7 +15,7 @@
   "devDependencies": {
     "@snowdog/vuepress-plugin-pdf-export": "^1.1.0",
     "markdown-link-check": "^3.10.2",
-    "textlint": "^12.2.1",
+    "textlint": "^13.2.0",
     "textlint-rule-preset-jtf-style": "^2.3.13",
     "vuepress": "^1.9.7"
   }
