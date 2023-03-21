@@ -5,12 +5,12 @@ on: pull_request
 jobs:
   check:
     name: Check
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: "12"
+          node-version: "18"
       - run: yarn install
       - run: yarn lint
       - run: yarn check:link
