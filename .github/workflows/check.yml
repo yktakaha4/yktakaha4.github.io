@@ -2,6 +2,10 @@ name: Check
 
 on: pull_request
 
+env:
+  TZ: Asia/Tokyo
+  NODE_OPTIONS: --openssl-legacy-provider
+
 jobs:
   check:
     name: Check

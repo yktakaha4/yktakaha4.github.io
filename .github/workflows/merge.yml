@@ -7,6 +7,7 @@ on:
 
 env:
   TZ: Asia/Tokyo
+  NODE_OPTIONS: --openssl-legacy-provider
   GA_TRACKING_ID: ${{ secrets.GA_TRACKING_ID }}
 
 jobs:
