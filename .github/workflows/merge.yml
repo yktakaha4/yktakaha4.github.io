@@ -7,7 +7,6 @@ on:
 
 env:
   TZ: Asia/Tokyo
-  NODE_OPTIONS: --openssl-legacy-provider
   GA_TRACKING_ID: ${{ secrets.GA_TRACKING_ID }}
 
 jobs:
@@ -18,7 +17,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
         with:
-          node-version: "18"
+          node-version: "16"
       - run: yarn install
       - run: yarn build
       - uses: peaceiris/actions-gh-pages@v3
@@ -34,7 +33,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
         with:
-          node-version: "18"
+          node-version: "16"
       - run: yarn install
       - run: yarn export
       - run: echo "release_tag=v$(date '+%Y%m%d_%H%M%S')" >> $GITHUB_ENV
