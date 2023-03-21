@@ -2,15 +2,50 @@ name: Check
 
 on: pull_request
 
+env:
+  TZ: Asia/Tokyo
+
 jobs:
-  check:
-    name: Check
-    runs-on: ubuntu-18.04
+  lint:
+    name: lint
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
         with:
-          node-version: "12"
+          node-version: "16"
       - run: yarn install
       - run: yarn lint
+
+  check_link:
+    name: check_link
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "16"
+      - run: yarn install
       - run: yarn check:link
+
+  build:
+    name: build
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "16"
+      - run: yarn install
+      - run: yarn build
+
+  export:
+    name: export
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "16"
+      - run: yarn install
+      - run: yarn export

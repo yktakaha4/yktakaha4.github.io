@@ -12,12 +12,12 @@ env:
 jobs:
   deploy:
     name: Deploy to GitHub Pages
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
         with:
-          node-version: "12"
+          node-version: "16"
       - run: yarn install
       - run: yarn build
       - uses: peaceiris/actions-gh-pages@v3
@@ -28,12 +28,12 @@ jobs:
 
   export:
     name: Create PDF
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
         with:
-          node-version: "12"
+          node-version: "16"
       - run: yarn install
       - run: yarn export
       - run: echo "release_tag=v$(date '+%Y%m%d_%H%M%S')" >> $GITHUB_ENV
