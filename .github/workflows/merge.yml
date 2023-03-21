@@ -15,7 +15,7 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
         with:
           node-version: "18"
@@ -31,7 +31,7 @@ jobs:
     name: Create PDF
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
         with:
           node-version: "18"
