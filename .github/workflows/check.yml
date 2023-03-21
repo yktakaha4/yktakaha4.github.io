@@ -7,8 +7,8 @@ env:
   NODE_OPTIONS: --openssl-legacy-provider
 
 jobs:
-  check:
-    name: Check
+  lint:
+    name: lint
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
@@ -17,4 +17,36 @@ jobs:
           node-version: "18"
       - run: yarn install
       - run: yarn lint
+
+  check_link:
+    name: lint
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "18"
+      - run: yarn install
       - run: yarn check:link
+
+  build:
+    name: build
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "18"
+      - run: yarn install
+      - run: yarn build
+
+  export:
+    name: export
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "18"
+      - run: yarn install
+      - run: yarn export
