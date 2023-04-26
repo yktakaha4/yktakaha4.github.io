@@ -6,7 +6,7 @@ tagline: 🐧
 title: yktakaha4.github.io
 lang: ja-JP
 description: 自己紹介
-footer: © 2022 Yuuki Takahashi
+footer: © 2023 Yuuki Takahashi
 ---
 
 [[toc]]
@@ -63,13 +63,13 @@ footer: © 2022 Yuuki Takahashi
     - チーム内ローテーションによるオンコール担当
   - 新規事業PoCの実施（2021/4~2021/8）
     - PdM・デザイナーとユーザーインタビューを実施し、エンジニアとしてMVP開発を担当
-    - アーキテクチャとしてSPAとServerless Frameworkを採用し、インフラ構築コストを最小限にした上で必要機能を実装
 - SREとしての活動（2021/9~）
-  - 前任の創業エンジニアの退職に伴いアプリケーションエンジニアから担当変更し、以下の業務に従事
+  - 前任の創業エンジニアの退職に伴いアプリケーションエンジニアから担当変更し、以下のような業務に従事
     - [主要サービスにおけるSLOの運用改善](https://zenn.dev/yktakaha4/articles/production_freeze_manual)
-    - 既存インフラの不具合修正および可用性向上、ランタイムアップデート
     - [スクラムチームによる新規機能開発時のインフラ設計・構築支援](https://zenn.dev/yktakaha4/articles/how_to_make_sorry_page)
-    - インフラおよびシステム構成、利用コストの可視化および開発メンバーへの共有
+    - [既存インフラの不具合修正および可用性向上、ランタイムアップデート](https://zenn.dev/yktakaha4/articles/steady_update_of_eks)
+    - [既存インフラの監視強化](https://zenn.dev/yktakaha4/articles/synthetic_monitoring_with_ur_and_tf)
+    - [SREチームの運用構築および運営](https://zenn.dev/yktakaha4/articles/running_an_agile_sre_team)
     - [公式テックブログのインフラ構築](https://tech-blog.lapras.com/techBlogs/tech-blog-infra)
 - その他
   - ホラクラシー組織における複数ロール（職務上の役割）を担当
