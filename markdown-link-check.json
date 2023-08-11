@@ -1,9 +1,6 @@
 {
   "ignorePatterns": [
     {
-      "pattern": "/resume\\.pdf$"
-    },
-    {
       "pattern": "^https://twitter\\.com/"
     }
   ]
