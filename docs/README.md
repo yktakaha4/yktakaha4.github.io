@@ -231,6 +231,7 @@ footer: © 2023 Yuuki Takahashi
     - Rundeck, JP1/AJS3
     - OpenAPI, gRPC
     - Metabase, Redash
+    - k6, JMeter
 - インフラ
   - **AWS**
     - EC2, Elastic Beanstalk, ECS(Fargate), EKS
