@@ -14,7 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "@snowdog/vuepress-plugin-pdf-export": "^1.1.0",
-    "markdown-link-check": "^3.10.2",
+    "markdown-link-check": "^3.11.2",
     "textlint": "^13.3.2",
     "textlint-rule-preset-jtf-style": "^2.3.13",
     "vuepress": "^1.9.9"
