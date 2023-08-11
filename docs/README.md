@@ -29,7 +29,7 @@ footer: © 2023 Yuuki Takahashi
   - [Wantedly](https://www.wantedly.com/id/yktakaha4)
   - [Findy](https://findy-code.io/share_profiles/yxRhevGYaAliv)
   - [Forkwell](https://portfolio.forkwell.com/@yktakaha4/reports)
-  - [Credly](https://www.credly.com/users/yuuki-takahashi.6dec413f)
+  - [Credly](https://www.credly.com/users/yktakaha4)
 - 開発
   - [GitHub](https://github.com/yktakaha4)
   - [Zenn](https://zenn.dev/yktakaha4)
@@ -231,6 +231,7 @@ footer: © 2023 Yuuki Takahashi
     - Rundeck, JP1/AJS3
     - OpenAPI, gRPC
     - Metabase, Redash
+    - k6, JMeter
 - インフラ
   - **AWS**
     - EC2, Elastic Beanstalk, ECS(Fargate), EKS
