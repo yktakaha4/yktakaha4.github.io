@@ -23,6 +23,8 @@ const config: Config = {
     [
       'classic',
       {
+        docs: false,
+        blog: false,
         theme: {
           customCss: [
             './src/css/custom.css',
