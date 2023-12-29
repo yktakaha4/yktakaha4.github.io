@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import dayjs from "dayjs";
 
 const soundPlayer = `
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1746472359&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false&show_artwork=true"></iframe>
@@ -37,6 +38,7 @@ const config: Config = {
     image: 'img/icon.jpg',
     colorMode: {
       defaultMode: 'light',
+      disableSwitch: true,
       respectPrefersColorScheme: true,
     },
     navbar: {
@@ -82,7 +84,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Yuuki Takahashi`,
+      copyright: `© ${dayjs().year()} Yuuki Takahashi`,
     },
   } satisfies Preset.ThemeConfig,
 };

@@ -4,6 +4,6 @@
     --ifm-footer-background-color: transparent;
 }
 
-/*.navbar {*/
-/*    display: none;*/
-/*}*/
+.navbar {
+    display: none;
+}
