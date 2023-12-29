@@ -5,7 +5,7 @@ export interface PagerProps {
     perPage: number
     total: number
     size: number
-    onChange: (page: number) => void
+    onChange?: (page: number) => void
 }
 
 export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) => {
@@ -17,7 +17,9 @@ export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) 
     const onClick = (p: number) => {
         return (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
             e.preventDefault();
-            onChange(p);
+            if (onChange) {
+                onChange(p);
+            }
         }
     }
 
