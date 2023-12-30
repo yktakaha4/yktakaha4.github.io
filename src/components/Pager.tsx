@@ -5,20 +5,21 @@ export interface PagerProps {
     perPage: number
     total: number
     size: number
-    onChange?: (page: number) => void
+    onChange?: (params: { page: number }) => void
 }
 
 export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) => {
     const totalPages = Math.ceil(total / perPage);
     const currentPage = Math.min(Math.max(1, page), totalPages);
     const startPage = Math.min(Math.max(1, currentPage - Math.floor(size / 2)), Math.max(totalPages - size + 1, 1));
-    const pages = Array.from({ length: size }).map((_, i) => startPage + i);
+    const pagesLength = Math.max(1, Math.min(size, totalPages))
+    const pages = Array.from({ length: pagesLength }).map((_, i) => startPage + i);
 
     const onClick = (p: number) => {
         return (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
             e.preventDefault();
             if (onChange) {
-                onChange(p);
+                onChange({ page: p })
             }
         }
     }
@@ -28,7 +29,7 @@ export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) 
             <li className="pagination__item">
                 <a className="pagination__link" href="#" onClick={onClick(1)}>&laquo;</a>
             </li>
-            {pages[0] !== 1 && (
+            {pages.length > 1 && pages[0] !== 1 && (
                 <li className="pagination__item">
                     <span>…</span>
                 </li>
@@ -38,7 +39,7 @@ export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) 
                     <a className="pagination__link" href="#" onClick={onClick(p)}>{p}</a>
                 </li>
             ))}
-            {pages[pages.length - 1] !== totalPages && (
+            {pages.length > 1 && pages[pages.length - 1] !== totalPages && (
                 <li className="pagination__item">
                     <span>…</span>
                 </li>
