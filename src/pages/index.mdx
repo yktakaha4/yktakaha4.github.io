@@ -1,10 +1,19 @@
 import {Pager} from "../components/Pager"
+import {Avatar} from "../components/Avatar";
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 
 # yktakaha4.github.io
 
+<div style={{ margin: '1rem 0' }}>
+    <Avatar
+        src={[useBaseUrl('/img/icon.jpg'), useBaseUrl('/img/yktakaha4.jpg')]}
+    />
+</div>
+
 ## プロフィール
 
-- 髙橋祐輝 / Yuuki Takahashi / yktakaha4
+- 髙橋 祐輝 / Yuuki Takahashi / @yktakaha4
 - 1989年生まれ / 男性
 - 東京都在住
 - 東京工科大学 メディア学部 卒業
@@ -27,7 +36,7 @@ import {Pager} from "../components/Pager"
 
 ## 経験
 
-<Pager page={17} perPage={5} size={5} total={100} onChange={console.log}/>
+<Pager page={17} perPage={5} size={3} total={100} onChange={console.log}/>
 
 ### スキル
 

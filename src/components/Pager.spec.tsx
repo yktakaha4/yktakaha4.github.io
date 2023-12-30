@@ -20,9 +20,7 @@ describe('Pager', () => {
         [10, 5, 4, 25, '«…2345»'],
     ])('ページャーが描画される #%#', (page, perPage, size, total, expected) => {
         const { container } = render(<Pager page={page} perPage={perPage} size={size} total={total}/>);
-        const ul = container.getElementsByTagName('ul')
-        expect(ul.length).toBe(1);
-        expect(ul[0].textContent).toBe(expected);
+        expect(container.textContent).toBe(expected);
     })
 
     test.each([
