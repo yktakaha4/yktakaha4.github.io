@@ -1,6 +1,7 @@
 import {Pager} from "../components/Pager"
 import {Avatar} from "../components/Avatar";
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import {Table} from "../components/Table";
 
 
 # yktakaha4.github.io
@@ -10,6 +11,23 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
         src={[useBaseUrl('/img/icon.jpg'), useBaseUrl('/img/yktakaha4.jpg')]}
     />
 </div>
+
+<Table headers={[{
+    label: '1',
+}, {
+    label: '2',
+}, {
+    label: '3',
+}]} rows={[[{
+    value: '1',
+},{
+    type: 'number',
+    value: 3456,
+},{
+    type: 'date',
+    value: new Date(),
+    format: 'YYYY/M',
+}]]} />
 
 ## プロフィール
 

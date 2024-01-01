@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { Pager } from '@/components/Pager';
 import { userEvent } from '@testing-library/user-event';
+import {Table} from "@/components/Table";
 
 describe('Pager', () => {
     test.each([
@@ -44,5 +45,30 @@ describe('Pager', () => {
         await user.click(screen.getByText(text))
         expect(onChange.mock.calls.length).toBe(1)
         expect(onChange.mock.calls[0]).toStrictEqual([expected])
+    })
+
+    describe('バリデーションエラー', () => {
+        beforeEach(() => {
+            jest.spyOn(console, 'error').mockImplementation()
+        })
+
+        afterEach(() => {
+            jest.restoreAllMocks()
+        })
+
+        test('サイズが一定値を下回る', () => {
+            const headers = [{label: 'a'}, {label: 'b'}]
+            const rows = [[{value: 'a'}]]
+            expect(() => {
+                render(<Pager
+                    page={1}
+                    perPage={5}
+                    size={2}
+                    total={10}
+                />);
+            }).toThrow(
+                new Error('size must be greater than or equal to 3')
+            )
+        })
     })
 })

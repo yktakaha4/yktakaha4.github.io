@@ -9,8 +9,9 @@ export interface PagerProps {
 }
 
 export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) => {
-    if (size < 3) {
-        throw new Error('size must be greater than or equal to 3')
+    const minSize = 3
+    if (size < minSize) {
+        throw new Error(`size must be greater than or equal to ${minSize}`)
     }
 
     const totalPages = Math.ceil(total / perPage);
