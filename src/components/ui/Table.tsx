@@ -1,6 +1,7 @@
 
 import React, { FC } from 'react';
 import dayjs from "dayjs";
+import {Tag, TagColor} from "@/components/ui/Tag";
 
 type Optional<T> = T | null | undefined
 
@@ -33,7 +34,15 @@ export type DateCellValue = {
     format?: 'YYYY/M/D' | 'YYYY/M',
 }
 
-export type TableCell = (CellValue | StringCellValue | NumberCellValue | DateCellValue) & CellValueOptions
+export type TagsCellValue = {
+    type: 'tags',
+    values: Array<{
+        value: string,
+        color?: TagColor,
+    }>
+}
+
+export type TableCell = ((CellValue | StringCellValue | NumberCellValue | DateCellValue) & CellValueOptions) | TagsCellValue
 
 export interface TableHeader {
     label?: string
@@ -105,6 +114,16 @@ export const Table: FC<TableProps> = ({ headers, rows }) => {
                                     )
                                     return <td key={j}>{value}</td>
                                 }
+                            } else if (cell.type === 'tags') {
+                                return (
+                                    <td key={j}>
+                                        {cell.values
+                                            .map(({ value, color }, k) => (
+                                                <Tag name={value} color={color} key={k} />
+                                            ))
+                                        }
+                                    </td>
+                                )
                             } else {
                                 const value = decorate(cell.value, cell)
                                 return <td key={j}>{value}</td>

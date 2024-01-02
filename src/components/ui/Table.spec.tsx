@@ -5,7 +5,7 @@ import {
     StringCellValue,
     Table, TableHeader,
     TableHeaders,
-    TableRows
+    TableRows, TagsCellValue
 } from "@/components/ui/Table";
 
 describe('decorate', () => {
@@ -76,20 +76,39 @@ describe('Table', () => {
         expect(table[0].textContent).toBe(expected)
     })
 
+    test.each<[TagsCellValue, string]>([
+        [{type: 'tags', values: []}, ''],
+        [{type: 'tags', values: [{value: 'Tag1'}, {value: 'Tag2', color: 'primary'}]}, 'Tag1Tag2'],
+    ])(`タグが描画される #%#`, (cell, expected) => {
+        const {container} = render(<Table headers={[{}]} rows={[[cell]]}/>)
+        const table = container.getElementsByTagName('table')
+        expect(table.length).toBe(1)
+        expect(table[0].textContent).toBe(expected)
+    })
+
     it('複数カラムを持つテーブルが描画される', () => {
         const headers: TableHeaders = [
             {label: 'Head1'},
             {label: 'Head2'},
+            {label: 'Head3'},
         ]
         const rows: TableRows = [
-            [{value: 'Row1Cell1'}, {value: 'Row1Cell2', type: 'string', link: { href: 'https://example.com/', type: 'external' }}],
-            [{value: 54345, type: 'number'}, {value: new Date('2112-9-3'), type: 'date'}],
+            [
+                {value: 'Row1Cell1'},
+                {value: 'Row1Cell2', type: 'string', link: { href: 'https://example.com/', type: 'external' }},
+                {type: 'tags', values: []},
+            ],
+            [
+                {value: 54345, type: 'number'},
+                {value: new Date('2112-9-3'), type: 'date'},
+                {type: 'tags', values: [{value: 'Tag1'}, {value: 'Tag2', color: 'primary'}]}
+            ],
         ]
         const {container} = render(<Table headers={headers} rows={rows}/>)
         const table = container.getElementsByTagName('table')
         expect(table.length).toBe(1)
         expect(table[0].textContent).toBe(
-            'Head1Head2Row1Cell1Row1Cell254,3452112/9/3',
+            'Head1Head2Head3Row1Cell1Row1Cell254,3452112/9/3Tag1Tag2',
         )
 
         const a = container.getElementsByTagName('a')
