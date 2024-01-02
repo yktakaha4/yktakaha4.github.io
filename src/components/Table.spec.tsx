@@ -12,7 +12,7 @@ describe('decorate', () => {
     test.each<[string | null, CellValueOptions, string, string]>([
         ['', { link: { href: '' }}, '#', 'http://localhost/'],
         ['text', { link: { href: '#anchor' }}, 'text', 'http://localhost/#anchor'],
-        ['text', { link: { type: 'external', href: 'https://example.com' }}, 'text', 'https://example.com/'],
+        ['text', { link: { type: 'external', href: 'https://example.com/path?q=v#anchor' }}, 'text', 'https://example.com/path?q=v#anchor'],
     ])(`リンクが描画される #%#`, (value, options, text, href) => {
         const {container} = render(<Table headers={[{}]} rows={[[{value, ...options}]]}/>)
         const table = container.getElementsByTagName('table')
@@ -74,6 +74,29 @@ describe('Table', () => {
         const table = container.getElementsByTagName('table')
         expect(table.length).toBe(1)
         expect(table[0].textContent).toBe(expected)
+    })
+
+    it('テーブルが描画される', () => {
+        const headers: TableHeaders = [
+            {label: 'Head1'},
+            {label: 'Head2'},
+        ]
+        const rows: TableRows = [
+            [{value: 'Row1Cell1'}, {value: 'Row1Cell2', type: 'string', link: { href: 'https://example.com/', type: 'external' }}],
+            [{value: 54345, type: 'number'}, {value: new Date('2112-9-3'), type: 'date'}],
+        ]
+        const {container} = render(<Table headers={headers} rows={rows}/>)
+        const table = container.getElementsByTagName('table')
+        expect(table.length).toBe(1)
+        expect(table[0].textContent).toBe(
+            'Head1Head2Row1Cell1Row1Cell254,3452112/9/3',
+        )
+
+        const a = container.getElementsByTagName('a')
+        expect(a.length).toBe(1)
+        expect(a[0].href).toBe('https://example.com/')
+        expect(a[0].target).toBe('_blank')
+        expect(a[0].rel).toBe('noopener noreferrer')
     })
 
     describe('バリデーションエラー', () => {
