@@ -52,8 +52,8 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
                 href: url,
             },
         }, {
-            type: 'string',
-            value: tags.join(', '),
+            type: 'tags',
+            values: tags.map((tag) => ({ value: tag })),
         }]
     }).slice((page - 1) * pagerPerPage, page * pagerPerPage)
 

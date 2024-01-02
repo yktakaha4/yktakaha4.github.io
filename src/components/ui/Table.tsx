@@ -117,11 +117,13 @@ export const Table: FC<TableProps> = ({ headers, rows }) => {
                             } else if (cell.type === 'tags') {
                                 return (
                                     <td key={j}>
+                                        <div style={{display: 'flex', gap: '0.2rem', flexWrap: 'wrap'}}>
                                         {cell.values
                                             .map(({ value, color }, k) => (
                                                 <Tag name={value} color={color} key={k} />
                                             ))
                                         }
+                                        </div>
                                     </td>
                                 )
                             } else {
