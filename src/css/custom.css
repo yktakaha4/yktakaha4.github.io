@@ -4,6 +4,6 @@
     --ifm-footer-background-color: transparent;
 }
 
-.navbar {
+.navbar--fixed-top {
     display: none;
 }

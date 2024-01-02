@@ -2,6 +2,7 @@ import {Pager} from "../components/Pager"
 import {Avatar} from "../components/Avatar";
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {Table} from "../components/Table";
+import {Search} from "../components/Search";
 
 
 # yktakaha4.github.io
@@ -11,6 +12,10 @@ import {Table} from "../components/Table";
         src={[useBaseUrl('/img/icon.jpg'), useBaseUrl('/img/yktakaha4.jpg')]}
     />
 </div>
+
+<Search query="hoge" onChange={console.log}>
+    <Pager page={17} perPage={5} size={3} total={100} onChange={console.log}/>
+</Search>
 
 <Table headers={[{
     label: '1',
@@ -53,8 +58,6 @@ import {Table} from "../components/Table";
 #### 2019/4 ~ 現在 : 株式会社エアチェン
 
 ## 経験
-
-<Pager page={17} perPage={5} size={3} total={100} onChange={console.log}/>
 
 ### スキル
 

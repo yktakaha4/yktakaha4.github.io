@@ -5,7 +5,7 @@ export interface PagerProps {
     perPage: number
     total: number
     size: number
-    onChange?: (params: { page: number }) => void
+    onChange?: (args: { page: number }) => void
 }
 
 export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) => {
@@ -20,7 +20,7 @@ export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) 
     const pagesLength = Math.max(1, Math.min(size, totalPages))
     const pages = Array.from({ length: pagesLength }).map((_, i) => startPage + i);
 
-    const onClick = (p: number) => {
+    const handleClick = (p: number) => {
         return (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
             e.preventDefault();
             if (onChange) {
@@ -30,9 +30,9 @@ export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) 
     }
 
     return (
-        <ul className="pagination">
+        <ul className="pagination" style={{margin: 0}}>
             <li className="pagination__item">
-                <a className="pagination__link" href="#" onClick={onClick(1)}>&laquo;</a>
+                <a className="pagination__link" href="#" onClick={handleClick(1)}>&laquo;</a>
             </li>
             {pages.length > 1 && pages[0] !== 1 && (
                 <li className="pagination__item">
@@ -41,7 +41,7 @@ export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) 
             )}
             {pages.map(p => (
                 <li key={p} className={`pagination__item ${p === currentPage ? 'pagination__item--active' : ''}`}>
-                    <a className="pagination__link" href="#" onClick={onClick(p)}>{p}</a>
+                    <a className="pagination__link" href="#" onClick={handleClick(p)}>{p}</a>
                 </li>
             ))}
             {pages.length > 1 && pages[pages.length - 1] !== totalPages && (
@@ -50,7 +50,7 @@ export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) 
                 </li>
             )}
             <li className="pagination__item">
-                <a className="pagination__link" href="#" onClick={onClick(totalPages)}>&raquo;</a>
+                <a className="pagination__link" href="#" onClick={handleClick(totalPages)}>&raquo;</a>
             </li>
         </ul>
     );

@@ -70,7 +70,7 @@ export const Table: FC<TableProps> = ({ headers, rows }) => {
     }
 
     return (
-        <table>
+        <table style={{margin: 0}}>
             <thead>
                 <tr>
                     {headers.map((header, i) => (

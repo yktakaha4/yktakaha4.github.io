@@ -2,6 +2,7 @@
 module.exports = {
     preset: 'ts-jest',
     testEnvironment: 'jsdom',
+    globalSetup: '<rootDir>/src/jest/globalSetup.ts',
     setupFiles: ['<rootDir>/src/jest/setupFiles.ts'],
     setupFilesAfterEnv: ['<rootDir>/src/jest/setupFilesAfterEnv.ts'],
     transform: {
