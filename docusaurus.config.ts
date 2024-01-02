@@ -37,8 +37,8 @@ const config: Config = {
     image: 'img/icon.jpg',
     colorMode: {
       defaultMode: 'light',
-      disableSwitch: true,
-      respectPrefersColorScheme: false,
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
     },
     navbar: {
       hideOnScroll: true,
@@ -83,7 +83,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${dayjs().year()} Yuuki Takahashi`,
+      copyright: `© ${dayjs().year()} Yuuki Takahashi / Powered by <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>`,
     },
   } satisfies Preset.ThemeConfig,
 };
