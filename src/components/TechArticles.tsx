@@ -65,17 +65,19 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
     }
 
     return (<>
-        <Search
-            query={query}
-            onChange={({ query }) => handleChangeQuery(query)}
-            children={<Pager
-                page={page}
-                perPage={pagerPerPage}
-                size={pagerSize}
-                total={articles.length}
-                onChange={({ page }) => handleChangePage(page)}
-            />}
-        />
+        <div style={{marginBottom: '0.2rem'}}>
+            <Search
+                query={query}
+                onChange={({ query }) => handleChangeQuery(query)}
+                children={<Pager
+                    page={page}
+                    perPage={pagerPerPage}
+                    size={pagerSize}
+                    total={articles.length}
+                    onChange={({ page }) => handleChangePage(page)}
+                />}
+            />
+        </div>
         <Table headers={headers} rows={rows} />
     </>)
 }

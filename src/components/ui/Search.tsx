@@ -49,7 +49,7 @@ export const Search: FC<SearchInputProps> = ({ query, onChange, children }: Sear
     }
 
     return (
-        <nav className="navbar" style={{margin: 0, padding: 0, backgroundColor: 'transparent', boxShadow: 'none'}}>
+        <nav className="navbar" style={{margin: 0, padding: 0, backgroundColor: 'transparent', boxShadow: 'none', height: 'inherit'}}>
             <div className="navbar__inner">
                 <div className="navbar__items">
                     <form>
