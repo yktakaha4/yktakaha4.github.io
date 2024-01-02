@@ -1,24 +1,13 @@
 import {FC} from "react";
 
 
+export type TagColor = 'primary' | 'secondary' | 'success' | 'info' | 'warning' | 'danger' | undefined
+
 export interface TagProps {
     name: string
-    color?: string
+    color?: TagColor
 }
 
-export const colour = (str: string) => {
-    let hash = 0;
-    str.split('').forEach(char => {
-        hash = char.charCodeAt(0) + ((hash << 5) - hash)
-    })
-    let colour = '#'
-    for (let i = 0; i < 3; i++) {
-        const value = (hash >> (i * 8)) & 0xff
-        colour += value.toString(16).padStart(2, '0')
-    }
-    return colour
-}
-
-export const Tag: FC<TagProps> = () => {
-    return (<div></div>)
+export const Tag: FC<TagProps> = ({name, color}) => {
+    return <span className={`badge badge--${color ?? 'secondary'}`}>{name.trim()}</span>
 }
