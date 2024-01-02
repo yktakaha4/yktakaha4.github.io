@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
-import { Pager } from '@/components/Pager';
+import { Pager } from '@/components/ui/Pager';
 import { userEvent } from '@testing-library/user-event';
-import {Table} from "@/components/Table";
+import {Table} from "@/components/ui/Table";
 
 describe('Pager', () => {
     test.each([

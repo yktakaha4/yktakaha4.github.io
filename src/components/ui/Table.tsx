@@ -38,6 +38,7 @@ export type TableCell = (CellValue | StringCellValue | NumberCellValue | DateCel
 export interface TableHeader {
     label?: string
     align?: 'left' | 'center' | 'right'
+    width?: string | number
 }
 
 export type TableRow = Array<TableCell>
@@ -73,12 +74,16 @@ export const Table: FC<TableProps> = ({ headers, rows }) => {
         <table style={{margin: 0}}>
             <thead>
                 <tr>
-                    {headers.map((header, i) => (
-                        <th key={i} style={{ textAlign: header.align }}>{header.label ?? ''}</th>
+                    {headers.map(({ align: textAlign, width, label }, i) => (
+                        <th key={i} style={{ textAlign, width }}>{label ?? ''}</th>
                     ))}
                 </tr>
             </thead>
             <tbody>
+                {rows.length === 0 && (
+                    <tr>
+                        <td style={{textAlign: "center"}} colSpan={headers.length}>No data</td>
+                    </tr>)}
                 {rows.map((row, i) => (
                     <tr key={i}>
                         {row.map((cell, j) => {

@@ -1,4 +1,3 @@
-import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import dayjs from "dayjs";
@@ -39,7 +38,7 @@ const config: Config = {
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
-      respectPrefersColorScheme: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       hideOnScroll: true,

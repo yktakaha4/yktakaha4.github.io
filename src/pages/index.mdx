@@ -1,8 +1,6 @@
-import {Pager} from "../components/Pager"
-import {Avatar} from "../components/Avatar";
+import {Avatar} from "../components/ui/Avatar";
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import {Table} from "../components/Table";
-import {Search} from "../components/Search";
+import {TechArticles} from "../components/TechArticles";
 
 
 # yktakaha4.github.io
@@ -13,26 +11,16 @@ import {Search} from "../components/Search";
     />
 </div>
 
-<Search query="hoge" onChange={console.log}>
-    <Pager page={17} perPage={5} size={3} total={100} onChange={console.log}/>
-</Search>
-
-<Table headers={[{
-    label: '1',
-}, {
-    label: '2',
-}, {
-    label: '3',
-}]} rows={[[{
-    value: '1',
-},{
-    type: 'number',
-    value: 3456,
-},{
-    type: 'date',
-    value: new Date(),
-    format: 'YYYY/M',
-}]]} />
+<TechArticles
+ articles={[{
+    title: 'Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処',
+    url: 'https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu',
+    publishedAt: new Date('2022-10-15'),
+    likes: 1234,
+    tags: ['A', 'B'],
+    publisher: 'zenn',
+ }]}
+/>
 
 ## プロフィール
 
@@ -64,7 +52,7 @@ import {Search} from "../components/Search";
 ### イベント参加・登壇
 
 | 参加日 | イベント名 | 内容 |
-|:-:|-|-|
+|:-:|:-|:-|
 | 2023/11/25 | ISUCON13 | [参加（149位 / 14995点）](https://zenn.dev/yktakaha4/articles/postmortem_isucon13) |
 | 2022/10/15 | PyCon JP 2022 | [登壇（Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処）](https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu) |
 | 2022/7/23 | ISUCON12 | 予選参加（209位 / 4703点） |
@@ -73,7 +61,7 @@ import {Search} from "../components/Search";
 ### 資格・認定
 
 | 取得日 | 資格・認定名 |
-|:-:|-|
+|:-:|:-|
 | 2022/6 | Certified Kubernetes Administrator |
 | 2022/1 | Certified Kubernetes Application Developer |
 | 2019/1 | AWS Certified Solutions Architect - Associate |
@@ -88,4 +76,4 @@ import {Search} from "../components/Search";
 
 ### 個人開発
 
-### OSSコントリビューション
+### OSS活動

@@ -6,7 +6,7 @@ import {
     Table, TableHeader,
     TableHeaders,
     TableRows
-} from "@/components/Table";
+} from "@/components/ui/Table";
 
 describe('decorate', () => {
     test.each<[string | null, CellValueOptions, string, string]>([
@@ -97,6 +97,19 @@ describe('Table', () => {
         expect(a[0].href).toBe('https://example.com/')
         expect(a[0].target).toBe('_blank')
         expect(a[0].rel).toBe('noopener noreferrer')
+    })
+
+    it('行が空の場合でもテーブルが描画される', () => {
+        const headers: TableHeaders = [
+            {label: 'Head1'},
+            {label: 'Head2'},
+        ]
+        const {container} = render(<Table headers={headers} rows={[]}/>)
+        const table = container.getElementsByTagName('table')
+        expect(table.length).toBe(1)
+        expect(table[0].textContent).toBe(
+            'Head1Head2No data',
+        )
     })
 
     describe('バリデーションエラー', () => {

@@ -1,7 +1,28 @@
 import {render} from "@testing-library/react";
-import {Search} from "@/components/Search";
+import {createSearchRegexp, createSearchText, Search} from "@/components/ui/Search";
 import {userEvent} from "@testing-library/user-event";
 
+
+describe('createSearchRegexp', () => {
+    test.each([
+        ['', '/^.*$/'],
+        ['\x20\u3000', '/^.*$/'],
+        ['Python', '/^(?=.*Python)/i'],
+        ['\x20ＰＩＰ\x20\u3000ﾊﾟｲｿﾝ\x20', '/^(?=.*PIP)(?=.*パイソン)/i'],
+        ['C++', '/^(?=.*C\\+\\+)/i'],
+    ])('正規表現が生成される #%#', (query, expected) => {
+        expect(createSearchRegexp(query).toString()).toBe(expected)
+    })
+})
+
+describe('createSearchText', () => {
+    test.each<[Array<string>, string]>([
+        [[], ''],
+        [['\x20Python\x20\u3000ＰＩＰ\x20\u3000ﾊﾟｲｿﾝ\x20'], 'Python\x20PIP\x20パイソン'],
+    ])(`検索テキストが生成される #%#`, (texts, expected) => {
+        expect(createSearchText(...texts)).toBe(expected)
+    })
+})
 
 describe('Search', () => {
     test('検索が描画される', () => {

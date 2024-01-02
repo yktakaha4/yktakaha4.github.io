@@ -1,4 +1,4 @@
-import {Avatar} from "@/components/Avatar";
+import {Avatar} from "@/components/ui/Avatar";
 import {render} from "@testing-library/react";
 
 
