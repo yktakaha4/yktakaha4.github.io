@@ -57,8 +57,6 @@ describe('Pager', () => {
         })
 
         test('サイズが一定値を下回る', () => {
-            const headers = [{label: 'a'}, {label: 'b'}]
-            const rows = [[{value: 'a'}]]
             expect(() => {
                 render(<Pager
                     page={1}

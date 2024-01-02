@@ -76,7 +76,7 @@ describe('Table', () => {
         expect(table[0].textContent).toBe(expected)
     })
 
-    it('テーブルが描画される', () => {
+    it('複数カラムを持つテーブルが描画される', () => {
         const headers: TableHeaders = [
             {label: 'Head1'},
             {label: 'Head2'},
