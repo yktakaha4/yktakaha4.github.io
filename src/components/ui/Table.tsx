@@ -34,13 +34,15 @@ export type DateCellValue = {
     format?: 'YYYY/M/D' | 'YYYY/M',
 }
 
+export type TagsCellTag = {
+    icon?: string,
+    value: string,
+    color?: TagColor,
+}
+
 export type TagsCellValue = {
     type: 'tags',
-    values: Array<{
-        icon?: string,
-        value: string,
-        color?: TagColor,
-    }>
+    values: Array<TagsCellTag>
 }
 
 export type TableCell = ((CellValue | StringCellValue | NumberCellValue | DateCellValue) & CellValueOptions) | TagsCellValue

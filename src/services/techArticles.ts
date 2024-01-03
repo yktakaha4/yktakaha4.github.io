@@ -1,13 +1,14 @@
 import zennArticles from '@/services/sns/data/zennArticles.json'
 import {TechArticle} from "@/components/TechArticles";
 import dayjs from "dayjs";
+import {othersArticles} from "@/services/sns/others";
 
 export type TechArticleSortOrder = 'publishedAt desc' | 'likes desc, publishedAt desc'
 
 export const getTechArticles = () => {
     const zennBaseURL = 'https://zenn.dev'
 
-    const techArticles: Array<TechArticle> = zennArticles.articles.map(({ title, path, published_at, liked_count  }) => {
+    const techArticles: Array<TechArticle> = zennArticles.articles.map(({ title, path, published_at, liked_count  }): TechArticle => {
         return {
             title,
             url: `${zennBaseURL}/${path}`,
@@ -16,7 +17,7 @@ export const getTechArticles = () => {
             publisher: 'zenn',
             tags: [],
         }
-    })
+    }).concat(othersArticles)
 
     return sortTechArticles(techArticles, 'publishedAt desc')
 }
@@ -27,7 +28,7 @@ export const sortTechArticles = (techArticles: Array<TechArticle>, order: TechAr
             if (a.likes === b.likes) {
                 return b.publishedAt.getTime() - a.publishedAt.getTime()
             } else {
-                return b.likes - a.likes
+                return (b.likes || 0) - (a.likes || 0)
             }
         })
     } else {

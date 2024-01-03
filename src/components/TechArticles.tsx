@@ -1,15 +1,16 @@
 import {FC, useMemo, useState} from "react";
 import {createSearchRegexp, createSearchText, Search} from "@/components/ui/Search";
 import {getSliceIndex, Pager} from "@/components/ui/Pager";
-import {Table, TableHeaders, TableRow, TableRows} from "@/components/ui/Table";
+import {Table, TableHeaders, TableRow, TagsCellTag} from "@/components/ui/Table";
 import {pagerPerPage, pagerSize, TechArticlePublisher, getTechArticlePublisherName} from "@/constants";
 import dayjs from "dayjs";
+import {TagColor} from "@/components/ui/Tag";
 
 export type TechArticle = {
     publishedAt: Date
     title: string
     url: string
-    likes: number
+    likes?: number
     publisher: TechArticlePublisher
     tags: Array<string>
 }
@@ -48,7 +49,23 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
     const regexp = useMemo(() => createSearchRegexp(query), [query])
 
     const filteredArticles = articles.filter(article => filterTechArticle(regexp, article))
-    const rows: TableRows = filteredArticles.map(({ publishedAt, title, url, likes, tags, publisher}): TableRow => {
+    const rows = filteredArticles.length > 0 ? filteredArticles.map(({ publishedAt, title, url, likes, tags, publisher}): TableRow => {
+        const tagValues: Array<TagsCellTag> = [{
+            icon: '📰',
+            value: getTechArticlePublisherName(publisher),
+            color: 'primary',
+        }]
+
+        if (likes) {
+            tagValues.push({
+                icon: '♥',
+                value: likes.toLocaleString(),
+                color: 'danger',
+            })
+        }
+
+        tagValues.push(...tags.map((tag) => ({ value: tag })))
+
         return [{
             type: 'date',
             value: publishedAt,
@@ -62,17 +79,9 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
             },
         }, {
             type: 'tags',
-            values: [{
-                icon: '📰',
-                value: getTechArticlePublisherName(publisher),
-                color: 'primary',
-            }, {
-                icon: '♥',
-                value: likes.toLocaleString(),
-                color: 'danger',
-            }, ...tags.map((tag) => ({ value: tag }))],
+            values: tagValues,
         }]
-    }).slice(...getSliceIndex(page, pagerPerPage))
+    }).slice(...getSliceIndex(page, pagerPerPage)) : []
 
     const handleChangeQuery = (newQuery: string) => {
         setQuery(newQuery)

@@ -1,9 +1,13 @@
-export type TechArticlePublisher = 'zenn' | 'qiita'
+export type TechArticlePublisher = 'zenn' | 'qiita' | 'note' | 'techBlog' | 'speakerDeck' | 'others'
 const techArticlePublisherName: {
     [key in TechArticlePublisher]: string
 } = {
     'zenn': 'Zenn',
     'qiita': 'Qiita',
+    'note': 'note',
+    'techBlog': '技術ブログ',
+    'speakerDeck': 'SpeakerDeck',
+    'others': 'その他',
 } as const
 export const getTechArticlePublisherName = (publisher: TechArticlePublisher) => techArticlePublisherName[publisher]
 
