@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2024-01-03T09:06:54.027Z",
+  "fetchedAt": "2024-01-03T09:52:01.592Z",
   "topics": [
     {
       "slug": "access_eks_with_github_actions_oidc",
@@ -8,37 +8,31 @@
         "GitHub Actions",
         "Kubernetes",
         "AWS"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "analyze_cors_request_with_chrome",
       "topics": [
         "Chrome",
         "CORS"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "assert_function_calls_in_all_unittests",
       "topics": [
         "Python",
         "unittest"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "aws_2fa_oneliner",
       "topics": [
         "AWS"
-      ]
-    },
-    {
-      "slug": "building_waf_v2_with_tf",
-      "topics": [
-        "AWS",
-        "WafCharm",
-        "WAFv2",
-        "Terraform",
-        "Athena"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "cf_with_basic_auth_in_cfn",
@@ -48,14 +42,16 @@
         "S3",
         "CloudFormation",
         "AWS"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "check_imap_tls_version_in_python",
       "topics": [
         "Python",
         "IMAP"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "connect_to_rds_with_datagrip_and_ssm",
@@ -64,21 +60,24 @@
         "AWS",
         "RDS",
         "SSM"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "describe_remaining_id_length_in_django",
       "topics": [
         "Python",
         "Django"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "documentation_inspired_by_http_cache",
       "topics": [
         "HTTP",
         "ドキュメンテーション"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "get_github_projects_item_with_graphql",
@@ -86,7 +85,8 @@
         "GitHub Projects",
         "Python",
         "GraphQL"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "gmail_and_ses_by_tf",
@@ -95,7 +95,8 @@
         "AWS",
         "SES",
         "Gmail"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "history_books_on_information_technology",
@@ -103,20 +104,15 @@
         "情報技術",
         "コンピュータ",
         "読書"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "how_to_buy_ri_and_sp",
       "topics": [
         "AWS"
-      ]
-    },
-    {
-      "slug": "how_to_deal_with_bugs",
-      "topics": [
-        "ポエム",
-        "バグ"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "how_to_develop_ducktify",
@@ -126,14 +122,16 @@
         "serverlessframewor",
         "chromeextension",
         "aws"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "how_to_make_ansi_art",
       "topics": [
         "Python",
         "ANSI art"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "how_to_make_sorry_page",
@@ -143,7 +141,8 @@
         "SRE",
         "EKS",
         "kubernetes"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "introducing_kunitori",
@@ -151,7 +150,8 @@
         "Go",
         "Git",
         "CLI"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "kintone-form-model-generator",
@@ -159,73 +159,75 @@
         "Kintone",
         "TypeScript",
         "CLI"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "kintone_webhook_type_definitions",
       "topics": [
         "Kintone",
         "TypeScript"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "libfaketime_oneliner",
       "topics": [
         "libfaketime"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "looking_back_to_2022",
       "topics": [
         "ポエム"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "my-log4js-settings",
       "topics": [
         "log4js",
         "TypeScript"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "mysqltuner_oneliner",
       "topics": [
         "MySQLTuner"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "postmortem_isucon11",
       "topics": [
         "ISUCON"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "postmortem_isucon13",
       "topics": [
         "ISUCON"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "pretty_print_tf_plan",
       "topics": [
         "terraform",
         "shell"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "production_freeze_manual",
       "topics": [
         "SRE",
         "SLO"
-      ]
-    },
-    {
-      "slug": "pyconjp2022_memory",
-      "topics": [
-        "Python",
-        "カンファレンス",
-        "登壇"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "redirector_with_alb",
@@ -234,7 +236,8 @@
         "ALB",
         "Terraform",
         "HTTP"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "running_an_agile_sre_team",
@@ -242,7 +245,8 @@
         "アジャイル",
         "ふりかえり",
         "SRE"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "salesforce_bulk2_with_jsforce",
@@ -251,16 +255,8 @@
         "JavaScript",
         "Node",
         "jsforce"
-      ]
-    },
-    {
-      "slug": "salesforce_update_attachment_files",
-      "topics": [
-        "Salesforce",
-        "JavaScript",
-        "Node",
-        "jsforce"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "send_mail_to_mailhog_with_telnet",
@@ -268,7 +264,8 @@
         "telnet",
         "MailHog",
         "SMTP"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "ses_delivery_log_with_athena",
@@ -276,21 +273,24 @@
         "AWS",
         "Athena",
         "SES"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "sls_invoke_local_another_docker_container",
       "topics": [
         "serverless",
         "docker"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "squid_proxy_tips",
       "topics": [
         "squid",
         "proxy"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "steady_update_of_eks",
@@ -299,7 +299,8 @@
         "EKS",
         "kubernetes",
         "Python"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "study_csrf_attack",
@@ -307,7 +308,8 @@
         "CSRF",
         "Web",
         "セキュリティ"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "study_k8s_terraform",
@@ -316,7 +318,8 @@
         "Kubernetes",
         "terraform",
         "EKS"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "synthetic_monitoring_with_ur_and_tf",
@@ -324,7 +327,8 @@
         "UptimeRobot",
         "Terraform",
         "監視"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "technology_for_sending_email",
@@ -332,16 +336,8 @@
         "電子メール",
         "AWS",
         "SMTP"
-      ]
-    },
-    {
-      "slug": "think_of_better_batch_processing",
-      "topics": [
-        "Terraform",
-        "GitHub Actions",
-        "Kubernetes",
-        "AWS"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "update_lp_for_maintenanceability",
@@ -351,7 +347,8 @@
         "Cypress",
         "jQuery",
         "HTML"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "useful_documents_tables_and_operations_for_sre",
@@ -359,7 +356,8 @@
         "SRE",
         "運用",
         "ドキュメンテーション"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "verify_slack_signature_on_aws_lambda",
@@ -368,7 +366,8 @@
         "Slack",
         "AWS",
         "Python"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "visual_regression_test_in_ebitengine",
@@ -378,14 +377,16 @@
         "Ebiten",
         "テスト",
         "GitHub Actions"
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "visual_regression_test_in_python",
       "topics": [
         "Python",
         "test"
-      ]
+      ],
+      "published": true
     }
   ]
 }

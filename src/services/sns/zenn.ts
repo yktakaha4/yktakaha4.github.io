@@ -22,12 +22,14 @@ export const scrapeTopics = async (articlesDirectoryPath: string) => {
 
         const slug = articleFileName.replace(/\.md$/, '')
         const topics = Array.isArray(data.topics) ? data.topics.map(String) : []
+        const published = !!data.published
 
         return {
             slug,
             topics,
+            published,
         }
-    })
+    }).filter(({topics, published}) => topics.length > 0 && published)
 }
 
 export const storeTopics = async (topics: Array<unknown>) => {
