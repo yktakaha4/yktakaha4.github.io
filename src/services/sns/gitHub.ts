@@ -61,7 +61,7 @@ type FetchPullRequestsResponse = {
 export const createGraphQLClient = () => {
     return graphql.defaults({
         headers: {
-            authorization: `token ${process.env.GITHUB_TOKEN}`,
+            authorization: `token ${process.env.GITHUB_PAT}`,
         },
     });
 }
