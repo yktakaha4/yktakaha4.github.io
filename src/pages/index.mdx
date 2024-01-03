@@ -1,10 +1,11 @@
 ---
 title: ""
 ---
-import {Avatar} from "../components/ui/Avatar";
+import {OSSContributions} from "../components/OSSContributions";import {Avatar} from "../components/ui/Avatar";
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {TechArticles} from "../components/TechArticles";
 import {getTechArticles} from "../services/techArticles";
+import {getOSSContributions} from "../services/ossContributions";
 
 # yktakaha4.github.io
 
@@ -81,3 +82,7 @@ import {getTechArticles} from "../services/techArticles";
 </div>
 
 ### OSS活動
+
+<div style={{margin: '1rem 0'}}>
+    <OSSContributions contributions={getOSSContributions()} />
+</div>

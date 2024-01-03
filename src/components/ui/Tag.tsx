@@ -10,5 +10,5 @@ export type TagProps = {
 }
 
 export const Tag: FC<TagProps> = ({icon, name, color}) => {
-    return <span className={`badge badge--${color ?? 'secondary'}`}>{icon ? `${icon}\x20` : ''}{name.trim()}</span>
+    return <span className={`badge badge--${color ?? 'secondary'}`} style={{whiteSpace: 'nowrap'}}>{icon ? `${icon}\x20` : ''}{name.trim()}</span>
 }

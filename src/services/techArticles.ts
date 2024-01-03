@@ -2,14 +2,21 @@ import zennArticles from '@/services/sns/data/zennArticles.json'
 import zennTopics from '@/services/sns/data/zennTopics.json'
 import qiitaItems from '@/services/sns/data/qiitaItems.json'
 import {othersArticles} from "@/services/sns/others";
-import {TechArticle} from "@/components/TechArticles";
 import dayjs from "dayjs";
+import {TechArticlePublisher, zennBaseURL} from "@/constants";
 
 export type TechArticleSortOrder = 'publishedAt desc' | 'likes desc, publishedAt desc'
 
-export const getTechArticles = () => {
-    const zennBaseURL = 'https://zenn.dev'
+export type TechArticle = {
+    publishedAt: Date
+    title: string
+    url: string
+    likes?: number
+    publisher: TechArticlePublisher
+    tags: Array<string>
+}
 
+export const getTechArticles = () => {
     const techArticles: Array<TechArticle> = zennArticles.articles.map(({ title, path, published_at, liked_count, slug  }): TechArticle => {
         const tags = zennTopics.topics.find(topic => topic.slug === slug)?.topics || []
         return {
@@ -36,16 +43,16 @@ export const getTechArticles = () => {
 
 export const sortTechArticles = (techArticles: Array<TechArticle>, order: TechArticleSortOrder) => {
     if (order === 'likes desc, publishedAt desc') {
-        return [...techArticles].sort((a, b) => {
-            if (a.likes === b.likes) {
-                return b.publishedAt.getTime() - a.publishedAt.getTime()
+        return [...techArticles].sort((lhs, rhs) => {
+            if (lhs.likes === rhs.likes) {
+                return rhs.publishedAt.getTime() - lhs.publishedAt.getTime()
             } else {
-                return (b.likes || 0) - (a.likes || 0)
+                return (rhs.likes ?? 0) - (lhs.likes ?? 0)
             }
         })
     } else {
-        return [...techArticles].sort((a, b) => {
-            return b.publishedAt.getTime() - a.publishedAt.getTime()
+        return [...techArticles].sort((lhs, rhs) => {
+            return rhs.publishedAt.getTime() - lhs.publishedAt.getTime()
         })
     }
 }

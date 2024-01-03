@@ -2,18 +2,9 @@ import {FC, useMemo, useState} from "react";
 import {createSearchRegexp, createSearchText, Search} from "@/components/ui/Search";
 import {getSliceIndex, Pager} from "@/components/ui/Pager";
 import {Table, TableHeaders, TableRow, TagsCellTag} from "@/components/ui/Table";
-import {pagerPerPage, pagerSize, TechArticlePublisher, getTechArticlePublisherName} from "@/constants";
+import {pagerPerPage, pagerSize, getTechArticlePublisherName} from "@/constants";
 import dayjs from "dayjs";
-import {TagColor} from "@/components/ui/Tag";
-
-export type TechArticle = {
-    publishedAt: Date
-    title: string
-    url: string
-    likes?: number
-    publisher: TechArticlePublisher
-    tags: Array<string>
-}
+import {TechArticle} from "@/services/techArticles";
 
 export type TechArticlesProps = {
     articles: Array<TechArticle>
@@ -48,8 +39,8 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
 
     const regexp = useMemo(() => createSearchRegexp(query), [query])
 
-    const filteredArticles = articles.filter(article => filterTechArticle(regexp, article))
-    const rows = filteredArticles.length > 0 ? filteredArticles.map(({ publishedAt, title, url, likes, tags, publisher}): TableRow => {
+    const filtered = articles.filter(article => filterTechArticle(regexp, article))
+    const rows = filtered.length > 0 ? filtered.map(({ publishedAt, title, url, likes, tags, publisher}): TableRow => {
         const tagValues: Array<TagsCellTag> = [{
             icon: '📰',
             value: getTechArticlePublisherName(publisher),
@@ -93,13 +84,13 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
         <div style={{marginBottom: '0.2rem'}}>
             <Search
                 query={query}
-                totalCount={filteredArticles.length}
+                totalCount={filtered.length}
                 onChange={({ query }) => handleChangeQuery(query)}
                 children={<Pager
                     page={page}
                     perPage={pagerPerPage}
                     size={pagerSize}
-                    total={filteredArticles.length}
+                    total={filtered.length}
                     onChange={({ page }) => handleChangePage(page)}
                 />}
             />
