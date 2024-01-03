@@ -31,7 +31,7 @@ export const getTechArticles = () => {
         }
     })).concat(othersArticles)
 
-    return sortTechArticles(techArticles, 'publishedAt desc')
+    return sortTechArticles(techArticles, 'likes desc, publishedAt desc')
 }
 
 export const sortTechArticles = (techArticles: Array<TechArticle>, order: TechArticleSortOrder) => {

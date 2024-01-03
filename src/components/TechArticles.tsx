@@ -93,6 +93,7 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
         <div style={{marginBottom: '0.2rem'}}>
             <Search
                 query={query}
+                totalCount={filteredArticles.length}
                 onChange={({ query }) => handleChangeQuery(query)}
                 children={<Pager
                     page={page}

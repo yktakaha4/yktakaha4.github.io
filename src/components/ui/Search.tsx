@@ -34,10 +34,11 @@ export const createSearchText = (...texts: Array<string>) => {
 export type SearchInputProps = {
     query?: string
     onChange?: (args: { query: string, current?: string }) => void
+    totalCount?: number
     children?: React.ReactNode
 }
 
-export const Search: FC<SearchInputProps> = ({ query, onChange, children }: SearchInputProps) => {
+export const Search: FC<SearchInputProps> = ({ query, totalCount, onChange, children }: SearchInputProps) => {
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         e.preventDefault()
         if (onChange) {
@@ -62,6 +63,9 @@ export const Search: FC<SearchInputProps> = ({ query, onChange, children }: Sear
                             />
                         </div>
                     </form>
+                    {totalCount != null && (
+                        <div className="navbar__item">{totalCount.toLocaleString()} 件</div>
+                    )}
                 </div>
                 <div className="navbar__items navbar__items--right">
                     <div className="navbar__item">
