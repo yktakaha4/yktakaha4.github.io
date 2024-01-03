@@ -132,11 +132,11 @@ describe('Table', () => {
     })
 
     describe('バリデーションエラー', () => {
-        beforeEach(() => {
+        beforeAll(() => {
             jest.spyOn(console, 'error').mockImplementation()
         })
 
-        afterEach(() => {
+        afterAll(() => {
             jest.restoreAllMocks()
         })
 

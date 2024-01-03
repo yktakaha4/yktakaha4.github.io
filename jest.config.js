@@ -14,5 +14,8 @@ module.exports = {
         '^@/(.*)$': '<rootDir>/src/$1',
     },
     collectCoverage: true,
-    verbose: true,
+    collectCoverageFrom: [
+        '<rootDir>/src/**/*.{ts,tsx}',
+        '!<rootDir>/src/**/*.{test,spec}.{ts,tsx}',
+    ],
 };

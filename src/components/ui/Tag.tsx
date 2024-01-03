@@ -3,11 +3,12 @@ import {FC} from "react";
 
 export type TagColor = 'primary' | 'secondary' | 'success' | 'info' | 'warning' | 'danger' | undefined
 
-export interface TagProps {
+export type TagProps = {
+    icon?: string
     name: string
     color?: TagColor
 }
 
-export const Tag: FC<TagProps> = ({name, color}) => {
-    return <span className={`badge badge--${color ?? 'secondary'}`}>{name.trim()}</span>
+export const Tag: FC<TagProps> = ({icon, name, color}) => {
+    return <span className={`badge badge--${color ?? 'secondary'}`}>{icon ? `${icon}\x20` : ''}{name.trim()}</span>
 }

@@ -37,6 +37,7 @@ export type DateCellValue = {
 export type TagsCellValue = {
     type: 'tags',
     values: Array<{
+        icon?: string,
         value: string,
         color?: TagColor,
     }>
@@ -44,7 +45,7 @@ export type TagsCellValue = {
 
 export type TableCell = ((CellValue | StringCellValue | NumberCellValue | DateCellValue) & CellValueOptions) | TagsCellValue
 
-export interface TableHeader {
+export type TableHeader = {
     label?: string
     align?: 'left' | 'center' | 'right'
     width?: string | number
@@ -54,7 +55,7 @@ export type TableRow = Array<TableCell>
 export type TableHeaders = Array<TableHeader>
 export type TableRows = Array<TableRow>
 
-export interface TableProps {
+export type TableProps = {
     headers: TableHeaders
     rows: TableRows
 }
@@ -119,8 +120,8 @@ export const Table: FC<TableProps> = ({ headers, rows }) => {
                                     <td key={j}>
                                         <div style={{display: 'flex', gap: '0.2rem', flexWrap: 'wrap'}}>
                                         {cell.values
-                                            .map(({ value, color }, k) => (
-                                                <Tag name={value} color={color} key={k} />
+                                            .map(({ icon, value, color }, k) => (
+                                                <Tag icon={icon} name={value} color={color} key={k} />
                                             ))
                                         }
                                         </div>

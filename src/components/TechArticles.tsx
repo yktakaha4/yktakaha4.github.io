@@ -1,10 +1,11 @@
 import {FC, useMemo, useState} from "react";
 import {createSearchRegexp, createSearchText, Search} from "@/components/ui/Search";
-import {Pager} from "@/components/ui/Pager";
+import {getSliceIndex, Pager} from "@/components/ui/Pager";
 import {Table, TableHeaders, TableRow, TableRows} from "@/components/ui/Table";
-import {pagerPerPage, pagerSize, TechArticlePublisher} from "@/constants";
+import {pagerPerPage, pagerSize, TechArticlePublisher, getTechArticlePublisherName} from "@/constants";
+import dayjs from "dayjs";
 
-export interface TechArticle {
+export type TechArticle = {
     publishedAt: Date
     title: string
     url: string
@@ -13,8 +14,17 @@ export interface TechArticle {
     tags: Array<string>
 }
 
-export interface TechArticlesProps {
+export type TechArticlesProps = {
     articles: Array<TechArticle>
+}
+
+export const filterTechArticle = (regexp: RegExp, article: TechArticle) => {
+    return regexp.test(createSearchText(
+        article.title,
+        ...article.tags,
+        getTechArticlePublisherName(article.publisher),
+        dayjs(article.publishedAt).format('YYYY/M/D'),
+    ))
 }
 
 export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
@@ -37,9 +47,8 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
 
     const regexp = useMemo(() => createSearchRegexp(query), [query])
 
-    const rows: TableRows = articles.filter(({ title, tags, publisher }) => {
-        return regexp.test(createSearchText(title, ...tags, publisher))
-    }).map(({ publishedAt, title, url, likes, tags}): TableRow => {
+    const filteredArticles = articles.filter(article => filterTechArticle(regexp, article))
+    const rows: TableRows = filteredArticles.map(({ publishedAt, title, url, likes, tags, publisher}): TableRow => {
         return [{
             type: 'date',
             value: publishedAt,
@@ -53,12 +62,21 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
             },
         }, {
             type: 'tags',
-            values: tags.map((tag) => ({ value: tag })),
+            values: [{
+                icon: '📰',
+                value: getTechArticlePublisherName(publisher),
+                color: 'primary',
+            }, {
+                icon: '♥',
+                value: likes.toLocaleString(),
+                color: 'danger',
+            }, ...tags.map((tag) => ({ value: tag }))],
         }]
-    }).slice((page - 1) * pagerPerPage, page * pagerPerPage)
+    }).slice(...getSliceIndex(page, pagerPerPage))
 
     const handleChangeQuery = (newQuery: string) => {
         setQuery(newQuery)
+        setPage(1)
     }
     const handleChangePage = (newPage: number) => {
         setPage(newPage)
@@ -73,7 +91,7 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
                     page={page}
                     perPage={pagerPerPage}
                     size={pagerSize}
-                    total={articles.length}
+                    total={filteredArticles.length}
                     onChange={({ page }) => handleChangePage(page)}
                 />}
             />

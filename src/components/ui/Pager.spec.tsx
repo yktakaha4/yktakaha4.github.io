@@ -1,7 +1,34 @@
 import { render, screen } from '@testing-library/react';
-import { Pager } from '@/components/ui/Pager';
+import {getSliceIndex, Pager} from '@/components/ui/Pager';
 import { userEvent } from '@testing-library/user-event';
 import {Table} from "@/components/ui/Table";
+
+describe('getSliceIndex', () => {
+    test.each([
+        [1, 5, [0, 5]],
+        [2, 5, [5, 10]],
+    ])('ページに対応するIndexが計算される #%#', (page, perPage, expected) => {
+        expect(getSliceIndex(page, perPage)).toStrictEqual(expected)
+    })
+
+    describe('バリデーションエラー', () => {
+        beforeAll(() => {
+            jest.spyOn(console, 'error').mockImplementation()
+        })
+
+        afterAll(() => {
+            jest.restoreAllMocks()
+        })
+
+        test('ページが一定値を下回る', () => {
+            expect(() => {
+                getSliceIndex(0, 5)
+            }).toThrow(
+                new Error('page must be greater than or equal to 1')
+            )
+        })
+    })
+})
 
 describe('Pager', () => {
     test.each([
@@ -48,11 +75,11 @@ describe('Pager', () => {
     })
 
     describe('バリデーションエラー', () => {
-        beforeEach(() => {
+        beforeAll(() => {
             jest.spyOn(console, 'error').mockImplementation()
         })
 
-        afterEach(() => {
+        afterAll(() => {
             jest.restoreAllMocks()
         })
 

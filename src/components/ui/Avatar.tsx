@@ -1,7 +1,7 @@
 import React, {FC} from "react";
 
 
-export interface AvatarProps {
+export type AvatarProps = {
     src: string | Array<string>
     name?: string
     subTitle?: string

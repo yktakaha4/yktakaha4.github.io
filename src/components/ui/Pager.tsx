@@ -1,11 +1,18 @@
 import React, { FC } from 'react';
 
-export interface PagerProps {
+export type PagerProps = {
     page: number
     perPage: number
     total: number
     size: number
     onChange?: (args: { page: number }) => void
+}
+
+export const getSliceIndex = (page: number, perPage: number) => {
+    if (page < 1) {
+        throw new Error(`page must be greater than or equal to 1`)
+    }
+    return [(page - 1) * perPage, page * perPage]
 }
 
 export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) => {

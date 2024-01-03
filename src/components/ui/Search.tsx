@@ -31,7 +31,7 @@ export const createSearchText = (...texts: Array<string>) => {
         .join('\x20')
 }
 
-export interface SearchInputProps {
+export type SearchInputProps = {
     query?: string
     onChange?: (args: { query: string, current?: string }) => void
     children?: React.ReactNode

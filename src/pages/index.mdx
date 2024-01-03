@@ -1,6 +1,7 @@
 import {Avatar} from "../components/ui/Avatar";
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {TechArticles} from "../components/TechArticles";
+import {getTechArticles} from "../services/techArticles";
 
 
 # yktakaha4.github.io
@@ -61,19 +62,12 @@ import {TechArticles} from "../components/TechArticles";
 
 ## 公開アウトプット
 
+### 個人開発
+
 ### 技術記事
 
-<TechArticles
-    articles={[{
-        title: 'Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処',
-        url: 'https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu',
-        publishedAt: new Date('2022-10-15'),
-        likes: 1234,
-        tags: ['Python', 'Hogehoge', 'FugaFugaScript'],
-        publisher: 'zenn',
-    }]}
-/>
-
-### 個人開発
+<div style={{margin: '1rem 0'}}>
+    <TechArticles articles={getTechArticles()} />
+</div>
 
 ### OSS活動
