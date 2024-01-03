@@ -1,10 +1,42 @@
-import {writeJson} from "fs-extra";
+import {existsSync, readdirSync, writeJson} from "fs-extra";
 import {getSNSDataPath} from "@/constants";
 import dayjs from "dayjs";
+import { read } from 'gray-matter';
 
-export type ZennApiGetArticlesResponse = {
+
+type ZennApiGetArticlesResponse = {
     articles: Array<unknown>
     next_page: number | null
+}
+
+export const scrapeTopics = async (articlesDirectoryPath: string) => {
+    if (!existsSync(articlesDirectoryPath)) {
+        throw new Error(`Directory not found: ${articlesDirectoryPath}`)
+    }
+
+    const articleFileNames = readdirSync(articlesDirectoryPath)
+        .filter(fileName => fileName.endsWith('.md'))
+
+    return articleFileNames.map(articleFileName => {
+        const { data } = read(`${articlesDirectoryPath}/${articleFileName}`)
+
+        const slug = articleFileName.replace(/\.md$/, '')
+        const topics = Array.isArray(data.topics) ? data.topics.map(String) : []
+
+        return {
+            slug,
+            topics,
+        }
+    })
+}
+
+export const storeTopics = async (topics: Array<unknown>) => {
+    const dataPath = getSNSDataPath('zennTopics')
+    const data = {
+        fetchedAt: dayjs().toISOString(),
+        topics,
+    }
+    await writeJson(dataPath, data, {spaces: 2})
 }
 
 export const fetchArticles = async (userName: string) => {

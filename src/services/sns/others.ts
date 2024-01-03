@@ -6,14 +6,21 @@ export const othersArticles: Array<TechArticle> = [
         url: 'https://www.hands-lab.com/tech/t4835/',
         publishedAt: new Date('2019-07-05'),
         publisher: 'techBlog',
-        tags: [],
+        tags: ['AWS', 'Node.js', 'PDF'],
+    },
+    {
+        title: 'GitHub ActionsでServerless FrameworkのCI/CDパイプラインを構築する',
+        url: 'https://www.hands-lab.com/tech/t5202/',
+        publishedAt: new Date('2019-10-04'),
+        publisher: 'techBlog',
+        tags: ['AWS'],
     },
     {
         title: 'LAPRAS Tech Blogのアーキテクチャ（インフラ編）',
         url: 'https://tech-blog.lapras.com/techBlogs/tech-blog-infra',
         publishedAt: new Date('2022-07-04'),
         publisher: 'techBlog',
-        tags: [],
+        tags: ['AWS', 'AWS Amplify', 'Terraform', 'MicroCMS'],
     },
     {
         title: 'LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性',
@@ -37,6 +44,6 @@ export const othersArticles: Array<TechArticle> = [
         publishedAt: new Date('2021-10-15'),
         likes: 3,
         publisher: 'speakerDeck',
-        tags: [],
+        tags: ['Django'],
     },
 ]

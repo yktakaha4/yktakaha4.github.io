@@ -2,7 +2,7 @@ import {getSNSDataPath} from "@/constants";
 import dayjs from "dayjs";
 import {writeJson} from "fs-extra";
 
-export type QiitaApiGetItemsResponse = Array<unknown>
+type QiitaApiGetItemsResponse = Array<unknown>
 
 
 export const fetchItems = async (userName: string) => {

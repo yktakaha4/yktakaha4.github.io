@@ -56,7 +56,7 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
             color: 'primary',
         }]
 
-        if (likes) {
+        if (likes != null) {
             tagValues.push({
                 icon: '♥',
                 value: likes.toLocaleString(),
