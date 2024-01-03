@@ -12,12 +12,13 @@ export const fetchArticles = async (userName: string) => {
         throw new Error('userName is not specified')
     }
 
+    const baseUri = 'https://zenn.dev/api/articles'
     const params = new URLSearchParams({
         username: userName,
         order: 'latest',
     });
 
-    const response = await fetch(`https://zenn.dev/api/articles?${params.toString()}`);
+    const response = await fetch(`${baseUri}?${params.toString()}`);
     if (!response.ok) {
         throw new Error('Failed to fetch articles');
     }

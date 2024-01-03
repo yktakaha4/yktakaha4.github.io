@@ -1,5 +1,6 @@
 .envrc
 coverage/
+zenn-content/
 
 # Dependencies
 /node_modules

@@ -64,8 +64,6 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
             })
         }
 
-        tagValues.push(...tags.map((tag) => ({ value: tag })))
-
         return [{
             type: 'date',
             value: publishedAt,

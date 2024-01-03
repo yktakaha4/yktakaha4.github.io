@@ -1,4 +1,5 @@
 import zennArticles from '@/services/sns/data/zennArticles.json'
+import qiitaItems from '@/services/sns/data/qiitaItems.json'
 import {TechArticle} from "@/components/TechArticles";
 import dayjs from "dayjs";
 import {othersArticles} from "@/services/sns/others";
@@ -17,7 +18,16 @@ export const getTechArticles = () => {
             publisher: 'zenn',
             tags: [],
         }
-    }).concat(othersArticles)
+    }).concat(qiitaItems.items.map(({ title, url, created_at, likes_count, tags }):TechArticle => {
+        return {
+            title,
+            url,
+            publishedAt: new Date(created_at),
+            likes: likes_count,
+            publisher: 'qiita',
+            tags: tags.map(({ name }) => name)
+        }
+    })).concat(othersArticles)
 
     return sortTechArticles(techArticles, 'publishedAt desc')
 }
