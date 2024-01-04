@@ -1,26 +1,11 @@
-import {FC, useMemo, useState} from "react";
-import {OSSContribution} from "@/services/ossContributions";
-import {createSearchRegexp, createSearchText, Search} from "@/components/ui/Search";
+import {FC} from "react";
+import {getOSSContributions, OSSContribution} from "@/services/ossContributions";
 import dayjs from "dayjs";
-import {Table, TableHeaders, TableRow} from "@/components/ui/Table";
-import {getSliceIndex, Pager} from "@/components/ui/Pager";
-import {getOSSContributionKindName, pagerPerPage, pagerSize} from "@/constants";
+import {TableHeaders, TableRow} from "@/components/ui/Table";
+import {getOSSContributionKindName} from "@/constants";
+import {SearchableTable} from "@/components/ui/SearchableTable";
 
-export type OSSContributionsProps = {
-    contributions: Array<OSSContribution>
-}
-
-export const filterOSSContribution = (regexp: RegExp, contribution: OSSContribution) => {
-    return regexp.test(createSearchText(
-        contribution.title,
-        dayjs(contribution.mergedAt).format('YYYY/M/D'),
-        getOSSContributionKindName(contribution.kind),
-        ...contribution.repository.languages,
-        contribution.repository.name,
-    ))
-}
-
-export const OSSContributions: FC<OSSContributionsProps> = ({ contributions }) => {
+export const OSSContributions: FC = () => {
     const headers: TableHeaders = [{
         label: '日付',
         align: 'center',
@@ -39,63 +24,50 @@ export const OSSContributions: FC<OSSContributionsProps> = ({ contributions }) =
         width: '10%',
     }]
 
-    const [query, setQuery] = useState('')
-    const [page, setPage] = useState(1)
+    const items = getOSSContributions()
 
-    const regexp = useMemo(() => createSearchRegexp(query), [query])
+    const searchTexts = (item: OSSContribution) => {
+        return [
+            item.title,
+            dayjs(item.mergedAt).format('YYYY/M/D'),
+            getOSSContributionKindName(item.kind),
+            ...item.repository.languages,
+            item.repository.name
+        ]
+    }
 
-    const filtered = contributions.filter(contribution => filterOSSContribution(regexp, contribution))
-    const rows = filtered.length > 0 ? filtered.map(({ mergedAt, title, url, repository, kind }): TableRow => {
+    const row = (item: OSSContribution): TableRow => {
         return [{
             type: 'date',
-            value: mergedAt,
+            value: item.mergedAt,
         }, {
             type: 'string',
-            value: title,
+            value: item.title,
             link: {
                 type: 'external',
-                href: url,
+                href: item.url,
             },
         }, {
             type: 'string',
-            value: repository.name,
+            value: item.repository.name,
             link: {
                 type: 'external',
-                href: repository.url,
+                href: item.repository.url,
             },
         }, {
             type: 'tags',
             values: [{
                 icon: '📝',
-                value: getOSSContributionKindName(kind),
+                value: getOSSContributionKindName(item.kind),
                 color: 'primary',
             }],
         }]
-    }).slice(...getSliceIndex(page, pagerPerPage)) : []
-
-    const handleChangeQuery = (newQuery: string) => {
-        setQuery(newQuery)
-        setPage(1)
-    }
-    const handleChangePage = (newPage: number) => {
-        setPage(newPage)
     }
 
-    return (<>
-        <div style={{marginBottom: '0.2rem'}}>
-            <Search
-                query={query}
-                totalCount={filtered.length}
-                onChange={({ query }) => handleChangeQuery(query)}
-                children={<Pager
-                    page={page}
-                    perPage={pagerPerPage}
-                    size={pagerSize}
-                    total={filtered.length}
-                    onChange={({ page }) => handleChangePage(page)}
-                />}
-            />
-        </div>
-        <Table headers={headers} rows={rows} />
-    </>)
+    return (<SearchableTable
+        headers={headers}
+        items={items}
+        searchTexts={searchTexts}
+        row={row}
+    />)
 }

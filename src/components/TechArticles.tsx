@@ -1,25 +1,11 @@
-import {FC, useMemo, useState} from "react";
-import {createSearchRegexp, createSearchText, Search} from "@/components/ui/Search";
-import {getSliceIndex, Pager} from "@/components/ui/Pager";
-import {Table, TableHeaders, TableRow, TagsCellTag} from "@/components/ui/Table";
-import {pagerPerPage, pagerSize, getTechArticlePublisherName} from "@/constants";
+import {FC} from "react";
+import {TableHeaders, TableRow, TagsCellTag} from "@/components/ui/Table";
+import {getTechArticlePublisherName} from "@/constants";
 import dayjs from "dayjs";
-import {TechArticle} from "@/services/techArticles";
+import {getTechArticles, TechArticle} from "@/services/techArticles";
+import {SearchableTable} from "@/components/ui/SearchableTable";
 
-export type TechArticlesProps = {
-    articles: Array<TechArticle>
-}
-
-export const filterTechArticle = (regexp: RegExp, article: TechArticle) => {
-    return regexp.test(createSearchText(
-        article.title,
-        ...article.tags,
-        getTechArticlePublisherName(article.publisher),
-        dayjs(article.publishedAt).format('YYYY/M/D'),
-    ))
-}
-
-export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
+export const TechArticles: FC = () => {
     const headers: TableHeaders = [{
         label: '公開日',
         align: 'center',
@@ -34,67 +20,53 @@ export const TechArticles: FC<TechArticlesProps> = ({ articles }) => {
         width: '20%',
     }]
 
-    const [query, setQuery] = useState('')
-    const [page, setPage] = useState(1)
+    const items = getTechArticles()
 
-    const regexp = useMemo(() => createSearchRegexp(query), [query])
+    const searchTexts = (item: TechArticle) => {
+        return [
+            item.title,
+            ...item.tags,
+            getTechArticlePublisherName(item.publisher),
+            dayjs(item.publishedAt).format('YYYY/M/D'),
+        ]
+    }
 
-    const filtered = articles.filter(article => filterTechArticle(regexp, article))
-    const rows = filtered.length > 0 ? filtered.map(({ publishedAt, title, url, likes, tags, publisher}): TableRow => {
+    const row = (item: TechArticle): TableRow => {
         const tagValues: Array<TagsCellTag> = [{
             icon: '📰',
-            value: getTechArticlePublisherName(publisher),
+            value: getTechArticlePublisherName(item.publisher),
             color: 'primary',
         }]
 
-        if (likes != null) {
+        if (item.likes != null) {
             tagValues.push({
                 icon: '♥',
-                value: likes.toLocaleString(),
+                value: item.likes.toLocaleString(),
                 color: 'danger',
             })
         }
 
         return [{
             type: 'date',
-            value: publishedAt,
+            value: item.publishedAt,
             format: 'YYYY/M/D',
         }, {
             type: 'string',
-            value: title,
+            value: item.title,
             link: {
                 type: 'external',
-                href: url,
+                href: item.url,
             },
         }, {
             type: 'tags',
             values: tagValues,
         }]
-    }).slice(...getSliceIndex(page, pagerPerPage)) : []
-
-    const handleChangeQuery = (newQuery: string) => {
-        setQuery(newQuery)
-        setPage(1)
-    }
-    const handleChangePage = (newPage: number) => {
-        setPage(newPage)
     }
 
-    return (<>
-        <div style={{marginBottom: '0.2rem'}}>
-            <Search
-                query={query}
-                totalCount={filtered.length}
-                onChange={({ query }) => handleChangeQuery(query)}
-                children={<Pager
-                    page={page}
-                    perPage={pagerPerPage}
-                    size={pagerSize}
-                    total={filtered.length}
-                    onChange={({ page }) => handleChangePage(page)}
-                />}
-            />
-        </div>
-        <Table headers={headers} rows={rows} />
-    </>)
+    return (<SearchableTable
+        headers={headers}
+        items={items}
+        searchTexts={searchTexts}
+        row={row}
+    />)
 }

@@ -1,4 +1,4 @@
-import {TechArticle} from "@/components/TechArticles";
+import {TechArticle} from "@/services/techArticles";
 
 export const othersArticles: Array<TechArticle> = [
     {

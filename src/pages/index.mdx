@@ -2,8 +2,6 @@ import {OSSContributions} from "../components/OSSContributions";
 import {Avatar} from "../components/ui/Avatar";
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {TechArticles} from "../components/TechArticles";
-import {getTechArticles} from "../services/techArticles";
-import {getOSSContributions} from "../services/ossContributions";
 import {Margin} from "../components/ui/Margin";
 import {Break} from "../components/ui/Break";
 
@@ -179,7 +177,7 @@ import {Break} from "../components/ui/Break";
 ### 技術記事
 
 <Margin>
-    <TechArticles articles={getTechArticles()} />
+    <TechArticles />
 </Margin>
 
 <Break page />
@@ -187,5 +185,5 @@ import {Break} from "../components/ui/Break";
 ### OSS活動
 
 <Margin>
-    <OSSContributions contributions={getOSSContributions()} />
+    <OSSContributions />
 </Margin>

@@ -1,36 +1,5 @@
 import React, {FC} from "react";
 
-const normalizeForm = 'NFKC'
-
-export const createSearchRegexp = (query: string) => {
-    const conditions = query
-        .trim()
-        .normalize(normalizeForm)
-        .split(/\s+/)
-
-    if (conditions.length === 1 && conditions[0] === '') {
-        return new RegExp('^.*$')
-    } else {
-        const condition = conditions
-            .map(raw => {
-                const escaped = raw.replace(/[-\/\\^$*+?.()|\[\]{}]/g, '\\$&')
-                return `(?=.*${escaped})`
-            })
-            .join('')
-
-        return new RegExp(`^${condition}`, 'i')
-    }
-}
-
-export const createSearchText = (...texts: Array<string>) => {
-    return texts
-        .map(t => t
-            .trim()
-            .normalize(normalizeForm)
-            .replace(/\s+/g, '\x20'))
-        .join('\x20')
-}
-
 export type SearchInputProps = {
     query?: string
     onChange?: (args: { query: string, current?: string }) => void

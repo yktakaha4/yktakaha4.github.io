@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TechArticles スナップショットテスト 技術記事が描画される 1`] = `
+<div>
+  <div
+    style="margin-bottom: 0.2rem;"
+  >
+    <nav
+      class="navbar"
+      style="margin: 0px; padding: 0px; background-color: transparent; box-shadow: none; height: inherit;"
+    >
+      <div
+        class="navbar__inner"
+      >
+        <div
+          class="navbar__items"
+        >
+          <form>
+            <div
+              class="navbar__search"
+            >
+              <input
+                class="navbar__search-input"
+                maxlength="100"
+                value=""
+              />
+            </div>
+          </form>
+          <div
+            class="navbar__item"
+          >
+            77
+             件
+          </div>
+        </div>
+        <div
+          class="navbar__items navbar__items--right"
+        >
+          <div
+            class="navbar__item"
+          >
+            <ul
+              class="pagination"
+              style="margin: 0px;"
+            >
+              <li
+                class="pagination__item"
+              >
+                <a
+                  class="pagination__link"
+                  href="#"
+                >
+                  «
+                </a>
+              </li>
+              <li
+                class="pagination__item pagination__item--active"
+              >
+                <a
+                  class="pagination__link"
+                  href="#"
+                >
+                  1
+                </a>
+              </li>
+              <li
+                class="pagination__item "
+              >
+                <a
+                  class="pagination__link"
+                  href="#"
+                >
+                  2
+                </a>
+              </li>
+              <li
+                class="pagination__item "
+              >
+                <a
+                  class="pagination__link"
+                  href="#"
+                >
+                  3
+                </a>
+              </li>
+              <li
+                class="pagination__item"
+              >
+                <span>
+                  …
+                </span>
+              </li>
+              <li
+                class="pagination__item"
+              >
+                <a
+                  class="pagination__link"
+                  href="#"
+                >
+                  »
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <table
+    style="margin: 0px;"
+  >
+    <thead>
+      <tr>
+        <th
+          style="text-align: center; width: 10%;"
+        >
+          公開日
+        </th>
+        <th
+          style="text-align: left; width: 70%;"
+        >
+          タイトル
+        </th>
+        <th
+          style="text-align: left; width: 20%;"
+        >
+          タグ
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          2022/5/9
+        </td>
+        <td>
+          <a
+            href="https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            HTTPキャッシュに学ぶ、無理のないドキュメント更新運用
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              Zenn
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              221
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2022/3/28
+        </td>
+        <td>
+          <a
+            href="https://zenn.dev//yktakaha4/articles/technology_for_sending_email"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            電子メール送信に関する技術
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              Zenn
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              221
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2022/10/30
+        </td>
+        <td>
+          <a
+            href="https://zenn.dev//yktakaha4/articles/study_csrf_attack"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            CSRF(Cross-Site Request Forgery)攻撃について
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              Zenn
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              187
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2023/4/25
+        </td>
+        <td>
+          <a
+            href="https://zenn.dev//yktakaha4/articles/running_an_agile_sre_team"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            アジャイルなSREチームの運用
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              Zenn
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              63
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2021/2/28
+        </td>
+        <td>
+          <a
+            href="https://zenn.dev//yktakaha4/articles/update_lp_for_maintenanceability"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            HTML+jQueryでできたLPをwebpack+TypeScript+Cypressで楽しく保守する
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              Zenn
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              51
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2021/1/27
+        </td>
+        <td>
+          <a
+            href="https://note.com/yktakaha4/n/n67789c25ad73"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              note
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              49
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2023/7/1
+        </td>
+        <td>
+          <a
+            href="https://zenn.dev//yktakaha4/articles/history_books_on_information_technology"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            情報技術に関する歴史や文化の本
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              Zenn
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              47
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2022/1/9
+        </td>
+        <td>
+          <a
+            href="https://zenn.dev//yktakaha4/articles/kintone-form-model-generator"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              Zenn
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              45
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2022/12/23
+        </td>
+        <td>
+          <a
+            href="https://zenn.dev//yktakaha4/articles/introducing_kunitori"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            リポジトリへの貢献量に応じて日本を手中に収めるCLIを作った
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              Zenn
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              44
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2022/2/28
+        </td>
+        <td>
+          <a
+            href="https://zenn.dev//yktakaha4/articles/production_freeze_manual"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            エラーバジェット枯渇時のプロダクションフリーズ運用マニュアル
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              Zenn
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              31
+            </span>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

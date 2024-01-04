@@ -10,7 +10,7 @@ export type AvatarProps = {
 }
 
 export const Avatar: FC<AvatarProps> = ({ src, name, subTitle, loading}) => {
-    const alt = name || 'アバター画像'
+    const alt = 'アバター画像'
     const srcList = Array.isArray(src) ? src : [src]
 
     return (
