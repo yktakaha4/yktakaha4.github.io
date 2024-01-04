@@ -3,10 +3,6 @@
 ## Development
 
 ```shell
-# Set environment variables
-cp -p .envrc.example .envrc
-direnv allow
-
 # Install dependencies
 yarn install
 
@@ -18,4 +14,14 @@ yarn fix
 
 # Run tests
 yarn test
+```
+
+## Update data
+
+```shell
+# Set environment variables
+cp -p .envrc.example .envrc
+direnv allow
+
+yarn refresh-components-data
 ```
