@@ -45,6 +45,8 @@ const config: Config = {
   baseUrl: '/',
   organizationName: metaAuthor,
   projectName: metaTitle,
+  deploymentBranch: 'master',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
