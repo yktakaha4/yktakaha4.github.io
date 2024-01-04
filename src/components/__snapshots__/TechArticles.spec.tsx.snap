@@ -15,17 +15,16 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         <div
           class="navbar__items"
         >
-          <form>
-            <div
-              class="navbar__search"
-            >
-              <input
-                class="navbar__search-input"
-                maxlength="100"
-                value=""
-              />
-            </div>
-          </form>
+          <div
+            class="navbar__search"
+          >
+            <input
+              class="navbar__search-input"
+              maxlength="100"
+              type="text"
+              value=""
+            />
+          </div>
           <div
             class="navbar__item"
           >
