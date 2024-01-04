@@ -3,7 +3,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 import dayjs from "dayjs";
 
 const soundPlayer = `
+<div id="music">
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1746472359&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false&show_artwork=true"></iframe>
+</div>
 `
 
 const config: Config = {
@@ -42,6 +44,18 @@ const config: Config = {
     },
     navbar: {
       hideOnScroll: true,
+      items: [
+        {
+          position: 'right',
+          to: 'blog',
+          label: '⬇',
+        },
+        {
+          position: 'right',
+          to: '#music',
+          label: '♪',
+        },
+      ],
     },
     footer: {
       links: [
@@ -69,8 +83,20 @@ const config: Config = {
               href: 'https://speakerdeck.com/yktakaha4',
             },
             {
+              label: 'note',
+              href: 'https://note.com/yktakaha4/',
+            },
+            {
+              label: 'LAPRAS',
+              href: 'https://lapras.com/public/yktakaha4',
+            },
+            {
               label: 'X',
               href: 'https://x.com/yktakaha4',
+            },
+            {
+              label: 'Facebook',
+              href: 'https://www.facebook.com/profile.php?id=100008421756149',
             },
           ],
         },
