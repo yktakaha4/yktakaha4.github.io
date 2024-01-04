@@ -1,6 +1,7 @@
 import * as os from "os";
 import * as crypto from "crypto";
 import {mkdirpSync, readdirSync, rmSync} from "fs-extra";
+import * as process from "process";
 
 export const uuid = () => crypto.randomUUID()
 
@@ -9,7 +10,7 @@ if (!baseTempDir) {
     throw new Error('Failed to get baseTempDir')
 }
 
-const tempDirPrefix = '__capy__'
+const tempDirPrefix = `__capy${process.pid}__`
 export const tempDir = () => {
     const dir = `${baseTempDir}/${tempDirPrefix}${uuid()}`
     mkdirpSync(dir)
