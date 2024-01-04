@@ -10,11 +10,11 @@ async function run() {
     headless: 'new',
   });
 
-  console.log('Opening page...')
+  console.log('Opening page...');
   const page = await browser.newPage();
   await page.goto(url, { waitUntil: 'networkidle0' });
 
-  console.log('Generating PDF...')
+  console.log('Generating PDF...');
   await page.pdf({ path: output, format: 'A4' });
 
   await browser.close();
