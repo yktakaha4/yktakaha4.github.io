@@ -7,7 +7,7 @@ env:
 
 jobs:
   lint:
-    name: lint
+    name: Lint
     runs-on: ubuntu-22.04
     timeout-minutes: 5
     steps:
@@ -19,7 +19,7 @@ jobs:
       - run: yarn lint
 
   build:
-    name: build
+    name: Build
     runs-on: ubuntu-22.04
     timeout-minutes: 5
     steps:
@@ -31,7 +31,7 @@ jobs:
       - run: yarn build
 
   test:
-    name: test
+    name: Test
     runs-on: ubuntu-22.04
     timeout-minutes: 5
     steps:
