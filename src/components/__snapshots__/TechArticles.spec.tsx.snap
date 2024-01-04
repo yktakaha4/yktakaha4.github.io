@@ -141,42 +141,6 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
     <tbody>
       <tr>
         <td>
-          2022/5/9
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache"
-          >
-            HTTPキャッシュに学ぶ、無理のないドキュメント更新運用
-          </a>
-        </td>
-        <td>
-          <div
-            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
-          >
-            <span
-              class="badge badge--primary"
-              style="white-space: nowrap;"
-            >
-              📰 
-              Zenn
-            </span>
-            <span
-              class="badge badge--danger"
-              style="white-space: nowrap;"
-            >
-              ♥ 
-              221
-            </span>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
           2022/3/28
         </td>
         <td>
@@ -207,6 +171,42 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
             >
               ♥ 
               221
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2022/5/9
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache"
+          >
+            HTTPキャッシュに学ぶ、無理のないドキュメント更新運用
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <span
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              📰 
+              Zenn
+            </span>
+            <span
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              ♥ 
+              220
             </span>
           </div>
         </td>

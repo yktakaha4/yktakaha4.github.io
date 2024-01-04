@@ -1,5 +1,5 @@
 {
-  "storedAt": "2024-01-04T07:14:05.834Z",
+  "storedAt": "2024-01-04T11:32:42.258Z",
   "contributions": [
     {
       "title": "docs: fix resource id",
@@ -9,7 +9,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9103,
+        "stars": 9107,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -24,7 +24,7 @@
       "repository": {
         "owner": "aws",
         "name": "aws/aws-eks-best-practices",
-        "stars": 1717,
+        "stars": 1722,
         "url": "https://github.com/aws/aws-eks-best-practices",
         "languages": [
           "Python"
@@ -39,7 +39,7 @@
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 2824,
+        "stars": 2827,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -54,7 +54,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9103,
+        "stars": 9107,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -99,7 +99,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1840,
+        "stars": 1841,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -114,7 +114,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1840,
+        "stars": 1841,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -129,7 +129,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1840,
+        "stars": 1841,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -144,7 +144,7 @@
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
-        "stars": 13863,
+        "stars": 13868,
         "url": "https://github.com/argoproj/argo-workflows",
         "languages": [
           "Go"
@@ -249,7 +249,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9103,
+        "stars": 9107,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -309,7 +309,7 @@
       "repository": {
         "owner": "elwerene",
         "name": "elwerene/libreoffice-convert",
-        "stars": 206,
+        "stars": 207,
         "url": "https://github.com/elwerene/libreoffice-convert",
         "languages": [
           "JavaScript"
@@ -370,7 +370,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 16068,
+        "stars": 16075,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -385,7 +385,7 @@
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 32680,
+        "stars": 32682,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -400,7 +400,7 @@
       "repository": {
         "owner": "serverless",
         "name": "serverless/serverless",
-        "stars": 45678,
+        "stars": 45684,
         "url": "https://github.com/serverless/serverless",
         "languages": [
           "JavaScript"
@@ -430,7 +430,7 @@
       "repository": {
         "owner": "getmoto",
         "name": "getmoto/moto",
-        "stars": 7204,
+        "stars": 7207,
         "url": "https://github.com/getmoto/moto",
         "languages": [
           "Python"

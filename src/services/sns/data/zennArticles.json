@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2024-01-03T05:45:35.072Z",
+  "fetchedAt": "2024-01-04T11:32:40.037Z",
   "articles": [
     {
       "id": 221696,
@@ -583,7 +583,7 @@
       "title": "HTTPキャッシュに学ぶ、無理のないドキュメント更新運用",
       "slug": "documentation_inspired_by_http_cache",
       "comments_count": 0,
-      "liked_count": 221,
+      "liked_count": 220,
       "body_letters_count": 11457,
       "article_type": "idea",
       "emoji": "📚",

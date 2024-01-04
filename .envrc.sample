@@ -1,0 +1,2 @@
+# grant only public_repoAccess to the token
+export GITHUB_PAT=

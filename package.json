@@ -15,6 +15,7 @@
     "fix": "eslint --fix '**/*.{ts,tsx,js}' && prettier --write '**/*.{ts,tsx,js,mdx}'",
     "lint": "tsc && eslint '**/*.{ts,tsx,js}' && prettier -c '**/*.{ts,tsx,js,mdx}'",
     "test": "jest --runInBand",
+    "refresh-components-data": "yarn fetch-github-pull-requests && yarn fetch-qiita-items && yarn fetch-zenn-articles && yarn fetch-zenn-topics && yarn build-components-data",
     "build-components-data": "ts-node -P tsconfig.scripts.json src/scripts/buildComponentsData.ts",
     "fetch-github-pull-requests": "ts-node -P tsconfig.scripts.json src/scripts/fetchGitHubPullRequests.ts",
     "fetch-qiita-items": "ts-node -P tsconfig.scripts.json src/scripts/fetchQiitaItems.ts",
