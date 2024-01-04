@@ -38,11 +38,11 @@ export const Search: FC<SearchInputProps> = ({
         <div className="navbar__items">
           <div className="navbar__search">
             <input
-                type="text"
-                className="navbar__search-input"
-                onChange={handleChange}
-                maxLength={100}
-                value={query}
+              type="text"
+              className="navbar__search-input"
+              onChange={handleChange}
+              maxLength={100}
+              value={query}
             />
           </div>
           {totalCount != null && (
