@@ -1,0 +1,26 @@
+name: Merge
+
+on:
+  push:
+    branches:
+      - source
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "18"
+      - run: yarn install
+      - run: yarn build
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: master
