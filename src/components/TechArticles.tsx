@@ -1,8 +1,8 @@
 import {FC} from "react";
 import {TableHeaders, TableRow, TagsCellTag} from "@/components/ui/Table";
+import techArticles from '@/components/data/techArticles.json'
 import {getTechArticlePublisherName} from "@/constants";
 import dayjs from "dayjs";
-import {getTechArticles, TechArticle} from "@/services/techArticles";
 import {SearchableTable} from "@/components/ui/SearchableTable";
 
 export const TechArticles: FC = () => {
@@ -20,9 +20,10 @@ export const TechArticles: FC = () => {
         width: '20%',
     }]
 
-    const items = getTechArticles()
+    const { articles: items } = techArticles
+    type Item = typeof items[0]
 
-    const searchTexts = (item: TechArticle) => {
+    const searchTexts = (item: Item) => {
         return [
             item.title,
             ...item.tags,
@@ -31,7 +32,7 @@ export const TechArticles: FC = () => {
         ]
     }
 
-    const row = (item: TechArticle): TableRow => {
+    const row = (item: Item): TableRow => {
         const tagValues: Array<TagsCellTag> = [{
             icon: '📰',
             value: getTechArticlePublisherName(item.publisher),
@@ -48,7 +49,7 @@ export const TechArticles: FC = () => {
 
         return [{
             type: 'date',
-            value: item.publishedAt,
+            value: dayjs(item.publishedAt).toDate(),
             format: 'YYYY/M/D',
         }, {
             type: 'string',

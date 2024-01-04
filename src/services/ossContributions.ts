@@ -1,10 +1,13 @@
 import githubPullRequests from '@/services/sns/data/gitHubPullRequests.json'
 import dayjs from "dayjs";
 import {
+    getComponentsDataPath,
+    getSNSDataPath,
     gitHubIgnoreOwnerNames,
     gitHubLanguageSizeThreshold,
     gitHubStargazersCountThreshold, OSSContributionKind,
 } from "@/constants";
+import {writeJson} from "fs-extra";
 
 export type OSSContribution = {
     title: string
@@ -59,4 +62,13 @@ export const sortOSSContributions = (contributions: Array<OSSContribution>) => {
     return [...contributions].sort((lhs, rhs) => {
         return rhs.mergedAt.getTime() - lhs.mergedAt.getTime()
     })
+}
+
+export const storeOSSContributions = async (contributions: Array<unknown>) => {
+    const dataPath = getComponentsDataPath('ossContributions')
+    const data = {
+        storedAt: dayjs().toISOString(),
+        contributions,
+    }
+    await writeJson(dataPath, data, {spaces: 2})
 }

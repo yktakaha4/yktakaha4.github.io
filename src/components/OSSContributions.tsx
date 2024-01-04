@@ -1,5 +1,5 @@
 import {FC} from "react";
-import {getOSSContributions, OSSContribution} from "@/services/ossContributions";
+import ossContributions from '@/components/data/ossContributions.json'
 import dayjs from "dayjs";
 import {TableHeaders, TableRow} from "@/components/ui/Table";
 import {getOSSContributionKindName} from "@/constants";
@@ -24,9 +24,10 @@ export const OSSContributions: FC = () => {
         width: '10%',
     }]
 
-    const items = getOSSContributions()
+    const { contributions: items } = ossContributions
+    type Item = typeof items[0]
 
-    const searchTexts = (item: OSSContribution) => {
+    const searchTexts = (item: Item) => {
         return [
             item.title,
             dayjs(item.mergedAt).format('YYYY/M/D'),
@@ -36,10 +37,10 @@ export const OSSContributions: FC = () => {
         ]
     }
 
-    const row = (item: OSSContribution): TableRow => {
+    const row = (item: Item): TableRow => {
         return [{
             type: 'date',
-            value: item.mergedAt,
+            value: dayjs(item.mergedAt).toDate(),
         }, {
             type: 'string',
             value: item.title,

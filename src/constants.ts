@@ -1,4 +1,4 @@
-export type TechArticlePublisher = 'zenn' | 'qiita' | 'note' | 'techBlog' | 'speakerDeck' | 'others'
+export type TechArticlePublisher = 'zenn' | 'qiita' | 'note' | 'techBlog' | 'speakerDeck' | 'others' | string
 const techArticlePublisherName: {
     [key in TechArticlePublisher]: string
 } = {
@@ -11,7 +11,7 @@ const techArticlePublisherName: {
 } as const
 export const getTechArticlePublisherName = (publisher: TechArticlePublisher) => techArticlePublisherName[publisher]
 
-export type OSSContributionKind = 'mergedPullRequest'
+export type OSSContributionKind = 'mergedPullRequest' | string
 const ossContributionKindName: {
     [key in OSSContributionKind]: string
 } = {
@@ -22,6 +22,10 @@ export const getOSSContributionKindName = (kind: OSSContributionKind) => ossCont
 const snsDataBasePath = `${__dirname}/services/sns/data`
 export type SNSData = 'gitHubPullRequests' | 'zennArticles' | 'zennTopics' | 'qiitaItems'
 export const getSNSDataPath = (snsData: SNSData) => `${snsDataBasePath}/${snsData}.json`
+
+const componentsDataBasePath = `${__dirname}/components/data`
+export type ComponentsData = 'techArticles' | 'ossContributions'
+export const getComponentsDataPath = (componentsData: ComponentsData) => `${componentsDataBasePath}/${componentsData}.json`
 
 export const getZennContentArticlesDirectoryPath = () => `${__dirname}/../zenn-content/articles`
 

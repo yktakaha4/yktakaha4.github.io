@@ -1,0 +1,909 @@
+{
+  "storedAt": "2024-01-04T07:14:05.836Z",
+  "articles": [
+    {
+      "title": "HTTPキャッシュに学ぶ、無理のないドキュメント更新運用",
+      "url": "https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache",
+      "publishedAt": "2022-05-09T05:10:39.252Z",
+      "likes": 221,
+      "publisher": "zenn",
+      "tags": [
+        "HTTP",
+        "ドキュメンテーション"
+      ]
+    },
+    {
+      "title": "電子メール送信に関する技術",
+      "url": "https://zenn.dev//yktakaha4/articles/technology_for_sending_email",
+      "publishedAt": "2022-03-28T04:00:47.989Z",
+      "likes": 221,
+      "publisher": "zenn",
+      "tags": [
+        "電子メール",
+        "AWS",
+        "SMTP"
+      ]
+    },
+    {
+      "title": "CSRF(Cross-Site Request Forgery)攻撃について",
+      "url": "https://zenn.dev//yktakaha4/articles/study_csrf_attack",
+      "publishedAt": "2022-10-30T13:41:45.651Z",
+      "likes": 187,
+      "publisher": "zenn",
+      "tags": [
+        "CSRF",
+        "Web",
+        "セキュリティ"
+      ]
+    },
+    {
+      "title": "アジャイルなSREチームの運用",
+      "url": "https://zenn.dev//yktakaha4/articles/running_an_agile_sre_team",
+      "publishedAt": "2023-04-25T04:03:13.984Z",
+      "likes": 63,
+      "publisher": "zenn",
+      "tags": [
+        "アジャイル",
+        "ふりかえり",
+        "SRE"
+      ]
+    },
+    {
+      "title": "HTML+jQueryでできたLPをwebpack+TypeScript+Cypressで楽しく保守する",
+      "url": "https://zenn.dev//yktakaha4/articles/update_lp_for_maintenanceability",
+      "publishedAt": "2021-02-28T07:39:55.316Z",
+      "likes": 51,
+      "publisher": "zenn",
+      "tags": [
+        "webpack",
+        "TypeScript",
+        "Cypress",
+        "jQuery",
+        "HTML"
+      ]
+    },
+    {
+      "title": "LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性",
+      "url": "https://note.com/yktakaha4/n/n67789c25ad73",
+      "publishedAt": "2021-01-27T00:00:00.000Z",
+      "likes": 49,
+      "publisher": "note",
+      "tags": []
+    },
+    {
+      "title": "情報技術に関する歴史や文化の本",
+      "url": "https://zenn.dev//yktakaha4/articles/history_books_on_information_technology",
+      "publishedAt": "2023-07-01T00:11:30.613Z",
+      "likes": 47,
+      "publisher": "zenn",
+      "tags": [
+        "情報技術",
+        "コンピュータ",
+        "読書"
+      ]
+    },
+    {
+      "title": "TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った",
+      "url": "https://zenn.dev//yktakaha4/articles/kintone-form-model-generator",
+      "publishedAt": "2022-01-09T11:24:07.611Z",
+      "likes": 45,
+      "publisher": "zenn",
+      "tags": [
+        "Kintone",
+        "TypeScript",
+        "CLI"
+      ]
+    },
+    {
+      "title": "リポジトリへの貢献量に応じて日本を手中に収めるCLIを作った",
+      "url": "https://zenn.dev//yktakaha4/articles/introducing_kunitori",
+      "publishedAt": "2022-12-22T15:39:16.404Z",
+      "likes": 44,
+      "publisher": "zenn",
+      "tags": [
+        "Go",
+        "Git",
+        "CLI"
+      ]
+    },
+    {
+      "title": "エラーバジェット枯渇時のプロダクションフリーズ運用マニュアル",
+      "url": "https://zenn.dev//yktakaha4/articles/production_freeze_manual",
+      "publishedAt": "2022-02-28T01:31:09.909Z",
+      "likes": 31,
+      "publisher": "zenn",
+      "tags": [
+        "SRE",
+        "SLO"
+      ]
+    },
+    {
+      "title": "GitHub Actionsでコマンド失敗時の実行結果をIssueに貼り付けて投稿する",
+      "url": "https://qiita.com/yktakaha4/items/19877ad86b54c22420e9",
+      "publishedAt": "2020-07-24T16:59:38.000Z",
+      "likes": 31,
+      "publisher": "qiita",
+      "tags": [
+        "GitHubActions"
+      ]
+    },
+    {
+      "title": "新しいチームに加わるエンジニアのための \"被\" オンボーディングガイド v0.1.1",
+      "url": "https://note.com/yktakaha4/n/n2acd5a198fa3",
+      "publishedAt": "2021-04-23T00:00:00.000Z",
+      "likes": 28,
+      "publisher": "note",
+      "tags": []
+    },
+    {
+      "title": "TerraformでGitHub Actions OIDC with AWSを定義し、EKSに安全にアクセスする",
+      "url": "https://zenn.dev//yktakaha4/articles/access_eks_with_github_actions_oidc",
+      "publishedAt": "2021-12-02T00:22:29.260Z",
+      "likes": 24,
+      "publisher": "zenn",
+      "tags": [
+        "Terraform",
+        "GitHub Actions",
+        "Kubernetes",
+        "AWS"
+      ]
+    },
+    {
+      "title": "ビデオ会議が始まったらSpotifyの音量を自動で下げてくれるChrome Extensionを作った",
+      "url": "https://zenn.dev//yktakaha4/articles/how_to_develop_ducktify",
+      "publishedAt": "2022-03-19T02:53:52.282Z",
+      "likes": 22,
+      "publisher": "zenn",
+      "tags": [
+        "React",
+        "Spotify",
+        "serverlessframewor",
+        "chromeextension",
+        "aws"
+      ]
+    },
+    {
+      "title": "ISUCON11に初参加したらおもろかった",
+      "url": "https://zenn.dev//yktakaha4/articles/postmortem_isucon11",
+      "publishedAt": "2021-08-22T07:39:35.653Z",
+      "likes": 22,
+      "publisher": "zenn",
+      "tags": [
+        "ISUCON"
+      ]
+    },
+    {
+      "title": "Watson Discovery + Google Home + Spring Boot + Reactでミュージックアプリを作る（ソース付き）",
+      "url": "https://qiita.com/yktakaha4/items/e535c310f0532798e721",
+      "publishedAt": "2018-05-15T15:06:30.000Z",
+      "likes": 22,
+      "publisher": "qiita",
+      "tags": [
+        "Java",
+        "Watson",
+        "React",
+        "SpringBoot",
+        "GoogleHome"
+      ]
+    },
+    {
+      "title": "Docker + Python + Redashでおひとり様データ分析基盤を作る",
+      "url": "https://qiita.com/yktakaha4/items/ebc8aa6987de82f93fba",
+      "publishedAt": "2018-12-16T12:23:04.000Z",
+      "likes": 21,
+      "publisher": "qiita",
+      "tags": [
+        "Python",
+        "Docker",
+        "Jupyter",
+        "redash",
+        "Luigi"
+      ]
+    },
+    {
+      "title": "AWS+EKSで稼働するWebアプリにSorryページを設計・実装する",
+      "url": "https://zenn.dev//yktakaha4/articles/how_to_make_sorry_page",
+      "publishedAt": "2022-04-12T00:01:51.542Z",
+      "likes": 19,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "ALB",
+        "SRE",
+        "EKS",
+        "kubernetes"
+      ]
+    },
+    {
+      "title": "JS + GAS + AWSでルーレットゲームを作ってウェディングパーティの余興を担当する（ソース付き）",
+      "url": "https://qiita.com/yktakaha4/items/50582331df743ecf565a",
+      "publishedAt": "2019-01-02T13:09:43.000Z",
+      "likes": 17,
+      "publisher": "qiita",
+      "tags": [
+        "JavaScript",
+        "jQuery",
+        "AWS",
+        "GoogleAppsScript"
+      ]
+    },
+    {
+      "title": "Dashに日本語翻訳機能を付ける",
+      "url": "https://qiita.com/yktakaha4/items/557e2e3e8e49ab9ca951",
+      "publishedAt": "2017-05-30T20:22:51.000Z",
+      "likes": 17,
+      "publisher": "qiita",
+      "tags": [
+        "Dash",
+        "Automator",
+        "google翻訳"
+      ]
+    },
+    {
+      "title": "UptimeRobotとTerraformでおこなう死活監視",
+      "url": "https://zenn.dev//yktakaha4/articles/synthetic_monitoring_with_ur_and_tf",
+      "publishedAt": "2022-10-19T09:01:03.538Z",
+      "likes": 16,
+      "publisher": "zenn",
+      "tags": [
+        "UptimeRobot",
+        "Terraform",
+        "監視"
+      ]
+    },
+    {
+      "title": "IBM Watson + ぐるなびAPIでレストラン検索アプリを作る(ソース付き)",
+      "url": "https://qiita.com/yktakaha4/items/d14d643db28bc63c7b3f",
+      "publishedAt": "2017-03-04T00:32:01.000Z",
+      "likes": 16,
+      "publisher": "qiita",
+      "tags": [
+        "Java",
+        "JavaScript",
+        "Bluemix",
+        "Watson"
+      ]
+    },
+    {
+      "title": "チームに知見が残るEKSクラスタバージョンアップ運用",
+      "url": "https://zenn.dev//yktakaha4/articles/steady_update_of_eks",
+      "publishedAt": "2023-02-13T02:11:32.729Z",
+      "likes": 15,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "EKS",
+        "kubernetes",
+        "Python"
+      ]
+    },
+    {
+      "title": "NestJS + OpenAPI(Swagger)からAPIクライアントを生成し型安全に通信する",
+      "url": "https://qiita.com/yktakaha4/items/0aecde44848d6a861bf5",
+      "publishedAt": "2020-12-09T18:06:46.000Z",
+      "likes": 15,
+      "publisher": "qiita",
+      "tags": [
+        "npm",
+        "TypeScript",
+        "OpenAPI",
+        "NestJS",
+        "GitHubActions"
+      ]
+    },
+    {
+      "title": "シェルスクリプトからコマンド実行（っぽいもの）を抜き出すワンライナー",
+      "url": "https://qiita.com/yktakaha4/items/a11c7bc6245c37a6d428",
+      "publishedAt": "2019-11-16T17:02:46.000Z",
+      "likes": 14,
+      "publisher": "qiita",
+      "tags": [
+        "ShellScript",
+        "正規表現",
+        "ワンライナー"
+      ]
+    },
+    {
+      "title": "ANSI artをつくろう",
+      "url": "https://zenn.dev//yktakaha4/articles/how_to_make_ansi_art",
+      "publishedAt": "2022-11-30T22:00:00.928Z",
+      "likes": 13,
+      "publisher": "zenn",
+      "tags": [
+        "Python",
+        "ANSI art"
+      ]
+    },
+    {
+      "title": "Chromeに消されたCORS Preflight requestを確認する方法",
+      "url": "https://zenn.dev//yktakaha4/articles/analyze_cors_request_with_chrome",
+      "publishedAt": "2022-03-19T17:08:25.463Z",
+      "likes": 13,
+      "publisher": "zenn",
+      "tags": [
+        "Chrome",
+        "CORS"
+      ]
+    },
+    {
+      "title": "独自ドメインのGmailとAmazon SESをTerraformにて設定する",
+      "url": "https://zenn.dev//yktakaha4/articles/gmail_and_ses_by_tf",
+      "publishedAt": "2020-10-08T15:00:15.219Z",
+      "likes": 13,
+      "publisher": "zenn",
+      "tags": [
+        "Terraform",
+        "AWS",
+        "SES",
+        "Gmail"
+      ]
+    },
+    {
+      "title": "TerraformからServerless Frameworkで作ったAPIを参照する",
+      "url": "https://qiita.com/yktakaha4/items/a6fb117085f1fa546ed9",
+      "publishedAt": "2019-08-05T16:04:05.000Z",
+      "likes": 13,
+      "publisher": "qiita",
+      "tags": [
+        "AWS",
+        "Terraform",
+        "ServerlessFramework"
+      ]
+    },
+    {
+      "title": "ISUCON13に参加しました",
+      "url": "https://zenn.dev//yktakaha4/articles/postmortem_isucon13",
+      "publishedAt": "2023-11-30T15:00:01.288Z",
+      "likes": 12,
+      "publisher": "zenn",
+      "tags": [
+        "ISUCON"
+      ]
+    },
+    {
+      "title": "Ebitengineでビジュアルリグレッションテストをやる",
+      "url": "https://zenn.dev//yktakaha4/articles/visual_regression_test_in_ebitengine",
+      "publishedAt": "2022-10-03T07:13:53.540Z",
+      "likes": 9,
+      "publisher": "zenn",
+      "tags": [
+        "Go",
+        "Ebitengine",
+        "Ebiten",
+        "テスト",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "title": "CloudWatch ダッシュボードを定期的にSlack通知する（ソース付き）",
+      "url": "https://qiita.com/yktakaha4/items/3df6947c77599a722762",
+      "publishedAt": "2020-03-14T07:57:27.000Z",
+      "likes": 8,
+      "publisher": "qiita",
+      "tags": [
+        "AWS",
+        "TypeScript",
+        "CloudWatch",
+        "Slack",
+        "ServerlessFramework"
+      ]
+    },
+    {
+      "title": "Watson Retrieve and RankをWebから使う",
+      "url": "https://qiita.com/yktakaha4/items/0a1dcad29162f02b3908",
+      "publishedAt": "2016-11-20T10:23:24.000Z",
+      "likes": 8,
+      "publisher": "qiita",
+      "tags": [
+        "Solr",
+        "Bluemix",
+        "Watson",
+        "node-red"
+      ]
+    },
+    {
+      "title": "Salesforce Bulk API 2.0 & 外部IDを使ったデータ移行をjsforceでおこなう",
+      "url": "https://zenn.dev//yktakaha4/articles/salesforce_bulk2_with_jsforce",
+      "publishedAt": "2022-09-17T09:11:43.814Z",
+      "likes": 7,
+      "publisher": "zenn",
+      "tags": [
+        "Salesforce",
+        "JavaScript",
+        "Node",
+        "jsforce"
+      ]
+    },
+    {
+      "title": "terraform planを見やすくするワンライナー",
+      "url": "https://zenn.dev//yktakaha4/articles/pretty_print_tf_plan",
+      "publishedAt": "2022-07-11T22:35:16.532Z",
+      "likes": 7,
+      "publisher": "zenn",
+      "tags": [
+        "terraform",
+        "shell"
+      ]
+    },
+    {
+      "title": "Pythonで画像のビジュアルリグレッションテストを書く",
+      "url": "https://zenn.dev//yktakaha4/articles/visual_regression_test_in_python",
+      "publishedAt": "2022-06-12T23:25:47.533Z",
+      "likes": 7,
+      "publisher": "zenn",
+      "tags": [
+        "Python",
+        "test"
+      ]
+    },
+    {
+      "title": "AWSのRI/SP買い方メモ",
+      "url": "https://zenn.dev//yktakaha4/articles/how_to_buy_ri_and_sp",
+      "publishedAt": "2022-02-05T07:39:36.019Z",
+      "likes": 7,
+      "publisher": "zenn",
+      "tags": [
+        "AWS"
+      ]
+    },
+    {
+      "title": "個人的log4js設定",
+      "url": "https://zenn.dev//yktakaha4/articles/my-log4js-settings",
+      "publishedAt": "2022-01-08T08:43:51.265Z",
+      "likes": 7,
+      "publisher": "zenn",
+      "tags": [
+        "log4js",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "Terraformでサッと使える検証用EKS環境を作った",
+      "url": "https://zenn.dev//yktakaha4/articles/study_k8s_terraform",
+      "publishedAt": "2021-09-11T07:56:01.497Z",
+      "likes": 7,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "Kubernetes",
+        "terraform",
+        "EKS"
+      ]
+    },
+    {
+      "title": "（SRE的）作ってよかったドキュメント・表・運用",
+      "url": "https://zenn.dev//yktakaha4/articles/useful_documents_tables_and_operations_for_sre",
+      "publishedAt": "2023-12-18T09:28:09.207Z",
+      "likes": 6,
+      "publisher": "zenn",
+      "tags": [
+        "SRE",
+        "運用",
+        "ドキュメンテーション"
+      ]
+    },
+    {
+      "title": "ALBとTerraformで作るHTTPリダイレクタ",
+      "url": "https://zenn.dev//yktakaha4/articles/redirector_with_alb",
+      "publishedAt": "2023-08-06T07:00:08.712Z",
+      "likes": 6,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "ALB",
+        "Terraform",
+        "HTTP"
+      ]
+    },
+    {
+      "title": "libfaketimeをインストールするワンライナー",
+      "url": "https://zenn.dev//yktakaha4/articles/libfaketime_oneliner",
+      "publishedAt": "2021-06-28T12:22:43.234Z",
+      "likes": 6,
+      "publisher": "zenn",
+      "tags": [
+        "libfaketime"
+      ]
+    },
+    {
+      "title": "Lambda上で動くPythonにてSlack Appからのリクエストを検証する",
+      "url": "https://zenn.dev//yktakaha4/articles/verify_slack_signature_on_aws_lambda",
+      "publishedAt": "2021-04-04T14:10:02.812Z",
+      "likes": 6,
+      "publisher": "zenn",
+      "tags": [
+        "Lambda",
+        "Slack",
+        "AWS",
+        "Python"
+      ]
+    },
+    {
+      "title": "CypressでStripe Elementsの自動テストをおこなう",
+      "url": "https://qiita.com/yktakaha4/items/13c3c13a0e13d0890371",
+      "publishedAt": "2020-08-30T17:03:45.000Z",
+      "likes": 6,
+      "publisher": "qiita",
+      "tags": [
+        "stripe",
+        "TypeScript",
+        "Cypress"
+      ]
+    },
+    {
+      "title": "SourcegraphをGitHub Actions+CloudFormationで構築・管理する",
+      "url": "https://qiita.com/yktakaha4/items/336c85d5a3c4e04b9226",
+      "publishedAt": "2019-11-16T18:51:10.000Z",
+      "likes": 6,
+      "publisher": "qiita",
+      "tags": [
+        "AWS",
+        "CloudFormation",
+        "GitHubActions"
+      ]
+    },
+    {
+      "title": "ECS(Fargate)のバッチをCloudFormationで作成する",
+      "url": "https://qiita.com/yktakaha4/items/f5a32d5f2e7a6263faa4",
+      "publishedAt": "2019-10-11T07:06:59.000Z",
+      "likes": 6,
+      "publisher": "qiita",
+      "tags": [
+        "AWS",
+        "CloudFormation",
+        "ECS"
+      ]
+    },
+    {
+      "title": "AWSの2FA認証をCLIからおこなうワンライナー",
+      "url": "https://zenn.dev//yktakaha4/articles/aws_2fa_oneliner",
+      "publishedAt": "2022-06-22T03:03:30.389Z",
+      "likes": 5,
+      "publisher": "zenn",
+      "tags": [
+        "AWS"
+      ]
+    },
+    {
+      "title": "Basic認証付きのCloudFront + S3環境をCloudFormationで構築する",
+      "url": "https://zenn.dev//yktakaha4/articles/cf_with_basic_auth_in_cfn",
+      "publishedAt": "2021-06-20T04:21:45.239Z",
+      "likes": 5,
+      "publisher": "zenn",
+      "tags": [
+        "Basic認証",
+        "CloudFront",
+        "S3",
+        "CloudFormation",
+        "AWS"
+      ]
+    },
+    {
+      "title": "DataGripにてSSM接続の踏み台サーバを通じてRDSに接続する",
+      "url": "https://zenn.dev//yktakaha4/articles/connect_to_rds_with_datagrip_and_ssm",
+      "publishedAt": "2021-01-16T19:00:08.341Z",
+      "likes": 5,
+      "publisher": "zenn",
+      "tags": [
+        "DataGrip",
+        "AWS",
+        "RDS",
+        "SSM"
+      ]
+    },
+    {
+      "title": "NestJSでOpenAPI(Swagger)定義をファイル出力する",
+      "url": "https://qiita.com/yktakaha4/items/97ea169ed97dbcdd25fb",
+      "publishedAt": "2020-03-15T11:32:52.000Z",
+      "likes": 5,
+      "publisher": "qiita",
+      "tags": [
+        "TypeScript",
+        "OpenAPI",
+        "NestJS"
+      ]
+    },
+    {
+      "title": "LP公開のためのインフラをTerraform + AWSでささっと？構築する（ソース付き）",
+      "url": "https://qiita.com/yktakaha4/items/bc26c38baea56f244c19",
+      "publishedAt": "2019-07-15T10:04:14.000Z",
+      "likes": 5,
+      "publisher": "qiita",
+      "tags": [
+        "AWS",
+        "Terraform"
+      ]
+    },
+    {
+      "title": "データから2022年をふりかえる",
+      "url": "https://zenn.dev//yktakaha4/articles/looking_back_to_2022",
+      "publishedAt": "2022-12-31T14:59:00.925Z",
+      "likes": 4,
+      "publisher": "zenn",
+      "tags": [
+        "ポエム"
+      ]
+    },
+    {
+      "title": "Amazon SESのEメール送信ログをAthenaでいい感じにクエリする",
+      "url": "https://zenn.dev//yktakaha4/articles/ses_delivery_log_with_athena",
+      "publishedAt": "2022-09-23T05:15:39.262Z",
+      "likes": 4,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "Athena",
+        "SES"
+      ]
+    },
+    {
+      "title": "MacでMIDIファイルを再生&WAV出力する",
+      "url": "https://qiita.com/yktakaha4/items/009306108b9c9fe06a37",
+      "publishedAt": "2019-01-05T16:37:29.000Z",
+      "likes": 4,
+      "publisher": "qiita",
+      "tags": [
+        "MacOSX",
+        "MIDI"
+      ]
+    },
+    {
+      "title": "Issueに紐づくGitHub Projectsの情報をGraphQL経由で取得する",
+      "url": "https://zenn.dev//yktakaha4/articles/get_github_projects_item_with_graphql",
+      "publishedAt": "2023-03-29T08:17:42.538Z",
+      "likes": 3,
+      "publisher": "zenn",
+      "tags": [
+        "GitHub Projects",
+        "Python",
+        "GraphQL"
+      ]
+    },
+    {
+      "title": "Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処",
+      "url": "https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu",
+      "publishedAt": "2021-10-15T00:00:00.000Z",
+      "likes": 3,
+      "publisher": "speakerDeck",
+      "tags": [
+        "Django"
+      ]
+    },
+    {
+      "title": "Serverless FrameworkでLambdaコンテナイメージを利用する",
+      "url": "https://qiita.com/yktakaha4/items/ead117870617f45c70d5",
+      "publishedAt": "2020-12-17T18:25:49.000Z",
+      "likes": 3,
+      "publisher": "qiita",
+      "tags": [
+        "TypeScript",
+        "Docker",
+        "lambda",
+        "ServerlessFramework",
+        "GitHubActions"
+      ]
+    },
+    {
+      "title": "SquidのTips集",
+      "url": "https://zenn.dev//yktakaha4/articles/squid_proxy_tips",
+      "publishedAt": "2022-06-18T14:53:47.098Z",
+      "likes": 2,
+      "publisher": "zenn",
+      "tags": [
+        "squid",
+        "proxy"
+      ]
+    },
+    {
+      "title": "MySQLTunerを実行するワンライナー",
+      "url": "https://zenn.dev//yktakaha4/articles/mysqltuner_oneliner",
+      "publishedAt": "2021-08-15T05:54:57.573Z",
+      "likes": 2,
+      "publisher": "zenn",
+      "tags": [
+        "MySQLTuner"
+      ]
+    },
+    {
+      "title": "PythonでIMAP接続に使われた暗号化バージョンをチェックする",
+      "url": "https://zenn.dev//yktakaha4/articles/check_imap_tls_version_in_python",
+      "publishedAt": "2023-12-12T03:30:02.222Z",
+      "likes": 1,
+      "publisher": "zenn",
+      "tags": [
+        "Python",
+        "IMAP"
+      ]
+    },
+    {
+      "title": "unittestで特定の関数呼び出しをテスト全体でアサーションする",
+      "url": "https://zenn.dev//yktakaha4/articles/assert_function_calls_in_all_unittests",
+      "publishedAt": "2023-10-03T04:05:13.160Z",
+      "likes": 1,
+      "publisher": "zenn",
+      "tags": [
+        "Python",
+        "unittest"
+      ]
+    },
+    {
+      "title": "Djangoで全テーブルのIDの採番状況をチェックする",
+      "url": "https://zenn.dev//yktakaha4/articles/describe_remaining_id_length_in_django",
+      "publishedAt": "2023-05-02T14:33:06.123Z",
+      "likes": 1,
+      "publisher": "zenn",
+      "tags": [
+        "Python",
+        "Django"
+      ]
+    },
+    {
+      "title": "MailHogにtelnet経由でテストメールを送る",
+      "url": "https://zenn.dev//yktakaha4/articles/send_mail_to_mailhog_with_telnet",
+      "publishedAt": "2023-02-24T00:05:04.572Z",
+      "likes": 1,
+      "publisher": "zenn",
+      "tags": [
+        "telnet",
+        "MailHog",
+        "SMTP"
+      ]
+    },
+    {
+      "title": "sls invoke localでdocker-composeで起動したコンテナに疎通する",
+      "url": "https://zenn.dev//yktakaha4/articles/sls_invoke_local_another_docker_container",
+      "publishedAt": "2022-05-23T15:19:04.072Z",
+      "likes": 1,
+      "publisher": "zenn",
+      "tags": [
+        "serverless",
+        "docker"
+      ]
+    },
+    {
+      "title": "Kintone Webhookの型定義",
+      "url": "https://zenn.dev//yktakaha4/articles/kintone_webhook_type_definitions",
+      "publishedAt": "2022-01-10T04:08:49.518Z",
+      "likes": 1,
+      "publisher": "zenn",
+      "tags": [
+        "Kintone",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "TerraformでSet of objectsをfor_eachとfor式で走査する",
+      "url": "https://qiita.com/yktakaha4/items/2fa3700c660466b27175",
+      "publishedAt": "2020-08-08T19:45:32.000Z",
+      "likes": 1,
+      "publisher": "qiita",
+      "tags": [
+        "Terraform"
+      ]
+    },
+    {
+      "title": "社内ネットワークからパブリックIP付きのインスタンスでPacker buildする",
+      "url": "https://qiita.com/yktakaha4/items/e842f5be06f84ab15b10",
+      "publishedAt": "2020-02-01T04:03:22.000Z",
+      "likes": 1,
+      "publisher": "qiita",
+      "tags": [
+        "AWS",
+        "packer"
+      ]
+    },
+    {
+      "title": "MP3のタグ情報をJSON形式で一括出力する",
+      "url": "https://qiita.com/yktakaha4/items/e4414714827db213e279",
+      "publishedAt": "2020-01-05T14:28:40.000Z",
+      "likes": 1,
+      "publisher": "qiita",
+      "tags": [
+        "ShellScript",
+        "ffmpeg",
+        "MP3"
+      ]
+    },
+    {
+      "title": "化けたMP3タグ文字を類似度測定ライブラリを使いつつ元に戻した",
+      "url": "https://qiita.com/yktakaha4/items/8cf9bc4b1910f0b5ca45",
+      "publishedAt": "2018-02-11T03:25:24.000Z",
+      "likes": 1,
+      "publisher": "qiita",
+      "tags": [
+        "Java",
+        "MP3"
+      ]
+    },
+    {
+      "title": "Secrets Managerのシークレットを.envrcにコピーする",
+      "url": "https://qiita.com/yktakaha4/items/27e5e6acce55e5bcaf7f",
+      "publishedAt": "2020-11-08T08:56:17.000Z",
+      "likes": 0,
+      "publisher": "qiita",
+      "tags": [
+        "AWS"
+      ]
+    },
+    {
+      "title": "LocalStackの起動待ちをするシェルスクリプト",
+      "url": "https://qiita.com/yktakaha4/items/ed88dbdfc0547ea41d28",
+      "publishedAt": "2020-07-01T02:44:32.000Z",
+      "likes": 0,
+      "publisher": "qiita",
+      "tags": [
+        "ShellScript",
+        "docker-compose",
+        "LocalStack"
+      ]
+    },
+    {
+      "title": "PostgreSQLでCSV文字列から表を作る",
+      "url": "https://qiita.com/yktakaha4/items/cf0d990e5394dfe03231",
+      "publishedAt": "2020-02-24T03:23:34.000Z",
+      "likes": 0,
+      "publisher": "qiita",
+      "tags": [
+        "SQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "USキーのMacbook上で動作するWindowsにて、右⌘でかな英数を切り替える",
+      "url": "https://qiita.com/yktakaha4/items/8f320bf69c76090e93e7",
+      "publishedAt": "2019-05-26T07:20:47.000Z",
+      "likes": 0,
+      "publisher": "qiita",
+      "tags": [
+        "Windows",
+        "AutoHotkey",
+        "MacBook",
+        "USキーボード"
+      ]
+    },
+    {
+      "title": "MacのEclipseにてCompareMergeでSVN比較する",
+      "url": "https://qiita.com/yktakaha4/items/8cd0ddc993ff9b7cd502",
+      "publishedAt": "2017-12-29T03:55:54.000Z",
+      "likes": 0,
+      "publisher": "qiita",
+      "tags": [
+        "Eclipse",
+        "MacOSX",
+        "CompareMerge"
+      ]
+    },
+    {
+      "title": "LAPRAS Tech Blogのアーキテクチャ（インフラ編）",
+      "url": "https://tech-blog.lapras.com/techBlogs/tech-blog-infra",
+      "publishedAt": "2022-07-04T00:00:00.000Z",
+      "publisher": "techBlog",
+      "tags": [
+        "AWS",
+        "AWS Amplify",
+        "Terraform",
+        "MicroCMS"
+      ]
+    },
+    {
+      "title": "GitHub ActionsでServerless FrameworkのCI/CDパイプラインを構築する",
+      "url": "https://www.hands-lab.com/tech/t5202/",
+      "publishedAt": "2019-10-04T00:00:00.000Z",
+      "publisher": "techBlog",
+      "tags": [
+        "AWS"
+      ]
+    },
+    {
+      "title": "すごいVBAをLambda+HTML帳票+Puppeteerに置き換えた話",
+      "url": "https://www.hands-lab.com/tech/t4835/",
+      "publishedAt": "2019-07-05T00:00:00.000Z",
+      "publisher": "techBlog",
+      "tags": [
+        "AWS",
+        "Node.js",
+        "PDF"
+      ]
+    }
+  ]
+}

@@ -3,7 +3,8 @@ import zennTopics from '@/services/sns/data/zennTopics.json'
 import qiitaItems from '@/services/sns/data/qiitaItems.json'
 import {othersArticles} from "@/services/sns/others";
 import dayjs from "dayjs";
-import {TechArticlePublisher, zennBaseURL} from "@/constants";
+import {getComponentsDataPath, TechArticlePublisher, zennBaseURL} from "@/constants";
+import {writeJson} from "fs-extra";
 
 export type TechArticleSortOrder = 'publishedAt desc' | 'likes desc, publishedAt desc'
 
@@ -55,4 +56,13 @@ export const sortTechArticles = (techArticles: Array<TechArticle>, order: TechAr
             return rhs.publishedAt.getTime() - lhs.publishedAt.getTime()
         })
     }
+}
+
+export const storeTechArticles = async (articles: Array<unknown>) => {
+    const dataPath = getComponentsDataPath('techArticles')
+    const data = {
+        storedAt: dayjs().toISOString(),
+        articles,
+    }
+    await writeJson(dataPath, data, {spaces: 2})
 }

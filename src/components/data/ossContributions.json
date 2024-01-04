@@ -1,0 +1,471 @@
+{
+  "storedAt": "2024-01-04T07:14:05.834Z",
+  "contributions": [
+    {
+      "title": "docs: fix resource id",
+      "url": "https://github.com/hashicorp/terraform-provider-aws/pull/34312",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-11-08T15:31:58.000Z",
+      "repository": {
+        "owner": "hashicorp",
+        "name": "hashicorp/terraform-provider-aws",
+        "stars": 9103,
+        "url": "https://github.com/hashicorp/terraform-provider-aws",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "fix broken link",
+      "url": "https://github.com/aws/aws-eks-best-practices/pull/398",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-10-16T22:30:15.000Z",
+      "repository": {
+        "owner": "aws",
+        "name": "aws/aws-eks-best-practices",
+        "stars": 1717,
+        "url": "https://github.com/aws/aws-eks-best-practices",
+        "languages": [
+          "Python"
+        ]
+      }
+    },
+    {
+      "title": "Add diffArgs to helmDefaults",
+      "url": "https://github.com/helmfile/helmfile/pull/1019",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-09-14T02:23:42.000Z",
+      "repository": {
+        "owner": "helmfile",
+        "name": "helmfile/helmfile",
+        "stars": 2824,
+        "url": "https://github.com/helmfile/helmfile",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "Add import of `aws_ses_active_receipt_rule_set` resource",
+      "url": "https://github.com/hashicorp/terraform-provider-aws/pull/27604",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-06-16T18:36:43.000Z",
+      "repository": {
+        "owner": "hashicorp",
+        "name": "hashicorp/terraform-provider-aws",
+        "stars": 9103,
+        "url": "https://github.com/hashicorp/terraform-provider-aws",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "add about go run in wsl",
+      "url": "https://github.com/ebitengine/ebitengine.org/pull/17",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-05-06T15:52:27.000Z",
+      "repository": {
+        "owner": "ebitengine",
+        "name": "ebitengine/ebitengine.org",
+        "stars": 12,
+        "url": "https://github.com/ebitengine/ebitengine.org",
+        "languages": [
+          "HTML"
+        ]
+      }
+    },
+    {
+      "title": "add import `cloudflare_tunnel_config`",
+      "url": "https://github.com/cloudflare/terraform-provider-cloudflare/pull/2298",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-03-20T00:16:43.000Z",
+      "repository": {
+        "owner": "cloudflare",
+        "name": "cloudflare/terraform-provider-cloudflare",
+        "stars": 646,
+        "url": "https://github.com/cloudflare/terraform-provider-cloudflare",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "add: set replacement-available-in to existing version.",
+      "url": "https://github.com/FairwindsOps/pluto/pull/457",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-02-22T21:11:40.000Z",
+      "repository": {
+        "owner": "FairwindsOps",
+        "name": "FairwindsOps/pluto",
+        "stars": 1840,
+        "url": "https://github.com/FairwindsOps/pluto",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "add replacement-available-in",
+      "url": "https://github.com/FairwindsOps/pluto/pull/452",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-02-21T21:43:57.000Z",
+      "repository": {
+        "owner": "FairwindsOps",
+        "name": "FairwindsOps/pluto",
+        "stars": 1840,
+        "url": "https://github.com/FairwindsOps/pluto",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "fix: add removed-in to storage.k8s.io/v1beta1.CSIStorageCapacity",
+      "url": "https://github.com/FairwindsOps/pluto/pull/448",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-02-04T13:57:01.000Z",
+      "repository": {
+        "owner": "FairwindsOps",
+        "name": "FairwindsOps/pluto",
+        "stars": 1840,
+        "url": "https://github.com/FairwindsOps/pluto",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "fix: add message when parse of private key fails due to existing sso secret. Fixes #10420",
+      "url": "https://github.com/argoproj/argo-workflows/pull/10421",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-02-01T16:10:20.000Z",
+      "repository": {
+        "owner": "argoproj",
+        "name": "argoproj/argo-workflows",
+        "stars": 13863,
+        "url": "https://github.com/argoproj/argo-workflows",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "feat: support to FileInfo.Sys()",
+      "url": "https://github.com/liamg/memoryfs/pull/19",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-01-24T09:41:11.000Z",
+      "repository": {
+        "owner": "liamg",
+        "name": "liamg/memoryfs",
+        "stars": 84,
+        "url": "https://github.com/liamg/memoryfs",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "fix: use FileMode.IsDir()",
+      "url": "https://github.com/liamg/memoryfs/pull/18",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2023-01-24T09:37:42.000Z",
+      "repository": {
+        "owner": "liamg",
+        "name": "liamg/memoryfs",
+        "stars": 84,
+        "url": "https://github.com/liamg/memoryfs",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "feat: Add SetModified",
+      "url": "https://github.com/liamg/memoryfs/pull/17",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2022-11-07T11:05:07.000Z",
+      "repository": {
+        "owner": "liamg",
+        "name": "liamg/memoryfs",
+        "stars": 84,
+        "url": "https://github.com/liamg/memoryfs",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "Fix flake8",
+      "url": "https://github.com/python-social-auth/social-core/pull/707",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2022-08-26T06:41:12.000Z",
+      "repository": {
+        "owner": "python-social-auth",
+        "name": "python-social-auth/social-core",
+        "stars": 793,
+        "url": "https://github.com/python-social-auth/social-core",
+        "languages": [
+          "Python"
+        ]
+      }
+    },
+    {
+      "title": "Add description of SOCIAL_AUTH_QIITA_IDENTIFIED_BY_PERMANENT_ID",
+      "url": "https://github.com/python-social-auth/social-docs/pull/116",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2022-08-26T06:40:14.000Z",
+      "repository": {
+        "owner": "python-social-auth",
+        "name": "python-social-auth/social-docs",
+        "stars": 35,
+        "url": "https://github.com/python-social-auth/social-docs",
+        "languages": [
+          "HTML"
+        ]
+      }
+    },
+    {
+      "title": "Identify Qiita users by permanent_id",
+      "url": "https://github.com/python-social-auth/social-core/pull/698",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2022-08-26T06:40:07.000Z",
+      "repository": {
+        "owner": "python-social-auth",
+        "name": "python-social-auth/social-core",
+        "stars": 793,
+        "url": "https://github.com/python-social-auth/social-core",
+        "languages": [
+          "Python"
+        ]
+      }
+    },
+    {
+      "title": "Add `tags` and `tags_all` argument to `aws_ecrpublic_repository`",
+      "url": "https://github.com/hashicorp/terraform-provider-aws/pull/26057",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2022-08-01T17:37:58.000Z",
+      "repository": {
+        "owner": "hashicorp",
+        "name": "hashicorp/terraform-provider-aws",
+        "stars": 9103,
+        "url": "https://github.com/hashicorp/terraform-provider-aws",
+        "languages": [
+          "Go"
+        ]
+      }
+    },
+    {
+      "title": "update requirements python version",
+      "url": "https://github.com/localstack/docs/pull/178",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2022-06-05T11:26:58.000Z",
+      "repository": {
+        "owner": "localstack",
+        "name": "localstack/docs",
+        "stars": 43,
+        "url": "https://github.com/localstack/docs",
+        "languages": [
+          "HTML"
+        ]
+      }
+    },
+    {
+      "title": "Add ci",
+      "url": "https://github.com/showwin/kintai-paccho/pull/23",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2022-04-18T01:53:00.000Z",
+      "repository": {
+        "owner": "showwin",
+        "name": "showwin/kintai-paccho",
+        "stars": 13,
+        "url": "https://github.com/showwin/kintai-paccho",
+        "languages": [
+          "Python"
+        ]
+      }
+    },
+    {
+      "title": "add unit test",
+      "url": "https://github.com/showwin/kintai-paccho/pull/22",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2022-04-15T01:46:36.000Z",
+      "repository": {
+        "owner": "showwin",
+        "name": "showwin/kintai-paccho",
+        "stars": 13,
+        "url": "https://github.com/showwin/kintai-paccho",
+        "languages": [
+          "Python"
+        ]
+      }
+    },
+    {
+      "title": "add index.d.ts",
+      "url": "https://github.com/elwerene/libreoffice-convert/pull/77",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2022-03-29T09:34:01.000Z",
+      "repository": {
+        "owner": "elwerene",
+        "name": "elwerene/libreoffice-convert",
+        "stars": 206,
+        "url": "https://github.com/elwerene/libreoffice-convert",
+        "languages": [
+          "JavaScript"
+        ]
+      }
+    },
+    {
+      "title": "feat: set url if bookmark title is empty",
+      "url": "https://github.com/kawamataryo/chikamichi/pull/71",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2022-03-10T00:30:26.000Z",
+      "repository": {
+        "owner": "kawamataryo",
+        "name": "kawamataryo/chikamichi",
+        "stars": 269,
+        "url": "https://github.com/kawamataryo/chikamichi",
+        "languages": [
+          "TypeScript",
+          "Vue"
+        ]
+      }
+    },
+    {
+      "title": "fix clear cache if Employee are updated",
+      "url": "https://github.com/showwin/kintai-paccho/pull/15",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2021-12-24T07:03:01.000Z",
+      "repository": {
+        "owner": "showwin",
+        "name": "showwin/kintai-paccho",
+        "stars": 13,
+        "url": "https://github.com/showwin/kintai-paccho",
+        "languages": [
+          "Python"
+        ]
+      }
+    },
+    {
+      "title": "Update index.rst",
+      "url": "https://github.com/doc1oo/LovelyComposerDocs/pull/1",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2021-12-20T15:32:31.000Z",
+      "repository": {
+        "owner": "doc1oo",
+        "name": "doc1oo/LovelyComposerDocs",
+        "stars": 10,
+        "url": "https://github.com/doc1oo/LovelyComposerDocs",
+        "languages": [
+          "Python"
+        ]
+      }
+    },
+    {
+      "title": "docs: client.yml file path in snap",
+      "url": "https://github.com/Rigellute/spotify-tui/pull/778",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2021-04-26T12:17:01.000Z",
+      "repository": {
+        "owner": "Rigellute",
+        "name": "Rigellute/spotify-tui",
+        "stars": 16068,
+        "url": "https://github.com/Rigellute/spotify-tui",
+        "languages": [
+          "Rust"
+        ]
+      }
+    },
+    {
+      "title": "docs: Describe an example of a Geometry type",
+      "url": "https://github.com/typeorm/typeorm/pull/7116",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2021-01-11T13:00:54.000Z",
+      "repository": {
+        "owner": "typeorm",
+        "name": "typeorm/typeorm",
+        "stars": 32680,
+        "url": "https://github.com/typeorm/typeorm",
+        "languages": [
+          "TypeScript"
+        ]
+      }
+    },
+    {
+      "title": "docs: add enable SQS Event Source",
+      "url": "https://github.com/serverless/serverless/pull/8420",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2020-10-27T20:12:24.000Z",
+      "repository": {
+        "owner": "serverless",
+        "name": "serverless/serverless",
+        "stars": 45678,
+        "url": "https://github.com/serverless/serverless",
+        "languages": [
+          "JavaScript"
+        ]
+      }
+    },
+    {
+      "title": "Document log levels",
+      "url": "https://github.com/amazon-connect/amazon-connect-streams/pull/265",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2020-08-14T18:03:42.000Z",
+      "repository": {
+        "owner": "amazon-connect",
+        "name": "amazon-connect/amazon-connect-streams",
+        "stars": 368,
+        "url": "https://github.com/amazon-connect/amazon-connect-streams",
+        "languages": [
+          "JavaScript"
+        ]
+      }
+    },
+    {
+      "title": "fix: clear pending messages when call purge_queue",
+      "url": "https://github.com/getmoto/moto/pull/3208",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2020-08-03T14:09:25.000Z",
+      "repository": {
+        "owner": "getmoto",
+        "name": "getmoto/moto",
+        "stars": 7204,
+        "url": "https://github.com/getmoto/moto",
+        "languages": [
+          "Python"
+        ]
+      }
+    },
+    {
+      "title": "update exceptions.md",
+      "url": "https://github.com/typescript-book-ja/typescript-book-jp/pull/126",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2020-07-18T07:13:16.000Z",
+      "repository": {
+        "owner": "typescript-book-ja",
+        "name": "typescript-book-ja/typescript-book-jp",
+        "stars": 301,
+        "url": "https://github.com/typescript-book-ja/typescript-book-jp",
+        "languages": [
+          "TypeScript"
+        ]
+      }
+    },
+    {
+      "title": "Warning state initialization",
+      "url": "https://github.com/championswimmer/vuex-module-decorators/pull/248",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2020-04-25T00:52:08.000Z",
+      "repository": {
+        "owner": "championswimmer",
+        "name": "championswimmer/vuex-module-decorators",
+        "stars": 1803,
+        "url": "https://github.com/championswimmer/vuex-module-decorators",
+        "languages": [
+          "TypeScript"
+        ]
+      }
+    }
+  ]
+}
