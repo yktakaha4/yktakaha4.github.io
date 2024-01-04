@@ -62,10 +62,12 @@ const config: Config = {
         theme: {
           customCss: ['src/css/custom.css'],
         },
-        gtag: enableGoogleAnalytics ? {
-          trackingID: gtagTrackingId,
-          anonymizeIP: true,
-        } : undefined,
+        gtag: enableGoogleAnalytics
+          ? {
+              trackingID: gtagTrackingId,
+              anonymizeIP: true,
+            }
+          : undefined,
       } satisfies Preset.Options,
     ],
   ],
