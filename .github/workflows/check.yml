@@ -42,8 +42,8 @@ jobs:
       - run: yarn install
       - run: yarn test
 
-  pdf:
-    name: pdf
+  generate_pdf:
+    name: Generate PDF
     runs-on: ubuntu-22.04
     timeout-minutes: 5
     steps:
