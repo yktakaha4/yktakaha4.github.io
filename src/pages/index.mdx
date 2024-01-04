@@ -1,30 +1,32 @@
----
-title: ""
----
-
 import {OSSContributions} from "../components/OSSContributions";
 import {Avatar} from "../components/ui/Avatar";
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {TechArticles} from "../components/TechArticles";
 import {getTechArticles} from "../services/techArticles";
 import {getOSSContributions} from "../services/ossContributions";
+import {Margin} from "../components/ui/Margin";
+import {Break} from "../components/ui/Break";
+
+<head>
+    <title>yktakaha4.github.io</title>
+    <meta name="description" content="yktakaha4のポートフォリオサイト" />
+</head>
 
 # yktakaha4.github.io
 
-<div style={{ margin: '1rem 0' }}>
-    <Avatar
-        src={[useBaseUrl('/img/icon.jpg'), useBaseUrl('/img/yktakaha4.jpg')]}
-    />
-</div>
+<Margin>
+    <Avatar src={[useBaseUrl('/img/icon.jpg'), useBaseUrl('/img/yktakaha4.jpg')]} />
+</Margin>
 
 ## プロフィール
 
-- 髙橋 祐輝 / Yuuki Takahashi / @yktakaha4
+- 髙橋 祐輝 / Yuuki Takahashi / [@yktakaha4](https://x.com/yktakaha4)
+- Site Reliability Engineer in [@lapras-inc](https://github.com/lapras-inc)
 - 1989年生まれ / 男性
 - 東京都在住
 - 東京工科大学 メディア学部 卒業
 
-<hr />
+<Break line />
 
 ## 職務経歴
 
@@ -35,16 +37,16 @@ import {getOSSContributions} from "../services/ossContributions";
 - エンジニア向けポートフォリオサービスおよび採用サービスの開発
   - **2021/1 ~ 現在 : [LAPRAS](https://lapras.com/public/yktakaha4)および[LAPRAS SCOUT](https://scout.lapras.com/)の開発・保守**
     - 数十万行規模のモノリスアプリケーションの開発、保守を担当
-    - スクラム開発者として幾つかの機能追加に携わったのち、ソーシャルログインやメール送受信といったビジネス重要度の高い機能の不具合解消を担当
-      - 業務で得られた知見をもとにした[技術カンファレンスでの登壇](https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu)
-    - インシデント対応やチーム内ローテーションでのオンコール対応を実施
+    - スクラム開発者として幾つかの機能開発に携わったのち、ソーシャルログインやメール送受信といったビジネス重要度の高い機能の不具合解消を担当
+      - 業務で得られた知見を[技術カンファレンスで発表](https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu)
+    - インシデント対応やチーム内ローテーションでのオンコール対応
   - **2021/9 ~ 現在 : SREとしての活動**
     - 前任の退職に伴いWebアプリケーションエンジニアから担当変更し、Lead SREとして以下のような業務に従事
-      - [メインプロダクトにおけるSLOの運用改善](https://zenn.dev/yktakaha4/articles/production_freeze_manual)
+      - [SLO・プロダクションフリーズ運用の改善](https://zenn.dev/yktakaha4/articles/production_freeze_manual)
       - [既存インフラの監視強化](https://zenn.dev/yktakaha4/articles/synthetic_monitoring_with_ur_and_tf)
       - [Kubernetesクラスタのランタイムアップデート運用の整備](https://zenn.dev/yktakaha4/articles/steady_update_of_eks)
-      - [アジャイルプラクティスを用いたSREチーム運用の構築](https://zenn.dev/yktakaha4/articles/running_an_agile_sre_team)
-      - [プロダクト運用に必要となる各種ドキュメンテーションの実施](https://zenn.dev/yktakaha4/articles/useful_documents_tables_and_operations_for_sre)
+      - [アジャイルプラクティスを活用したSREチーム運用の構築](https://zenn.dev/yktakaha4/articles/running_an_agile_sre_team)
+      - [プロダクト運営に必要な各種ドキュメンテーションの実施](https://zenn.dev/yktakaha4/articles/useful_documents_tables_and_operations_for_sre)
       - SREの採用要件の規定および採用選考の設計、参加
   - **2021/4 ~ 2021/8 : 新規事業PoCの実施**
     - PdM、デザイナーと共にユーザーインタビューを実施し、エンジニアとしてMVPの開発を担当
@@ -91,8 +93,7 @@ import {getOSSContributions} from "../services/ossContributions";
 
 - MENTAにおいて、メンターとして[Kintoneによる業務アプリケーション構築のサポート](https://menta.work/plan/4060)
 
-<div style={{pageBreakBefore: 'always'}}></div>
-<hr />
+<Break line page />
 
 ## 経験
 
@@ -136,7 +137,7 @@ import {getOSSContributions} from "../services/ossContributions";
 - Red Hat Enterprise Linux, Windows Server
 - On-premise
 
-<div style={{pageBreakBefore: 'always'}}></div>
+<Break page />
 
 ### イベント参加・登壇
 
@@ -161,8 +162,7 @@ import {getOSSContributions} from "../services/ossContributions";
 | 2014/6 | データベーススペシャリスト |
 | 2013/12 | 情報セキュリティスペシャリスト |
 
-<div style={{pageBreakBefore: 'always'}}></div>
-<hr />
+<Break line page />
 
 ## 公開アウトプット
 
@@ -178,14 +178,14 @@ import {getOSSContributions} from "../services/ossContributions";
 
 ### 技術記事
 
-<div style={{margin: '1rem 0'}}>
+<Margin>
     <TechArticles articles={getTechArticles()} />
-</div>
+</Margin>
 
-<div style={{pageBreakBefore: 'always'}}></div>
+<Break page />
 
 ### OSS活動
 
-<div style={{margin: '1rem 0'}}>
+<Margin>
     <OSSContributions contributions={getOSSContributions()} />
-</div>
+</Margin>

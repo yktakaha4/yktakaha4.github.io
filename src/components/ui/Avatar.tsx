@@ -3,11 +3,14 @@ import React, {FC} from "react";
 
 export type AvatarProps = {
     src: string | Array<string>
+    alt?: string
     name?: string
     subTitle?: string
+    loading?: 'lazy' | 'eager'
 }
 
-export const Avatar: FC<AvatarProps> = ({ src, name, subTitle}) => {
+export const Avatar: FC<AvatarProps> = ({ src, name, subTitle, loading}) => {
+    const alt = name || 'アバター画像'
     const srcList = Array.isArray(src) ? src : [src]
 
     return (
@@ -20,7 +23,9 @@ export const Avatar: FC<AvatarProps> = ({ src, name, subTitle}) => {
                     href={src}
                 >
                     <img
-                        alt={name}
+                        title={alt}
+                        loading={loading}
+                        alt={alt}
                         src={src} />
                 </a>
             ))}
