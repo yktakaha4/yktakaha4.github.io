@@ -5,7 +5,7 @@ import { read } from 'gray-matter';
 
 
 type ZennApiGetArticlesResponse = {
-    articles: Array<unknown>
+    articles: Array<Record<string, unknown>>
     next_page: number | null
 }
 

@@ -2,7 +2,7 @@ import {getSNSDataPath} from "@/constants";
 import dayjs from "dayjs";
 import {writeJson} from "fs-extra";
 
-type QiitaApiGetItemsResponse = Array<unknown>
+type QiitaApiGetItemsResponse = Array<Record<string, unknown>>
 
 
 export const fetchItems = async (userName: string) => {
@@ -23,12 +23,12 @@ export const fetchItems = async (userName: string) => {
     }
 
     const getItemsResponse: QiitaApiGetItemsResponse = await response.json();
-    const totalCount = Number(response.headers.get('total-count'))
-    if (isNaN(totalCount)) {
+    const totalCount = response.headers.get('total-count')
+    if (!totalCount || !isFinite(Number(totalCount))) {
         throw new Error(`invalid total-count: ${totalCount}`)
     }
 
-    if (totalCount > perPage) {
+    if (Number(totalCount) > perPage) {
         throw new Error('Pagination is not implemented');
     }
 
