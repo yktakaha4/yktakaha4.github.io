@@ -1,45 +1,44 @@
-import {getSNSDataPath} from "@/constants";
-import dayjs from "dayjs";
-import {writeJson} from "fs-extra";
+import { getSNSDataPath } from '@/constants';
+import dayjs from 'dayjs';
+import { writeJson } from 'fs-extra';
 
-type QiitaApiGetItemsResponse = Array<Record<string, unknown>>
-
+type QiitaApiGetItemsResponse = Array<Record<string, unknown>>;
 
 export const fetchItems = async (userName: string) => {
-    if (!userName) {
-        throw new Error('userName is not specified')
-    }
+  if (!userName) {
+    throw new Error('userName is not specified');
+  }
 
-    const perPage = 100
-    const baseUri = 'https://qiita.com/api/v2/items'
-    const params = new URLSearchParams({
-        query: `user:${userName}`,
-        per_page: `${perPage}`,
-    });
+  const perPage = 100;
+  const baseUri = 'https://qiita.com/api/v2/items';
+  const params = new URLSearchParams({
+    query: `user:${userName}`,
+    per_page: `${perPage}`,
+  });
 
-    const response = await fetch(`${baseUri}?${params.toString()}`);
-    if (!response.ok) {
-        throw new Error('Failed to fetch items');
-    }
+  const response = await fetch(`${baseUri}?${params.toString()}`);
+  if (!response.ok) {
+    throw new Error('Failed to fetch items');
+  }
 
-    const getItemsResponse: QiitaApiGetItemsResponse = await response.json();
-    const totalCount = response.headers.get('total-count')
-    if (!totalCount || !isFinite(Number(totalCount))) {
-        throw new Error(`invalid total-count: ${totalCount}`)
-    }
+  const getItemsResponse: QiitaApiGetItemsResponse = await response.json();
+  const totalCount = response.headers.get('total-count');
+  if (!totalCount || !isFinite(Number(totalCount))) {
+    throw new Error(`invalid total-count: ${totalCount}`);
+  }
 
-    if (Number(totalCount) > perPage) {
-        throw new Error('Pagination is not implemented');
-    }
+  if (Number(totalCount) > perPage) {
+    throw new Error('Pagination is not implemented');
+  }
 
-    return getItemsResponse
-}
+  return getItemsResponse;
+};
 
 export const storeItems = async (items: Array<unknown>) => {
-    const dataPath = getSNSDataPath('qiitaItems')
-    const data = {
-        fetchedAt: dayjs().toISOString(),
-        items,
-    }
-    await writeJson(dataPath, data, {spaces: 2})
-}
+  const dataPath = getSNSDataPath('qiitaItems');
+  const data = {
+    fetchedAt: dayjs().toISOString(),
+    items,
+  };
+  await writeJson(dataPath, data, { spaces: 2 });
+};

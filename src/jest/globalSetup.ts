@@ -1,5 +1,5 @@
-import {cleanup} from "@testing-library/react";
+import { cleanup } from '@testing-library/react';
 
 export default async () => {
-    cleanup()
-}
+  cleanup();
+};

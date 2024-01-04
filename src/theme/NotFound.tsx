@@ -1,12 +1,11 @@
-import {FC, useEffect} from "react";
-
+import { FC, useEffect } from 'react';
 
 const NotFound: FC = () => {
-    useEffect(() => {
-        window.location.replace('/');
-    }, []);
+  useEffect(() => {
+    window.location.replace('/');
+  }, []);
 
-    return <div>Redirecting...</div>
-}
+  return <div>Redirecting...</div>;
+};
 
-export default NotFound
+export default NotFound;
