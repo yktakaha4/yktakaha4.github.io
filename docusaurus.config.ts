@@ -78,7 +78,6 @@ const config: Config = {
       { property: 'og:title', content: metaTitle },
       { property: 'og:description', content: metaDescription },
       { property: 'og:site_name', content: metaTitle },
-      { property: 'og:image', content: 'img/icon.jpg' },
       { property: 'twitter:card', content: 'summary' },
       { property: 'twitter:site', content: `@${metaAuthor}` },
       { property: 'twitter:player', content: `@${metaAuthor}` },
