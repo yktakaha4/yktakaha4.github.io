@@ -31,7 +31,7 @@ const metaUrl = 'https://yktakaha4.github.io/';
 const metaDescription = 'yktakaha4のポートフォリオサイト';
 const metaAuthor = 'yktakaha4';
 
-// https://tagmanager.google.com/?pli=1&authuser=1#/container/accounts/6041789682/containers/85065748/workspaces/0/config
+const enableGoogleAnalytics = false;
 const gtagTrackingId = 'G-0BP6MEDMHQ';
 
 const repositoryUrl = 'https://github.com/yktakaha4/yktakaha4.github.io';
@@ -62,10 +62,10 @@ const config: Config = {
         theme: {
           customCss: ['src/css/custom.css'],
         },
-        gtag: {
+        gtag: enableGoogleAnalytics ? {
           trackingID: gtagTrackingId,
           anonymizeIP: true,
-        },
+        } : undefined,
       } satisfies Preset.Options,
     ],
   ],
