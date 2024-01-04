@@ -38,3 +38,10 @@ jobs:
           node-version: "18"
       - run: yarn install
       - run: yarn test
+
+  pdf:
+    name: pdf
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - run: ./export_pdf.bash

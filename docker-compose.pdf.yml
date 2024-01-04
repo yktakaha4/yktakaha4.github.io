@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  resume:
+    image: node:18
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: yarn serve --port 80 --build --no-open --dir /tmp
+    healthcheck:
+      test: ["CMD", "curl" ,"http://localhost"]
+      interval: 6s
+      timeout: 3s
+      retries: 10
+
+  puppeteer:
+    image: ghcr.io/puppeteer/puppeteer:16.1.0
+    volumes:
+      - ./pdf:/home/pptruser/pdf
+    command: node pdf/export.js http://resume/ pdf/out/resume.pdf
+    cap_add:
+      - SYS_ADMIN
+    depends_on:
+      resume:
+        condition: service_healthy
