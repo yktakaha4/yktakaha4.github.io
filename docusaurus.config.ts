@@ -1,12 +1,22 @@
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import dayjs from "dayjs";
+import ReactDOMServer from 'react-dom/server';
+import {FaFileDownload, FaGithub} from 'react-icons/fa';
 
-const soundPlayer = `
+import dayjs from "dayjs";
+import {BsFillMusicPlayerFill} from "react-icons/bs";
+import {IconBaseProps} from "react-icons";
+
+const soundPlayerHtml = `
 <div id="music">
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1746472359&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false&show_artwork=true"></iframe>
 </div>
 `
+
+const iconStyle: IconBaseProps = { style: { display: 'flex', alignItems: 'center', fontSize: '1.2rem' } }
+const githubIconHtml = ReactDOMServer.renderToString(FaGithub(iconStyle))
+const fileDownloadIconHtml = ReactDOMServer.renderToString(FaFileDownload(iconStyle))
+const musicIconHtml = ReactDOMServer.renderToString(BsFillMusicPlayerFill(iconStyle));
 
 const config: Config = {
   title: 'yktakaha4.github.io',
@@ -47,13 +57,18 @@ const config: Config = {
       items: [
         {
           position: 'right',
-          to: 'blog',
-          label: '⬇',
+          href: 'https://github.com/yktakaha4/yktakaha4.github.io',
+          html: `<div title="リポジトリを表示する">${githubIconHtml}</div>`,
+        },
+        {
+          position: 'right',
+          href: 'https://example.com',
+          html: `<div title="PDFファイルをダウンロードする">${fileDownloadIconHtml}</div>`,
         },
         {
           position: 'right',
           to: '#music',
-          label: '♪',
+          html: `<div style="margin-right: 0.4rem" title="Music Playerへ移動する">${musicIconHtml}</div>`,
         },
       ],
     },
@@ -101,10 +116,10 @@ const config: Config = {
           ],
         },
         {
-          title: '🎵',
+          title: 'Music Player',
           items: [
             {
-              html: soundPlayer,
+              html: soundPlayerHtml,
             },
           ],
         },
