@@ -36,16 +36,15 @@ export const Search: FC<SearchInputProps> = ({
     >
       <div className="navbar__inner">
         <div className="navbar__items">
-          <form>
-            <div className="navbar__search">
-              <input
-                className="navbar__search-input"
-                onChange={handleChange}
-                maxLength={100}
-                value={query}
-              />
-            </div>
-          </form>
+          <div className="navbar__search">
+            <input
+              type="text"
+              className="navbar__search-input"
+              onChange={handleChange}
+              maxLength={100}
+              value={query}
+            />
+          </div>
           {totalCount != null && (
             <div className="navbar__item">{totalCount.toLocaleString()} 件</div>
           )}
