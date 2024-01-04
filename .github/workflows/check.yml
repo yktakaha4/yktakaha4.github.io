@@ -1,0 +1,40 @@
+name: Check
+
+on: pull_request
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "18"
+      - run: yarn install
+      - run: yarn lint
+
+  build:
+    name: build
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "18"
+      - run: yarn install
+      - run: yarn build
+
+  test:
+    name: test
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "18"
+      - run: yarn install
+      - run: yarn test
