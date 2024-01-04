@@ -1,10 +1,27 @@
 # yktakaha4.github.io
 
-https://yktakaha4.github.io/
+## Development
 
-[PDF版はこちら](https://github.com/yktakaha4/yktakaha4.github.io/releases/latest/download/resume.pdf)
+```shell
+# Install dependencies
+yarn install
 
+# Start development server
+yarn start
+
+# Fix code styles
+yarn fix
+
+# Run tests
+yarn test
 ```
-$ yarn install
-$ yarn dev
+
+## Update data
+
+```shell
+# Set environment variables
+cp -p .envrc.example .envrc
+direnv allow
+
+yarn refresh-components-data
 ```

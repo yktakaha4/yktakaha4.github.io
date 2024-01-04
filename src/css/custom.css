@@ -1,0 +1,14 @@
+:root {
+    --ifm-table-border-width: 0;
+    --ifm-table-cell-padding: 0.3rem;
+    --ifm-footer-background-color: transparent;
+}
+
+@media print {
+    * {
+        color: black !important;
+    }
+    .badge {
+        border: grey solid thin !important;
+    }
+}

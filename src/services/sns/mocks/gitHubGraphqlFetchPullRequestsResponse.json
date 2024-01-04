@@ -1,0 +1,86 @@
+{
+  "user": {
+    "pullRequests": {
+      "edges": [
+        {
+          "node": {
+            "id": "PR_kwDOK-cRPs5i6y6a",
+            "number": 3,
+            "title": "fix pat",
+            "mergedAt": "2023-12-29T05:39:17Z",
+            "permalink": "https://github.com/lapras-inc/kube-job/pull/3",
+            "repository": {
+              "id": "R_kgDOK-cRPg",
+              "nameWithOwner": "lapras-inc/kube-job",
+              "url": "https://github.com/lapras-inc/kube-job",
+              "owner": {
+                "login": "lapras-inc"
+              },
+              "isFork": true,
+              "stargazerCount": 0,
+              "languages": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Go",
+                      "color": "#00ADD8"
+                    },
+                    "size": 50711
+                  },
+                  {
+                    "node": {
+                      "name": "Makefile",
+                      "color": "#427819"
+                    },
+                    "size": 1431
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "PR_kwDOK-cRPs5i6ue1",
+            "number": 2,
+            "title": "verbose logs",
+            "mergedAt": "2023-12-29T05:12:27Z",
+            "permalink": "https://github.com/lapras-inc/kube-job/pull/2",
+            "repository": {
+              "id": "R_kgDOK-cRPg",
+              "nameWithOwner": "lapras-inc/kube-job",
+              "url": "https://github.com/lapras-inc/kube-job",
+              "owner": {
+                "login": "lapras-inc"
+              },
+              "isFork": true,
+              "stargazerCount": 0,
+              "languages": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Go",
+                      "color": "#00ADD8"
+                    },
+                    "size": 50711
+                  },
+                  {
+                    "node": {
+                      "name": "Makefile",
+                      "color": "#427819"
+                    },
+                    "size": 1431
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "endCursor": null,
+        "hasNextPage": false
+      }
+    }
+  }
+}

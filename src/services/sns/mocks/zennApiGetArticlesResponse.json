@@ -1,0 +1,53 @@
+{
+  "articles": [
+    {
+      "id": 221696,
+      "post_type": "Article",
+      "title": "（SRE的）作ってよかったドキュメント・表・運用",
+      "slug": "useful_documents_tables_and_operations_for_sre",
+      "comments_count": 0,
+      "liked_count": 5,
+      "body_letters_count": 10494,
+      "article_type": "idea",
+      "emoji": "🥹",
+      "is_suspending_private": false,
+      "published_at": "2023-12-18T18:28:09.207+09:00",
+      "body_updated_at": "2023-12-18T18:28:09.207+09:00",
+      "source_repo_updated_at": "2023-12-18T18:28:09.199+09:00",
+      "pinned": false,
+      "path": "/yktakaha4/articles/useful_documents_tables_and_operations_for_sre",
+      "user": {
+        "id": 627,
+        "username": "yktakaha4",
+        "name": "Yuuki Takahashi",
+        "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
+      },
+      "publication": null
+    },
+    {
+      "id": 225831,
+      "post_type": "Article",
+      "title": "PythonでIMAP接続に使われた暗号化バージョンをチェックする",
+      "slug": "check_imap_tls_version_in_python",
+      "comments_count": 0,
+      "liked_count": 1,
+      "body_letters_count": 2393,
+      "article_type": "tech",
+      "emoji": "🗺",
+      "is_suspending_private": false,
+      "published_at": "2023-12-12T12:30:02.222+09:00",
+      "body_updated_at": "2023-12-12T12:31:49.540+09:00",
+      "source_repo_updated_at": "2023-12-12T12:31:49.525+09:00",
+      "pinned": false,
+      "path": "/yktakaha4/articles/check_imap_tls_version_in_python",
+      "user": {
+        "id": 627,
+        "username": "yktakaha4",
+        "name": "Yuuki Takahashi",
+        "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
+      },
+      "publication": null
+    }
+  ],
+  "next_page": null
+}
