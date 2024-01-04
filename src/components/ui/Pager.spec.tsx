@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import {getSliceIndex, Pager} from '@/components/ui/Pager';
 import { userEvent } from '@testing-library/user-event';
-import {Table} from "@/components/ui/Table";
 
 describe('getSliceIndex', () => {
     test.each([

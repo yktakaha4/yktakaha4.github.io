@@ -60,7 +60,7 @@ describe('fetchArticles', () => {
     })
 
     test('記事が取得できる', async () => {
-        const scope = nock('https://zenn.dev')
+        nock('https://zenn.dev')
             .get('/api/articles')
             .query({
                 username: 'yktakaha4',

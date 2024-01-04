@@ -14,7 +14,7 @@ describe('fetchItems', () => {
     })
 
     test('記事が取得できる', async () => {
-        const scope = nock('https://qiita.com')
+        nock('https://qiita.com')
             .get('/api/v2/items')
             .query({
                 query: `user:yktakaha4`,

@@ -48,7 +48,9 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
               >
                 <a
                   class="pagination__link"
+                  data-mock="LinkMock"
                   href="#"
+                  to="#"
                 >
                   «
                 </a>
@@ -58,7 +60,9 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
               >
                 <a
                   class="pagination__link"
+                  data-mock="LinkMock"
                   href="#"
+                  to="#"
                 >
                   1
                 </a>
@@ -68,7 +72,9 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
               >
                 <a
                   class="pagination__link"
+                  data-mock="LinkMock"
                   href="#"
+                  to="#"
                 >
                   2
                 </a>
@@ -78,7 +84,9 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
               >
                 <a
                   class="pagination__link"
+                  data-mock="LinkMock"
                   href="#"
+                  to="#"
                 >
                   3
                 </a>
@@ -95,7 +103,9 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
               >
                 <a
                   class="pagination__link"
+                  data-mock="LinkMock"
                   href="#"
+                  to="#"
                 >
                   »
                 </a>
@@ -135,9 +145,11 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache"
           >
             HTTPキャッシュに学ぶ、無理のないドキュメント更新運用
           </a>
@@ -169,9 +181,11 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://zenn.dev//yktakaha4/articles/technology_for_sending_email"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://zenn.dev//yktakaha4/articles/technology_for_sending_email"
           >
             電子メール送信に関する技術
           </a>
@@ -203,9 +217,11 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://zenn.dev//yktakaha4/articles/study_csrf_attack"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://zenn.dev//yktakaha4/articles/study_csrf_attack"
           >
             CSRF(Cross-Site Request Forgery)攻撃について
           </a>
@@ -237,9 +253,11 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://zenn.dev//yktakaha4/articles/running_an_agile_sre_team"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://zenn.dev//yktakaha4/articles/running_an_agile_sre_team"
           >
             アジャイルなSREチームの運用
           </a>
@@ -271,9 +289,11 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://zenn.dev//yktakaha4/articles/update_lp_for_maintenanceability"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://zenn.dev//yktakaha4/articles/update_lp_for_maintenanceability"
           >
             HTML+jQueryでできたLPをwebpack+TypeScript+Cypressで楽しく保守する
           </a>
@@ -305,9 +325,11 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://note.com/yktakaha4/n/n67789c25ad73"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://note.com/yktakaha4/n/n67789c25ad73"
           >
             LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性
           </a>
@@ -339,9 +361,11 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://zenn.dev//yktakaha4/articles/history_books_on_information_technology"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://zenn.dev//yktakaha4/articles/history_books_on_information_technology"
           >
             情報技術に関する歴史や文化の本
           </a>
@@ -373,9 +397,11 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://zenn.dev//yktakaha4/articles/kintone-form-model-generator"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://zenn.dev//yktakaha4/articles/kintone-form-model-generator"
           >
             TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った
           </a>
@@ -407,9 +433,11 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://zenn.dev//yktakaha4/articles/introducing_kunitori"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://zenn.dev//yktakaha4/articles/introducing_kunitori"
           >
             リポジトリへの貢献量に応じて日本を手中に収めるCLIを作った
           </a>
@@ -441,9 +469,11 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://zenn.dev//yktakaha4/articles/production_freeze_manual"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://zenn.dev//yktakaha4/articles/production_freeze_manual"
           >
             エラーバジェット枯渇時のプロダクションフリーズ運用マニュアル
           </a>

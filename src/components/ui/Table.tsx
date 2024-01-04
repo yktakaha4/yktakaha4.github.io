@@ -2,6 +2,7 @@
 import React, { FC } from 'react';
 import dayjs from "dayjs";
 import {Tag, TagColor} from "@/components/ui/Tag";
+import Link from "@docusaurus/Link";
 
 type Optional<T> = T | null | undefined
 
@@ -67,9 +68,9 @@ export const decorate = (value: Optional<string>, options: CellValueOptions) => 
         const text = value || '#'
         const { href, type } = options.link
         if (type === 'external') {
-            return <a href={href} target="_blank" rel="noopener noreferrer">{text}</a>
+            return <Link to={href} target="_blank" rel="noopener noreferrer">{text}</Link>
         }
-        return <a href={href}>{text}</a>
+        return <Link to={href}>{text}</Link>
     } else {
         return value
     }

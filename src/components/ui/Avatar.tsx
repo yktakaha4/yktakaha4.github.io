@@ -1,5 +1,5 @@
 import React, {FC} from "react";
-
+import Link from '@docusaurus/Link';
 
 export type AvatarProps = {
     src: string | Array<string>
@@ -16,18 +16,18 @@ export const Avatar: FC<AvatarProps> = ({ src, name, subTitle, loading}) => {
     return (
         <div className="avatar">
             {srcList.map((src, i) => (
-                <a
+                <Link
                     key={i}
                     className="avatar__photo-link avatar__photo avatar__photo--lg"
                     target="_blank"
-                    href={src}
+                    to={src}
                 >
                     <img
                         title={alt}
                         loading={loading}
                         alt={alt}
                         src={src} />
-                </a>
+                </Link>
             ))}
             <div className="avatar__intro">
                 <div className="avatar__name">{name}</div>

@@ -48,7 +48,9 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
               >
                 <a
                   class="pagination__link"
+                  data-mock="LinkMock"
                   href="#"
+                  to="#"
                 >
                   «
                 </a>
@@ -58,7 +60,9 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
               >
                 <a
                   class="pagination__link"
+                  data-mock="LinkMock"
                   href="#"
+                  to="#"
                 >
                   1
                 </a>
@@ -68,7 +72,9 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
               >
                 <a
                   class="pagination__link"
+                  data-mock="LinkMock"
                   href="#"
+                  to="#"
                 >
                   2
                 </a>
@@ -78,7 +84,9 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
               >
                 <a
                   class="pagination__link"
+                  data-mock="LinkMock"
                   href="#"
+                  to="#"
                 >
                   3
                 </a>
@@ -95,7 +103,9 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
               >
                 <a
                   class="pagination__link"
+                  data-mock="LinkMock"
                   href="#"
+                  to="#"
                 >
                   »
                 </a>
@@ -140,18 +150,22 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/hashicorp/terraform-provider-aws/pull/34312"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/hashicorp/terraform-provider-aws/pull/34312"
           >
             docs: fix resource id
           </a>
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/hashicorp/terraform-provider-aws"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/hashicorp/terraform-provider-aws"
           >
             hashicorp/terraform-provider-aws
           </a>
@@ -176,18 +190,22 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/aws/aws-eks-best-practices/pull/398"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/aws/aws-eks-best-practices/pull/398"
           >
             fix broken link
           </a>
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/aws/aws-eks-best-practices"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/aws/aws-eks-best-practices"
           >
             aws/aws-eks-best-practices
           </a>
@@ -212,18 +230,22 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/helmfile/helmfile/pull/1019"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/helmfile/helmfile/pull/1019"
           >
             Add diffArgs to helmDefaults
           </a>
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/helmfile/helmfile"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/helmfile/helmfile"
           >
             helmfile/helmfile
           </a>
@@ -248,18 +270,22 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/hashicorp/terraform-provider-aws/pull/27604"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/hashicorp/terraform-provider-aws/pull/27604"
           >
             Add import of \`aws_ses_active_receipt_rule_set\` resource
           </a>
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/hashicorp/terraform-provider-aws"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/hashicorp/terraform-provider-aws"
           >
             hashicorp/terraform-provider-aws
           </a>
@@ -284,18 +310,22 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/ebitengine/ebitengine.org/pull/17"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/ebitengine/ebitengine.org/pull/17"
           >
             add about go run in wsl
           </a>
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/ebitengine/ebitengine.org"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/ebitengine/ebitengine.org"
           >
             ebitengine/ebitengine.org
           </a>
@@ -320,18 +350,22 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/cloudflare/terraform-provider-cloudflare/pull/2298"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/cloudflare/terraform-provider-cloudflare/pull/2298"
           >
             add import \`cloudflare_tunnel_config\`
           </a>
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/cloudflare/terraform-provider-cloudflare"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/cloudflare/terraform-provider-cloudflare"
           >
             cloudflare/terraform-provider-cloudflare
           </a>
@@ -356,18 +390,22 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/FairwindsOps/pluto/pull/457"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/FairwindsOps/pluto/pull/457"
           >
             add: set replacement-available-in to existing version.
           </a>
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/FairwindsOps/pluto"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/FairwindsOps/pluto"
           >
             FairwindsOps/pluto
           </a>
@@ -392,18 +430,22 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/FairwindsOps/pluto/pull/452"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/FairwindsOps/pluto/pull/452"
           >
             add replacement-available-in
           </a>
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/FairwindsOps/pluto"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/FairwindsOps/pluto"
           >
             FairwindsOps/pluto
           </a>
@@ -428,18 +470,22 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/FairwindsOps/pluto/pull/448"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/FairwindsOps/pluto/pull/448"
           >
             fix: add removed-in to storage.k8s.io/v1beta1.CSIStorageCapacity
           </a>
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/FairwindsOps/pluto"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/FairwindsOps/pluto"
           >
             FairwindsOps/pluto
           </a>
@@ -464,18 +510,22 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/argoproj/argo-workflows/pull/10421"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/argoproj/argo-workflows/pull/10421"
           >
             fix: add message when parse of private key fails due to existing sso secret. Fixes #10420
           </a>
         </td>
         <td>
           <a
+            data-mock="LinkMock"
             href="https://github.com/argoproj/argo-workflows"
             rel="noopener noreferrer"
             target="_blank"
+            to="https://github.com/argoproj/argo-workflows"
           >
             argoproj/argo-workflows
           </a>

@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import Link from "@docusaurus/Link";
 
 export type PagerProps = {
     page: number
@@ -39,7 +40,7 @@ export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) 
     return (
         <ul className="pagination" style={{margin: 0}}>
             <li className="pagination__item">
-                <a className="pagination__link" href="#" onClick={handleClick(1)}>&laquo;</a>
+                <Link className="pagination__link" to="#" onClick={handleClick(1)}>&laquo;</Link>
             </li>
             {pages.length > 1 && pages[0] !== 1 && (
                 <li className="pagination__item">
@@ -48,7 +49,7 @@ export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) 
             )}
             {pages.map(p => (
                 <li key={p} className={`pagination__item ${p === currentPage ? 'pagination__item--active' : ''}`}>
-                    <a className="pagination__link" href="#" onClick={handleClick(p)}>{p}</a>
+                    <Link className="pagination__link" to="#" onClick={handleClick(p)}>{p}</Link>
                 </li>
             ))}
             {pages.length > 1 && pages[pages.length - 1] !== totalPages && (
@@ -57,7 +58,7 @@ export const Pager: FC<PagerProps> = ({ page, perPage, total, size, onChange }) 
                 </li>
             )}
             <li className="pagination__item">
-                <a className="pagination__link" href="#" onClick={handleClick(totalPages)}>&raquo;</a>
+                <Link className="pagination__link" to="#" onClick={handleClick(totalPages)}>&raquo;</Link>
             </li>
         </ul>
     );

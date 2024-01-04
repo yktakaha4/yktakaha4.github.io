@@ -14,6 +14,7 @@ module.exports = {
     moduleNameMapper: {
         '^@/(.*)$': '<rootDir>/src/$1',
         "\\.(jpg|jpeg|png|gif|webp|svg)$": "<rootDir>/src/jest/fileMock.ts",
+        "@docusaurus/Link": "<rootDir>/src/jest/LinkMock.tsx",
     },
     collectCoverage: true,
     collectCoverageFrom: [
