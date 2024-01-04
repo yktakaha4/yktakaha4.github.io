@@ -2,7 +2,6 @@ import githubPullRequests from '@/services/sns/data/gitHubPullRequests.json'
 import dayjs from "dayjs";
 import {
     getComponentsDataPath,
-    getSNSDataPath,
     gitHubIgnoreOwnerNames,
     gitHubLanguageSizeThreshold,
     gitHubStargazersCountThreshold, OSSContributionKind,

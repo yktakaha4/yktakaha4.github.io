@@ -3,11 +3,10 @@ import qiitaApiGetItemsResponse from "@/services/sns/mocks/qiitaApiGetItemsRespo
 import {fetchItems, storeItems} from "@/services/sns/qiita";
 import {tempDir} from "@/jest/helper";
 import {existsSync, readJsonSync} from "fs-extra";
+import * as constants from "@/constants";
 
 const mockedGetSNSDataPath = jest.fn()
-jest.mock('@/constants', () => ({
-    getSNSDataPath: () => mockedGetSNSDataPath(),
-}))
+jest.spyOn(constants, 'getSNSDataPath').mockImplementation(() => mockedGetSNSDataPath() as never)
 
 describe('fetchItems', () => {
     beforeEach(() => {

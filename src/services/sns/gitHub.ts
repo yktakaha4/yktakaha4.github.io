@@ -49,7 +49,7 @@ query ($login: String!, $cursor: String) {
 type FetchPullRequestsResponse = {
     user: {
         pullRequests: {
-            edges: Array<unknown>
+            edges: Array<Record<string, unknown>>
             pageInfo: {
                 endCursor: string | null
                 hasNextPage: boolean
@@ -69,7 +69,7 @@ export const createGraphQLClient = () => {
 export const fetchPullRequests = async(login: string) => {
     const client = createGraphQLClient()
 
-    const pullRequests: Array<unknown> = [];
+    const pullRequests: Array<Record<string, unknown>> = [];
     const params: { cursor: string | null } = { cursor: null };
     while (true) {
         const result = await client<FetchPullRequestsResponse>(fetchPullRequestsQuery, {

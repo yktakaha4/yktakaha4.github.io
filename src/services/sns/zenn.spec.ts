@@ -3,11 +3,10 @@ import {tempDir} from "@/jest/helper";
 import {existsSync, readJsonSync} from "fs-extra";
 import nock from "nock";
 import zennApiGetArticlesResponse from "@/services/sns/mocks/zennApiGetArticlesResponse.json"
+import * as constants from "@/constants";
 
 const mockedGetSNSDataPath = jest.fn()
-jest.mock('@/constants', () => ({
-    getSNSDataPath: () => mockedGetSNSDataPath(),
-}))
+jest.spyOn(constants, 'getSNSDataPath').mockImplementation(() => mockedGetSNSDataPath() as never)
 
 describe('scrapeTopics', () => {
     test('記事ごとのトピックが取得できる', async () => {
