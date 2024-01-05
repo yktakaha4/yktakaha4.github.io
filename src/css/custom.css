@@ -4,12 +4,12 @@
     --ifm-footer-background-color: transparent;
 }
 
-.mobile-only {
+.capy--mobile-only {
     display: none;
 }
 
 @media only screen and (max-width: 997px) {
-    .mobile-only {
+    .capy--mobile-only {
         display: inherit;
     }
 }

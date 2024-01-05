@@ -3,6 +3,7 @@ import { TechArticles } from '../components/TechArticles';
 import { Margin } from '../components/ui/Margin';
 import { Break } from '../components/ui/Break';
 import { ProfileImages } from '../components/ProfileImages';
+import dayjs from 'dayjs';
 
 <head>
   <title>Portfolio | {contentTitle}</title>
@@ -25,6 +26,8 @@ import { ProfileImages } from '../components/ProfileImages';
 <Break line />
 
 ## 職務経歴
+
+内容は{dayjs().format('YYYY/M/D')}時点の情報です
 
 ### 正社員
 
