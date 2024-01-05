@@ -14,7 +14,9 @@ services:
       retries: 30
 
   puppeteer:
-    image: ghcr.io/puppeteer/puppeteer:16.1.0
+    build:
+      context: pdf
+      dockerfile: Dockerfile
     volumes:
       - ./pdf:/home/pptruser/pdf
     command: node pdf/export.js http://resume/ pdf/out/resume.pdf

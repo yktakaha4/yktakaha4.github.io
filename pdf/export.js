@@ -15,7 +15,17 @@ async function run() {
   await page.goto(url, { waitUntil: 'networkidle0' });
 
   console.log('Generating PDF...');
-  await page.pdf({ path: output, format: 'A4' });
+  await page.pdf({
+    path: output,
+    format: 'A4',
+    displayHeaderFooter: true,
+    footerTemplate:
+      '<div style="width: 100%; font-size: 12px; padding: 0 0.5cm; display: flex; justify-content: space-between;"><div></div><div><span class="pageNumber"></span> / <span class="totalPages"></span></div></div>',
+    margin: {
+      top: '0.4cm',
+      bottom: '0.8cm',
+    },
+  });
 
   await browser.close();
   console.log('Done: Generating PDF');

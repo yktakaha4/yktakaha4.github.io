@@ -4,9 +4,20 @@
     --ifm-footer-background-color: transparent;
 }
 
+.capy--mobile-only {
+    display: none;
+}
+
+@media only screen and (max-width: 997px) {
+    .capy--mobile-only {
+        display: inherit;
+    }
+}
+
 @media print {
     * {
         color: black !important;
+        font-family: "Noto Sans JP", sans-serif !important;
     }
     .badge {
         border: grey solid thin !important;
