@@ -1,7 +1,7 @@
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import ReactDOMServer from 'react-dom/server';
-import {FaFileDownload, FaGithub} from 'react-icons/fa';
+import { FaFileDownload, FaGithub } from 'react-icons/fa';
 import dayjs from 'dayjs';
 import { BsFillMusicPlayerFill } from 'react-icons/bs';
 import { IconBaseProps } from 'react-icons';
@@ -18,10 +18,20 @@ const iconStyle: IconBaseProps = {
   style: { display: 'flex', alignItems: 'center', fontSize: '1.2rem' },
 };
 
-const iconWrapper = (iconHtml: string, title: string) => `<span title="${title}">${iconHtml}</span><span class="capy--mobile-only" style="margin-left: 0.5rem">${title}</span>`;
-const githubIconHtml = iconWrapper(ReactDOMServer.renderToString(FaGithub(iconStyle)), 'リポジトリを表示する');
-const fileDownloadIconHtml = iconWrapper(ReactDOMServer.renderToString(FaFileDownload(iconStyle)), 'PDFファイルをダウンロードする')
-const musicIconHtml = iconWrapper(ReactDOMServer.renderToString(BsFillMusicPlayerFill(iconStyle)), 'Music Playerへ移動する')
+const iconWrapper = (iconHtml: string, title: string) =>
+  `<span title="${title}">${iconHtml}</span><span class="capy--mobile-only" style="margin-left: 0.5rem">${title}</span>`;
+const githubIconHtml = iconWrapper(
+  ReactDOMServer.renderToString(FaGithub(iconStyle)),
+  'リポジトリを表示する',
+);
+const fileDownloadIconHtml = iconWrapper(
+  ReactDOMServer.renderToString(FaFileDownload(iconStyle)),
+  'PDFファイルをダウンロードする',
+);
+const musicIconHtml = iconWrapper(
+  ReactDOMServer.renderToString(BsFillMusicPlayerFill(iconStyle)),
+  'Music Playerへ移動する',
+);
 
 const metaTitle = 'yktakaha4.github.io';
 const metaUrl = 'https://yktakaha4.github.io/';
