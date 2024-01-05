@@ -3,7 +3,7 @@ import { TechArticles } from '../components/TechArticles';
 import { Margin } from '../components/ui/Margin';
 import { Break } from '../components/ui/Break';
 import { ProfileImages } from '../components/ProfileImages';
-import dayjs from 'dayjs';
+import {Timestamp} from "../components/ui/Timestamp";
 
 <head>
   <title>Portfolio | {contentTitle}</title>
@@ -27,7 +27,9 @@ import dayjs from 'dayjs';
 
 ## 職務経歴
 
-内容は{dayjs().format('YYYY/M/D')}時点の情報です
+<Margin>
+    <Timestamp />
+</Margin>
 
 ### 正社員
 
