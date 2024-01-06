@@ -27,5 +27,4 @@ services:
         condition: service_healthy
 
 volumes:
-  build:
   node_modules:
