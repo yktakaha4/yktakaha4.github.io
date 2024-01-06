@@ -9,7 +9,7 @@ echo "remove old pdf file..."
 rm -f "$pdf_file_path"
 
 echo "generate pdf file..."
-docker compose -f docker-compose.pdf.yml up -d
+docker compose -f docker-compose.pdf.yml up -d --build
 docker compose -f docker-compose.pdf.yml wait puppeteer
 
 ls -l "$pdf_file_path"

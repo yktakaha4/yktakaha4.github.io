@@ -8,6 +8,7 @@ async function run() {
   console.log(`Starting: Generating PDF from ${url} to ${output}`);
   const browser = await puppeteer.launch({
     headless: 'new',
+    args: ['--lang=ja'],
   });
 
   console.log('Opening page...');
@@ -15,6 +16,9 @@ async function run() {
   await page.goto(url, { waitUntil: 'networkidle0' });
 
   console.log('Generating PDF...');
+  await page.addStyleTag({
+    content: `* {font-family: "Noto Sans JP", sans-serif !important;}`,
+  });
   await page.pdf({
     path: output,
     format: 'A4',
