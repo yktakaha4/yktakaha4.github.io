@@ -34,7 +34,7 @@ const musicIconHtml = iconWrapper(
 );
 
 const metaTitle = 'yktakaha4.github.io';
-const metaUrl = 'https://yktakaha4.github.io/';
+const metaUrl = 'https://yktakaha4.github.io';
 const metaDescription = 'yktakaha4のポートフォリオサイト';
 const metaAuthor = 'yktakaha4';
 
@@ -47,7 +47,7 @@ const pdfUrl =
 
 const config: Config = {
   title: metaTitle,
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
   url: metaUrl,
   baseUrl: '/',
   organizationName: metaAuthor,

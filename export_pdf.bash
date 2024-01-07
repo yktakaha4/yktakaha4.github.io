@@ -2,7 +2,9 @@
 
 set -euo pipefail
 
-pdf_file_path="$(cd "$(dirname "$0")";pwd)/pdf/out/resume.pdf"
+base_path="$(cd "$(dirname "$0")";pwd)"
+pdf_file_path="$base_path/pdf/out/resume.pdf"
+mkdir -p "$(dirname "$pdf_file_path")"
 chmod 0777 "$(dirname "$pdf_file_path")"
 
 echo "remove old pdf file..."
