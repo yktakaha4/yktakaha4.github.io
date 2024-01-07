@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs-extra';
-import dayjs from "dayjs";
+import dayjs from 'dayjs';
 
 const buildFilePath = (filePath: string) => `${__dirname}/../build/${filePath}`;
 
@@ -37,11 +37,11 @@ describe('index.html', () => {
   });
 
   test.each([
-      'yktakaha4.github.io',
-      `内容は${dayjs().format('YYYY/M/D')}`,
-      '«123…»',
-      `© ${dayjs().format('YYYY')}`,
+    'yktakaha4.github.io',
+    `内容は${dayjs().format('YYYY/M/D')}`,
+    '«123…»',
+    `© ${dayjs().format('YYYY')}`,
   ])('特定の値が文章内に含まれる #%#', (expected) => {
     expect(document.documentElement.textContent).toContain(expected);
-  })
+  });
 });

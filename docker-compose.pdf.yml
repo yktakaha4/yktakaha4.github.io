@@ -18,7 +18,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./pdf:/home/pptruser/pdf
-    command: node pdf/export.js http://resume/ pdf/out/resume.pdf
+    command: node ./pdf/export.js "http://resume/" "pdf/out/resume.pdf"
     cap_add:
       - SYS_ADMIN
     depends_on:

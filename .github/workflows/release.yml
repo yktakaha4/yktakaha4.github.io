@@ -32,7 +32,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v3
-      - run: ./export_pdf.bash
+      - run: ./generate_pdf.bash
       - run: echo "release_tag=v$(date '+%Y%m%d_%H%M%S')" >> $GITHUB_ENV
       - uses: actions/create-release@v1
         id: create_release

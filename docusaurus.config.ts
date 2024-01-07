@@ -90,6 +90,7 @@ const config: Config = {
       { property: 'twitter:card', content: 'summary' },
       { property: 'twitter:site', content: `@${metaAuthor}` },
       { property: 'twitter:player', content: `@${metaAuthor}` },
+      { property: 'author', content: metaAuthor },
       {
         httpEquiv: 'Cache-Control',
         content: 'max-age=0, must-revalidate, public',

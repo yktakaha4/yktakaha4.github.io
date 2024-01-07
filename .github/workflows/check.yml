@@ -29,6 +29,10 @@ jobs:
           node-version: "18"
       - run: yarn install
       - run: yarn build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: ./build/
 
   test:
     name: Test
@@ -49,9 +53,11 @@ jobs:
     needs: build
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/download-artifact@v4
       - uses: actions/setup-node@v4
         with:
           node-version: "18"
+      - run: yarn install
       - run: yarn test:e2e
 
   generate_pdf:
@@ -61,4 +67,5 @@ jobs:
     needs: build
     steps:
       - uses: actions/checkout@v3
-      - run: ./export_pdf.bash
+      - uses: actions/download-artifact@v4
+      - run: ./generate_pdf.bash
