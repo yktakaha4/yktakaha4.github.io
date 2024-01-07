@@ -50,7 +50,9 @@ jobs:
     name: E2E Test
     runs-on: ubuntu-22.04
     timeout-minutes: 5
-    needs: build
+    needs:
+      - build
+      - generate_pdf
     steps:
       - uses: actions/checkout@v3
       - uses: actions/download-artifact@v4

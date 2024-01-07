@@ -1,12 +1,14 @@
-import { readFileSync } from 'fs-extra';
+import fs from 'fs-extra';
 import dayjs from 'dayjs';
+import { rootDirectoryName } from './helper';
 
-const buildFilePath = (filePath: string) => `${__dirname}/../build/${filePath}`;
+const buildFilePath = (filePath: string) =>
+  `${rootDirectoryName}/build/${filePath}`;
 
 describe('index.html', () => {
   beforeEach(() => {
     const filePath = buildFilePath('index.html');
-    document.documentElement.innerHTML = readFileSync(filePath, 'utf8');
+    document.documentElement.innerHTML = fs.readFileSync(filePath, 'utf8');
   });
 
   test.each([['title', 'Portfolio | yktakaha4.github.io']])(
