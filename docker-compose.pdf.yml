@@ -1,12 +1,11 @@
 version: "3.9"
 services:
   resume:
-    image: node:18
-    volumes:
-      - .:/app
-      - node_modules:/app/node_modules
+    image: python:3.11
     working_dir: /app
-    command: bash -c "yarn install && yarn serve --port 80 --build --no-open --dir /tmp"
+    command: python -m http.server 80
+    volumes:
+      - ./build:/app
     healthcheck:
       test: ["CMD", "curl" ,"http://localhost"]
       interval: 6s
@@ -19,12 +18,9 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./pdf:/home/pptruser/pdf
-    command: node pdf/export.js http://resume/ pdf/out/resume.pdf
+    command: node ./pdf/export.js "http://resume/" "pdf/out/resume.pdf"
     cap_add:
       - SYS_ADMIN
     depends_on:
       resume:
         condition: service_healthy
-
-volumes:
-  node_modules:

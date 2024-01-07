@@ -25,14 +25,20 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           publish_branch: master
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: ./build/
 
   upload_pdf:
     name: Upload PDF
     runs-on: ubuntu-22.04
     timeout-minutes: 5
+    needs: deploy
     steps:
       - uses: actions/checkout@v3
-      - run: ./export_pdf.bash
+      - uses: actions/download-artifact@v4
+      - run: ./generate_pdf.bash
       - run: echo "release_tag=v$(date '+%Y%m%d_%H%M%S')" >> $GITHUB_ENV
       - uses: actions/create-release@v1
         id: create_release

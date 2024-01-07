@@ -34,7 +34,7 @@ const musicIconHtml = iconWrapper(
 );
 
 const metaTitle = 'yktakaha4.github.io';
-const metaUrl = 'https://yktakaha4.github.io/';
+const metaUrl = 'https://yktakaha4.github.io';
 const metaDescription = 'yktakaha4のポートフォリオサイト';
 const metaAuthor = 'yktakaha4';
 
@@ -47,7 +47,7 @@ const pdfUrl =
 
 const config: Config = {
   title: metaTitle,
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
   url: metaUrl,
   baseUrl: '/',
   organizationName: metaAuthor,
@@ -90,6 +90,7 @@ const config: Config = {
       { property: 'twitter:card', content: 'summary' },
       { property: 'twitter:site', content: `@${metaAuthor}` },
       { property: 'twitter:player', content: `@${metaAuthor}` },
+      { property: 'author', content: metaAuthor },
       {
         httpEquiv: 'Cache-Control',
         content: 'max-age=0, must-revalidate, public',

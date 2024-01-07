@@ -16,10 +16,9 @@
 
 @media print {
     * {
-        color: black !important;
-        font-family: "Noto Sans JP", sans-serif !important;
+        color: var(--ifm-color-black) !important;
     }
     .badge {
-        border: grey solid thin !important;
+        border: var(--ifm-color-secondary-contrast-foreground) solid thin !important;
     }
 }
