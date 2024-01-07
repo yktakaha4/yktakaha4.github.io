@@ -1,5 +1,20 @@
 const puppeteer = require('puppeteer');
 
+const format = 'A4';
+const fontName = 'Noto Sans JP';
+const footerTemplate = `
+<div style="width: 100%; font-size: 12px; padding: 0 0.5cm; display: flex; justify-content: space-between;">
+  <div></div>
+  <div>
+    <span class="pageNumber"></span> / <span class="totalPages"></span>
+  </div>
+</div>
+`;
+const margin = {
+  top: '0.4cm',
+  bottom: '0.8cm',
+};
+
 async function run() {
   const args = process.argv.slice(2);
   const url = args[0];
@@ -17,18 +32,18 @@ async function run() {
 
   console.log('Generating PDF...');
   await page.addStyleTag({
-    content: `* {font-family: "Noto Sans JP", sans-serif !important;}`,
+    content: `
+:root {
+  --ifm-font-family-base: "${fontName}" !important;
+  --ifm-font-family-monospace: "${fontName}" !important;
+}`,
   });
   await page.pdf({
     path: output,
-    format: 'A4',
+    format,
     displayHeaderFooter: true,
-    footerTemplate:
-      '<div style="width: 100%; font-size: 12px; padding: 0 0.5cm; display: flex; justify-content: space-between;"><div></div><div><span class="pageNumber"></span> / <span class="totalPages"></span></div></div>',
-    margin: {
-      top: '0.4cm',
-      bottom: '0.8cm',
-    },
+    footerTemplate,
+    margin,
   });
 
   await browser.close();

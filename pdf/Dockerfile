@@ -1,5 +1,7 @@
 FROM ghcr.io/puppeteer/puppeteer:21
 
+ENV LANG ja_JP.UTF-8
+
 USER root
 
 RUN apt-get update && apt-get install -y \
