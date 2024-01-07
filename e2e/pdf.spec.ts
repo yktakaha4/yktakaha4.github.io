@@ -1,7 +1,7 @@
 /**
  * @jest-environment node
  */
-import { getDocument, PDFDocumentProxy } from 'pdfjs-dist/legacy/build/pdf.mjs';
+import { getDocument, PDFDocumentProxy } from 'pdfjs-dist';
 import { rootDirectoryName } from './helper';
 
 const getPageText = async (document: PDFDocumentProxy, pageNumber: number) => {

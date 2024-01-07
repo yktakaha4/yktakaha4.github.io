@@ -15,7 +15,7 @@
     "fix": "eslint --fix '**/*.{ts,tsx,js}' && prettier --write '**/*.{ts,tsx,js,mdx}'",
     "lint": "tsc && eslint '**/*.{ts,tsx,js}' && prettier -c '**/*.{ts,tsx,js,mdx}'",
     "test": "jest --runInBand",
-    "test:e2e": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest --runInBand --config jest.config.e2e.js",
+    "test:e2e": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules --trace-warnings\" npx jest --runInBand --config jest.config.e2e.js",
     "refresh-components-data": "yarn fetch-github-pull-requests && yarn fetch-qiita-items && yarn fetch-zenn-articles && yarn fetch-zenn-topics && yarn build-components-data",
     "build-components-data": "ts-node -P tsconfig.scripts.json src/scripts/buildComponentsData.ts",
     "fetch-github-pull-requests": "ts-node -P tsconfig.scripts.json src/scripts/fetchGitHubPullRequests.ts",
