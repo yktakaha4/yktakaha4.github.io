@@ -1,8 +1,10 @@
 /**
  * @jest-environment node
  */
-import { getDocument, PDFDocumentProxy } from 'pdfjs-dist/legacy/build/pdf.mjs';
+import { getDocument, PDFDocumentProxy } from 'pdfjs-dist';
 import { rootDirectoryName } from './helper';
+import dayjs from 'dayjs';
+import fs from 'fs-extra';
 
 const getPageText = async (document: PDFDocumentProxy, pageNumber: number) => {
   const page = await document.getPage(pageNumber);
@@ -18,8 +20,11 @@ describe('resume.pdf', () => {
   let document: PDFDocumentProxy;
 
   beforeAll(async () => {
-    document = await getDocument(`${rootDirectoryName}/pdf/out/resume.pdf`)
-      .promise;
+    const pdfPath = `${rootDirectoryName}/pdf/out/resume.pdf`;
+    if (!fs.existsSync(pdfPath)) {
+      fail(`Pdf file is not found: ${pdfPath}`);
+    }
+    document = await getDocument(pdfPath).promise;
   });
 
   test('ページ数が一定である', () => {
@@ -36,6 +41,7 @@ describe('resume.pdf', () => {
 
   test.each([
     [1, 'Portfolio | yktakaha4.github.io'],
+    [1, `内容は${dayjs().format('YYYY/M/D')}時点の情報です`],
     [1, '1 / 8'],
     [1, 'プロフィール'],
     [1, '職務経歴'],

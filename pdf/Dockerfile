@@ -1,5 +1,7 @@
 FROM ghcr.io/puppeteer/puppeteer:21
 
+ENV TZ=Asia/Tokyo
+
 USER root
 
 RUN apt-get update
