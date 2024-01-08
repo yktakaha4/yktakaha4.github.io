@@ -24,7 +24,7 @@
     "fetch-zenn-topics": "ts-node -P tsconfig.scripts.json src/scripts/fetchZennTopics.ts"
   },
   "dependencies": {
-    "@docusaurus/core": "3.0.1",
+    "@docusaurus/core": "3.1.0",
     "@docusaurus/preset-classic": "3.0.1",
     "@mdx-js/react": "^3.0.0",
     "@octokit/graphql": "^7.0.2",
