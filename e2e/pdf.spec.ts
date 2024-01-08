@@ -3,6 +3,7 @@
  */
 import { getDocument, PDFDocumentProxy } from 'pdfjs-dist/legacy/build/pdf.mjs';
 import { rootDirectoryName } from './helper';
+import {existsSync} from "fs-extra";
 
 const getPageText = async (document: PDFDocumentProxy, pageNumber: number) => {
   const page = await document.getPage(pageNumber);
@@ -18,7 +19,11 @@ describe('resume.pdf', () => {
   let document: PDFDocumentProxy;
 
   beforeAll(async () => {
-    document = await getDocument(`${rootDirectoryName}/pdf/out/resume.pdf`)
+    const pdfPath = `${rootDirectoryName}/pdf/out/resume.pdf`;
+    if (!existsSync(pdfPath)) {
+      fail(`Pdf file is not found: ${pdfPath}`);
+    }
+    document = await getDocument(pdfPath)
       .promise;
   });
 
