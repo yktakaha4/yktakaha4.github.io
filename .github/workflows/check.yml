@@ -10,8 +10,6 @@ jobs:
     name: Lint
     runs-on: ubuntu-22.04
     timeout-minutes: 5
-    needs:
-      - build
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v4
@@ -56,8 +54,6 @@ jobs:
     name: Test
     runs-on: ubuntu-22.04
     timeout-minutes: 5
-    needs:
-      - build
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v4
