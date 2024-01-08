@@ -10,11 +10,13 @@ jobs:
     name: Lint
     runs-on: ubuntu-22.04
     timeout-minutes: 5
+    needs:
+      - build
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: '18'
       - id: yarn-cache-dir-path
         run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3
@@ -34,7 +36,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: '18'
       - id: yarn-cache-dir-path
         run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3
@@ -54,11 +56,13 @@ jobs:
     name: Test
     runs-on: ubuntu-22.04
     timeout-minutes: 5
+    needs:
+      - build
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: '18'
       - id: yarn-cache-dir-path
         run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3
@@ -85,7 +89,7 @@ jobs:
           mv -v pdf_out/* ./pdf/out
       - uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: '18'
       - id: yarn-cache-dir-path
         run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3
@@ -101,7 +105,8 @@ jobs:
     name: Generate PDF
     runs-on: ubuntu-22.04
     timeout-minutes: 5
-    needs: build
+    needs:
+      - build
     steps:
       - uses: actions/checkout@v3
       - uses: actions/download-artifact@v4
