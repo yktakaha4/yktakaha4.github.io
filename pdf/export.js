@@ -6,6 +6,8 @@ const pdfGenerateTimeout = 60000;
 
 const fontName = 'Noto Sans CJK JP';
 const monoFontName = 'Noto Sans Mono CJK JP';
+const emojiFontName = 'Noto Color Emoji';
+const fontNames = [fontName, monoFontName, emojiFontName];
 const format = 'A4';
 const headerTemplate = '';
 const footerTemplate = `
@@ -25,8 +27,8 @@ const margin = {
 
 const styleTagContent = `
 :root {
-  --ifm-font-family-base: '${fontName}', sans-serif !important;
-  --ifm-font-family-monospace: '${monoFontName}', monospace !important;
+  --ifm-font-family-base: '${fontName}', '${emojiFontName}', sans-serif !important;
+  --ifm-font-family-monospace: '${monoFontName}', '${emojiFontName}',monospace !important;
 }
 `;
 const expectedContent = 'yktakaha4.github.io';
@@ -40,7 +42,7 @@ const run = async () => {
 
   console.log('Precondition check...');
   const stdout = execSync('fc-list');
-  for (const font of [fontName, monoFontName]) {
+  for (const font of fontNames) {
     console.log(`Checking font: ${font}`);
     if (!stdout.toString().includes(font)) {
       throw new Error(`Font not installed: ${font}`);
