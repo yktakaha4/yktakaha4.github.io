@@ -27,8 +27,8 @@ const margin = {
 
 const styleTagContent = `
 :root {
-  --ifm-font-family-base: '${emojiFontName}', '${fontName}', sans-serif !important;
-  --ifm-font-family-monospace: '${emojiFontName}', '${monoFontName}',monospace !important;
+  --ifm-font-family-base: '${fontName}', '${emojiFontName}', sans-serif !important;
+  --ifm-font-family-monospace: '${monoFontName}', '${emojiFontName}',monospace !important;
 }
 `;
 const expectedContent = 'yktakaha4.github.io';
