@@ -38,7 +38,7 @@ const styleTagContent = `
 const scriptTagContent = `
 const aTags = document.getElementsByTagName('a');
 for (const aTag of aTags) {
-  if (aTag.href.startsWith('${url.replace(/'/g, '\\\'')}')) {
+  if (aTag.href.startsWith('${url.replace(/'/g, "\\'")}')) {
     aTag.removeAttribute('href');
   }
 }
