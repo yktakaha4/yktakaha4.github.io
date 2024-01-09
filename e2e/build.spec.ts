@@ -38,12 +38,17 @@ describe('index.html', () => {
     }
   });
 
-  test.each([
-    'yktakaha4.github.io',
-    `内容は${dayjs().format('YYYY/M/D')}`,
-    '«123…»',
-    `© ${dayjs().format('YYYY')}`,
-  ])('特定の値が文章内に含まれる #%#', (expected) => {
-    expect(document.documentElement.textContent).toContain(expected);
-  });
+  test.each(['yktakaha4.github.io', '«123…»', `© ${dayjs().format('YYYY')}`])(
+    '特定の値が文章内に含まれる #%#',
+    (expected) => {
+      expect(document.documentElement.textContent).toContain(expected);
+    },
+  );
+
+  test.each([`最終更新日:${dayjs().format()}`])(
+    '特定の値が文章内に含まれない #%#',
+    (expected) => {
+      expect(document.documentElement.textContent).not.toContain(expected);
+    },
+  );
 });

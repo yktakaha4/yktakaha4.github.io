@@ -3,7 +3,6 @@
  */
 import { getDocument, PDFDocumentProxy } from 'pdfjs-dist';
 import { rootDirectoryName } from './helper';
-import dayjs from 'dayjs';
 import fs from 'fs-extra';
 
 const getPageText = async (document: PDFDocumentProxy, pageNumber: number) => {
@@ -41,17 +40,18 @@ describe('resume.pdf', () => {
 
   test.each([
     [1, 'Portfolio | yktakaha4.github.io'],
-    [1, `内容は${dayjs().format('YYYY/M/D')}時点の情報です`],
     [1, '1 / 8'],
     [1, 'プロフィール'],
     [1, '職務経歴'],
     [1, '正社員'],
     [2, '副業'],
-    [4, '経験'],
-    [6, '公開アウトプット'],
-    [6, '個人開発'],
-    [7, '技術記事'],
-    [8, 'OSS活動'],
+    [3, '経験'],
+    [4, 'イベント参加‧登壇'],
+    [4, '資格‧認定'],
+    [5, '公開アウトプット'],
+    [5, '個人開発'],
+    [6, '技術記事'],
+    [7, 'OSS活動'],
     [8, '8 / 8'],
   ])(`ページに特定の値が含まれる #%#`, async (pageNumber, expected) => {
     const text = await getPageText(document, pageNumber);

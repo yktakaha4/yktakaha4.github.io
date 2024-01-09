@@ -6,6 +6,16 @@ import dayjs from 'dayjs';
 import { BsFillMusicPlayerFill } from 'react-icons/bs';
 import { IconBaseProps } from 'react-icons';
 
+const buildAt = dayjs().format();
+let commitHash = 'unset';
+try {
+  commitHash = require('child_process')
+    .execSync('git rev-parse HEAD')
+    .toString();
+} catch (e) {
+  console.warn(e);
+}
+
 // https://soundcloud.com/yktakaha4/sets
 const soundPlayerAnchor = 'music';
 const soundPlayerHtml = `
@@ -59,6 +69,10 @@ const config: Config = {
   i18n: {
     defaultLocale: 'ja',
     locales: ['ja'],
+  },
+  customFields: {
+    buildAt,
+    commitHash,
   },
   presets: [
     [
@@ -182,7 +196,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${dayjs().year()} Yuuki Takahashi / Powered by <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>`,
+      copyright: `© ${dayjs().year()} Yuuki Takahashi`,
     },
   } satisfies Preset.ThemeConfig,
 };
