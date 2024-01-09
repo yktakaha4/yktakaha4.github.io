@@ -1,3 +1,18 @@
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
+export const getCustomFieldValue = (key: 'buildAt' | 'commitHash') => {
+  const {
+    siteConfig: { customFields },
+  } = useDocusaurusContext();
+  if (customFields) {
+    const value = customFields[key]?.toString();
+    if (value != null) {
+      return value;
+    }
+  }
+  throw new Error(`${key} is not found`);
+};
+
 export type TechArticlePublisher =
   | 'zenn'
   | 'qiita'
