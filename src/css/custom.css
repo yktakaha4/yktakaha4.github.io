@@ -25,6 +25,9 @@
     * {
         color: var(--ifm-color-black) !important;
     }
+    hr {
+        display: none;
+    }
     .badge {
         border: var(--ifm-color-secondary-contrast-foreground) solid thin !important;
     }
