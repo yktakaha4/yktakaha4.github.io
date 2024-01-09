@@ -1,6 +1,10 @@
 const puppeteer = require('puppeteer');
 const { execSync } = require('child_process');
 
+const args = process.argv.slice(2);
+const url = args[0];
+const path = args[1];
+
 const sleepTime = 3000;
 const pdfGenerateTimeout = 60000;
 
@@ -31,15 +35,19 @@ const styleTagContent = `
   --ifm-font-family-monospace: '${monoFontName}', '${emojiFontName}',monospace !important;
 }
 `;
+const scriptTagContent = `
+const aTags = document.getElementsByTagName('a');
+for (const aTag of aTags) {
+  if (aTag.href.startsWith('${url.replace(/'/g, "\\'")}')) {
+    aTag.removeAttribute('href');
+  }
+}
+`;
 const expectedContent = 'yktakaha4.github.io';
 
 const escape = (arg) => `'${arg.replace(/'/g, "'\\''")}'`;
 
 const run = async () => {
-  const args = process.argv.slice(2);
-  const url = args[0];
-  const path = args[1];
-
   console.log('Precondition check...');
   const stdout = execSync('fc-list');
   for (const font of fontNames) {
@@ -58,6 +66,7 @@ const run = async () => {
   const page = await browser.newPage();
   await page.goto(url, { waitUntil: 'networkidle0' });
   await page.addStyleTag({ content: styleTagContent });
+  await page.addScriptTag({ content: scriptTagContent });
   await page.waitForTimeout(sleepTime);
 
   console.log(`Checking expected content: ${expectedContent}`);
