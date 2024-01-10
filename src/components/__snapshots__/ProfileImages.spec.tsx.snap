@@ -12,11 +12,18 @@ exports[`ProfileImages スナップショットテスト プロフィール画�
       target="_blank"
       to="test-file-stub"
     >
-      <img
-        alt="アバター画像"
-        src="test-file-stub"
-        title="アバター画像"
-      />
+      <picture>
+        <source
+          srcset="test-file-stub"
+          type="image/webp"
+        />
+        <img
+          alt="コウテイペンギン"
+          src="test-file-stub"
+          srcset="test-file-stub 128w,test-file-stub 400w"
+          title="コウテイペンギン"
+        />
+      </picture>
     </a>
     <a
       class="avatar__photo-link avatar__photo avatar__photo--lg"
@@ -25,11 +32,18 @@ exports[`ProfileImages スナップショットテスト プロフィール画�
       target="_blank"
       to="test-file-stub"
     >
-      <img
-        alt="アバター画像"
-        src="test-file-stub"
-        title="アバター画像"
-      />
+      <picture>
+        <source
+          srcset="test-file-stub"
+          type="image/webp"
+        />
+        <img
+          alt="近影"
+          src="test-file-stub"
+          srcset="test-file-stub 128w,test-file-stub 400w"
+          title="近影"
+        />
+      </picture>
     </a>
     <div
       class="avatar__intro"
