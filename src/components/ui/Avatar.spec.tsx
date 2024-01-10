@@ -3,12 +3,33 @@ import { render } from '@testing-library/react';
 
 describe('Avatar', () => {
   test.each([
-    ['name', 'sub title', 'https://example.com/image1.png', 1],
     [
       'name',
       'sub title',
-      ['https://example.com/image1.png', 'https://example.com/image2.png'],
-      2,
+      {
+        src: 'https://example.com/image.png',
+        width: '400w',
+        height: '400h',
+        alt: 'alt',
+        srcSets: [
+          {
+            src: 'https://example.com/image.png',
+            width: '128w',
+          },
+        ],
+        sizes: [
+          {
+            size: '100vw',
+          },
+        ],
+        sources: [
+          {
+            type: 'image/webp',
+            srcset: 'https://example.com/image.webp',
+          },
+        ],
+      },
+      1,
     ],
   ])('画像が表示される #%#', async (name, subTitle, src, expected) => {
     const { container } = render(
@@ -21,7 +42,9 @@ describe('Avatar', () => {
     const img = container.getElementsByTagName('img');
     expect(img.length).toBe(expected);
     for (let i = 0; i < expected; i++) {
-      expect(img[i].src).toBe(Array.isArray(src) ? src[i] : src);
+      expect(img[i].src).toBe(
+        Array.isArray(src.src) ? src.src[i].src : src.src,
+      );
     }
   });
 });

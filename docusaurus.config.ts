@@ -119,7 +119,7 @@ const config: Config = {
         },
       },
     ],
-    image: 'img/icon.jpg',
+    image: 'img/ogp.jpg',
     colorMode: {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
