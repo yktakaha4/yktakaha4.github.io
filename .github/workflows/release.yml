@@ -47,6 +47,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/download-artifact@v4
       - run: ./generate_pdf.bash
+      - run: tar -zcvf build.tgz ./build
       - run: echo "release_tag=v$(date '+%Y%m%d_%H%M%S')" >> $GITHUB_ENV
       - uses: actions/create-release@v1
         id: create_release
@@ -65,3 +66,11 @@ jobs:
           asset_path: pdf/out/resume.pdf
           asset_name: resume.pdf
           asset_content_type: application/pdf
+      - uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: build.tgz
+          asset_name: build.tgz
+          asset_content_type: application/x-gzip
