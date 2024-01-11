@@ -2,7 +2,7 @@
  * @jest-environment node
  */
 import { getDocument, PDFDocumentProxy } from 'pdfjs-dist';
-import { rootDirectoryName } from './helper';
+import { isExternalLink, rootDirectoryName } from './helper';
 import fs from 'fs-extra';
 
 const getPageText = async (document: PDFDocumentProxy, pageNumber: number) => {
@@ -13,6 +13,19 @@ const getPageText = async (document: PDFDocumentProxy, pageNumber: number) => {
     .join('')
     .normalize('NFKC')
     .trim();
+};
+
+const getPageLinks = async (document: PDFDocumentProxy, pageNumber: number) => {
+  const page = await document.getPage(pageNumber);
+  const annotations = await page.getAnnotations();
+
+  const links: Array<string> = [];
+  for (const annotation of annotations) {
+    if (typeof annotation.url === 'string') {
+      links.push(annotation.url);
+    }
+  }
+  return links;
 };
 
 describe('resume.pdf', () => {
@@ -30,13 +43,13 @@ describe('resume.pdf', () => {
     expect(document.numPages).toBe(8);
   });
 
-  test.each([['dc:title', 'Portfolio | yktakaha4.github.io']])(
-    'メタデータが適切である #%#',
-    async (key, expected) => {
-      const { metadata } = await document.getMetadata();
-      expect(metadata?.get(key)).toBe(expected);
-    },
-  );
+  test.each([
+    ['dc:title', 'Portfolio | yktakaha4.github.io'],
+    ['pdf:author', 'yktakaha4'],
+  ])('メタデータが適切である #%#', async (key, expected) => {
+    const { metadata } = await document.getMetadata();
+    expect(metadata?.get(key)).toBe(expected);
+  });
 
   test.each([
     [1, 'Portfolio | yktakaha4.github.io'],
@@ -56,5 +69,25 @@ describe('resume.pdf', () => {
   ])(`ページに特定の値が含まれる #%#`, async (pageNumber, expected) => {
     const text = await getPageText(document, pageNumber);
     expect(text).toContain(expected);
+  });
+
+  test('リンクが外部リンクであること', async () => {
+    const pages = Array.from({ length: document.numPages }, (_, i) => i + 1);
+    for (const page of pages) {
+      const links = await getPageLinks(document, page);
+      links.forEach((link, index) => {
+        expect({
+          page,
+          index,
+          link,
+          isExternal: isExternalLink(link),
+        }).toEqual({
+          page,
+          index,
+          link,
+          isExternal: true,
+        });
+      });
+    }
   });
 });
