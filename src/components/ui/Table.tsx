@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import dayjs from 'dayjs';
-import { Tag, TagColor } from '@/components/ui/Tag';
+import { Icon, Tag, TagColor } from '@/components/ui/Tag';
 import Link from '@docusaurus/Link';
 
 type Optional<T> = T | null | undefined;
@@ -35,7 +35,7 @@ export type DateCellValue = {
 };
 
 export type TagsCellTag = {
-  icon?: string;
+  icon?: Icon;
   value: string;
   color?: TagColor;
 };

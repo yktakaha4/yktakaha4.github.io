@@ -2,7 +2,10 @@ import { FC } from 'react';
 import ossContributions from '@/components/data/ossContributions.json';
 import dayjs from 'dayjs';
 import { TableHeaders, TableRow } from '@/components/ui/Table';
-import { getOSSContributionKindName } from '@/constants';
+import {
+  getOssContributionIcon,
+  getOSSContributionKindName,
+} from '@/constants';
 import { SearchableTable } from '@/components/ui/SearchableTable';
 
 export const OSSContributions: FC = () => {
@@ -68,7 +71,7 @@ export const OSSContributions: FC = () => {
         type: 'tags',
         values: [
           {
-            icon: '📝',
+            icon: getOssContributionIcon(item.kind) ?? undefined,
             value: getOSSContributionKindName(item.kind),
             color: 'primary',
           },

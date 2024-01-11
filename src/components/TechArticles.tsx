@@ -39,7 +39,7 @@ export const TechArticles: FC = () => {
   const row = (item: Item): TableRow => {
     const tagValues: Array<TagsCellTag> = [
       {
-        icon: '📰',
+        icon: 'publisher',
         value: getTechArticlePublisherName(item.publisher),
         color: 'primary',
       },
@@ -47,7 +47,7 @@ export const TechArticles: FC = () => {
 
     if (item.likes != null) {
       tagValues.push({
-        icon: '♥',
+        icon: 'heart',
         value: item.likes.toLocaleString(),
         color: 'danger',
       });
