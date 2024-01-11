@@ -28,7 +28,7 @@ const getPageLinks = async (document: PDFDocumentProxy, pageNumber: number) => {
   return links;
 };
 
-describe('resume.pdf', () => {
+describe('pdf', () => {
   let document: PDFDocumentProxy;
 
   beforeAll(async () => {
