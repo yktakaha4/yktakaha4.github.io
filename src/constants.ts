@@ -1,4 +1,5 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { Icon } from '@/components/ui/Tag';
 
 export const getCustomFieldValue = (key: 'buildAt' | 'commitHash') => {
   const {
@@ -38,10 +39,20 @@ export type OSSContributionKind = 'mergedPullRequest' | string;
 const ossContributionKindName: {
   [key in OSSContributionKind]: string;
 } = {
-  mergedPullRequest: 'PR',
+  mergedPullRequest: 'PRマージ',
 } as const;
 export const getOSSContributionKindName = (kind: OSSContributionKind) =>
   ossContributionKindName[kind];
+export const getOssContributionIcon = (
+  kind: OSSContributionKind,
+): Icon | null => {
+  switch (kind) {
+    case 'mergedPullRequest':
+      return 'prMerge';
+    default:
+      return null;
+  }
+};
 
 const snsDataBasePath = `${__dirname}/services/sns/data`;
 export type SNSData =
