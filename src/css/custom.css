@@ -15,6 +15,24 @@
     --ifm-table-head-font-weight: normal;
 }
 
+body {
+    overflow-y: scroll;
+}
+
+html[data-theme='dark'] #__docusaurus {
+    background-image: url('/static/img/bg/penguin.jpg');
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html[data-theme='dark'] .navbar {
+    background-color: transparent;
+}
+
 @media only screen and (max-width: 997px) {
     .capy--mobile-only {
         display: inherit;
