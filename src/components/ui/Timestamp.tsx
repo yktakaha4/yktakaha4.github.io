@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import dayjs from 'dayjs';
-import { getCustomFields } from '@/constants';
 import Link from '@docusaurus/Link';
+import { getCustomFields } from '@/components/helper';
 
 export const Timestamp: FC = () => {
   const { buildAt, commitHash } = getCustomFields();
