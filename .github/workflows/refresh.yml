@@ -26,7 +26,7 @@ jobs:
       - run: yarn install
       - run: yarn refresh-components-data
         env:
-          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+          GITHUB_PAT: ${{ secrets.X_GITHUB_PAT }}
       - uses: peter-evans/create-pull-request@v5
         with:
           commit-message: Update components data
