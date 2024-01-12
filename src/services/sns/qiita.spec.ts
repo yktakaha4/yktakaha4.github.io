@@ -50,7 +50,6 @@ describe('storeItems', () => {
 
     expect(existsSync(mockedJsonPath)).toBeTruthy();
     expect(readJsonSync(mockedJsonPath)).toEqual({
-      fetchedAt: expect.any(String),
       items,
     });
   });

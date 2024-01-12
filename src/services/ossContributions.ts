@@ -78,7 +78,6 @@ export const storeOSSContributions = async (contributions: Array<unknown>) => {
   logger.debug('start', { count: contributions.length });
   const dataPath = getComponentsDataPath('ossContributions');
   const data = {
-    storedAt: dayjs().toISOString(),
     contributions,
   };
   await writeJson(dataPath, data, { spaces: 2 });

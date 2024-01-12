@@ -1,6 +1,5 @@
 import { existsSync, readdirSync, writeJson } from 'fs-extra';
 import { getSNSDataPath } from '@/constants';
-import dayjs from 'dayjs';
 import { read } from 'gray-matter';
 import { logger } from '@/services/logging';
 
@@ -44,7 +43,6 @@ export const storeTopics = async (topics: Array<unknown>) => {
   logger.debug('start', { count: topics.length });
   const dataPath = getSNSDataPath('zennTopics');
   const data = {
-    fetchedAt: dayjs().toISOString(),
     topics,
   };
   await writeJson(dataPath, data, { spaces: 2 });
@@ -84,7 +82,6 @@ export const storeArticles = async (articles: Array<unknown>) => {
   logger.debug('start', { count: articles.length });
   const dataPath = getSNSDataPath('zennArticles');
   const data = {
-    fetchedAt: dayjs().toISOString(),
     articles,
   };
   await writeJson(dataPath, data, { spaces: 2 });

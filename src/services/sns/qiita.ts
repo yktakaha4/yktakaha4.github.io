@@ -1,5 +1,4 @@
 import { getSNSDataPath } from '@/constants';
-import dayjs from 'dayjs';
 import { writeJson } from 'fs-extra';
 import { logger } from '@/services/logging';
 
@@ -43,7 +42,6 @@ export const storeItems = async (items: Array<unknown>) => {
   logger.debug('start', { count: items.length });
   const dataPath = getSNSDataPath('qiitaItems');
   const data = {
-    fetchedAt: dayjs().toISOString(),
     items,
   };
   await writeJson(dataPath, data, { spaces: 2 });

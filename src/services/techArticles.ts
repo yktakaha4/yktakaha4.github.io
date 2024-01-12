@@ -85,7 +85,6 @@ export const storeTechArticles = async (articles: Array<unknown>) => {
   logger.debug('start', { count: articles.length });
   const dataPath = getComponentsDataPath('techArticles');
   const data = {
-    storedAt: dayjs().toISOString(),
     articles,
   };
   await writeJson(dataPath, data, { spaces: 2 });

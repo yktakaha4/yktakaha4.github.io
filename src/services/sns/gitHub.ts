@@ -1,6 +1,5 @@
 import { graphql } from '@octokit/graphql';
 import { getSNSDataPath } from '@/constants';
-import dayjs from 'dayjs';
 import { writeJson } from 'fs-extra';
 import { logger } from '@/services/logging';
 
@@ -98,7 +97,6 @@ export const storePullRequests = async (pullRequests: Array<unknown>) => {
   logger.debug('start', { count: pullRequests.length });
   const dataPath = getSNSDataPath('gitHubPullRequests');
   const data = {
-    fetchedAt: dayjs().toISOString(),
     pullRequests,
   };
   await writeJson(dataPath, data, { spaces: 2 });

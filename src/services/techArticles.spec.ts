@@ -94,7 +94,6 @@ describe('storeTechArticles', () => {
 
     expect(existsSync(mockedJsonPath)).toBeTruthy();
     expect(readJsonSync(mockedJsonPath)).toEqual({
-      storedAt: expect.any(String),
       articles,
     });
   });

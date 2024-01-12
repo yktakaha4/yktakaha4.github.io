@@ -59,7 +59,6 @@ describe('storeTopics', () => {
 
     expect(existsSync(mockedJsonPath)).toBeTruthy();
     expect(readJsonSync(mockedJsonPath)).toEqual({
-      fetchedAt: expect.any(String),
       topics,
     });
   });
@@ -103,7 +102,6 @@ describe('storeArticles', () => {
 
     expect(existsSync(mockedJsonPath)).toBeTruthy();
     expect(readJsonSync(mockedJsonPath)).toEqual({
-      fetchedAt: expect.any(String),
       articles,
     });
   });
