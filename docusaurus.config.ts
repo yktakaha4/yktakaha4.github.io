@@ -6,7 +6,7 @@ import dayjs from 'dayjs';
 import { BsFillMusicPlayerFill } from 'react-icons/bs';
 import { IconBaseProps } from 'react-icons';
 import * as process from 'process';
-import { CustomFields } from '@/constants';
+import { CustomFields } from '@/components/helper';
 
 const buildAt = dayjs().format();
 let commitHash = 'unset';
