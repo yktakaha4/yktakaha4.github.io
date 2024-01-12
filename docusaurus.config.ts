@@ -5,6 +5,8 @@ import { FaFileDownload, FaGithub } from 'react-icons/fa';
 import dayjs from 'dayjs';
 import { BsFillMusicPlayerFill } from 'react-icons/bs';
 import { IconBaseProps } from 'react-icons';
+import * as process from 'process';
+import { CustomFields } from '@/constants';
 
 const buildAt = dayjs().format();
 let commitHash = 'unset';
@@ -55,6 +57,16 @@ const repositoryUrl = 'https://github.com/yktakaha4/yktakaha4.github.io';
 const pdfUrl =
   'https://github.com/yktakaha4/yktakaha4.github.io/releases/latest/download/resume.pdf';
 
+const isDevelopment = process.env.NODE_ENV === 'development';
+const isProduction = process.env.NODE_ENV === 'production';
+
+const customFields: CustomFields = {
+  buildAt,
+  commitHash,
+  isDevelopment,
+  isProduction,
+};
+
 const config: Config = {
   title: metaTitle,
   favicon: '/img/favicon.ico',
@@ -64,16 +76,15 @@ const config: Config = {
   projectName: metaTitle,
   deploymentBranch: 'master',
   trailingSlash: false,
+  onBrokenAnchors: 'throw',
+  onDuplicateRoutes: 'throw',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
   i18n: {
     defaultLocale: 'ja',
     locales: ['ja'],
   },
-  customFields: {
-    buildAt,
-    commitHash,
-  },
+  customFields,
   presets: [
     [
       'classic',
