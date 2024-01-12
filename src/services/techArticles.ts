@@ -9,6 +9,7 @@ import {
   zennBaseURL,
 } from '@/constants';
 import { writeJson } from 'fs-extra';
+import { logger } from '@/services/logging';
 
 export type TechArticleSortOrder =
   | 'publishedAt desc'
@@ -30,7 +31,7 @@ export const getTechArticles = () => {
         zennTopics.topics.find((topic) => topic.slug === slug)?.topics || [];
       return {
         title,
-        url: `${zennBaseURL}/${path}`,
+        url: `${zennBaseURL}${path}`,
         publishedAt: dayjs(published_at).toDate(),
         likes: liked_count,
         publisher: 'zenn',
@@ -51,7 +52,12 @@ export const getTechArticles = () => {
         },
       ),
     )
-    .concat(othersArticles);
+    .concat(othersArticles)
+    .map((article) => {
+      const { url, tags } = article;
+      logger.debug('article', { url, tags });
+      return article;
+    });
 
   return sortTechArticles(techArticles, 'likes desc, publishedAt desc');
 };
@@ -76,10 +82,11 @@ export const sortTechArticles = (
 };
 
 export const storeTechArticles = async (articles: Array<unknown>) => {
+  logger.debug('start', { count: articles.length });
   const dataPath = getComponentsDataPath('techArticles');
   const data = {
-    storedAt: dayjs().toISOString(),
     articles,
   };
   await writeJson(dataPath, data, { spaces: 2 });
+  logger.debug('stored', { dataPath });
 };

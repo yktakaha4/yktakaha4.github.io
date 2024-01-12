@@ -145,10 +145,10 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev//yktakaha4/articles/technology_for_sending_email"
+            href="https://zenn.dev/yktakaha4/articles/technology_for_sending_email"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev//yktakaha4/articles/technology_for_sending_email"
+            to="https://zenn.dev/yktakaha4/articles/technology_for_sending_email"
           >
             電子メール送信に関する技術
           </a>
@@ -207,10 +207,10 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache"
+            href="https://zenn.dev/yktakaha4/articles/documentation_inspired_by_http_cache"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache"
+            to="https://zenn.dev/yktakaha4/articles/documentation_inspired_by_http_cache"
           >
             HTTPキャッシュに学ぶ、無理のないドキュメント更新運用
           </a>
@@ -269,10 +269,10 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev//yktakaha4/articles/study_csrf_attack"
+            href="https://zenn.dev/yktakaha4/articles/study_csrf_attack"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev//yktakaha4/articles/study_csrf_attack"
+            to="https://zenn.dev/yktakaha4/articles/study_csrf_attack"
           >
             CSRF(Cross-Site Request Forgery)攻撃について
           </a>
@@ -319,7 +319,7 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
                   d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
                 />
               </svg>
-              187
+              189
             </div>
           </div>
         </td>
@@ -331,10 +331,10 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev//yktakaha4/articles/running_an_agile_sre_team"
+            href="https://zenn.dev/yktakaha4/articles/running_an_agile_sre_team"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev//yktakaha4/articles/running_an_agile_sre_team"
+            to="https://zenn.dev/yktakaha4/articles/running_an_agile_sre_team"
           >
             アジャイルなSREチームの運用
           </a>
@@ -393,10 +393,10 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev//yktakaha4/articles/update_lp_for_maintenanceability"
+            href="https://zenn.dev/yktakaha4/articles/update_lp_for_maintenanceability"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev//yktakaha4/articles/update_lp_for_maintenanceability"
+            to="https://zenn.dev/yktakaha4/articles/update_lp_for_maintenanceability"
           >
             HTML+jQueryでできたLPをwebpack+TypeScript+Cypressで楽しく保守する
           </a>
@@ -517,10 +517,10 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev//yktakaha4/articles/history_books_on_information_technology"
+            href="https://zenn.dev/yktakaha4/articles/history_books_on_information_technology"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev//yktakaha4/articles/history_books_on_information_technology"
+            to="https://zenn.dev/yktakaha4/articles/history_books_on_information_technology"
           >
             情報技術に関する歴史や文化の本
           </a>
@@ -579,10 +579,10 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev//yktakaha4/articles/kintone-form-model-generator"
+            href="https://zenn.dev/yktakaha4/articles/kintone-form-model-generator"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev//yktakaha4/articles/kintone-form-model-generator"
+            to="https://zenn.dev/yktakaha4/articles/kintone-form-model-generator"
           >
             TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った
           </a>
@@ -641,10 +641,10 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev//yktakaha4/articles/introducing_kunitori"
+            href="https://zenn.dev/yktakaha4/articles/introducing_kunitori"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev//yktakaha4/articles/introducing_kunitori"
+            to="https://zenn.dev/yktakaha4/articles/introducing_kunitori"
           >
             リポジトリへの貢献量に応じて日本を手中に収めるCLIを作った
           </a>
@@ -703,10 +703,10 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev//yktakaha4/articles/production_freeze_manual"
+            href="https://zenn.dev/yktakaha4/articles/production_freeze_manual"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev//yktakaha4/articles/production_freeze_manual"
+            to="https://zenn.dev/yktakaha4/articles/production_freeze_manual"
           >
             エラーバジェット枯渇時のプロダクションフリーズ運用マニュアル
           </a>

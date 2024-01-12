@@ -1,6 +1,6 @@
 import { DocusaurusContext } from '@docusaurus/types';
 import dayjs from 'dayjs';
-import { CustomFields } from '@/constants';
+import { CustomFields } from '@/components/helper';
 
 const useDocusaurusContext = (): DocusaurusContext => {
   const customFields: CustomFields = {

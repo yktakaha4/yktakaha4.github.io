@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Avatar } from '@/components/ui/Avatar';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import { getCustomFields } from '@/constants';
+import { getCustomFields } from '@/components/helper';
 
 export const ProfileImages: FC = () => {
   const { isProduction: absolute } = getCustomFields();

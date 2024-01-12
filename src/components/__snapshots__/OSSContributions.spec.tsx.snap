@@ -28,7 +28,7 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
           <div
             class="navbar__item"
           >
-            31
+            32
              件
           </div>
         </div>
@@ -143,6 +143,59 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td>
+          2024/1/9
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://github.com/databus23/helm-diff/pull/491"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://github.com/databus23/helm-diff/pull/491"
+          >
+            Fix description of diff suppress option
+          </a>
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://github.com/databus23/helm-diff"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://github.com/databus23/helm-diff"
+          >
+            databus23/helm-diff
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+                />
+              </svg>
+              PRマージ
+            </div>
+          </div>
+        </td>
+      </tr>
       <tr>
         <td>
           2023/11/9
@@ -591,59 +644,6 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
             to="https://github.com/FairwindsOps/pluto"
           >
             FairwindsOps/pluto
-          </a>
-        </td>
-        <td>
-          <div
-            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
-          >
-            <div
-              class="badge badge--primary"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 448 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
-                />
-              </svg>
-              PRマージ
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2023/2/2
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://github.com/argoproj/argo-workflows/pull/10421"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://github.com/argoproj/argo-workflows/pull/10421"
-          >
-            fix: add message when parse of private key fails due to existing sso secret. Fixes #10420
-          </a>
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://github.com/argoproj/argo-workflows"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://github.com/argoproj/argo-workflows"
-          >
-            argoproj/argo-workflows
           </a>
         </td>
         <td>

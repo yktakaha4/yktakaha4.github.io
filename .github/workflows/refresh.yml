@@ -1,0 +1,34 @@
+name: Refresh components data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - id: yarn-cache-dir-path
+        run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
+      - uses: actions/cache@v3
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.YARN_CACHE_DIR }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - run: yarn install
+      - run: yarn refresh-components-data
+        env:
+          GITHUB_PAT: ${{ secrets.X_GITHUB_PAT }}
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: Update components data
+          delete-branch: true
+          title: Update components data

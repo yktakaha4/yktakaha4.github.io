@@ -8,6 +8,7 @@ import {
   OSSContributionKind,
 } from '@/constants';
 import { writeJson } from 'fs-extra';
+import { logger } from '@/services/logging';
 
 export type OSSContribution = {
   title: string;
@@ -55,12 +56,13 @@ export const getOSSContributions = () => {
         },
       };
     })
-    .filter(({ repository }) => {
+    .filter(({ url, repository }) => {
       const { owner, stars } = repository;
-      return (
+      const visible =
         stars >= gitHubStargazersCountThreshold &&
-        !gitHubIgnoreOwnerNames.includes(owner)
-      );
+        !gitHubIgnoreOwnerNames.includes(owner);
+      logger.debug('filter', { url, visible });
+      return visible;
     });
 
   return sortOSSContributions(contributions);
@@ -73,10 +75,11 @@ export const sortOSSContributions = (contributions: Array<OSSContribution>) => {
 };
 
 export const storeOSSContributions = async (contributions: Array<unknown>) => {
+  logger.debug('start', { count: contributions.length });
   const dataPath = getComponentsDataPath('ossContributions');
   const data = {
-    storedAt: dayjs().toISOString(),
     contributions,
   };
   await writeJson(dataPath, data, { spaces: 2 });
+  logger.debug('stored', { dataPath });
 };
