@@ -20,6 +20,7 @@ module.exports = {
     '@docusaurus/Link': '<rootDir>/src/jest/LinkMock.tsx',
     '@docusaurus/useDocusaurusContext':
       '<rootDir>/src/jest/useDocusaurusContextMock.ts',
+    '@docusaurus/useBaseUrl': '<rootDir>/src/jest/useBaseUrlMock.ts',
   },
   collectCoverage: true,
   collectCoverageFrom: [
