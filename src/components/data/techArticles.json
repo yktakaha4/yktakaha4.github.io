@@ -1,9 +1,9 @@
 {
-  "storedAt": "2024-01-04T11:32:42.259Z",
+  "storedAt": "2024-01-12T16:21:40.858Z",
   "articles": [
     {
       "title": "電子メール送信に関する技術",
-      "url": "https://zenn.dev//yktakaha4/articles/technology_for_sending_email",
+      "url": "https://zenn.dev/yktakaha4/articles/technology_for_sending_email",
       "publishedAt": "2022-03-28T04:00:47.989Z",
       "likes": 221,
       "publisher": "zenn",
@@ -15,7 +15,7 @@
     },
     {
       "title": "HTTPキャッシュに学ぶ、無理のないドキュメント更新運用",
-      "url": "https://zenn.dev//yktakaha4/articles/documentation_inspired_by_http_cache",
+      "url": "https://zenn.dev/yktakaha4/articles/documentation_inspired_by_http_cache",
       "publishedAt": "2022-05-09T05:10:39.252Z",
       "likes": 220,
       "publisher": "zenn",
@@ -26,9 +26,9 @@
     },
     {
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
-      "url": "https://zenn.dev//yktakaha4/articles/study_csrf_attack",
+      "url": "https://zenn.dev/yktakaha4/articles/study_csrf_attack",
       "publishedAt": "2022-10-30T13:41:45.651Z",
-      "likes": 187,
+      "likes": 189,
       "publisher": "zenn",
       "tags": [
         "CSRF",
@@ -38,7 +38,7 @@
     },
     {
       "title": "アジャイルなSREチームの運用",
-      "url": "https://zenn.dev//yktakaha4/articles/running_an_agile_sre_team",
+      "url": "https://zenn.dev/yktakaha4/articles/running_an_agile_sre_team",
       "publishedAt": "2023-04-25T04:03:13.984Z",
       "likes": 63,
       "publisher": "zenn",
@@ -50,7 +50,7 @@
     },
     {
       "title": "HTML+jQueryでできたLPをwebpack+TypeScript+Cypressで楽しく保守する",
-      "url": "https://zenn.dev//yktakaha4/articles/update_lp_for_maintenanceability",
+      "url": "https://zenn.dev/yktakaha4/articles/update_lp_for_maintenanceability",
       "publishedAt": "2021-02-28T07:39:55.316Z",
       "likes": 51,
       "publisher": "zenn",
@@ -72,7 +72,7 @@
     },
     {
       "title": "情報技術に関する歴史や文化の本",
-      "url": "https://zenn.dev//yktakaha4/articles/history_books_on_information_technology",
+      "url": "https://zenn.dev/yktakaha4/articles/history_books_on_information_technology",
       "publishedAt": "2023-07-01T00:11:30.613Z",
       "likes": 47,
       "publisher": "zenn",
@@ -84,7 +84,7 @@
     },
     {
       "title": "TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った",
-      "url": "https://zenn.dev//yktakaha4/articles/kintone-form-model-generator",
+      "url": "https://zenn.dev/yktakaha4/articles/kintone-form-model-generator",
       "publishedAt": "2022-01-09T11:24:07.611Z",
       "likes": 45,
       "publisher": "zenn",
@@ -96,7 +96,7 @@
     },
     {
       "title": "リポジトリへの貢献量に応じて日本を手中に収めるCLIを作った",
-      "url": "https://zenn.dev//yktakaha4/articles/introducing_kunitori",
+      "url": "https://zenn.dev/yktakaha4/articles/introducing_kunitori",
       "publishedAt": "2022-12-22T15:39:16.404Z",
       "likes": 44,
       "publisher": "zenn",
@@ -108,7 +108,7 @@
     },
     {
       "title": "エラーバジェット枯渇時のプロダクションフリーズ運用マニュアル",
-      "url": "https://zenn.dev//yktakaha4/articles/production_freeze_manual",
+      "url": "https://zenn.dev/yktakaha4/articles/production_freeze_manual",
       "publishedAt": "2022-02-28T01:31:09.909Z",
       "likes": 31,
       "publisher": "zenn",
@@ -137,7 +137,7 @@
     },
     {
       "title": "TerraformでGitHub Actions OIDC with AWSを定義し、EKSに安全にアクセスする",
-      "url": "https://zenn.dev//yktakaha4/articles/access_eks_with_github_actions_oidc",
+      "url": "https://zenn.dev/yktakaha4/articles/access_eks_with_github_actions_oidc",
       "publishedAt": "2021-12-02T00:22:29.260Z",
       "likes": 24,
       "publisher": "zenn",
@@ -150,7 +150,7 @@
     },
     {
       "title": "ビデオ会議が始まったらSpotifyの音量を自動で下げてくれるChrome Extensionを作った",
-      "url": "https://zenn.dev//yktakaha4/articles/how_to_develop_ducktify",
+      "url": "https://zenn.dev/yktakaha4/articles/how_to_develop_ducktify",
       "publishedAt": "2022-03-19T02:53:52.282Z",
       "likes": 22,
       "publisher": "zenn",
@@ -164,7 +164,7 @@
     },
     {
       "title": "ISUCON11に初参加したらおもろかった",
-      "url": "https://zenn.dev//yktakaha4/articles/postmortem_isucon11",
+      "url": "https://zenn.dev/yktakaha4/articles/postmortem_isucon11",
       "publishedAt": "2021-08-22T07:39:35.653Z",
       "likes": 22,
       "publisher": "zenn",
@@ -202,7 +202,7 @@
     },
     {
       "title": "AWS+EKSで稼働するWebアプリにSorryページを設計・実装する",
-      "url": "https://zenn.dev//yktakaha4/articles/how_to_make_sorry_page",
+      "url": "https://zenn.dev/yktakaha4/articles/how_to_make_sorry_page",
       "publishedAt": "2022-04-12T00:01:51.542Z",
       "likes": 19,
       "publisher": "zenn",
@@ -241,7 +241,7 @@
     },
     {
       "title": "UptimeRobotとTerraformでおこなう死活監視",
-      "url": "https://zenn.dev//yktakaha4/articles/synthetic_monitoring_with_ur_and_tf",
+      "url": "https://zenn.dev/yktakaha4/articles/synthetic_monitoring_with_ur_and_tf",
       "publishedAt": "2022-10-19T09:01:03.538Z",
       "likes": 16,
       "publisher": "zenn",
@@ -266,7 +266,7 @@
     },
     {
       "title": "チームに知見が残るEKSクラスタバージョンアップ運用",
-      "url": "https://zenn.dev//yktakaha4/articles/steady_update_of_eks",
+      "url": "https://zenn.dev/yktakaha4/articles/steady_update_of_eks",
       "publishedAt": "2023-02-13T02:11:32.729Z",
       "likes": 15,
       "publisher": "zenn",
@@ -305,7 +305,7 @@
     },
     {
       "title": "ANSI artをつくろう",
-      "url": "https://zenn.dev//yktakaha4/articles/how_to_make_ansi_art",
+      "url": "https://zenn.dev/yktakaha4/articles/how_to_make_ansi_art",
       "publishedAt": "2022-11-30T22:00:00.928Z",
       "likes": 13,
       "publisher": "zenn",
@@ -316,7 +316,7 @@
     },
     {
       "title": "Chromeに消されたCORS Preflight requestを確認する方法",
-      "url": "https://zenn.dev//yktakaha4/articles/analyze_cors_request_with_chrome",
+      "url": "https://zenn.dev/yktakaha4/articles/analyze_cors_request_with_chrome",
       "publishedAt": "2022-03-19T17:08:25.463Z",
       "likes": 13,
       "publisher": "zenn",
@@ -327,7 +327,7 @@
     },
     {
       "title": "独自ドメインのGmailとAmazon SESをTerraformにて設定する",
-      "url": "https://zenn.dev//yktakaha4/articles/gmail_and_ses_by_tf",
+      "url": "https://zenn.dev/yktakaha4/articles/gmail_and_ses_by_tf",
       "publishedAt": "2020-10-08T15:00:15.219Z",
       "likes": 13,
       "publisher": "zenn",
@@ -352,7 +352,7 @@
     },
     {
       "title": "ISUCON13に参加しました",
-      "url": "https://zenn.dev//yktakaha4/articles/postmortem_isucon13",
+      "url": "https://zenn.dev/yktakaha4/articles/postmortem_isucon13",
       "publishedAt": "2023-11-30T15:00:01.288Z",
       "likes": 12,
       "publisher": "zenn",
@@ -362,7 +362,7 @@
     },
     {
       "title": "Ebitengineでビジュアルリグレッションテストをやる",
-      "url": "https://zenn.dev//yktakaha4/articles/visual_regression_test_in_ebitengine",
+      "url": "https://zenn.dev/yktakaha4/articles/visual_regression_test_in_ebitengine",
       "publishedAt": "2022-10-03T07:13:53.540Z",
       "likes": 9,
       "publisher": "zenn",
@@ -372,6 +372,30 @@
         "Ebiten",
         "テスト",
         "GitHub Actions"
+      ]
+    },
+    {
+      "title": "Salesforce Bulk API 2.0 & 外部IDを使ったデータ移行をjsforceでおこなう",
+      "url": "https://zenn.dev/yktakaha4/articles/salesforce_bulk2_with_jsforce",
+      "publishedAt": "2022-09-17T09:11:43.814Z",
+      "likes": 8,
+      "publisher": "zenn",
+      "tags": [
+        "Salesforce",
+        "JavaScript",
+        "Node",
+        "jsforce"
+      ]
+    },
+    {
+      "title": "個人的log4js設定",
+      "url": "https://zenn.dev/yktakaha4/articles/my-log4js-settings",
+      "publishedAt": "2022-01-08T08:43:51.265Z",
+      "likes": 8,
+      "publisher": "zenn",
+      "tags": [
+        "log4js",
+        "TypeScript"
       ]
     },
     {
@@ -402,21 +426,8 @@
       ]
     },
     {
-      "title": "Salesforce Bulk API 2.0 & 外部IDを使ったデータ移行をjsforceでおこなう",
-      "url": "https://zenn.dev//yktakaha4/articles/salesforce_bulk2_with_jsforce",
-      "publishedAt": "2022-09-17T09:11:43.814Z",
-      "likes": 7,
-      "publisher": "zenn",
-      "tags": [
-        "Salesforce",
-        "JavaScript",
-        "Node",
-        "jsforce"
-      ]
-    },
-    {
       "title": "terraform planを見やすくするワンライナー",
-      "url": "https://zenn.dev//yktakaha4/articles/pretty_print_tf_plan",
+      "url": "https://zenn.dev/yktakaha4/articles/pretty_print_tf_plan",
       "publishedAt": "2022-07-11T22:35:16.532Z",
       "likes": 7,
       "publisher": "zenn",
@@ -427,7 +438,7 @@
     },
     {
       "title": "Pythonで画像のビジュアルリグレッションテストを書く",
-      "url": "https://zenn.dev//yktakaha4/articles/visual_regression_test_in_python",
+      "url": "https://zenn.dev/yktakaha4/articles/visual_regression_test_in_python",
       "publishedAt": "2022-06-12T23:25:47.533Z",
       "likes": 7,
       "publisher": "zenn",
@@ -438,7 +449,7 @@
     },
     {
       "title": "AWSのRI/SP買い方メモ",
-      "url": "https://zenn.dev//yktakaha4/articles/how_to_buy_ri_and_sp",
+      "url": "https://zenn.dev/yktakaha4/articles/how_to_buy_ri_and_sp",
       "publishedAt": "2022-02-05T07:39:36.019Z",
       "likes": 7,
       "publisher": "zenn",
@@ -447,19 +458,8 @@
       ]
     },
     {
-      "title": "個人的log4js設定",
-      "url": "https://zenn.dev//yktakaha4/articles/my-log4js-settings",
-      "publishedAt": "2022-01-08T08:43:51.265Z",
-      "likes": 7,
-      "publisher": "zenn",
-      "tags": [
-        "log4js",
-        "TypeScript"
-      ]
-    },
-    {
       "title": "Terraformでサッと使える検証用EKS環境を作った",
-      "url": "https://zenn.dev//yktakaha4/articles/study_k8s_terraform",
+      "url": "https://zenn.dev/yktakaha4/articles/study_k8s_terraform",
       "publishedAt": "2021-09-11T07:56:01.497Z",
       "likes": 7,
       "publisher": "zenn",
@@ -472,7 +472,7 @@
     },
     {
       "title": "（SRE的）作ってよかったドキュメント・表・運用",
-      "url": "https://zenn.dev//yktakaha4/articles/useful_documents_tables_and_operations_for_sre",
+      "url": "https://zenn.dev/yktakaha4/articles/useful_documents_tables_and_operations_for_sre",
       "publishedAt": "2023-12-18T09:28:09.207Z",
       "likes": 6,
       "publisher": "zenn",
@@ -484,7 +484,7 @@
     },
     {
       "title": "ALBとTerraformで作るHTTPリダイレクタ",
-      "url": "https://zenn.dev//yktakaha4/articles/redirector_with_alb",
+      "url": "https://zenn.dev/yktakaha4/articles/redirector_with_alb",
       "publishedAt": "2023-08-06T07:00:08.712Z",
       "likes": 6,
       "publisher": "zenn",
@@ -497,7 +497,7 @@
     },
     {
       "title": "libfaketimeをインストールするワンライナー",
-      "url": "https://zenn.dev//yktakaha4/articles/libfaketime_oneliner",
+      "url": "https://zenn.dev/yktakaha4/articles/libfaketime_oneliner",
       "publishedAt": "2021-06-28T12:22:43.234Z",
       "likes": 6,
       "publisher": "zenn",
@@ -507,7 +507,7 @@
     },
     {
       "title": "Lambda上で動くPythonにてSlack Appからのリクエストを検証する",
-      "url": "https://zenn.dev//yktakaha4/articles/verify_slack_signature_on_aws_lambda",
+      "url": "https://zenn.dev/yktakaha4/articles/verify_slack_signature_on_aws_lambda",
       "publishedAt": "2021-04-04T14:10:02.812Z",
       "likes": 6,
       "publisher": "zenn",
@@ -556,7 +556,7 @@
     },
     {
       "title": "AWSの2FA認証をCLIからおこなうワンライナー",
-      "url": "https://zenn.dev//yktakaha4/articles/aws_2fa_oneliner",
+      "url": "https://zenn.dev/yktakaha4/articles/aws_2fa_oneliner",
       "publishedAt": "2022-06-22T03:03:30.389Z",
       "likes": 5,
       "publisher": "zenn",
@@ -566,7 +566,7 @@
     },
     {
       "title": "Basic認証付きのCloudFront + S3環境をCloudFormationで構築する",
-      "url": "https://zenn.dev//yktakaha4/articles/cf_with_basic_auth_in_cfn",
+      "url": "https://zenn.dev/yktakaha4/articles/cf_with_basic_auth_in_cfn",
       "publishedAt": "2021-06-20T04:21:45.239Z",
       "likes": 5,
       "publisher": "zenn",
@@ -580,7 +580,7 @@
     },
     {
       "title": "DataGripにてSSM接続の踏み台サーバを通じてRDSに接続する",
-      "url": "https://zenn.dev//yktakaha4/articles/connect_to_rds_with_datagrip_and_ssm",
+      "url": "https://zenn.dev/yktakaha4/articles/connect_to_rds_with_datagrip_and_ssm",
       "publishedAt": "2021-01-16T19:00:08.341Z",
       "likes": 5,
       "publisher": "zenn",
@@ -616,7 +616,7 @@
     },
     {
       "title": "データから2022年をふりかえる",
-      "url": "https://zenn.dev//yktakaha4/articles/looking_back_to_2022",
+      "url": "https://zenn.dev/yktakaha4/articles/looking_back_to_2022",
       "publishedAt": "2022-12-31T14:59:00.925Z",
       "likes": 4,
       "publisher": "zenn",
@@ -626,7 +626,7 @@
     },
     {
       "title": "Amazon SESのEメール送信ログをAthenaでいい感じにクエリする",
-      "url": "https://zenn.dev//yktakaha4/articles/ses_delivery_log_with_athena",
+      "url": "https://zenn.dev/yktakaha4/articles/ses_delivery_log_with_athena",
       "publishedAt": "2022-09-23T05:15:39.262Z",
       "likes": 4,
       "publisher": "zenn",
@@ -649,7 +649,7 @@
     },
     {
       "title": "Issueに紐づくGitHub Projectsの情報をGraphQL経由で取得する",
-      "url": "https://zenn.dev//yktakaha4/articles/get_github_projects_item_with_graphql",
+      "url": "https://zenn.dev/yktakaha4/articles/get_github_projects_item_with_graphql",
       "publishedAt": "2023-03-29T08:17:42.538Z",
       "likes": 3,
       "publisher": "zenn",
@@ -685,7 +685,7 @@
     },
     {
       "title": "SquidのTips集",
-      "url": "https://zenn.dev//yktakaha4/articles/squid_proxy_tips",
+      "url": "https://zenn.dev/yktakaha4/articles/squid_proxy_tips",
       "publishedAt": "2022-06-18T14:53:47.098Z",
       "likes": 2,
       "publisher": "zenn",
@@ -696,7 +696,7 @@
     },
     {
       "title": "MySQLTunerを実行するワンライナー",
-      "url": "https://zenn.dev//yktakaha4/articles/mysqltuner_oneliner",
+      "url": "https://zenn.dev/yktakaha4/articles/mysqltuner_oneliner",
       "publishedAt": "2021-08-15T05:54:57.573Z",
       "likes": 2,
       "publisher": "zenn",
@@ -706,7 +706,7 @@
     },
     {
       "title": "PythonでIMAP接続に使われた暗号化バージョンをチェックする",
-      "url": "https://zenn.dev//yktakaha4/articles/check_imap_tls_version_in_python",
+      "url": "https://zenn.dev/yktakaha4/articles/check_imap_tls_version_in_python",
       "publishedAt": "2023-12-12T03:30:02.222Z",
       "likes": 1,
       "publisher": "zenn",
@@ -717,7 +717,7 @@
     },
     {
       "title": "unittestで特定の関数呼び出しをテスト全体でアサーションする",
-      "url": "https://zenn.dev//yktakaha4/articles/assert_function_calls_in_all_unittests",
+      "url": "https://zenn.dev/yktakaha4/articles/assert_function_calls_in_all_unittests",
       "publishedAt": "2023-10-03T04:05:13.160Z",
       "likes": 1,
       "publisher": "zenn",
@@ -728,7 +728,7 @@
     },
     {
       "title": "Djangoで全テーブルのIDの採番状況をチェックする",
-      "url": "https://zenn.dev//yktakaha4/articles/describe_remaining_id_length_in_django",
+      "url": "https://zenn.dev/yktakaha4/articles/describe_remaining_id_length_in_django",
       "publishedAt": "2023-05-02T14:33:06.123Z",
       "likes": 1,
       "publisher": "zenn",
@@ -739,7 +739,7 @@
     },
     {
       "title": "MailHogにtelnet経由でテストメールを送る",
-      "url": "https://zenn.dev//yktakaha4/articles/send_mail_to_mailhog_with_telnet",
+      "url": "https://zenn.dev/yktakaha4/articles/send_mail_to_mailhog_with_telnet",
       "publishedAt": "2023-02-24T00:05:04.572Z",
       "likes": 1,
       "publisher": "zenn",
@@ -751,7 +751,7 @@
     },
     {
       "title": "sls invoke localでdocker-composeで起動したコンテナに疎通する",
-      "url": "https://zenn.dev//yktakaha4/articles/sls_invoke_local_another_docker_container",
+      "url": "https://zenn.dev/yktakaha4/articles/sls_invoke_local_another_docker_container",
       "publishedAt": "2022-05-23T15:19:04.072Z",
       "likes": 1,
       "publisher": "zenn",
@@ -762,7 +762,7 @@
     },
     {
       "title": "Kintone Webhookの型定義",
-      "url": "https://zenn.dev//yktakaha4/articles/kintone_webhook_type_definitions",
+      "url": "https://zenn.dev/yktakaha4/articles/kintone_webhook_type_definitions",
       "publishedAt": "2022-01-10T04:08:49.518Z",
       "likes": 1,
       "publisher": "zenn",

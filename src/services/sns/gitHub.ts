@@ -2,6 +2,7 @@ import { graphql } from '@octokit/graphql';
 import { getSNSDataPath } from '@/constants';
 import dayjs from 'dayjs';
 import { writeJson } from 'fs-extra';
+import { logger } from '@/services/logging';
 
 const pullRequestsLimit = 100;
 const languagesLimit = 10;
@@ -67,11 +68,13 @@ export const createGraphQLClient = () => {
 };
 
 export const fetchPullRequests = async (login: string) => {
+  logger.debug('start', { login });
   const client = createGraphQLClient();
 
   const pullRequests: Array<Record<string, unknown>> = [];
   const params: { cursor: string | null } = { cursor: null };
   while (true) {
+    logger.debug('fetch', { params, total: pullRequests.length });
     const result = await client<FetchPullRequestsResponse>(
       fetchPullRequestsQuery,
       {
@@ -80,20 +83,24 @@ export const fetchPullRequests = async (login: string) => {
       },
     );
     pullRequests.push(...result.user.pullRequests.edges);
+    logger.debug('fetched', { total: pullRequests.length });
     if (result.user.pullRequests.pageInfo.hasNextPage) {
       params.cursor = result.user.pullRequests.pageInfo.endCursor;
       continue;
     }
     break;
   }
+  logger.debug('result', { total: pullRequests.length });
   return pullRequests;
 };
 
 export const storePullRequests = async (pullRequests: Array<unknown>) => {
+  logger.debug('start', { count: pullRequests.length });
   const dataPath = getSNSDataPath('gitHubPullRequests');
   const data = {
     fetchedAt: dayjs().toISOString(),
     pullRequests,
   };
   await writeJson(dataPath, data, { spaces: 2 });
+  logger.debug('stored', { dataPath });
 };

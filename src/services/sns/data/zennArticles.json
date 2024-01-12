@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2024-01-04T11:32:40.037Z",
+  "fetchedAt": "2024-01-12T16:06:10.721Z",
   "articles": [
     {
       "id": 221696,
@@ -343,7 +343,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "slug": "study_csrf_attack",
       "comments_count": 2,
-      "liked_count": 187,
+      "liked_count": 189,
       "body_letters_count": 24959,
       "article_type": "tech",
       "emoji": "🏄",
@@ -439,7 +439,7 @@
       "title": "Salesforce Bulk API 2.0 & 外部IDを使ったデータ移行をjsforceでおこなう",
       "slug": "salesforce_bulk2_with_jsforce",
       "comments_count": 0,
-      "liked_count": 7,
+      "liked_count": 8,
       "body_letters_count": 5811,
       "article_type": "tech",
       "emoji": "⛵",
@@ -799,7 +799,7 @@
       "title": "個人的log4js設定",
       "slug": "my-log4js-settings",
       "comments_count": 0,
-      "liked_count": 7,
+      "liked_count": 8,
       "body_letters_count": 2179,
       "article_type": "tech",
       "emoji": "🪵",
