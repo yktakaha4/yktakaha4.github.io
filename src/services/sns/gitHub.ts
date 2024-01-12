@@ -105,7 +105,9 @@ export const storePullRequests = async (pullRequests: Array<unknown>) => {
 
 export const checkGitHubPAT = async () => {
   logger.debug('start');
-  const response = await fetch('https://api.github.com', {
+  const url = 'https://api.github.com';
+  logger.debug('fetch', { url });
+  const response = await fetch(url, {
     headers: {
       authorization: `Bearer ${process.env.GITHUB_PAT}`,
     },
