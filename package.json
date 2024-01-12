@@ -21,7 +21,8 @@
     "fetch-github-pull-requests": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchGitHubPullRequests.ts",
     "fetch-qiita-items": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchQiitaItems.ts",
     "fetch-zenn-articles": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchZennArticles.ts",
-    "fetch-zenn-topics": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchZennTopics.ts"
+    "fetch-zenn-topics": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchZennTopics.ts",
+    "check-preconditions": "ts-node -P tsconfig.scripts.json src/services/scripts/checkPreconditions.ts"
   },
   "dependencies": {
     "@docusaurus/core": "^3.1.0",

@@ -102,3 +102,23 @@ export const storePullRequests = async (pullRequests: Array<unknown>) => {
   await writeJson(dataPath, data, { spaces: 2 });
   logger.debug('stored', { dataPath });
 };
+
+export const checkGitHubPAT = async () => {
+  logger.debug('start');
+  const response = await fetch('https://api.github.com', {
+    headers: {
+      authorization: `Bearer ${process.env.GITHUB_PAT}`,
+    },
+  });
+  logger.debug('fetched', { response });
+
+  if (!response.ok) {
+    throw new Error('Failed to get grants');
+  }
+  const scopes = response.headers.get('x-oauth-scopes');
+  logger.debug('scopes', { scopes });
+  if (scopes !== 'public_repo') {
+    throw new Error(`Invalid scope: ${scopes}`);
+  }
+  logger.debug('end');
+};
