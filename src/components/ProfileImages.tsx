@@ -1,10 +1,15 @@
 import { FC } from 'react';
 import { Avatar } from '@/components/ui/Avatar';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import { getCustomFields } from '@/constants';
 
 export const ProfileImages: FC = () => {
+  const { isProduction: absolute } = getCustomFields();
   const src = [
     {
-      src: require('@site/static/img/icon.jpg').default,
+      src: useBaseUrl(require('@site/static/img/icon.jpg').default, {
+        absolute,
+      }),
       alt: 'コウテイペンギン',
       srcSets: [
         {
@@ -24,7 +29,9 @@ export const ProfileImages: FC = () => {
       ],
     },
     {
-      src: require('@site/static/img/yktakaha4.jpg').default,
+      src: useBaseUrl(require('@site/static/img/yktakaha4.jpg').default, {
+        absolute,
+      }),
       alt: '近影',
       srcSets: [
         {

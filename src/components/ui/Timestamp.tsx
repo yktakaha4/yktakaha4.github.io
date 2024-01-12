@@ -1,11 +1,10 @@
 import { FC } from 'react';
 import dayjs from 'dayjs';
-import { getCustomFieldValue } from '@/constants';
+import { getCustomFields } from '@/constants';
 import Link from '@docusaurus/Link';
 
 export const Timestamp: FC = () => {
-  const buildAt = getCustomFieldValue('buildAt');
-  const commitHash = getCustomFieldValue('commitHash');
+  const { buildAt, commitHash } = getCustomFields();
   const versionUrl = `https://github.com/yktakaha4/yktakaha4.github.io/tree/${commitHash}`;
   return (
     <table className="capy--plain-table" style={{ fontStyle: 'italic' }}>

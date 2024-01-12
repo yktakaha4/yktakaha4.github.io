@@ -1,17 +1,21 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { Icon } from '@/components/ui/Tag';
 
-export const getCustomFieldValue = (key: 'buildAt' | 'commitHash') => {
+export type CustomFields = {
+  buildAt: string;
+  commitHash: string;
+  isDevelopment: boolean;
+  isProduction: boolean;
+};
+
+export const getCustomFields = (): CustomFields => {
   const {
     siteConfig: { customFields },
   } = useDocusaurusContext();
   if (customFields) {
-    const value = customFields[key]?.toString();
-    if (value != null) {
-      return value;
-    }
+    return customFields as CustomFields;
   }
-  throw new Error(`${key} is not found`);
+  throw new Error('customFields is not defined');
 };
 
 export type TechArticlePublisher =
