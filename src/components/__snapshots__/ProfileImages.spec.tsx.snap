@@ -19,6 +19,8 @@ exports[`ProfileImages スナップショットテスト プロフィール画�
         />
         <img
           alt="コウテイペンギン"
+          decoding="async"
+          loading="lazy"
           src="test-file-stub"
           srcset="test-file-stub 128w,test-file-stub 400w"
           title="コウテイペンギン"
@@ -39,6 +41,8 @@ exports[`ProfileImages スナップショットテスト プロフィール画�
         />
         <img
           alt="近影"
+          decoding="async"
+          loading="lazy"
           src="test-file-stub"
           srcset="test-file-stub 128w,test-file-stub 400w"
           title="近影"

@@ -51,5 +51,5 @@ export const ProfileImages: FC = () => {
       ],
     },
   ];
-  return <Avatar src={src} />;
+  return <Avatar src={src} loading="lazy" decoding="async" />;
 };
