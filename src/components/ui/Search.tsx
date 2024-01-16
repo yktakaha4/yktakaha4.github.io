@@ -43,6 +43,7 @@ export const Search: FC<SearchInputProps> = ({
               onChange={handleChange}
               maxLength={100}
               value={query}
+              placeholder={'検索'}
             />
           </div>
           {totalCount != null && (
