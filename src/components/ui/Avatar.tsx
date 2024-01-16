@@ -24,9 +24,10 @@ export type AvatarProps = {
   name?: string;
   subTitle?: string;
   loading?: 'lazy' | 'eager';
+  decoding?: 'async' | 'auto' | 'sync';
 };
 
-export const Avatar: FC<AvatarProps> = ({ src, name, subTitle, loading }) => {
+export const Avatar: FC<AvatarProps> = ({ src, name, subTitle, loading, decoding }) => {
   const srcList = Array.isArray(src) ? src : [src];
 
   const alt = ({ alt }: Src) => alt || 'アバター画像';
@@ -50,6 +51,7 @@ export const Avatar: FC<AvatarProps> = ({ src, name, subTitle, loading }) => {
             <img
               title={alt(src)}
               loading={loading}
+              decoding={decoding}
               alt={alt(src)}
               src={src.src}
               srcSet={srcSet(src)}
