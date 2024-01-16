@@ -21,6 +21,7 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
             <input
               class="navbar__search-input"
               maxlength="100"
+              placeholder="検索"
               type="text"
               value=""
             />

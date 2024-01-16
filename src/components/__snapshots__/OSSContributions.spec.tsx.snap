@@ -21,6 +21,7 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
             <input
               class="navbar__search-input"
               maxlength="100"
+              placeholder="検索"
               type="text"
               value=""
             />
