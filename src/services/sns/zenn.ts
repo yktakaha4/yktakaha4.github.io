@@ -1,42 +1,81 @@
-import { existsSync, readdirSync, writeJson } from 'fs-extra';
+import zennArticles from '@/services/sns/data/zennArticles.json';
+import zennTopics from '@/services/sns/data/zennTopics.json';
+import { writeJson } from 'fs-extra';
 import { getSNSDataPath } from '@/constants';
-import { read } from 'gray-matter';
 import { logger } from '@/services/logging';
+
+const baseUri = 'https://zenn.dev/api/articles';
 
 type ZennApiGetArticlesResponse = {
   articles: Array<Record<string, unknown>>;
   next_page: number | null;
 };
 
-export const scrapeTopics = async (articlesDirectoryPath: string) => {
-  logger.debug('start', { articlesDirectoryPath });
-  if (!existsSync(articlesDirectoryPath)) {
-    throw new Error(`Directory not found: ${articlesDirectoryPath}`);
+type ZennApiGetArticleResponse = {
+  article: {
+    topics: Array<{
+      display_name: string;
+    }>;
+    status: string;
+  };
+};
+
+export const fetchTopics = async (
+  { articles }: typeof zennArticles,
+  force?: boolean,
+) => {
+  const sleepTime = 1500;
+  let sleepTimer: Promise<void> | null = null;
+
+  logger.debug('start', { count: articles.length, force });
+  const newTopics: typeof zennTopics.topics = [];
+  for (const { slug } of articles) {
+    const topic = zennTopics.topics.find((topic) => topic.slug === slug);
+    if (topic && !force) {
+      logger.debug('found', { slug });
+      newTopics.push(topic);
+      continue;
+    }
+
+    if (sleepTimer) {
+      logger.debug('sleep', { sleepTime });
+      await sleepTimer;
+    }
+
+    logger.debug('fetch', { baseUri, slug });
+    const response = await fetch(`${baseUri}/${slug}`);
+    logger.debug('fetched', { response });
+    if (!response.ok) {
+      throw new Error('Failed to fetch article');
+    }
+
+    sleepTimer = new Promise((resolve) => setTimeout(resolve, sleepTime));
+
+    const { article }: ZennApiGetArticleResponse = await response.json();
+
+    const topics = article.topics
+      .map((topic) => topic.display_name)
+      .filter((topic) => !!topic);
+    topics.sort((lhs, rhs) => lhs.localeCompare(rhs));
+
+    const published = article.status === 'published';
+    if (!published) {
+      logger.debug('not published', { slug });
+      continue;
+    }
+
+    logger.debug('new topic', { slug, topics, published });
+    newTopics.push({
+      slug,
+      topics,
+      published,
+    });
   }
 
-  const articleFileNames = readdirSync(articlesDirectoryPath).filter(
-    (fileName) => fileName.endsWith('.md'),
-  );
+  newTopics.sort((lhs, rhs) => lhs.slug.localeCompare(rhs.slug));
 
-  return articleFileNames
-    .map((articleFileName) => {
-      const { data } = read(`${articlesDirectoryPath}/${articleFileName}`);
-
-      const slug = articleFileName.replace(/\.md$/, '');
-      const topics = Array.isArray(data.topics) ? data.topics.map(String) : [];
-      const published = !!data.published;
-
-      return {
-        slug,
-        topics,
-        published,
-      };
-    })
-    .filter(({ topics, published }) => topics.length > 0 && published)
-    .map((value) => {
-      logger.debug('found', value);
-      return value;
-    });
+  logger.debug('end');
+  return newTopics as Array<unknown>;
 };
 
 export const storeTopics = async (topics: Array<unknown>) => {
@@ -55,7 +94,6 @@ export const fetchArticles = async (userName: string) => {
     throw new Error('userName is not specified');
   }
 
-  const baseUri = 'https://zenn.dev/api/articles';
   const params = new URLSearchParams({
     username: userName,
     order: 'latest',

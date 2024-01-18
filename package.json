@@ -31,7 +31,6 @@
     "clsx": "^2.0.0",
     "dayjs": "^1.11.10",
     "fs-extra": "^11.2.0",
-    "gray-matter": "^4.0.3",
     "log4js": "^6.9.1",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
