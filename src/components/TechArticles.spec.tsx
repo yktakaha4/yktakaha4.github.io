@@ -13,15 +13,12 @@ jest.mock('@/components/data/techArticles.json', () => {
       const date = new Date(baseDate);
       date.setDate(date.getDate() - i * i);
       return {
-        "title": `Article title ${i}`,
-        "url": `https://example.com/articles/${i}`,
-        "publishedAt": date.toISOString(),
-        "likes": 123 * i,
-        "publisher": publishers[i % publishers.length],
-        "tags": tags.slice(
-            i % tags.length,
-            (i * i) % tags.length,
-        )
+        title: `Article title ${i}`,
+        url: `https://example.com/articles/${i}`,
+        publishedAt: date.toISOString(),
+        likes: 123 * i,
+        publisher: publishers[i % publishers.length],
+        tags: tags.slice(i % tags.length, (i * i) % tags.length),
       };
     }),
   };
