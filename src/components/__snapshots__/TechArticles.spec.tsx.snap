@@ -29,7 +29,7 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
           <div
             class="navbar__item"
           >
-            77
+            30
              件
           </div>
         </div>
@@ -94,13 +94,6 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
               <li
                 class="pagination__item"
               >
-                <span>
-                  …
-                </span>
-              </li>
-              <li
-                class="pagination__item"
-              >
                 <a
                   class="pagination__link"
                   data-mock="LinkMock"
@@ -141,17 +134,17 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
     <tbody>
       <tr>
         <td>
-          2022/3/28
+          2020/1/1
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev/yktakaha4/articles/technology_for_sending_email"
+            href="https://example.com/articles/0"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev/yktakaha4/articles/technology_for_sending_email"
+            to="https://example.com/articles/0"
           >
-            電子メール送信に関する技術
+            Article title 0
           </a>
         </td>
         <td>
@@ -196,24 +189,24 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
                   d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
                 />
               </svg>
-              221
+              0
             </div>
           </div>
         </td>
       </tr>
       <tr>
         <td>
-          2022/5/9
+          2019/12/31
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev/yktakaha4/articles/documentation_inspired_by_http_cache"
+            href="https://example.com/articles/1"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev/yktakaha4/articles/documentation_inspired_by_http_cache"
+            to="https://example.com/articles/1"
           >
-            HTTPキャッシュに学ぶ、無理のないドキュメント更新運用
+            Article title 1
           </a>
         </td>
         <td>
@@ -238,7 +231,7 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
                   d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"
                 />
               </svg>
-              Zenn
+              Qiita
             </div>
             <div
               class="badge badge--danger"
@@ -258,210 +251,24 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
                   d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
                 />
               </svg>
-              220
+              123
             </div>
           </div>
         </td>
       </tr>
       <tr>
         <td>
-          2022/10/30
+          2019/12/28
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev/yktakaha4/articles/study_csrf_attack"
+            href="https://example.com/articles/2"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev/yktakaha4/articles/study_csrf_attack"
+            to="https://example.com/articles/2"
           >
-            CSRF(Cross-Site Request Forgery)攻撃について
-          </a>
-        </td>
-        <td>
-          <div
-            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
-          >
-            <div
-              class="badge badge--primary"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 512 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"
-                />
-              </svg>
-              Zenn
-            </div>
-            <div
-              class="badge badge--danger"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 512 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
-                />
-              </svg>
-              189
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2023/4/25
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://zenn.dev/yktakaha4/articles/running_an_agile_sre_team"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://zenn.dev/yktakaha4/articles/running_an_agile_sre_team"
-          >
-            アジャイルなSREチームの運用
-          </a>
-        </td>
-        <td>
-          <div
-            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
-          >
-            <div
-              class="badge badge--primary"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 512 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"
-                />
-              </svg>
-              Zenn
-            </div>
-            <div
-              class="badge badge--danger"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 512 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
-                />
-              </svg>
-              63
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2021/2/28
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://zenn.dev/yktakaha4/articles/update_lp_for_maintenanceability"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://zenn.dev/yktakaha4/articles/update_lp_for_maintenanceability"
-          >
-            HTML+jQueryでできたLPをwebpack+TypeScript+Cypressで楽しく保守する
-          </a>
-        </td>
-        <td>
-          <div
-            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
-          >
-            <div
-              class="badge badge--primary"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 512 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"
-                />
-              </svg>
-              Zenn
-            </div>
-            <div
-              class="badge badge--danger"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 512 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
-                />
-              </svg>
-              51
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2021/1/27
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://note.com/yktakaha4/n/n67789c25ad73"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://note.com/yktakaha4/n/n67789c25ad73"
-          >
-            LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性
+            Article title 2
           </a>
         </td>
         <td>
@@ -506,24 +313,24 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
                   d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
                 />
               </svg>
-              49
+              246
             </div>
           </div>
         </td>
       </tr>
       <tr>
         <td>
-          2023/7/1
+          2019/12/23
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev/yktakaha4/articles/history_books_on_information_technology"
+            href="https://example.com/articles/3"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev/yktakaha4/articles/history_books_on_information_technology"
+            to="https://example.com/articles/3"
           >
-            情報技術に関する歴史や文化の本
+            Article title 3
           </a>
         </td>
         <td>
@@ -568,24 +375,148 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
                   d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
                 />
               </svg>
-              47
+              369
             </div>
           </div>
         </td>
       </tr>
       <tr>
         <td>
-          2022/1/9
+          2019/12/16
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev/yktakaha4/articles/kintone-form-model-generator"
+            href="https://example.com/articles/4"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev/yktakaha4/articles/kintone-form-model-generator"
+            to="https://example.com/articles/4"
           >
-            TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った
+            Article title 4
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              Qiita
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              492
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/12/7
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/5"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/5"
+          >
+            Article title 5
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              note
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              615
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/11/26
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/6"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/6"
+          >
+            Article title 6
           </a>
         </td>
         <td>
@@ -630,24 +561,148 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
                   d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
                 />
               </svg>
-              45
+              738
             </div>
           </div>
         </td>
       </tr>
       <tr>
         <td>
-          2022/12/23
+          2019/11/13
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://zenn.dev/yktakaha4/articles/introducing_kunitori"
+            href="https://example.com/articles/7"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://zenn.dev/yktakaha4/articles/introducing_kunitori"
+            to="https://example.com/articles/7"
           >
-            リポジトリへの貢献量に応じて日本を手中に収めるCLIを作った
+            Article title 7
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              Qiita
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              861
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/10/29
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/8"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/8"
+          >
+            Article title 8
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              note
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              984
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/10/12
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/9"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/9"
+          >
+            Article title 9
           </a>
         </td>
         <td>
@@ -692,69 +747,7 @@ exports[`TechArticles スナップショットテスト 技術記事が描画さ
                   d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
                 />
               </svg>
-              44
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2022/2/28
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://zenn.dev/yktakaha4/articles/production_freeze_manual"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://zenn.dev/yktakaha4/articles/production_freeze_manual"
-          >
-            エラーバジェット枯渇時のプロダクションフリーズ運用マニュアル
-          </a>
-        </td>
-        <td>
-          <div
-            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
-          >
-            <div
-              class="badge badge--primary"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 512 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"
-                />
-              </svg>
-              Zenn
-            </div>
-            <div
-              class="badge badge--danger"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 512 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
-                />
-              </svg>
-              31
+              1,107
             </div>
           </div>
         </td>
