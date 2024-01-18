@@ -16,13 +16,12 @@
     "lint": "tsc && eslint '**/*.{ts,tsx,js}' && prettier -c '**/*.{ts,tsx,js,mdx,md,json,yaml,yml}'",
     "test": "jest --runInBand",
     "test:e2e": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest --runInBand --config jest.config.e2e.js",
-    "refresh-components-data": "yarn check-preconditions && yarn fetch-github-pull-requests && yarn fetch-qiita-items && yarn fetch-zenn-articles && yarn fetch-zenn-topics && yarn build-components-data",
+    "refresh-components-data": "yarn fetch-github-pull-requests && yarn fetch-qiita-items && yarn fetch-zenn-articles && yarn fetch-zenn-topics && yarn build-components-data",
     "build-components-data": "ts-node -P tsconfig.scripts.json src/services/scripts/buildComponentsData.ts",
     "fetch-github-pull-requests": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchGitHubPullRequests.ts",
     "fetch-qiita-items": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchQiitaItems.ts",
     "fetch-zenn-articles": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchZennArticles.ts",
-    "fetch-zenn-topics": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchZennTopics.ts",
-    "check-preconditions": "ts-node -P tsconfig.scripts.json src/services/scripts/checkPreconditions.ts"
+    "fetch-zenn-topics": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchZennTopics.ts"
   },
   "dependencies": {
     "@docusaurus/core": "^3.1.0",
