@@ -14,7 +14,7 @@ jest
 const mockedGetSNSDataPath = jest.fn();
 jest
   .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation(() => mockedGetSNSDataPath() as never);
+  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 
 describe('fetchPullRequests', () => {
   test('PRが取得できる', async () => {

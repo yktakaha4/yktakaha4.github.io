@@ -11,7 +11,7 @@ import * as constants from '@/constants';
 const mockedGetComponentsDataPath = jest.fn();
 jest
   .spyOn(constants, 'getComponentsDataPath')
-  .mockImplementation(() => mockedGetComponentsDataPath() as never);
+  .mockImplementation((...args) => mockedGetComponentsDataPath(...args));
 
 describe('getOSSContributions', () => {
   test('OSS活動が取得できる', () => {

@@ -13,7 +13,7 @@ import * as constants from '@/constants';
 const mockedGetSNSDataPath = jest.fn();
 jest
   .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation(() => mockedGetSNSDataPath() as never);
+  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 
 describe('scrapeTopics', () => {
   test('記事ごとのトピックが取得できる', async () => {

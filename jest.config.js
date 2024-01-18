@@ -28,4 +28,5 @@ module.exports = {
     '!<rootDir>/src/**/*.{test,spec}.{ts,tsx}',
   ],
   testRegex: '/src/.+(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$',
+  silent: true,
 };

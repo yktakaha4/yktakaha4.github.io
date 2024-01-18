@@ -11,7 +11,7 @@ import { existsSync, readJsonSync } from 'fs-extra';
 const mockedGetComponentsDataPath = jest.fn();
 jest
   .spyOn(constants, 'getComponentsDataPath')
-  .mockImplementation(() => mockedGetComponentsDataPath() as never);
+  .mockImplementation((...args) => mockedGetComponentsDataPath(...args));
 
 describe('getTechArticles', () => {
   test('技術記事が取得できる', () => {
