@@ -1,46 +1,155 @@
 import {
   fetchArticles,
-  scrapeTopics,
+  fetchTopics,
   storeArticles,
   storeTopics,
 } from '@/services/sns/zenn';
 import { tempDir } from '@/jest/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 import nock from 'nock';
+import zennApiGetArticleResponse from '@/services/sns/mocks/zennApiGetArticleResponse.json';
 import zennApiGetArticlesResponse from '@/services/sns/mocks/zennApiGetArticlesResponse.json';
 import * as constants from '@/constants';
 
 const mockedGetSNSDataPath = jest.fn();
 jest
   .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation(() => mockedGetSNSDataPath() as never);
+  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 
-describe('scrapeTopics', () => {
-  test('記事ごとのトピックが取得できる', async () => {
-    const articlesDirectoryPath = `${__dirname}/mocks/zennArticleMarkdowns`;
-    const topics = await scrapeTopics(articlesDirectoryPath);
+describe('fetchTopics', () => {
+  const alreadySavedSlug = 'already_saved_slug';
+  const notFoundSlug = 'not_found_slug';
+  const newSlug = 'new_slug';
+  const errorSlug = 'error_slug';
+
+  beforeEach(() => {
+    nock.cleanAll();
+    nock('https://zenn.dev')
+      .get(`/api/articles/${alreadySavedSlug}`)
+      .reply(200, zennApiGetArticleResponse)
+      .get(`/api/articles/${newSlug}`)
+      .reply(200, zennApiGetArticleResponse)
+      .get(`/api/articles/${notFoundSlug}`)
+      .reply(404)
+      .get(`/api/articles/${errorSlug}`)
+      .reply(500);
+
+    jest.spyOn(global, 'setTimeout').mockImplementation((callback) => {
+      callback();
+      return 123 as unknown as NodeJS.Timeout;
+    });
+  });
+
+  test('トピックが差分取得できる', async () => {
+    const topics = await fetchTopics(
+      {
+        articles: [
+          {
+            slug: alreadySavedSlug,
+          },
+          {
+            slug: notFoundSlug,
+          },
+          {
+            slug: newSlug,
+          },
+        ],
+      },
+      {
+        topics: [
+          {
+            slug: alreadySavedSlug,
+            topics: ['topic1'],
+            published: true,
+          },
+        ],
+      },
+      false,
+    );
 
     expect(topics).toEqual([
       {
-        slug: 'access_eks_with_github_actions_oidc',
-        topics: ['Terraform', 'GitHub Actions', 'Kubernetes', 'AWS'],
+        slug: alreadySavedSlug,
+        topics: ['topic1'],
         published: true,
       },
       {
-        slug: 'how_to_make_ansi_art',
-        topics: ['Python', 'ANSI art'],
+        slug: newSlug,
+        topics: ['Terraform', 'uptimerobot', '監視'],
         published: true,
       },
     ]);
   });
 
-  describe('バリデーションエラー', () => {
-    test('記事ディレクトリが存在しない', async () => {
-      const articlesDirectoryPath = `${__dirname}/mocks/notFoundDirectory`;
-      await expect(scrapeTopics(articlesDirectoryPath)).rejects.toThrow(
-        'Directory not found',
-      );
-    });
+  test('トピックが強制取得できる', async () => {
+    const topics = await fetchTopics(
+      {
+        articles: [
+          {
+            slug: alreadySavedSlug,
+          },
+          {
+            slug: notFoundSlug,
+          },
+          {
+            slug: newSlug,
+          },
+        ],
+      },
+      {
+        topics: [
+          {
+            slug: alreadySavedSlug,
+            topics: ['topic1'],
+            published: true,
+          },
+        ],
+      },
+      true,
+    );
+
+    expect(topics).toEqual([
+      {
+        slug: alreadySavedSlug,
+        topics: ['Terraform', 'uptimerobot', '監視'],
+        published: true,
+      },
+      {
+        slug: newSlug,
+        topics: ['Terraform', 'uptimerobot', '監視'],
+        published: true,
+      },
+    ]);
+  });
+
+  test('APIエラーの場合は処理が失敗する', async () => {
+    const promise = fetchTopics(
+      {
+        articles: [
+          {
+            slug: alreadySavedSlug,
+          },
+          {
+            slug: notFoundSlug,
+          },
+          {
+            slug: errorSlug,
+          },
+        ],
+      },
+      {
+        topics: [
+          {
+            slug: alreadySavedSlug,
+            topics: ['topic1'],
+            published: true,
+          },
+        ],
+      },
+      false,
+    );
+
+    await expect(promise).rejects.toThrow('Failed to fetch articles');
   });
 });
 

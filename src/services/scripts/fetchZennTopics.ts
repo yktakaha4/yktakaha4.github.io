@@ -1,27 +1,20 @@
-import { getZennContentArticlesDirectoryPath } from '@/constants';
-import { scrapeTopics, storeTopics } from '@/services/sns/zenn';
+import * as process from 'process';
+import zennTopics from '@/services/sns/data/zennTopics.json';
+import zennArticles from '@/services/sns/data/zennArticles.json';
+import { fetchTopics, storeTopics } from '@/services/sns/zenn';
 import { logger } from '@/services/logging';
 
-export const fetchZennTopics = async () => {
-  logger.info('start');
-  const directoryPath = getZennContentArticlesDirectoryPath();
-  try {
-    const topics = await scrapeTopics(directoryPath);
-    logger.info('total', { count: topics.length });
-
-    await storeTopics(topics);
-  } catch (e) {
-    if (e instanceof Error && e.message.startsWith('Directory not found:')) {
-      logger.warn(e.message);
-    } else {
-      throw e;
-    }
-  }
+export const fetchZennTopics = async (force?: boolean) => {
+  logger.info('start', { force });
+  const topics = await fetchTopics(zennArticles, zennTopics, force);
+  logger.info('total', { count: topics.length });
+  await storeTopics(topics);
   logger.info('end');
 };
 
 if (require.main === module) {
-  fetchZennTopics().catch((e) => {
+  const force = process.argv.includes('--force');
+  fetchZennTopics(force).catch((e) => {
     logger.error(e);
     throw e;
   });

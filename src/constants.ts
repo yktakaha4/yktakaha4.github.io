@@ -54,9 +54,6 @@ export type ComponentsData = 'techArticles' | 'ossContributions';
 export const getComponentsDataPath = (componentsData: ComponentsData) =>
   `${componentsDataBasePath}/${componentsData}.json`;
 
-export const getZennContentArticlesDirectoryPath = () =>
-  `${__dirname}/../zenn-content/articles`;
-
 export const pagerSize = 3;
 export const pagerPerPage = 10;
 

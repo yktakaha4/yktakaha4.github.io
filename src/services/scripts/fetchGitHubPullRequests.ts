@@ -1,9 +1,14 @@
 import { gitHubLogin } from '@/constants';
-import { fetchPullRequests, storePullRequests } from '@/services/sns/gitHub';
+import {
+  checkGitHubPAT,
+  fetchPullRequests,
+  storePullRequests,
+} from '@/services/sns/gitHub';
 import { logger } from '@/services/logging';
 
 export const fetchGitHubPullRequests = async () => {
   logger.info('start');
+  await checkGitHubPAT();
   const pullRequests = await fetchPullRequests(gitHubLogin);
   logger.info('total', { count: pullRequests.length });
   await storePullRequests(pullRequests);

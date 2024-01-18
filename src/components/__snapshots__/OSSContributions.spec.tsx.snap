@@ -29,7 +29,7 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
           <div
             class="navbar__item"
           >
-            32
+            30
              件
           </div>
         </div>
@@ -94,13 +94,6 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
               <li
                 class="pagination__item"
               >
-                <span>
-                  …
-                </span>
-              </li>
-              <li
-                class="pagination__item"
-              >
                 <a
                   class="pagination__link"
                   data-mock="LinkMock"
@@ -146,81 +139,28 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
     <tbody>
       <tr>
         <td>
-          2024/1/9
+          2020/1/1
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/databus23/helm-diff/pull/491"
+            href="https://example.com/user0/repo0/pull/0"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/databus23/helm-diff/pull/491"
+            to="https://example.com/user0/repo0/pull/0"
           >
-            Fix description of diff suppress option
+            Contribution #0
           </a>
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/databus23/helm-diff"
+            href="https://github.com/user0/repo0"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/databus23/helm-diff"
+            to="https://github.com/user0/repo0"
           >
-            databus23/helm-diff
-          </a>
-        </td>
-        <td>
-          <div
-            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
-          >
-            <div
-              class="badge badge--primary"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 448 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
-                />
-              </svg>
-              PRマージ
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2023/11/9
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://github.com/hashicorp/terraform-provider-aws/pull/34312"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://github.com/hashicorp/terraform-provider-aws/pull/34312"
-          >
-            docs: fix resource id
-          </a>
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://github.com/hashicorp/terraform-provider-aws"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://github.com/hashicorp/terraform-provider-aws"
-          >
-            hashicorp/terraform-provider-aws
+            user0/repo0
           </a>
         </td>
         <td>
@@ -252,81 +192,28 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
       </tr>
       <tr>
         <td>
-          2023/10/17
+          2019/12/31
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/aws/aws-eks-best-practices/pull/398"
+            href="https://example.com/user1/repo1/pull/1"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/aws/aws-eks-best-practices/pull/398"
+            to="https://example.com/user1/repo1/pull/1"
           >
-            fix broken link
+            Contribution #1
           </a>
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/aws/aws-eks-best-practices"
+            href="https://github.com/user1/repo1"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/aws/aws-eks-best-practices"
+            to="https://github.com/user1/repo1"
           >
-            aws/aws-eks-best-practices
-          </a>
-        </td>
-        <td>
-          <div
-            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
-          >
-            <div
-              class="badge badge--primary"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 448 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
-                />
-              </svg>
-              PRマージ
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2023/9/14
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://github.com/helmfile/helmfile/pull/1019"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://github.com/helmfile/helmfile/pull/1019"
-          >
-            Add diffArgs to helmDefaults
-          </a>
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://github.com/helmfile/helmfile"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://github.com/helmfile/helmfile"
-          >
-            helmfile/helmfile
+            user1/repo1
           </a>
         </td>
         <td>
@@ -358,81 +245,28 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
       </tr>
       <tr>
         <td>
-          2023/6/17
+          2019/12/28
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/hashicorp/terraform-provider-aws/pull/27604"
+            href="https://example.com/user2/repo2/pull/2"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/hashicorp/terraform-provider-aws/pull/27604"
+            to="https://example.com/user2/repo2/pull/2"
           >
-            Add import of \`aws_ses_active_receipt_rule_set\` resource
+            Contribution #2
           </a>
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/hashicorp/terraform-provider-aws"
+            href="https://github.com/user2/repo2"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/hashicorp/terraform-provider-aws"
+            to="https://github.com/user2/repo2"
           >
-            hashicorp/terraform-provider-aws
-          </a>
-        </td>
-        <td>
-          <div
-            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
-          >
-            <div
-              class="badge badge--primary"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 448 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
-                />
-              </svg>
-              PRマージ
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2023/5/7
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://github.com/ebitengine/ebitengine.org/pull/17"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://github.com/ebitengine/ebitengine.org/pull/17"
-          >
-            add about go run in wsl
-          </a>
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://github.com/ebitengine/ebitengine.org"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://github.com/ebitengine/ebitengine.org"
-          >
-            ebitengine/ebitengine.org
+            user2/repo2
           </a>
         </td>
         <td>
@@ -464,81 +298,28 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
       </tr>
       <tr>
         <td>
-          2023/3/20
+          2019/12/23
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/cloudflare/terraform-provider-cloudflare/pull/2298"
+            href="https://example.com/user3/repo3/pull/3"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/cloudflare/terraform-provider-cloudflare/pull/2298"
+            to="https://example.com/user3/repo3/pull/3"
           >
-            add import \`cloudflare_tunnel_config\`
+            Contribution #3
           </a>
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/cloudflare/terraform-provider-cloudflare"
+            href="https://github.com/user3/repo3"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/cloudflare/terraform-provider-cloudflare"
+            to="https://github.com/user3/repo3"
           >
-            cloudflare/terraform-provider-cloudflare
-          </a>
-        </td>
-        <td>
-          <div
-            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
-          >
-            <div
-              class="badge badge--primary"
-              style="white-space: nowrap;"
-            >
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                stroke-width="0"
-                style="margin-right: 0.2rem; vertical-align: bottom;"
-                viewBox="0 0 448 512"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
-                />
-              </svg>
-              PRマージ
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2023/2/23
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://github.com/FairwindsOps/pluto/pull/457"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://github.com/FairwindsOps/pluto/pull/457"
-          >
-            add: set replacement-available-in to existing version.
-          </a>
-        </td>
-        <td>
-          <a
-            data-mock="LinkMock"
-            href="https://github.com/FairwindsOps/pluto"
-            rel="noopener noreferrer"
-            target="_blank"
-            to="https://github.com/FairwindsOps/pluto"
-          >
-            FairwindsOps/pluto
+            user3/repo3
           </a>
         </td>
         <td>
@@ -570,28 +351,28 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
       </tr>
       <tr>
         <td>
-          2023/2/22
+          2019/12/16
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/FairwindsOps/pluto/pull/452"
+            href="https://example.com/user4/repo4/pull/4"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/FairwindsOps/pluto/pull/452"
+            to="https://example.com/user4/repo4/pull/4"
           >
-            add replacement-available-in
+            Contribution #4
           </a>
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/FairwindsOps/pluto"
+            href="https://github.com/user4/repo4"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/FairwindsOps/pluto"
+            to="https://github.com/user4/repo4"
           >
-            FairwindsOps/pluto
+            user4/repo4
           </a>
         </td>
         <td>
@@ -623,28 +404,240 @@ exports[`OSSContributions スナップショットテスト OSS活動が描画�
       </tr>
       <tr>
         <td>
-          2023/2/4
+          2019/12/7
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/FairwindsOps/pluto/pull/448"
+            href="https://example.com/user5/repo5/pull/5"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/FairwindsOps/pluto/pull/448"
+            to="https://example.com/user5/repo5/pull/5"
           >
-            fix: add removed-in to storage.k8s.io/v1beta1.CSIStorageCapacity
+            Contribution #5
           </a>
         </td>
         <td>
           <a
             data-mock="LinkMock"
-            href="https://github.com/FairwindsOps/pluto"
+            href="https://github.com/user5/repo5"
             rel="noopener noreferrer"
             target="_blank"
-            to="https://github.com/FairwindsOps/pluto"
+            to="https://github.com/user5/repo5"
           >
-            FairwindsOps/pluto
+            user5/repo5
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+                />
+              </svg>
+              PRマージ
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/11/26
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/user6/repo6/pull/6"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/user6/repo6/pull/6"
+          >
+            Contribution #6
+          </a>
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://github.com/user6/repo6"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://github.com/user6/repo6"
+          >
+            user6/repo6
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+                />
+              </svg>
+              PRマージ
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/11/13
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/user7/repo7/pull/7"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/user7/repo7/pull/7"
+          >
+            Contribution #7
+          </a>
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://github.com/user7/repo7"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://github.com/user7/repo7"
+          >
+            user7/repo7
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+                />
+              </svg>
+              PRマージ
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/10/29
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/user8/repo8/pull/8"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/user8/repo8/pull/8"
+          >
+            Contribution #8
+          </a>
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://github.com/user8/repo8"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://github.com/user8/repo8"
+          >
+            user8/repo8
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+                />
+              </svg>
+              PRマージ
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/10/12
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/user9/repo9/pull/9"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/user9/repo9/pull/9"
+          >
+            Contribution #9
+          </a>
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://github.com/user9/repo9"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://github.com/user9/repo9"
+          >
+            user9/repo9
           </a>
         </td>
         <td>

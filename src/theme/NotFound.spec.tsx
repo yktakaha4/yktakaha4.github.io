@@ -2,7 +2,7 @@ import NotFound from '@/theme/NotFound';
 import { render } from '@testing-library/react';
 
 describe('NotFound', () => {
-  it('リダイレクトする', () => {
+  test('リダイレクトする', () => {
     window.location.replace('/not-found');
     expect(window.location.href).toBe('http://localhost/not-found');
 

@@ -4,6 +4,7 @@ import * as constants from '@/constants';
 import { fetchPullRequests, storePullRequests } from '@/services/sns/gitHub';
 import { tempDir } from '@/jest/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
+import nock from 'nock';
 
 const mockedGraphQLClient = jest.fn();
 jest
@@ -13,7 +14,7 @@ jest
 const mockedGetSNSDataPath = jest.fn();
 jest
   .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation(() => mockedGetSNSDataPath() as never);
+  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 
 describe('fetchPullRequests', () => {
   test('PRが取得できる', async () => {
@@ -47,5 +48,45 @@ describe('storePullRequests', () => {
     expect(readJsonSync(mockedJsonPath)).toEqual({
       pullRequests,
     });
+  });
+});
+
+describe('checkGitHubPAT', () => {
+  test('PATが適切なスコープを持っている', async () => {
+    nock('https://api.github.com', {
+      reqheaders: {
+        authorization: (value) => value === 'Bearer dummy_github_pat',
+      },
+    })
+      .get('/')
+      .reply(
+        200,
+        {},
+        {
+          'x-oauth-scopes': 'public_repo',
+        },
+      );
+
+    await expect(github.checkGitHubPAT()).resolves.toBeUndefined();
+  });
+
+  test('PATが適切なスコープを持っていない', async () => {
+    nock('https://api.github.com', {
+      reqheaders: {
+        authorization: (value) => value === 'Bearer dummy_github_pat',
+      },
+    })
+      .get('/')
+      .reply(
+        200,
+        {},
+        {
+          'x-oauth-scopes': 'public_repo, repo',
+        },
+      );
+
+    await expect(github.checkGitHubPAT()).rejects.toThrowError(
+      'Invalid scope: public_repo, repo',
+    );
   });
 });
