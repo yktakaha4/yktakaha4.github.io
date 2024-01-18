@@ -1,5 +1,9 @@
 import { gitHubLogin } from '@/constants';
-import {checkGitHubPAT, fetchPullRequests, storePullRequests} from '@/services/sns/gitHub';
+import {
+  checkGitHubPAT,
+  fetchPullRequests,
+  storePullRequests,
+} from '@/services/sns/gitHub';
 import { logger } from '@/services/logging';
 
 export const fetchGitHubPullRequests = async () => {
