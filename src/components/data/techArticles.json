@@ -7,9 +7,9 @@
       "likes": 221,
       "publisher": "zenn",
       "tags": [
-        "電子メール",
         "AWS",
-        "SMTP"
+        "smtp",
+        "電子メール"
       ]
     },
     {
@@ -19,7 +19,7 @@
       "likes": 220,
       "publisher": "zenn",
       "tags": [
-        "HTTP",
+        "http",
         "ドキュメンテーション"
       ]
     },
@@ -31,8 +31,8 @@
       "publisher": "zenn",
       "tags": [
         "CSRF",
-        "Web",
-        "セキュリティ"
+        "Security",
+        "Web"
       ]
     },
     {
@@ -42,9 +42,9 @@
       "likes": 63,
       "publisher": "zenn",
       "tags": [
+        "SRE",
         "アジャイル",
-        "ふりかえり",
-        "SRE"
+        "ふりかえり"
       ]
     },
     {
@@ -54,11 +54,11 @@
       "likes": 51,
       "publisher": "zenn",
       "tags": [
-        "webpack",
-        "TypeScript",
         "Cypress",
+        "HTML",
         "jQuery",
-        "HTML"
+        "TypeScript",
+        "webpack"
       ]
     },
     {
@@ -76,8 +76,8 @@
       "likes": 47,
       "publisher": "zenn",
       "tags": [
-        "情報技術",
         "コンピュータ",
+        "情報技術",
         "読書"
       ]
     },
@@ -88,9 +88,9 @@
       "likes": 45,
       "publisher": "zenn",
       "tags": [
-        "Kintone",
-        "TypeScript",
-        "CLI"
+        "CLI",
+        "kintone",
+        "TypeScript"
       ]
     },
     {
@@ -100,9 +100,9 @@
       "likes": 44,
       "publisher": "zenn",
       "tags": [
-        "Go",
+        "CLI",
         "Git",
-        "CLI"
+        "Golang"
       ]
     },
     {
@@ -112,8 +112,8 @@
       "likes": 31,
       "publisher": "zenn",
       "tags": [
-        "SRE",
-        "SLO"
+        "SLO",
+        "SRE"
       ]
     },
     {
@@ -141,10 +141,10 @@
       "likes": 24,
       "publisher": "zenn",
       "tags": [
-        "Terraform",
+        "AWS",
         "GitHub Actions",
         "Kubernetes",
-        "AWS"
+        "Terraform"
       ]
     },
     {
@@ -154,11 +154,11 @@
       "likes": 22,
       "publisher": "zenn",
       "tags": [
+        "AWS",
+        "Chrome Extension",
         "React",
-        "Spotify",
-        "serverlessframewor",
-        "chromeextension",
-        "aws"
+        "Serverless Framework",
+        "Spotify"
       ]
     },
     {
@@ -206,11 +206,11 @@
       "likes": 19,
       "publisher": "zenn",
       "tags": [
+        "alb",
         "AWS",
-        "ALB",
-        "SRE",
         "EKS",
-        "kubernetes"
+        "Kubernetes",
+        "SRE"
       ]
     },
     {
@@ -245,8 +245,8 @@
       "likes": 16,
       "publisher": "zenn",
       "tags": [
-        "UptimeRobot",
         "Terraform",
+        "uptimerobot",
         "監視"
       ]
     },
@@ -272,7 +272,7 @@
       "tags": [
         "AWS",
         "EKS",
-        "kubernetes",
+        "Kubernetes",
         "Python"
       ]
     },
@@ -309,8 +309,8 @@
       "likes": 13,
       "publisher": "zenn",
       "tags": [
-        "Python",
-        "ANSI art"
+        "ansiart",
+        "Python"
       ]
     },
     {
@@ -331,10 +331,10 @@
       "likes": 13,
       "publisher": "zenn",
       "tags": [
-        "Terraform",
         "AWS",
-        "SES",
-        "Gmail"
+        "Gmail",
+        "ses",
+        "Terraform"
       ]
     },
     {
@@ -366,11 +366,11 @@
       "likes": 9,
       "publisher": "zenn",
       "tags": [
-        "Go",
-        "Ebitengine",
         "Ebiten",
-        "テスト",
-        "GitHub Actions"
+        "Ebitengine",
+        "GitHub Actions",
+        "Golang",
+        "テスト"
       ]
     },
     {
@@ -380,10 +380,10 @@
       "likes": 8,
       "publisher": "zenn",
       "tags": [
-        "Salesforce",
         "JavaScript",
-        "Node",
-        "jsforce"
+        "jsforce",
+        "Node.js",
+        "Salesforce"
       ]
     },
     {
@@ -431,8 +431,8 @@
       "likes": 7,
       "publisher": "zenn",
       "tags": [
-        "terraform",
-        "shell"
+        "shell",
+        "Terraform"
       ]
     },
     {
@@ -443,7 +443,7 @@
       "publisher": "zenn",
       "tags": [
         "Python",
-        "test"
+        "Test"
       ]
     },
     {
@@ -464,9 +464,9 @@
       "publisher": "zenn",
       "tags": [
         "AWS",
+        "EKS",
         "Kubernetes",
-        "terraform",
-        "EKS"
+        "Terraform"
       ]
     },
     {
@@ -477,8 +477,8 @@
       "publisher": "zenn",
       "tags": [
         "SRE",
-        "運用",
-        "ドキュメンテーション"
+        "ドキュメンテーション",
+        "運用"
       ]
     },
     {
@@ -488,10 +488,10 @@
       "likes": 6,
       "publisher": "zenn",
       "tags": [
+        "alb",
         "AWS",
-        "ALB",
-        "Terraform",
-        "HTTP"
+        "http",
+        "Terraform"
       ]
     },
     {
@@ -511,10 +511,10 @@
       "likes": 6,
       "publisher": "zenn",
       "tags": [
-        "Lambda",
-        "Slack",
         "AWS",
-        "Python"
+        "Lambda",
+        "Python",
+        "Slack"
       ]
     },
     {
@@ -570,11 +570,11 @@
       "likes": 5,
       "publisher": "zenn",
       "tags": [
-        "Basic認証",
-        "CloudFront",
-        "S3",
+        "AWS",
+        "basic認証",
         "CloudFormation",
-        "AWS"
+        "CloudFront",
+        "S3"
       ]
     },
     {
@@ -584,10 +584,10 @@
       "likes": 5,
       "publisher": "zenn",
       "tags": [
-        "DataGrip",
         "AWS",
+        "DataGrip",
         "RDS",
-        "SSM"
+        "ssm"
       ]
     },
     {
@@ -630,9 +630,9 @@
       "likes": 4,
       "publisher": "zenn",
       "tags": [
+        "athena",
         "AWS",
-        "Athena",
-        "SES"
+        "ses"
       ]
     },
     {
@@ -653,9 +653,9 @@
       "likes": 3,
       "publisher": "zenn",
       "tags": [
-        "GitHub Projects",
-        "Python",
-        "GraphQL"
+        "githubprojects",
+        "GraphQL",
+        "Python"
       ]
     },
     {
@@ -689,8 +689,8 @@
       "likes": 2,
       "publisher": "zenn",
       "tags": [
-        "squid",
-        "proxy"
+        "proxy",
+        "squid"
       ]
     },
     {
@@ -700,7 +700,7 @@
       "likes": 2,
       "publisher": "zenn",
       "tags": [
-        "MySQLTuner"
+        "mysqltuner"
       ]
     },
     {
@@ -710,8 +710,8 @@
       "likes": 1,
       "publisher": "zenn",
       "tags": [
-        "Python",
-        "IMAP"
+        "imap",
+        "Python"
       ]
     },
     {
@@ -732,8 +732,8 @@
       "likes": 1,
       "publisher": "zenn",
       "tags": [
-        "Python",
-        "Django"
+        "django",
+        "Python"
       ]
     },
     {
@@ -743,9 +743,9 @@
       "likes": 1,
       "publisher": "zenn",
       "tags": [
-        "telnet",
-        "MailHog",
-        "SMTP"
+        "mailhog",
+        "smtp",
+        "telnet"
       ]
     },
     {
@@ -755,8 +755,8 @@
       "likes": 1,
       "publisher": "zenn",
       "tags": [
-        "serverless",
-        "docker"
+        "Docker",
+        "Serverless"
       ]
     },
     {
@@ -766,7 +766,7 @@
       "likes": 1,
       "publisher": "zenn",
       "tags": [
-        "Kintone",
+        "kintone",
         "TypeScript"
       ]
     },

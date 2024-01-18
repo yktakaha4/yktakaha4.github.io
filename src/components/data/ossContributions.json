@@ -8,7 +8,7 @@
       "repository": {
         "owner": "databus23",
         "name": "databus23/helm-diff",
-        "stars": 2380,
+        "stars": 2383,
         "url": "https://github.com/databus23/helm-diff",
         "languages": [
           "Go"
@@ -23,7 +23,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9126,
+        "stars": 9136,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -38,7 +38,7 @@
       "repository": {
         "owner": "aws",
         "name": "aws/aws-eks-best-practices",
-        "stars": 1730,
+        "stars": 1736,
         "url": "https://github.com/aws/aws-eks-best-practices",
         "languages": [
           "Python"
@@ -53,7 +53,7 @@
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 2849,
+        "stars": 2870,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -68,7 +68,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9126,
+        "stars": 9136,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -98,7 +98,7 @@
       "repository": {
         "owner": "cloudflare",
         "name": "cloudflare/terraform-provider-cloudflare",
-        "stars": 650,
+        "stars": 654,
         "url": "https://github.com/cloudflare/terraform-provider-cloudflare",
         "languages": [
           "Go"
@@ -113,7 +113,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1848,
+        "stars": 1857,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -128,7 +128,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1848,
+        "stars": 1857,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -143,7 +143,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1848,
+        "stars": 1857,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -158,7 +158,7 @@
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
-        "stars": 13911,
+        "stars": 13933,
         "url": "https://github.com/argoproj/argo-workflows",
         "languages": [
           "Go"
@@ -263,7 +263,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9126,
+        "stars": 9136,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -323,7 +323,7 @@
       "repository": {
         "owner": "elwerene",
         "name": "elwerene/libreoffice-convert",
-        "stars": 211,
+        "stars": 212,
         "url": "https://github.com/elwerene/libreoffice-convert",
         "languages": [
           "JavaScript"
@@ -338,7 +338,7 @@
       "repository": {
         "owner": "kawamataryo",
         "name": "kawamataryo/chikamichi",
-        "stars": 269,
+        "stars": 270,
         "url": "https://github.com/kawamataryo/chikamichi",
         "languages": [
           "TypeScript",
@@ -384,7 +384,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 16111,
+        "stars": 16146,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -399,7 +399,7 @@
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 32742,
+        "stars": 32758,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -414,7 +414,7 @@
       "repository": {
         "owner": "serverless",
         "name": "serverless/serverless",
-        "stars": 45715,
+        "stars": 45745,
         "url": "https://github.com/serverless/serverless",
         "languages": [
           "JavaScript"
@@ -429,7 +429,7 @@
       "repository": {
         "owner": "amazon-connect",
         "name": "amazon-connect/amazon-connect-streams",
-        "stars": 366,
+        "stars": 367,
         "url": "https://github.com/amazon-connect/amazon-connect-streams",
         "languages": [
           "JavaScript"
@@ -444,7 +444,7 @@
       "repository": {
         "owner": "getmoto",
         "name": "getmoto/moto",
-        "stars": 7213,
+        "stars": 7219,
         "url": "https://github.com/getmoto/moto",
         "languages": [
           "Python"
@@ -459,7 +459,7 @@
       "repository": {
         "owner": "typescript-book-ja",
         "name": "typescript-book-ja/typescript-book-jp",
-        "stars": 302,
+        "stars": 301,
         "url": "https://github.com/typescript-book-ja/typescript-book-jp",
         "languages": [
           "TypeScript"
@@ -474,7 +474,7 @@
       "repository": {
         "owner": "championswimmer",
         "name": "championswimmer/vuex-module-decorators",
-        "stars": 1803,
+        "stars": 1802,
         "url": "https://github.com/championswimmer/vuex-module-decorators",
         "languages": [
           "TypeScript"
