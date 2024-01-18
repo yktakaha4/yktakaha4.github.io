@@ -120,7 +120,7 @@ describe('Table', () => {
     expect(table[0].textContent).toBe(expected);
   });
 
-  it('複数カラムを持つテーブルが描画される', () => {
+  test('複数カラムを持つテーブルが描画される', () => {
     const headers: TableHeaders = [
       { label: 'Head1' },
       { label: 'Head2' },
@@ -159,7 +159,7 @@ describe('Table', () => {
     expect(a[0].rel).toBe('noopener noreferrer');
   });
 
-  it('行が空の場合でもテーブルが描画される', () => {
+  test('行が空の場合でもテーブルが描画される', () => {
     const headers: TableHeaders = [{ label: 'Head1' }, { label: 'Head2' }];
     const { container } = render(<Table headers={headers} rows={[]} />);
     const table = container.getElementsByTagName('table');

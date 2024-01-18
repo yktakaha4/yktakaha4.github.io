@@ -1,5 +1,3 @@
-import zennArticles from '@/services/sns/data/zennArticles.json';
-import zennTopics from '@/services/sns/data/zennTopics.json';
 import { writeJson } from 'fs-extra';
 import { getSNSDataPath } from '@/constants';
 import { logger } from '@/services/logging';
@@ -21,16 +19,21 @@ type ZennApiGetArticleResponse = {
 };
 
 export const fetchTopics = async (
-  { articles }: typeof zennArticles,
+  { articles }: { articles: Array<{ slug: string }> },
+  {
+    topics,
+  }: {
+    topics: Array<{ slug: string; topics: Array<string>; published: boolean }>;
+  },
   force?: boolean,
 ) => {
   const sleepTime = 1500;
   let sleepTimer: Promise<void> | null = null;
 
   logger.debug('start', { count: articles.length, force });
-  const newTopics: typeof zennTopics.topics = [];
+  const newTopics: typeof topics = [];
   for (const { slug } of articles) {
-    const topic = zennTopics.topics.find((topic) => topic.slug === slug);
+    const topic = topics.find((topic) => topic.slug === slug);
     if (topic && !force) {
       logger.debug('found', { slug });
       newTopics.push(topic);
@@ -46,17 +49,21 @@ export const fetchTopics = async (
     const response = await fetch(`${baseUri}/${slug}`);
     logger.debug('fetched', { response });
     if (!response.ok) {
-      throw new Error('Failed to fetch article');
+      if (response.status === 404) {
+        logger.debug('not found', { slug, status: response.status });
+        continue;
+      }
+      throw new Error('Failed to fetch articles');
     }
 
     sleepTimer = new Promise((resolve) => setTimeout(resolve, sleepTime));
 
     const { article }: ZennApiGetArticleResponse = await response.json();
 
-    const topics = article.topics
+    const articleTopics = article.topics
       .map((topic) => topic.display_name)
       .filter((topic) => !!topic);
-    topics.sort((lhs, rhs) => lhs.localeCompare(rhs));
+    articleTopics.sort((lhs, rhs) => lhs.localeCompare(rhs));
 
     const published = article.status === 'published';
     if (!published) {
@@ -64,10 +71,10 @@ export const fetchTopics = async (
       continue;
     }
 
-    logger.debug('new topic', { slug, topics, published });
+    logger.debug('new topic', { slug, articleTopics, published });
     newTopics.push({
       slug,
-      topics,
+      topics: articleTopics,
       published,
     });
   }
