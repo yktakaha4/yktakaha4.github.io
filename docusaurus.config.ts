@@ -22,7 +22,7 @@ try {
 const soundPlayerAnchor = 'music';
 const soundPlayerHtml = `
 <div id="${soundPlayerAnchor}">
-<iframe width="100%" title="Music Player" height="300" loading="lazy" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1746472359&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false&show_artwork=true"></iframe>
+<iframe width="100%" title="Music Player" height="300" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1746472359&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false&show_artwork=true"></iframe>
 </div>
 `;
 
