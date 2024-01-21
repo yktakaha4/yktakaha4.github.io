@@ -57,9 +57,14 @@ jobs:
           FILES="$(du -ach ./build/*)"
           cat << EOF >> "$GITHUB_STEP_SUMMARY"
           ### Files
+
+          <details>
+
           \`\`\`
           $FILES
           \`\`\`
+
+          </details>
           EOF
 
   test:
@@ -86,15 +91,21 @@ jobs:
           DETAILS="$(cat "coverage/details.txt")"
           cat << EOF >> "$GITHUB_STEP_SUMMARY"
           ### Summary
+
           \`\`\`
           $SUMMARY
           \`\`\`
+
           ### Details
+
           <details>
+
           \`\`\`
           $DETAILS
           \`\`\`
+
           </details>
+
           EOF
 
   e2e:
