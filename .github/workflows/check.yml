@@ -49,6 +49,14 @@ jobs:
         with:
           name: build
           path: ./build/
+      - run: |
+          FILES="$(du -ach ./build/*)"
+          cat << EOF >> "$GITHUB_STEP_SUMMARY"
+          ### Files
+          \`\`\`
+          $FILES
+          \`\`\`
+          EOF
 
   test:
     name: Test
@@ -70,21 +78,18 @@ jobs:
       - run: yarn install
       - run: yarn test
       - run: |
+          SUMMARY="$(cat "coverage/summary.txt")"
+          DETAILS="$(cat "coverage/details.txt")"
           cat << EOF >> "$GITHUB_STEP_SUMMARY"
           ### Summary
-
-          ```
-          $(cat "coverage/summary.txt")
-          ```
-
+          \`\`\`
+          $SUMMARY
+          \`\`\`
           ### Details
-
           <details>
-
-          ```
-          $(cat "coverage/details.txt")
-          ```
-
+          \`\`\`
+          $DETAILS
+          \`\`\`
           </details>
           EOF
 
