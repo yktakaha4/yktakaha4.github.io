@@ -5,6 +5,10 @@ on: pull_request
 env:
   TZ: Asia/Tokyo
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     name: Lint
