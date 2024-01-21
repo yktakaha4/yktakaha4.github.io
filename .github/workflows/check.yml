@@ -97,13 +97,13 @@ jobs:
       - run: yarn install
       - run: yarn test
       - run: |
-          SUMMARY="$(cat "coverage/summary.txt")"
+          COVERAGE="$(cat "coverage/summary.txt")"
           DETAILS="$(cat "coverage/details.txt")"
           cat << EOF >> "$GITHUB_STEP_SUMMARY"
-          ### Summary
+          ### Coverage
 
           \`\`\`
-          $SUMMARY
+          $COVERAGE
           \`\`\`
 
           ### Details
