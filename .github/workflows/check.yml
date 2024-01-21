@@ -69,6 +69,24 @@ jobs:
             ${{ runner.os }}-yarn-
       - run: yarn install
       - run: yarn test
+      - run: |
+          cat << EOF >> "$GITHUB_STEP_SUMMARY"
+          ### Summary
+
+          ```
+          $(cat "coverage/summary.txt")
+          ```
+
+          ### Details
+
+          <details>
+
+          ```
+          $(cat "coverage/details.txt")
+          ```
+
+          </details>
+          EOF
 
   e2e:
     name: E2E Test
