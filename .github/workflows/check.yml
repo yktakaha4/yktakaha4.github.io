@@ -5,6 +5,10 @@ on: pull_request
 env:
   TZ: Asia/Tokyo
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     name: Lint
@@ -24,7 +28,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - run: yarn install
-      - run: yarn lint
+      - run: yarn lint 2>&1 | tee lint.log
+      - run: |
+          RESULT="$(cat "lint.log")"
+          cat << EOF >> "$GITHUB_STEP_SUMMARY"
+          ### Result
+
+          \`\`\`
+          $RESULT
+          \`\`\`
+
+          EOF
 
   build:
     name: Build
@@ -49,6 +63,19 @@ jobs:
         with:
           name: build
           path: ./build/
+      - run: |
+          FILES="$(du -ach ./build/*)"
+          cat << EOF >> "$GITHUB_STEP_SUMMARY"
+          ### Files
+
+          <details>
+
+          \`\`\`
+          $FILES
+          \`\`\`
+
+          </details>
+          EOF
 
   test:
     name: Test
@@ -69,6 +96,27 @@ jobs:
             ${{ runner.os }}-yarn-
       - run: yarn install
       - run: yarn test
+      - run: |
+          COVERAGE="$(cat "coverage/summary.txt")"
+          DETAILS="$(cat "coverage/details.txt")"
+          cat << EOF >> "$GITHUB_STEP_SUMMARY"
+          ### Coverage
+
+          \`\`\`
+          $COVERAGE
+          \`\`\`
+
+          ### Details
+
+          <details>
+
+          \`\`\`
+          $DETAILS
+          \`\`\`
+
+          </details>
+
+          EOF
 
   e2e:
     name: E2E Test

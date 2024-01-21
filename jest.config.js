@@ -27,6 +27,11 @@ module.exports = {
     '<rootDir>/src/**/*.{ts,tsx}',
     '!<rootDir>/src/**/*.{test,spec}.{ts,tsx}',
   ],
+  coverageReporters: [
+    'text',
+    ['text', { file: 'details.txt' }],
+    ['text-summary', { file: 'summary.txt' }],
+  ],
   testRegex: '/src/.+(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$',
   silent: true,
 };
