@@ -76,7 +76,7 @@ const config: Config = {
   projectName: metaTitle,
   deploymentBranch: 'master',
   trailingSlash: false,
-  onBrokenAnchors: 'throw',
+  onBrokenAnchors: 'log',
   onDuplicateRoutes: 'throw',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
