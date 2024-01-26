@@ -40,7 +40,7 @@
   "devDependencies": {
     "@docusaurus/eslint-plugin": "^3.1.0",
     "@docusaurus/module-type-aliases": "^3.1.1",
-    "@docusaurus/tsconfig": "^3.1.0",
+    "@docusaurus/tsconfig": "^3.1.1",
     "@docusaurus/types": "^3.1.0",
     "@testing-library/jest-dom": "^6.3.0",
     "@testing-library/react": "^14.1.2",
