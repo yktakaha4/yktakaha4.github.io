@@ -46,7 +46,7 @@
     "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.2",
     "@types/fs-extra": "^11.0.4",
-    "@types/jest": "^29.5.11",
+    "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
     "babel-plugin-tsconfig-paths-module-resolver": "^1.0.4",
