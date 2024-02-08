@@ -37,8 +37,5 @@ jobs:
           commit-message: Update components data
           delete-branch: true
           title: Update components data
-      - run: gh pr merge --merge --auto "$PULL_REQUEST_NUMBER"
-        if: ${{ steps.cpr.outputs.pull-request-number }}
-        env:
-          GH_TOKEN: ${{ secrets.PAT }}
-          PULL_REQUEST_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
+          labels: |
+            automated
