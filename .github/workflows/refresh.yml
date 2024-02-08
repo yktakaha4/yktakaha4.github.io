@@ -37,6 +37,7 @@ jobs:
         id: cpr
         with:
           token: ${{ secrets.X_GITHUB_PAT_AUTOMATED }}
+          author: ${{ secrets.X_GITHUB_AUTOMATED_AUTHOR }}
           commit-message: Update components data
           delete-branch: true
           title: Update components data
