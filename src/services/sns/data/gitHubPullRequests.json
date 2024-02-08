@@ -2,6 +2,201 @@
   "pullRequests": [
     {
       "node": {
+        "id": "PR_kwDODHHSac5mXH4Z",
+        "number": 296,
+        "title": "add auto merge",
+        "mergedAt": "2024-02-08T11:12:09Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/296",
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 2,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 99257
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 12572
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5242
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                },
+                "size": 720
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 545
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 204
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDODHHSac5kpN8x",
+        "number": 270,
+        "title": "Summary",
+        "mergedAt": "2024-01-21T23:14:58Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/270",
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 2,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 99257
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 12572
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5242
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                },
+                "size": 720
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 545
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 204
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDODHHSac5kcNjg",
+        "number": 269,
+        "title": "Fix/test",
+        "mergedAt": "2024-01-18T16:02:43Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/269",
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 2,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 99257
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 12572
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5242
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                },
+                "size": 720
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 545
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 204
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
         "id": "PR_kwDODHHSac5kNc1n",
         "number": 267,
         "title": "add auto-merge workflow",
@@ -23,21 +218,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -88,21 +283,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -153,21 +348,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -218,21 +413,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -283,21 +478,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -348,21 +543,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -413,21 +608,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -478,21 +673,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -543,21 +738,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -608,21 +803,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -665,7 +860,7 @@
             "login": "databus23"
           },
           "isFork": false,
-          "stargazerCount": 2383,
+          "stargazerCount": 2417,
           "languages": {
             "edges": [
               {
@@ -673,7 +868,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 109783
+                "size": 108446
               },
               {
                 "node": {
@@ -717,21 +912,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -782,21 +977,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -847,21 +1042,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -912,21 +1107,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -977,21 +1172,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -1042,21 +1237,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -1107,21 +1302,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -1172,21 +1367,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -1237,21 +1432,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -1302,21 +1497,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -1367,21 +1562,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -1535,7 +1730,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9136,
+          "stargazerCount": 9197,
           "languages": {
             "edges": [
               {
@@ -1543,7 +1738,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 54504426
+                "size": 55110193
               },
               {
                 "node": {
@@ -1557,7 +1752,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 20013
+                "size": 20054
               },
               {
                 "node": {
@@ -1688,7 +1883,7 @@
             "login": "aws"
           },
           "isFork": false,
-          "stargazerCount": 1736,
+          "stargazerCount": 1753,
           "languages": {
             "edges": [
               {
@@ -1739,7 +1934,7 @@
             "login": "helmfile"
           },
           "isFork": false,
-          "stargazerCount": 2870,
+          "stargazerCount": 2943,
           "languages": {
             "edges": [
               {
@@ -1747,7 +1942,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 1137950
+                "size": 1141390
               },
               {
                 "node": {
@@ -1761,7 +1956,7 @@
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 5308
+                "size": 5332
               },
               {
                 "node": {
@@ -1804,7 +1999,7 @@
             "login": "lapras-inc"
           },
           "isFork": false,
-          "stargazerCount": 139,
+          "stargazerCount": 138,
           "languages": {
             "edges": [
               {
@@ -1884,21 +2079,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -1949,21 +2144,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -2014,21 +2209,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -2071,7 +2266,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9136,
+          "stargazerCount": 9197,
           "languages": {
             "edges": [
               {
@@ -2079,7 +2274,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 54504426
+                "size": 55110193
               },
               {
                 "node": {
@@ -2093,7 +2288,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 20013
+                "size": 20054
               },
               {
                 "node": {
@@ -2195,7 +2390,7 @@
                   "name": "HTML",
                   "color": "#e34c26"
                 },
-                "size": 885527
+                "size": 886877
               },
               {
                 "node": {
@@ -2246,21 +2441,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -2340,7 +2535,7 @@
             "login": "cloudflare"
           },
           "isFork": false,
-          "stargazerCount": 654,
+          "stargazerCount": 664,
           "languages": {
             "edges": [
               {
@@ -2348,7 +2543,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 2677887
+                "size": 2682839
               },
               {
                 "node": {
@@ -2406,21 +2601,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -2463,7 +2658,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9136,
+          "stargazerCount": 9197,
           "languages": {
             "edges": [
               {
@@ -2471,7 +2666,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 54504426
+                "size": 55110193
               },
               {
                 "node": {
@@ -2485,7 +2680,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 20013
+                "size": 20054
               },
               {
                 "node": {
@@ -2542,7 +2737,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 1857,
+          "stargazerCount": 1891,
           "languages": {
             "edges": [
               {
@@ -2600,7 +2795,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 1857,
+          "stargazerCount": 1891,
           "languages": {
             "edges": [
               {
@@ -2658,7 +2853,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 1857,
+          "stargazerCount": 1891,
           "languages": {
             "edges": [
               {
@@ -2716,7 +2911,7 @@
             "login": "argoproj"
           },
           "isFork": false,
-          "stargazerCount": 13933,
+          "stargazerCount": 14014,
           "languages": {
             "edges": [
               {
@@ -2724,14 +2919,14 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 3894408
+                "size": 3922945
               },
               {
                 "node": {
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 619824
+                "size": 619859
               },
               {
                 "node": {
@@ -2745,7 +2940,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 37193
+                "size": 37470
               },
               {
                 "node": {
@@ -2759,7 +2954,7 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 13718
+                "size": 13474
               },
               {
                 "node": {
@@ -2780,7 +2975,7 @@
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 3815
+                "size": 3789
               },
               {
                 "node": {
@@ -2809,7 +3004,7 @@
             "login": "liamg"
           },
           "isFork": false,
-          "stargazerCount": 84,
+          "stargazerCount": 85,
           "languages": {
             "edges": [
               {
@@ -2846,7 +3041,7 @@
             "login": "liamg"
           },
           "isFork": false,
-          "stargazerCount": 84,
+          "stargazerCount": 85,
           "languages": {
             "edges": [
               {
@@ -3245,21 +3440,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -3302,7 +3497,7 @@
             "login": "liamg"
           },
           "isFork": false,
-          "stargazerCount": 84,
+          "stargazerCount": 85,
           "languages": {
             "edges": [
               {
@@ -3574,21 +3769,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -3964,7 +4159,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 795,
+          "stargazerCount": 800,
           "languages": {
             "edges": [
               {
@@ -3972,7 +4167,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 890275
+                "size": 893403
               },
               {
                 "node": {
@@ -4015,7 +4210,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 795,
+          "stargazerCount": 800,
           "languages": {
             "edges": [
               {
@@ -4023,7 +4218,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 890275
+                "size": 893403
               },
               {
                 "node": {
@@ -4212,7 +4407,7 @@
             "login": "lapras-inc"
           },
           "isFork": false,
-          "stargazerCount": 139,
+          "stargazerCount": 138,
           "languages": {
             "edges": [
               {
@@ -4292,21 +4487,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -4386,7 +4581,7 @@
             "login": "lapras-inc"
           },
           "isFork": false,
-          "stargazerCount": 139,
+          "stargazerCount": 138,
           "languages": {
             "edges": [
               {
@@ -4517,21 +4712,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -4582,21 +4777,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -4647,21 +4842,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -4712,7 +4907,7 @@
                   "name": "HTML",
                   "color": "#e34c26"
                 },
-                "size": 77977
+                "size": 78015
               },
               {
                 "node": {
@@ -4784,21 +4979,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -4849,21 +5044,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -4914,21 +5109,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -4979,21 +5174,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -5044,21 +5239,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -5109,21 +5304,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -5174,21 +5369,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -5239,21 +5434,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -5304,21 +5499,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -5369,21 +5564,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -5500,7 +5695,7 @@
             "login": "elwerene"
           },
           "isFork": false,
-          "stargazerCount": 212,
+          "stargazerCount": 215,
           "languages": {
             "edges": [
               {
@@ -5538,21 +5733,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -5595,7 +5790,7 @@
             "login": "kawamataryo"
           },
           "isFork": false,
-          "stargazerCount": 270,
+          "stargazerCount": 271,
           "languages": {
             "edges": [
               {
@@ -6031,21 +6226,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -6096,21 +6291,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -6161,21 +6356,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -6226,21 +6421,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -6566,21 +6761,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -6631,21 +6826,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -6696,21 +6891,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -6753,7 +6948,7 @@
             "login": "Rigellute"
           },
           "isFork": false,
-          "stargazerCount": 16146,
+          "stargazerCount": 16252,
           "languages": {
             "edges": [
               {
@@ -6798,21 +6993,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -6863,21 +7058,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -6950,7 +7145,7 @@
             "login": "typeorm"
           },
           "isFork": false,
-          "stargazerCount": 32758,
+          "stargazerCount": 32877,
           "languages": {
             "edges": [
               {
@@ -6958,7 +7153,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 9133339
+                "size": 9159032
               },
               {
                 "node": {
@@ -6969,17 +7164,10 @@
               },
               {
                 "node": {
-                  "name": "Shell",
-                  "color": "#89e051"
-                },
-                "size": 1974
-              },
-              {
-                "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 580
+                "size": 187
               }
             ]
           }
@@ -7009,21 +7197,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7074,21 +7262,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7139,21 +7327,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7204,21 +7392,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7269,21 +7457,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7334,21 +7522,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7399,21 +7587,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7464,21 +7652,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7521,7 +7709,7 @@
             "login": "serverless"
           },
           "isFork": false,
-          "stargazerCount": 45745,
+          "stargazerCount": 45839,
           "languages": {
             "edges": [
               {
@@ -7601,21 +7789,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7666,21 +7854,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7731,21 +7919,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -7796,7 +7984,7 @@
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 2671166
+                "size": 2672346
               }
             ]
           }
@@ -7818,7 +8006,7 @@
             "login": "getmoto"
           },
           "isFork": false,
-          "stargazerCount": 7219,
+          "stargazerCount": 7254,
           "languages": {
             "edges": [
               {
@@ -7826,7 +8014,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 17505475
+                "size": 17553882
               },
               {
                 "node": {
@@ -7837,10 +8025,10 @@
               },
               {
                 "node": {
-                  "name": "Shell",
-                  "color": "#89e051"
+                  "name": "HCL",
+                  "color": "#844FBA"
                 },
-                "size": 6658
+                "size": 8752
               },
               {
                 "node": {
@@ -7848,6 +8036,13 @@
                   "color": "#e34c26"
                 },
                 "size": 5964
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 5096
               },
               {
                 "node": {
@@ -7861,28 +8056,14 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 2621
+                "size": 2516
               },
               {
                 "node": {
                   "name": "Jinja",
                   "color": "#a52a22"
                 },
-                "size": 2532
-              },
-              {
-                "node": {
-                  "name": "HCL",
-                  "color": "#844FBA"
-                },
-                "size": 2276
-              },
-              {
-                "node": {
-                  "name": "JavaScript",
-                  "color": "#f1e05a"
-                },
-                "size": 1424
+                "size": 2284
               },
               {
                 "node": {
@@ -7890,6 +8071,13 @@
                   "color": "#701516"
                 },
                 "size": 1319
+              },
+              {
+                "node": {
+                  "name": "Scala",
+                  "color": "#c22d40"
+                },
+                "size": 782
               }
             ]
           }
@@ -7919,21 +8107,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -8035,21 +8223,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -8320,21 +8508,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -8385,21 +8573,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -8450,21 +8638,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -8515,21 +8703,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -8580,21 +8768,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 87186
+                "size": 99257
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12518
+                "size": 12572
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5100
+                "size": 5242
               },
               {
                 "node": {
@@ -8637,7 +8825,7 @@
             "login": "championswimmer"
           },
           "isFork": false,
-          "stargazerCount": 1802,
+          "stargazerCount": 1801,
           "languages": {
             "edges": [
               {
