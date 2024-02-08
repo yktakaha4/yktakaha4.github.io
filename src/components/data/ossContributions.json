@@ -8,7 +8,7 @@
       "repository": {
         "owner": "databus23",
         "name": "databus23/helm-diff",
-        "stars": 2383,
+        "stars": 2417,
         "url": "https://github.com/databus23/helm-diff",
         "languages": [
           "Go"
@@ -23,7 +23,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9136,
+        "stars": 9197,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -38,7 +38,7 @@
       "repository": {
         "owner": "aws",
         "name": "aws/aws-eks-best-practices",
-        "stars": 1736,
+        "stars": 1753,
         "url": "https://github.com/aws/aws-eks-best-practices",
         "languages": [
           "Python"
@@ -53,7 +53,7 @@
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 2870,
+        "stars": 2943,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -68,7 +68,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9136,
+        "stars": 9197,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -98,7 +98,7 @@
       "repository": {
         "owner": "cloudflare",
         "name": "cloudflare/terraform-provider-cloudflare",
-        "stars": 654,
+        "stars": 664,
         "url": "https://github.com/cloudflare/terraform-provider-cloudflare",
         "languages": [
           "Go"
@@ -113,7 +113,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1857,
+        "stars": 1891,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -128,7 +128,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1857,
+        "stars": 1891,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -143,7 +143,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1857,
+        "stars": 1891,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -158,7 +158,7 @@
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
-        "stars": 13933,
+        "stars": 14014,
         "url": "https://github.com/argoproj/argo-workflows",
         "languages": [
           "Go"
@@ -173,7 +173,7 @@
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
-        "stars": 84,
+        "stars": 85,
         "url": "https://github.com/liamg/memoryfs",
         "languages": [
           "Go"
@@ -188,7 +188,7 @@
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
-        "stars": 84,
+        "stars": 85,
         "url": "https://github.com/liamg/memoryfs",
         "languages": [
           "Go"
@@ -203,7 +203,7 @@
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
-        "stars": 84,
+        "stars": 85,
         "url": "https://github.com/liamg/memoryfs",
         "languages": [
           "Go"
@@ -218,7 +218,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 795,
+        "stars": 800,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -248,7 +248,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 795,
+        "stars": 800,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -263,7 +263,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9136,
+        "stars": 9197,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -323,7 +323,7 @@
       "repository": {
         "owner": "elwerene",
         "name": "elwerene/libreoffice-convert",
-        "stars": 212,
+        "stars": 215,
         "url": "https://github.com/elwerene/libreoffice-convert",
         "languages": [
           "JavaScript"
@@ -338,7 +338,7 @@
       "repository": {
         "owner": "kawamataryo",
         "name": "kawamataryo/chikamichi",
-        "stars": 270,
+        "stars": 271,
         "url": "https://github.com/kawamataryo/chikamichi",
         "languages": [
           "TypeScript",
@@ -384,7 +384,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 16146,
+        "stars": 16252,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -399,7 +399,7 @@
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 32758,
+        "stars": 32877,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -414,7 +414,7 @@
       "repository": {
         "owner": "serverless",
         "name": "serverless/serverless",
-        "stars": 45745,
+        "stars": 45840,
         "url": "https://github.com/serverless/serverless",
         "languages": [
           "JavaScript"
@@ -444,7 +444,7 @@
       "repository": {
         "owner": "getmoto",
         "name": "getmoto/moto",
-        "stars": 7219,
+        "stars": 7254,
         "url": "https://github.com/getmoto/moto",
         "languages": [
           "Python"
@@ -474,7 +474,7 @@
       "repository": {
         "owner": "championswimmer",
         "name": "championswimmer/vuex-module-decorators",
-        "stars": 1802,
+        "stars": 1801,
         "url": "https://github.com/championswimmer/vuex-module-decorators",
         "languages": [
           "TypeScript"
