@@ -2,6 +2,71 @@
   "pullRequests": [
     {
       "node": {
+        "id": "PR_kwDODHHSac5mXVox",
+        "number": 299,
+        "title": "Update components data",
+        "mergedAt": "2024-02-08T11:31:22Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/299",
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 2,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 99257
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 12572
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5242
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                },
+                "size": 720
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 545
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 204
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
         "id": "PR_kwDODHHSac5mXUOR",
         "number": 298,
         "title": "add pat",
@@ -4224,7 +4289,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 800,
+          "stargazerCount": 801,
           "languages": {
             "edges": [
               {
@@ -4275,7 +4340,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 800,
+          "stargazerCount": 801,
           "languages": {
             "edges": [
               {
