@@ -11,10 +11,10 @@ permissions:
   pull-requests: write
 
 jobs:
-  dependabot:
-    name: Dependabot
+  automerge:
+    name: Auto merge
     runs-on: ubuntu-22.04
-    if: github.actor == 'dependabot[bot]'
+    if: github.actor == 'dependabot[bot]' || contains(github.event.pull_request.labels.*.name, 'automated')
     steps:
       - run: gh pr merge --auto --merge "$PR_URL"
         env:
