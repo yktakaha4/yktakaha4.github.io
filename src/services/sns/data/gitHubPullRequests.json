@@ -1055,7 +1055,7 @@
             "login": "databus23"
           },
           "isFork": false,
-          "stargazerCount": 2419,
+          "stargazerCount": 2420,
           "languages": {
             "edges": [
               {
@@ -1925,7 +1925,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9205,
+          "stargazerCount": 9206,
           "languages": {
             "edges": [
               {
@@ -1933,7 +1933,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 55215490
+                "size": 55215566
               },
               {
                 "node": {
@@ -2078,7 +2078,7 @@
             "login": "aws"
           },
           "isFork": false,
-          "stargazerCount": 1753,
+          "stargazerCount": 1754,
           "languages": {
             "edges": [
               {
@@ -2129,7 +2129,7 @@
             "login": "helmfile"
           },
           "isFork": false,
-          "stargazerCount": 2948,
+          "stargazerCount": 2952,
           "languages": {
             "edges": [
               {
@@ -2461,7 +2461,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9205,
+          "stargazerCount": 9206,
           "languages": {
             "edges": [
               {
@@ -2469,7 +2469,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 55215490
+                "size": 55215566
               },
               {
                 "node": {
@@ -2853,7 +2853,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9205,
+          "stargazerCount": 9206,
           "languages": {
             "edges": [
               {
@@ -2861,7 +2861,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 55215490
+                "size": 55215566
               },
               {
                 "node": {
@@ -3106,7 +3106,7 @@
             "login": "argoproj"
           },
           "isFork": false,
-          "stargazerCount": 14018,
+          "stargazerCount": 14020,
           "languages": {
             "edges": [
               {
@@ -3135,7 +3135,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 37470
+                "size": 37401
               },
               {
                 "node": {
@@ -4354,7 +4354,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 801,
+          "stargazerCount": 802,
           "languages": {
             "edges": [
               {
@@ -4405,7 +4405,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 801,
+          "stargazerCount": 802,
           "languages": {
             "edges": [
               {
@@ -7143,7 +7143,7 @@
             "login": "Rigellute"
           },
           "isFork": false,
-          "stargazerCount": 16255,
+          "stargazerCount": 16258,
           "languages": {
             "edges": [
               {
@@ -7340,7 +7340,7 @@
             "login": "typeorm"
           },
           "isFork": false,
-          "stargazerCount": 32886,
+          "stargazerCount": 32889,
           "languages": {
             "edges": [
               {
@@ -7904,7 +7904,7 @@
             "login": "serverless"
           },
           "isFork": false,
-          "stargazerCount": 45839,
+          "stargazerCount": 45845,
           "languages": {
             "edges": [
               {
@@ -8201,7 +8201,7 @@
             "login": "getmoto"
           },
           "isFork": false,
-          "stargazerCount": 7254,
+          "stargazerCount": 7256,
           "languages": {
             "edges": [
               {
@@ -8209,7 +8209,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 17556084
+                "size": 17572976
               },
               {
                 "node": {
