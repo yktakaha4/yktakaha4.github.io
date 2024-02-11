@@ -64,10 +64,16 @@
     {
       "title": "LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性",
       "url": "https://note.com/yktakaha4/n/n67789c25ad73",
-      "publishedAt": "2021-01-27T00:00:00.000Z",
-      "likes": 49,
+      "publishedAt": "2021-01-27T00:28:24.000Z",
+      "likes": 50,
       "publisher": "note",
-      "tags": []
+      "tags": [
+        "エンジニア",
+        "中途採用",
+        "入社エントリ",
+        "LAPRAS",
+        "採用CX"
+      ]
     },
     {
       "title": "情報技術に関する歴史や文化の本",
@@ -129,10 +135,14 @@
     {
       "title": "新しいチームに加わるエンジニアのための \"被\" オンボーディングガイド v0.1.1",
       "url": "https://note.com/yktakaha4/n/n2acd5a198fa3",
-      "publishedAt": "2021-04-23T00:00:00.000Z",
+      "publishedAt": "2021-04-23T03:50:42.000Z",
       "likes": 28,
       "publisher": "note",
-      "tags": []
+      "tags": [
+        "エンジニア",
+        "オンボーディング",
+        "LAPRAS"
+      ]
     },
     {
       "title": "TerraformでGitHub Actions OIDC with AWSを定義し、EKSに安全にアクセスする",

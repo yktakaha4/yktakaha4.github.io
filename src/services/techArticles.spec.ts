@@ -35,6 +35,29 @@ describe('getTechArticles', () => {
       articles.filter((a) => a.publisher === 'techBlog').length,
     ).toBeGreaterThan(0);
   });
+
+  test('URLが一意である', () => {
+    const articles = getTechArticles();
+    const counter = articles.reduce(
+      (acc, a) => {
+        acc[a.url] = (acc[a.url] || 0) + 1;
+        return acc;
+      },
+      {} as Record<string, number>,
+    );
+
+    const duplicates = Object.entries(counter).reduce(
+      (acc, [url, count]) => {
+        if (count > 1) {
+          acc[url] = count;
+        }
+        return acc;
+      },
+      {} as Record<string, number>,
+    );
+
+    expect(duplicates).toEqual({});
+  });
 });
 
 describe('sortTechArticles', () => {

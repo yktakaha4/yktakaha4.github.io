@@ -1,6 +1,7 @@
 import zennArticles from '@/services/sns/data/zennArticles.json';
 import zennTopics from '@/services/sns/data/zennTopics.json';
 import qiitaItems from '@/services/sns/data/qiitaItems.json';
+import noteContents from '@/services/sns/data/noteContents.json';
 import { othersArticles } from '@/services/sns/others';
 import dayjs from 'dayjs';
 import {
@@ -48,6 +49,20 @@ export const getTechArticles = () => {
             likes: likes_count,
             publisher: 'qiita',
             tags: tags.map(({ name }) => name),
+          };
+        },
+      ),
+    )
+    .concat(
+      noteContents.contents.map(
+        ({ name, noteUrl, publishAt, likeCount, hashtags }): TechArticle => {
+          return {
+            title: name,
+            url: noteUrl,
+            publishedAt: new Date(publishAt),
+            likes: likeCount,
+            publisher: 'note',
+            tags: hashtags.map(({ hashtag }) => hashtag.name.replace(/^#/, '')),
           };
         },
       ),

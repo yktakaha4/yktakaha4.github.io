@@ -45,7 +45,8 @@ export type SNSData =
   | 'gitHubPullRequests'
   | 'zennArticles'
   | 'zennTopics'
-  | 'qiitaItems';
+  | 'qiitaItems'
+  | 'noteContents';
 export const getSNSDataPath = (snsData: SNSData) =>
   `${snsDataBasePath}/${snsData}.json`;
 
