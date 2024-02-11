@@ -1,0 +1,218 @@
+{
+  "contents": [
+    {
+      "id": 30261149,
+      "type": "TextNote",
+      "status": "published",
+      "name": "新しいチームに加わるエンジニアのための \"被\" オンボーディングガイド v0.1.1",
+      "description": null,
+      "likeCount": 28,
+      "price": 0,
+      "key": "n2acd5a198fa3",
+      "slug": "slug-n2acd5a198fa3",
+      "publishAt": "2021-04-23T12:50:42+09:00",
+      "thumbnailExternalUrl": "",
+      "eyecatch": "https://assets.st-note.com/production/uploads/images/49543643/rectangle_large_type_2_a50a7d30c97aeab0688e81f0c39c9a8e.jpeg?fit=bounds&quality=85&width=1280",
+      "user": {
+        "id": 2611487,
+        "key": "9c529ba15cc5600da9d9ed95d94cf17c",
+        "name": "Yuuki Takahashi",
+        "urlname": "yktakaha4",
+        "nickname": "Yuuki Takahashi",
+        "userProfileImagePath": "https://assets.st-note.com/production/uploads/images/43856443/profile_b11510033435d21a9dde679212a4da95.jpeg?fit=bounds&format=jpeg&quality=85&width=330",
+        "customDomain": null,
+        "disableSupport": false,
+        "disableGuestPurchase": false,
+        "emailConfirmedFlag": true,
+        "likeAppealText": null,
+        "likeAppealImage": null,
+        "purchaseAppealTextNote": null,
+        "twitterNickname": "yktakaha4",
+        "shareAppeal": {
+          "text": null,
+          "image": null
+        },
+        "magazineAddAppeal": {
+          "text": null,
+          "image": null
+        }
+      },
+      "canRead": true,
+      "isAuthor": false,
+      "externalUrl": null,
+      "customDomain": null,
+      "body": "yktakaha4 こと、髙橋です。\n\nコロナもあって運動不足なので、最近気が向いたときだけ夜にランニングしてるのですが、走り終えたら脳に血が通ってきた感じがしたので、ちょっと一筆したためたいと思います。\n\n私はシステムエンジニアで、2021年1月からLAPRAS株式会社で働いているのですが、\n4月の頭にあった入社3ヶ月面談にて、社長より無事試用期間を終えた旨を伝えられました。よかった。\n\n入社エントリ代わりに↑の記事を書いた当時はまだオンボーディング期間でした。\nそこからま",
+      "separator": null,
+      "isLimited": false,
+      "isTrial": false,
+      "canUpdate": false,
+      "tweetText": "新しいチームに加わるエンジニアのための \"被\" オンボーディングガイド v0.1.1｜Yuuki Takahashi @yktakaha4 #note",
+      "twitterRelatedAccounts": "yktakaha4,note_PR",
+      "isRefund": false,
+      "isLiked": false,
+      "commentCount": 0,
+      "likes": [],
+      "anonymousLikeCount": 6,
+      "disableComment": false,
+      "hashtags": [
+        {
+          "hashtag": {
+            "name": "#エンジニア"
+          }
+        },
+        {
+          "hashtag": {
+            "name": "#オンボーディング"
+          }
+        },
+        {
+          "hashtag": {
+            "name": "#LAPRAS"
+          }
+        }
+      ],
+      "twitterShareUrl": "https://twitter.com/intent/tweet?url=https://note.com/yktakaha4/n/n2acd5a198fa3&text=%E6%96%B0%E3%81%97%E3%81%84%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AB%E5%8A%A0%E3%82%8F%E3%82%8B%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE+%22%E8%A2%AB%22+%E3%82%AA%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%82%A4%E3%83%89+v0.1.1%EF%BD%9CYuuki+Takahashi+%40yktakaha4+%23note&related=yktakaha4,note_PR",
+      "facebookShareUrl": "https://www.facebook.com/share.php?u=https://note.com/yktakaha4/n/n2acd5a198fa3&t=%E6%96%B0%E3%81%97%E3%81%84%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AB%E5%8A%A0%E3%82%8F%E3%82%8B%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE+%22%E8%A2%AB%22+%E3%82%AA%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%82%A4%E3%83%89+v0.1.1%EF%BD%9CYuuki+Takahashi%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89",
+      "lineShareUrl": "https://line.naver.jp/R/msg/text/?%E6%96%B0%E3%81%97%E3%81%84%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AB%E5%8A%A0%E3%82%8F%E3%82%8B%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE+%22%E8%A2%AB%22+%E3%82%AA%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%82%A4%E3%83%89+v0.1.1%EF%BD%9CYuuki+Takahashi%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89%0Ahttps://note.com/yktakaha4/n/n2acd5a198fa3",
+      "audio": {},
+      "pictures": [],
+      "limitedMessage": null,
+      "labels": [],
+      "priorSale": null,
+      "canMultipleLimitedNote": false,
+      "isMembershipConnected": false,
+      "hasAvailableCirclePlans": false,
+      "isPinned": false,
+      "pinnedUserNoteId": null,
+      "spEyecatch": "https://assets.st-note.com/production/uploads/images/49543643/square_large_a50a7d30c97aeab0688e81f0c39c9a8e.jpeg?fit=bounds&format=jpeg&quality=85&width=360",
+      "enableBacktoDraft": false,
+      "notificationMessages": [],
+      "isProfiled": false,
+      "isForWork": false,
+      "isCircleDescription": false,
+      "noteDraft": null,
+      "noteUrl": "https://note.com/yktakaha4/n/n2acd5a198fa3",
+      "imageCount": 0,
+      "format": "3.3",
+      "capabilities": {
+        "rubyText": true,
+        "formulaText": true,
+        "duplication": true
+      },
+      "discountCampaigns": [],
+      "freeBodyCharNum": 5558
+    },
+    {
+      "id": 26545807,
+      "type": "TextNote",
+      "status": "published",
+      "name": "LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性",
+      "description": null,
+      "likeCount": 50,
+      "price": 0,
+      "key": "n67789c25ad73",
+      "slug": "slug-n67789c25ad73",
+      "publishAt": "2021-01-27T09:28:24+09:00",
+      "thumbnailExternalUrl": "",
+      "eyecatch": "https://assets.st-note.com/production/uploads/images/43916335/rectangle_large_type_2_0b791c53e22f31d4ad587a916cef2502.jpeg?fit=bounds&quality=85&width=1280",
+      "user": {
+        "id": 2611487,
+        "key": "9c529ba15cc5600da9d9ed95d94cf17c",
+        "name": "Yuuki Takahashi",
+        "urlname": "yktakaha4",
+        "nickname": "Yuuki Takahashi",
+        "userProfileImagePath": "https://assets.st-note.com/production/uploads/images/43856443/profile_b11510033435d21a9dde679212a4da95.jpeg?fit=bounds&format=jpeg&quality=85&width=330",
+        "customDomain": null,
+        "disableSupport": false,
+        "disableGuestPurchase": false,
+        "emailConfirmedFlag": true,
+        "likeAppealText": null,
+        "likeAppealImage": null,
+        "purchaseAppealTextNote": null,
+        "twitterNickname": "yktakaha4",
+        "shareAppeal": {
+          "text": null,
+          "image": null
+        },
+        "magazineAddAppeal": {
+          "text": null,
+          "image": null
+        }
+      },
+      "canRead": true,
+      "isAuthor": false,
+      "externalUrl": null,
+      "customDomain": null,
+      "body": "yktakaha4こと、髙橋と申します。\nこちらはnoteでの初記事になります。ぱふぱふ。\n\n2021年1月よりSWE(Software Engineer)としてLAPRAS株式会社に入社し、LAPRASやLAPRAS SCOUTの開発に携わっています。\n昨日公開されたこちらの記事で、内定(1名)とされているものです。\n今はオンボーディング期間中で、もろもろのキャッチアップを頑張っているところです...！\n\nそんな中、先日社内でBVS(ブランドバリュー・シート)共有会なるもの",
+      "separator": null,
+      "isLimited": false,
+      "isTrial": false,
+      "canUpdate": false,
+      "tweetText": "LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性｜Yuuki Takahashi @yktakaha4 #note #入社エントリ",
+      "twitterRelatedAccounts": "yktakaha4,note_PR",
+      "isRefund": false,
+      "isLiked": false,
+      "commentCount": 0,
+      "likes": [],
+      "anonymousLikeCount": 9,
+      "disableComment": false,
+      "hashtags": [
+        {
+          "hashtag": {
+            "name": "#エンジニア"
+          }
+        },
+        {
+          "hashtag": {
+            "name": "#中途採用"
+          }
+        },
+        {
+          "hashtag": {
+            "name": "#入社エントリ"
+          }
+        },
+        {
+          "hashtag": {
+            "name": "#LAPRAS"
+          }
+        },
+        {
+          "hashtag": {
+            "name": "#採用CX"
+          }
+        }
+      ],
+      "twitterShareUrl": "https://twitter.com/intent/tweet?url=https://note.com/yktakaha4/n/n67789c25ad73&text=LAPRAS%E3%81%AE%E6%8E%A1%E7%94%A8%E9%81%B8%E8%80%83%E3%82%92%E5%8F%97%E3%81%91%E3%81%A6%E6%84%9F%E3%81%98%E3%81%9FCX%28Candidate+Experience%29%E3%81%A8%E3%80%81%E3%81%9D%E3%81%AE%E9%87%8D%E8%A6%81%E6%80%A7%EF%BD%9CYuuki+Takahashi+%40yktakaha4+%23note+%23%E5%85%A5%E7%A4%BE%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA&related=yktakaha4,note_PR",
+      "facebookShareUrl": "https://www.facebook.com/share.php?u=https://note.com/yktakaha4/n/n67789c25ad73&t=LAPRAS%E3%81%AE%E6%8E%A1%E7%94%A8%E9%81%B8%E8%80%83%E3%82%92%E5%8F%97%E3%81%91%E3%81%A6%E6%84%9F%E3%81%98%E3%81%9FCX%28Candidate+Experience%29%E3%81%A8%E3%80%81%E3%81%9D%E3%81%AE%E9%87%8D%E8%A6%81%E6%80%A7%EF%BD%9CYuuki+Takahashi%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89",
+      "lineShareUrl": "https://line.naver.jp/R/msg/text/?LAPRAS%E3%81%AE%E6%8E%A1%E7%94%A8%E9%81%B8%E8%80%83%E3%82%92%E5%8F%97%E3%81%91%E3%81%A6%E6%84%9F%E3%81%98%E3%81%9FCX%28Candidate+Experience%29%E3%81%A8%E3%80%81%E3%81%9D%E3%81%AE%E9%87%8D%E8%A6%81%E6%80%A7%EF%BD%9CYuuki+Takahashi%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89%0Ahttps://note.com/yktakaha4/n/n67789c25ad73",
+      "audio": {},
+      "pictures": [],
+      "limitedMessage": null,
+      "labels": [],
+      "priorSale": null,
+      "canMultipleLimitedNote": false,
+      "isMembershipConnected": false,
+      "hasAvailableCirclePlans": false,
+      "isPinned": false,
+      "pinnedUserNoteId": null,
+      "spEyecatch": "https://assets.st-note.com/production/uploads/images/43916335/square_large_0b791c53e22f31d4ad587a916cef2502.jpeg?fit=bounds&format=jpeg&quality=85&width=360",
+      "enableBacktoDraft": false,
+      "notificationMessages": [],
+      "isProfiled": false,
+      "isForWork": false,
+      "isCircleDescription": false,
+      "noteDraft": null,
+      "noteUrl": "https://note.com/yktakaha4/n/n67789c25ad73",
+      "imageCount": 0,
+      "format": "3.2",
+      "capabilities": {
+        "rubyText": true,
+        "formulaText": true,
+        "duplication": true
+      },
+      "discountCampaigns": [],
+      "freeBodyCharNum": 4782
+    }
+  ]
+}
