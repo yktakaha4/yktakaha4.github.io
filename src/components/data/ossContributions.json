@@ -23,7 +23,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9206,
+        "stars": 9207,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -38,7 +38,7 @@
       "repository": {
         "owner": "aws",
         "name": "aws/aws-eks-best-practices",
-        "stars": 1754,
+        "stars": 1755,
         "url": "https://github.com/aws/aws-eks-best-practices",
         "languages": [
           "Python"
@@ -53,7 +53,7 @@
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 2952,
+        "stars": 2953,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -68,7 +68,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9206,
+        "stars": 9207,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -98,7 +98,7 @@
       "repository": {
         "owner": "cloudflare",
         "name": "cloudflare/terraform-provider-cloudflare",
-        "stars": 664,
+        "stars": 665,
         "url": "https://github.com/cloudflare/terraform-provider-cloudflare",
         "languages": [
           "Go"
@@ -113,7 +113,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1894,
+        "stars": 1895,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -128,7 +128,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1894,
+        "stars": 1895,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -143,7 +143,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1894,
+        "stars": 1895,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -158,7 +158,7 @@
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
-        "stars": 14020,
+        "stars": 14021,
         "url": "https://github.com/argoproj/argo-workflows",
         "languages": [
           "Go"
@@ -218,7 +218,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 802,
+        "stars": 803,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -248,7 +248,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 802,
+        "stars": 803,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -263,7 +263,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9206,
+        "stars": 9207,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -338,7 +338,7 @@
       "repository": {
         "owner": "kawamataryo",
         "name": "kawamataryo/chikamichi",
-        "stars": 272,
+        "stars": 273,
         "url": "https://github.com/kawamataryo/chikamichi",
         "languages": [
           "TypeScript",
@@ -384,7 +384,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 16258,
+        "stars": 16264,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -399,7 +399,7 @@
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 32889,
+        "stars": 32893,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -444,7 +444,7 @@
       "repository": {
         "owner": "getmoto",
         "name": "getmoto/moto",
-        "stars": 7256,
+        "stars": 7257,
         "url": "https://github.com/getmoto/moto",
         "languages": [
           "Python"
