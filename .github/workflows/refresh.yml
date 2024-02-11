@@ -3,7 +3,7 @@ name: Refresh components data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 15 * * *'
+    - cron: '0 15 * * SUN'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
