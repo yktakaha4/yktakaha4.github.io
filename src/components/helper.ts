@@ -4,6 +4,7 @@ export type CustomFields = {
   commitHash: string;
   isDevelopment: boolean;
   isProduction: boolean;
+  withEmbeddedContent: boolean;
 };
 
 export const getCustomFields = (): CustomFields => {

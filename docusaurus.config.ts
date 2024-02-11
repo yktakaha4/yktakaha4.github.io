@@ -7,6 +7,8 @@ import { BsFillMusicPlayerFill } from 'react-icons/bs';
 import { IconBaseProps } from 'react-icons';
 import * as process from 'process';
 import { CustomFields } from '@/components/helper';
+import * as path from 'path';
+import { existsSync, readFileSync, writeFileSync } from 'fs-extra';
 
 const buildAt = dayjs().format();
 let commitHash = 'unset';
@@ -60,11 +62,25 @@ const pdfUrl =
 const isDevelopment = process.env.NODE_ENV === 'development';
 const isProduction = process.env.NODE_ENV === 'production';
 
+const embeddedContentSourceFilePath = path.join(
+  'src',
+  'embedded',
+  'source.mdx',
+);
+if (!existsSync(embeddedContentSourceFilePath)) {
+  writeFileSync(embeddedContentSourceFilePath, '');
+}
+const withEmbeddedContent = !!readFileSync(
+  embeddedContentSourceFilePath,
+  'utf-8',
+);
+
 const customFields: CustomFields = {
   buildAt,
   commitHash,
   isDevelopment,
   isProduction,
+  withEmbeddedContent,
 };
 
 const config: Config = {

@@ -1,0 +1,6 @@
+import { Break } from '../components/ui/Break';
+import Source from './source.mdx';
+import { getCustomFields } from '../components/helper';
+
+{getCustomFields().withEmbeddedContent && <Source />}
+{getCustomFields().withEmbeddedContent && <Break line page />}

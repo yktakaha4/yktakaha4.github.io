@@ -8,6 +8,7 @@ const useDocusaurusContext = (): DocusaurusContext => {
     commitHash: 'dummy_commit_hash',
     isDevelopment: true,
     isProduction: false,
+    withEmbeddedContent: false,
   };
 
   return {
