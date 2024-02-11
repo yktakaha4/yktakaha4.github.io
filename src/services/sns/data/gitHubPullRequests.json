@@ -2,6 +2,136 @@
   "pullRequests": [
     {
       "node": {
+        "id": "PR_kwDODHHSac5mku0S",
+        "number": 309,
+        "title": "add embedded",
+        "mergedAt": "2024-02-11T10:44:18Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/309",
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 2,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 104813
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 12905
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5242
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                },
+                "size": 720
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 545
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 204
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDODHHSac5mkoKq",
+        "number": 308,
+        "title": "add note",
+        "mergedAt": "2024-02-11T08:59:11Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/308",
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 2,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 104813
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 12905
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5242
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                },
+                "size": 720
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 545
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 204
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
         "id": "PR_kwDODHHSac5mkla_",
         "number": 306,
         "title": "fix",
@@ -23,14 +153,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -88,14 +218,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -153,14 +283,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -218,14 +348,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -283,14 +413,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -348,14 +478,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -413,14 +543,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -478,14 +608,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -543,14 +673,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -608,14 +738,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -673,14 +803,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -738,14 +868,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -803,14 +933,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -868,14 +998,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -933,14 +1063,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -998,14 +1128,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1063,14 +1193,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1172,14 +1302,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1237,14 +1367,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1302,14 +1432,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1367,14 +1497,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1432,14 +1562,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1497,14 +1627,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1562,14 +1692,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1627,14 +1757,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1692,14 +1822,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1757,14 +1887,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -1822,14 +1952,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -2339,14 +2469,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -2404,14 +2534,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -2469,14 +2599,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -2701,14 +2831,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -2861,14 +2991,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -3700,14 +3830,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -4029,14 +4159,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -4747,14 +4877,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -4972,14 +5102,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5037,14 +5167,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5102,14 +5232,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5239,14 +5369,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5304,14 +5434,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5369,14 +5499,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5434,14 +5564,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5499,14 +5629,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5564,14 +5694,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5629,14 +5759,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5694,14 +5824,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5759,14 +5889,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5824,14 +5954,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -5993,14 +6123,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -6486,14 +6616,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -6551,14 +6681,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -6616,14 +6746,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -6681,14 +6811,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7021,14 +7151,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7086,14 +7216,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7151,14 +7281,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7253,14 +7383,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7318,14 +7448,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7457,14 +7587,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7522,14 +7652,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7587,14 +7717,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7652,14 +7782,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7717,14 +7847,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7782,14 +7912,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7847,14 +7977,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7912,14 +8042,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -7969,7 +8099,7 @@
             "login": "serverless"
           },
           "isFork": false,
-          "stargazerCount": 45845,
+          "stargazerCount": 45846,
           "languages": {
             "edges": [
               {
@@ -8049,14 +8179,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -8114,14 +8244,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -8179,14 +8309,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -8274,7 +8404,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 17572976
+                "size": 17572378
               },
               {
                 "node": {
@@ -8367,14 +8497,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -8483,14 +8613,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -8768,14 +8898,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -8833,14 +8963,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -8898,14 +9028,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -8963,14 +9093,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
@@ -9028,14 +9158,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99255
+                "size": 104813
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12572
+                "size": 12905
               },
               {
                 "node": {
