@@ -38,7 +38,7 @@
       "repository": {
         "owner": "aws",
         "name": "aws/aws-eks-best-practices",
-        "stars": 1755,
+        "stars": 1756,
         "url": "https://github.com/aws/aws-eks-best-practices",
         "languages": [
           "Python"
@@ -384,7 +384,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 16264,
+        "stars": 16265,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
