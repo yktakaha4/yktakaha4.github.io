@@ -2,6 +2,71 @@
   "pullRequests": [
     {
       "node": {
+        "id": "PR_kwDODHHSac5mkla_",
+        "number": 306,
+        "title": "fix",
+        "mergedAt": "2024-02-11T07:57:59Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/306",
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 2,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 99255
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 12572
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5242
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                },
+                "size": 720
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 545
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 204
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
         "id": "PR_kwDODHHSac5mXfnY",
         "number": 301,
         "title": "add author",
@@ -23,7 +88,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -88,7 +153,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -153,7 +218,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -218,7 +283,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -283,7 +348,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -348,7 +413,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -413,7 +478,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -478,7 +543,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -543,7 +608,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -608,7 +673,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -673,7 +738,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -738,7 +803,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -803,7 +868,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -868,7 +933,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -933,7 +998,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -998,7 +1063,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1107,7 +1172,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1172,7 +1237,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1237,7 +1302,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1302,7 +1367,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1367,7 +1432,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1432,7 +1497,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1497,7 +1562,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1562,7 +1627,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1627,7 +1692,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1692,7 +1757,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1757,7 +1822,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -1925,7 +1990,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9206,
+          "stargazerCount": 9207,
           "languages": {
             "edges": [
               {
@@ -2078,7 +2143,7 @@
             "login": "aws"
           },
           "isFork": false,
-          "stargazerCount": 1754,
+          "stargazerCount": 1755,
           "languages": {
             "edges": [
               {
@@ -2129,7 +2194,7 @@
             "login": "helmfile"
           },
           "isFork": false,
-          "stargazerCount": 2952,
+          "stargazerCount": 2953,
           "languages": {
             "edges": [
               {
@@ -2274,7 +2339,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -2339,7 +2404,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -2404,7 +2469,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -2461,7 +2526,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9206,
+          "stargazerCount": 9207,
           "languages": {
             "edges": [
               {
@@ -2636,7 +2701,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -2730,7 +2795,7 @@
             "login": "cloudflare"
           },
           "isFork": false,
-          "stargazerCount": 664,
+          "stargazerCount": 665,
           "languages": {
             "edges": [
               {
@@ -2796,7 +2861,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -2853,7 +2918,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9206,
+          "stargazerCount": 9207,
           "languages": {
             "edges": [
               {
@@ -2932,7 +2997,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 1894,
+          "stargazerCount": 1895,
           "languages": {
             "edges": [
               {
@@ -2990,7 +3055,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 1894,
+          "stargazerCount": 1895,
           "languages": {
             "edges": [
               {
@@ -3048,7 +3113,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 1894,
+          "stargazerCount": 1895,
           "languages": {
             "edges": [
               {
@@ -3106,7 +3171,7 @@
             "login": "argoproj"
           },
           "isFork": false,
-          "stargazerCount": 14020,
+          "stargazerCount": 14021,
           "languages": {
             "edges": [
               {
@@ -3635,7 +3700,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -3964,7 +4029,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -4354,7 +4419,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 802,
+          "stargazerCount": 803,
           "languages": {
             "edges": [
               {
@@ -4405,7 +4470,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 802,
+          "stargazerCount": 803,
           "languages": {
             "edges": [
               {
@@ -4682,7 +4747,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -4907,7 +4972,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -4972,7 +5037,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5037,7 +5102,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5174,7 +5239,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5239,7 +5304,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5304,7 +5369,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5369,7 +5434,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5434,7 +5499,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5499,7 +5564,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5564,7 +5629,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5629,7 +5694,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5694,7 +5759,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5759,7 +5824,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5928,7 +5993,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -5985,7 +6050,7 @@
             "login": "kawamataryo"
           },
           "isFork": false,
-          "stargazerCount": 272,
+          "stargazerCount": 273,
           "languages": {
             "edges": [
               {
@@ -6421,7 +6486,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -6486,7 +6551,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -6551,7 +6616,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -6616,7 +6681,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -6956,7 +7021,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7021,7 +7086,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7086,7 +7151,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7143,7 +7208,7 @@
             "login": "Rigellute"
           },
           "isFork": false,
-          "stargazerCount": 16258,
+          "stargazerCount": 16264,
           "languages": {
             "edges": [
               {
@@ -7188,7 +7253,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7253,7 +7318,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7340,7 +7405,7 @@
             "login": "typeorm"
           },
           "isFork": false,
-          "stargazerCount": 32889,
+          "stargazerCount": 32893,
           "languages": {
             "edges": [
               {
@@ -7392,7 +7457,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7457,7 +7522,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7522,7 +7587,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7587,7 +7652,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7652,7 +7717,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7717,7 +7782,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7782,7 +7847,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7847,7 +7912,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -7984,7 +8049,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -8049,7 +8114,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -8114,7 +8179,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -8201,7 +8266,7 @@
             "login": "getmoto"
           },
           "isFork": false,
-          "stargazerCount": 7256,
+          "stargazerCount": 7257,
           "languages": {
             "edges": [
               {
@@ -8302,7 +8367,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -8418,7 +8483,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -8703,7 +8768,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -8768,7 +8833,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -8833,7 +8898,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -8898,7 +8963,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
@@ -8963,7 +9028,7 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 99257
+                "size": 99255
               },
               {
                 "node": {
