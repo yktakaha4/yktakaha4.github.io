@@ -79,7 +79,7 @@
       "title": "情報技術に関する歴史や文化の本",
       "url": "https://zenn.dev/yktakaha4/articles/history_books_on_information_technology",
       "publishedAt": "2023-07-01T00:11:30.613Z",
-      "likes": 48,
+      "likes": 49,
       "publisher": "zenn",
       "tags": [
         "コンピュータ",
@@ -224,6 +224,20 @@
       ]
     },
     {
+      "title": "NestJS + OpenAPI(Swagger)からAPIクライアントを生成し型安全に通信する",
+      "url": "https://qiita.com/yktakaha4/items/0aecde44848d6a861bf5",
+      "publishedAt": "2020-12-09T18:06:46.000Z",
+      "likes": 17,
+      "publisher": "qiita",
+      "tags": [
+        "npm",
+        "TypeScript",
+        "OpenAPI",
+        "NestJS",
+        "GitHubActions"
+      ]
+    },
+    {
       "title": "JS + GAS + AWSでルーレットゲームを作ってウェディングパーティの余興を担当する（ソース付き）",
       "url": "https://qiita.com/yktakaha4/items/50582331df743ecf565a",
       "publishedAt": "2019-01-02T13:09:43.000Z",
@@ -258,20 +272,6 @@
         "Terraform",
         "uptimerobot",
         "監視"
-      ]
-    },
-    {
-      "title": "NestJS + OpenAPI(Swagger)からAPIクライアントを生成し型安全に通信する",
-      "url": "https://qiita.com/yktakaha4/items/0aecde44848d6a861bf5",
-      "publishedAt": "2020-12-09T18:06:46.000Z",
-      "likes": 16,
-      "publisher": "qiita",
-      "tags": [
-        "npm",
-        "TypeScript",
-        "OpenAPI",
-        "NestJS",
-        "GitHubActions"
       ]
     },
     {
