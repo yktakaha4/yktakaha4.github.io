@@ -2,11 +2,129 @@
   "pullRequests": [
     {
       "node": {
+        "id": "PR_kwDODHHSac5nWQlN",
+        "number": 317,
+        "title": "split jobs",
+        "mergedAt": "2024-02-20T03:53:41Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/317",
+        "additions": 11,
+        "deletions": 3,
+        "changedFiles": 1,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 2,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 104813
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 12905
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5242
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                },
+                "size": 720
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 545
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 204
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOByzB_M5lSpsd",
+        "number": 468,
+        "title": "fix: handle none value",
+        "mergedAt": "2024-02-19T23:53:52Z",
+        "permalink": "https://github.com/domainaware/parsedmarc/pull/468",
+        "additions": 57,
+        "deletions": 1,
+        "changedFiles": 2,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkxMjAzNzM3NTY=",
+          "nameWithOwner": "domainaware/parsedmarc",
+          "url": "https://github.com/domainaware/parsedmarc",
+          "owner": {
+            "login": "domainaware"
+          },
+          "isFork": false,
+          "stargazerCount": 873,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 222967
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 484
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 213
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
         "id": "PR_kwDODHHSac5mku0S",
         "number": 309,
         "title": "add embedded",
         "mergedAt": "2024-02-11T10:44:18Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/309",
+        "additions": 28,
+        "deletions": 0,
+        "changedFiles": 6,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -72,6 +190,9 @@
         "title": "add note",
         "mergedAt": "2024-02-11T08:59:11Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/308",
+        "additions": 664,
+        "deletions": 30,
+        "changedFiles": 14,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -137,6 +258,9 @@
         "title": "fix",
         "mergedAt": "2024-02-11T07:57:59Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/306",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -202,6 +326,9 @@
         "title": "add author",
         "mergedAt": "2024-02-08T11:57:28Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/301",
+        "additions": 1,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -267,6 +394,9 @@
         "title": "Update components data",
         "mergedAt": "2024-02-08T11:31:22Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/299",
+        "additions": 662,
+        "deletions": 409,
+        "changedFiles": 5,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -332,6 +462,9 @@
         "title": "add pat",
         "mergedAt": "2024-02-08T11:27:11Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/298",
+        "additions": 1,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -397,6 +530,9 @@
         "title": "add auto merge",
         "mergedAt": "2024-02-08T11:12:09Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/296",
+        "additions": 11,
+        "deletions": 6,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -462,6 +598,9 @@
         "title": "Summary",
         "mergedAt": "2024-01-21T23:14:58Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/270",
+        "additions": 1114,
+        "deletions": 25,
+        "changedFiles": 11,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -527,6 +666,9 @@
         "title": "Fix/test",
         "mergedAt": "2024-01-18T16:02:43Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/269",
+        "additions": 1452,
+        "deletions": 615,
+        "changedFiles": 37,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -592,6 +734,9 @@
         "title": "add auto-merge workflow",
         "mergedAt": "2024-01-16T15:41:42Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/267",
+        "additions": 26,
+        "deletions": 1,
+        "changedFiles": 6,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -657,6 +802,9 @@
         "title": "lazy loading",
         "mergedAt": "2024-01-16T15:16:51Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/266",
+        "additions": 15,
+        "deletions": 3,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -722,6 +870,9 @@
         "title": "Add precondition check",
         "mergedAt": "2024-01-12T17:26:54Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/261",
+        "additions": 40,
+        "deletions": 2,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -787,6 +938,9 @@
         "title": "delete unused json",
         "mergedAt": "2024-01-12T16:56:26Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/260",
+        "additions": 0,
+        "deletions": 3938,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -852,6 +1006,9 @@
         "title": "refactor @docusaurus",
         "mergedAt": "2024-01-12T16:49:37Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/258",
+        "additions": 3751,
+        "deletions": 347,
+        "changedFiles": 35,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -917,6 +1074,9 @@
         "title": "update to docusaurus 3.1",
         "mergedAt": "2024-01-12T14:28:17Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/256",
+        "additions": 249,
+        "deletions": 218,
+        "changedFiles": 9,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -982,6 +1142,9 @@
         "title": "Badge icon",
         "mergedAt": "2024-01-11T17:02:03Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/254",
+        "additions": 592,
+        "deletions": 130,
+        "changedFiles": 10,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1047,6 +1210,9 @@
         "title": "fix icon images",
         "mergedAt": "2024-01-10T16:44:47Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/248",
+        "additions": 144,
+        "deletions": 25,
+        "changedFiles": 19,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1112,6 +1278,9 @@
         "title": "Fix/pdf image",
         "mergedAt": "2024-01-09T15:33:53Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/247",
+        "additions": 13,
+        "deletions": 4,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1177,6 +1346,9 @@
         "title": "Fix/time",
         "mergedAt": "2024-01-09T15:18:54Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/246",
+        "additions": 113,
+        "deletions": 23,
+        "changedFiles": 10,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1242,6 +1414,9 @@
         "title": "Fix description of diff suppress option",
         "mergedAt": "2024-01-09T00:06:13Z",
         "permalink": "https://github.com/databus23/helm-diff/pull/491",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk4MzYyMzc3MA==",
           "nameWithOwner": "databus23/helm-diff",
@@ -1250,7 +1425,7 @@
             "login": "databus23"
           },
           "isFork": false,
-          "stargazerCount": 2426,
+          "stargazerCount": 2429,
           "languages": {
             "edges": [
               {
@@ -1286,6 +1461,9 @@
         "title": "Fix/e2e2",
         "mergedAt": "2024-01-08T10:25:43Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/239",
+        "additions": 73,
+        "deletions": 15,
+        "changedFiles": 9,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1351,6 +1529,9 @@
         "title": "Revert \"fix\"",
         "mergedAt": "2024-01-08T09:25:04Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/238",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1416,6 +1597,9 @@
         "title": "fix",
         "mergedAt": "2024-01-08T09:18:20Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/237",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1481,6 +1665,9 @@
         "title": "add",
         "mergedAt": "2024-01-08T00:23:22Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/236",
+        "additions": 5,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1546,6 +1733,9 @@
         "title": "add e2e",
         "mergedAt": "2024-01-07T17:31:17Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/234",
+        "additions": 506,
+        "deletions": 59,
+        "changedFiles": 20,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1611,6 +1801,9 @@
         "title": "Pdf/emoji",
         "mergedAt": "2024-01-05T16:47:03Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/233",
+        "additions": 76,
+        "deletions": 13,
+        "changedFiles": 8,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1676,6 +1869,9 @@
         "title": "disable gtag",
         "mergedAt": "2024-01-04T14:39:55Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/232",
+        "additions": 10,
+        "deletions": 8,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1741,6 +1937,9 @@
         "title": "remove form",
         "mergedAt": "2024-01-04T14:11:20Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/229",
+        "additions": 37,
+        "deletions": 32,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1806,6 +2005,9 @@
         "title": "Fix layout",
         "mergedAt": "2024-01-04T13:56:00Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/228",
+        "additions": 7,
+        "deletions": 8,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1871,6 +2073,9 @@
         "title": "add export pdf",
         "mergedAt": "2024-01-04T13:42:34Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/227",
+        "additions": 290,
+        "deletions": 348,
+        "changedFiles": 8,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -1936,6 +2141,9 @@
         "title": "V2",
         "mergedAt": "2024-01-04T11:38:21Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/226",
+        "additions": 27659,
+        "deletions": 7743,
+        "changedFiles": 102,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -2001,6 +2209,9 @@
         "title": "fix pat",
         "mergedAt": "2023-12-29T05:39:17Z",
         "permalink": "https://github.com/lapras-inc/kube-job/pull/3",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOK-cRPg",
           "nameWithOwner": "lapras-inc/kube-job",
@@ -2038,6 +2249,9 @@
         "title": "verbose logs",
         "mergedAt": "2023-12-29T05:12:27Z",
         "permalink": "https://github.com/lapras-inc/kube-job/pull/2",
+        "additions": 248,
+        "deletions": 50,
+        "changedFiles": 8,
         "repository": {
           "id": "R_kgDOK-cRPg",
           "nameWithOwner": "lapras-inc/kube-job",
@@ -2075,6 +2289,9 @@
         "title": "remove fix",
         "mergedAt": "2023-12-28T09:26:26Z",
         "permalink": "https://github.com/lapras-inc/kube-job/pull/1",
+        "additions": 12,
+        "deletions": 24,
+        "changedFiles": 4,
         "repository": {
           "id": "R_kgDOK-cRPg",
           "nameWithOwner": "lapras-inc/kube-job",
@@ -2112,6 +2329,9 @@
         "title": "docs: fix resource id",
         "mergedAt": "2023-11-08T15:31:58Z",
         "permalink": "https://github.com/hashicorp/terraform-provider-aws/pull/34312",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk5MzQ0NDYxNQ==",
           "nameWithOwner": "hashicorp/terraform-provider-aws",
@@ -2120,7 +2340,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9318,
+          "stargazerCount": 9326,
           "languages": {
             "edges": [
               {
@@ -2128,7 +2348,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 55352710
+                "size": 55379775
               },
               {
                 "node": {
@@ -2191,6 +2411,9 @@
         "title": "[add] region",
         "mergedAt": "2023-11-07T05:02:45Z",
         "permalink": "https://github.com/lapras-inc/kintai-paccho/pull/4",
+        "additions": 1,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOICZOqw",
           "nameWithOwner": "lapras-inc/kintai-paccho",
@@ -2228,6 +2451,9 @@
         "title": "[add] Add DynamoDB strategy",
         "mergedAt": "2023-11-07T04:14:27Z",
         "permalink": "https://github.com/lapras-inc/kintai-paccho/pull/3",
+        "additions": 262,
+        "deletions": 145,
+        "changedFiles": 9,
         "repository": {
           "id": "R_kgDOICZOqw",
           "nameWithOwner": "lapras-inc/kintai-paccho",
@@ -2265,6 +2491,9 @@
         "title": "fix broken link",
         "mergedAt": "2023-10-16T22:30:15Z",
         "permalink": "https://github.com/aws/aws-eks-best-practices/pull/398",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMTcxNzM2ODc=",
           "nameWithOwner": "aws/aws-eks-best-practices",
@@ -2273,7 +2502,7 @@
             "login": "aws"
           },
           "isFork": false,
-          "stargazerCount": 1767,
+          "stargazerCount": 1769,
           "languages": {
             "edges": [
               {
@@ -2316,6 +2545,9 @@
         "title": "Add diffArgs to helmDefaults",
         "mergedAt": "2023-09-14T02:23:42Z",
         "permalink": "https://github.com/helmfile/helmfile/pull/1019",
+        "additions": 46,
+        "deletions": 27,
+        "changedFiles": 6,
         "repository": {
           "id": "R_kgDOHEifeg",
           "nameWithOwner": "helmfile/helmfile",
@@ -2324,7 +2556,7 @@
             "login": "helmfile"
           },
           "isFork": false,
-          "stargazerCount": 2977,
+          "stargazerCount": 2983,
           "languages": {
             "edges": [
               {
@@ -2381,6 +2613,9 @@
         "title": "最新化",
         "mergedAt": "2023-08-28T02:27:25Z",
         "permalink": "https://github.com/lapras-inc/exam-swe-template/pull/20",
+        "additions": 54,
+        "deletions": 38,
+        "changedFiles": 13,
         "repository": {
           "id": "R_kgDOHiBChw",
           "nameWithOwner": "lapras-inc/exam-swe-template",
@@ -2453,6 +2688,9 @@
         "title": "fix",
         "mergedAt": "2023-08-11T15:00:48Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/221",
+        "additions": 1148,
+        "deletions": 1054,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -2518,6 +2756,9 @@
         "title": "fix",
         "mergedAt": "2023-08-11T14:58:21Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/220",
+        "additions": 0,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -2583,6 +2824,9 @@
         "title": "Hoge22",
         "mergedAt": "2023-08-11T14:28:59Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/217",
+        "additions": 5,
+        "deletions": 1,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -2648,6 +2892,9 @@
         "title": "Add import of `aws_ses_active_receipt_rule_set` resource",
         "mergedAt": "2023-06-16T18:36:43Z",
         "permalink": "https://github.com/hashicorp/terraform-provider-aws/pull/27604",
+        "additions": 52,
+        "deletions": 0,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk5MzQ0NDYxNQ==",
           "nameWithOwner": "hashicorp/terraform-provider-aws",
@@ -2656,7 +2903,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9318,
+          "stargazerCount": 9326,
           "languages": {
             "edges": [
               {
@@ -2664,7 +2911,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 55352710
+                "size": 55379775
               },
               {
                 "node": {
@@ -2727,6 +2974,9 @@
         "title": "add https proxy",
         "mergedAt": "2023-06-05T03:57:33Z",
         "permalink": "https://github.com/lapras-inc/kintai-paccho/pull/2",
+        "additions": 11,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOICZOqw",
           "nameWithOwner": "lapras-inc/kintai-paccho",
@@ -2764,6 +3014,9 @@
         "title": "add about go run in wsl",
         "mergedAt": "2023-05-06T15:52:27Z",
         "permalink": "https://github.com/ebitengine/ebitengine.org/pull/17",
+        "additions": 8,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "R_kgDOIDQRzw",
           "nameWithOwner": "ebitengine/ebitengine.org",
@@ -2815,6 +3068,9 @@
         "title": "add kiji",
         "mergedAt": "2023-04-26T11:09:57Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/215",
+        "additions": 5,
+        "deletions": 5,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -2880,6 +3136,9 @@
         "title": "[add] more emotional",
         "mergedAt": "2023-04-20T08:23:15Z",
         "permalink": "https://github.com/lapras-inc/kintai-paccho/pull/1",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOICZOqw",
           "nameWithOwner": "lapras-inc/kintai-paccho",
@@ -2917,6 +3176,9 @@
         "title": "add import `cloudflare_tunnel_config`",
         "mergedAt": "2023-03-20T00:16:43Z",
         "permalink": "https://github.com/cloudflare/terraform-provider-cloudflare/pull/2298",
+        "additions": 62,
+        "deletions": 0,
+        "changedFiles": 6,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk5MzQ0NjExMw==",
           "nameWithOwner": "cloudflare/terraform-provider-cloudflare",
@@ -2933,7 +3195,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 2687242
+                "size": 2690462
               },
               {
                 "node": {
@@ -2975,6 +3237,9 @@
         "title": "Xxx",
         "mergedAt": "2023-03-21T12:29:15Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/212",
+        "additions": 1101,
+        "deletions": 911,
+        "changedFiles": 5,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -3040,6 +3305,9 @@
         "title": "Add `tags` and `tags_all` argument to `aws_ecrpublic_repository`",
         "mergedAt": "2022-08-01T17:37:58Z",
         "permalink": "https://github.com/hashicorp/terraform-provider-aws/pull/26057",
+        "additions": 223,
+        "deletions": 3,
+        "changedFiles": 6,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk5MzQ0NDYxNQ==",
           "nameWithOwner": "hashicorp/terraform-provider-aws",
@@ -3048,7 +3316,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9318,
+          "stargazerCount": 9326,
           "languages": {
             "edges": [
               {
@@ -3056,7 +3324,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 55352710
+                "size": 55379775
               },
               {
                 "node": {
@@ -3119,6 +3387,9 @@
         "title": "add: set replacement-available-in to existing version.",
         "mergedAt": "2023-02-22T21:11:40Z",
         "permalink": "https://github.com/FairwindsOps/pluto/pull/457",
+        "additions": 44,
+        "deletions": 1,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNDk4MTQ0MzY=",
           "nameWithOwner": "FairwindsOps/pluto",
@@ -3127,7 +3398,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 1907,
+          "stargazerCount": 1909,
           "languages": {
             "edges": [
               {
@@ -3177,6 +3448,9 @@
         "title": "add replacement-available-in",
         "mergedAt": "2023-02-21T21:43:57Z",
         "permalink": "https://github.com/FairwindsOps/pluto/pull/452",
+        "additions": 321,
+        "deletions": 120,
+        "changedFiles": 8,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNDk4MTQ0MzY=",
           "nameWithOwner": "FairwindsOps/pluto",
@@ -3185,7 +3459,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 1907,
+          "stargazerCount": 1909,
           "languages": {
             "edges": [
               {
@@ -3235,6 +3509,9 @@
         "title": "fix: add removed-in to storage.k8s.io/v1beta1.CSIStorageCapacity",
         "mergedAt": "2023-02-04T13:57:01Z",
         "permalink": "https://github.com/FairwindsOps/pluto/pull/448",
+        "additions": 1,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNDk4MTQ0MzY=",
           "nameWithOwner": "FairwindsOps/pluto",
@@ -3243,7 +3520,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 1907,
+          "stargazerCount": 1909,
           "languages": {
             "edges": [
               {
@@ -3293,6 +3570,9 @@
         "title": "fix: add message when parse of private key fails due to existing sso secret. Fixes #10420",
         "mergedAt": "2023-02-01T16:10:20Z",
         "permalink": "https://github.com/argoproj/argo-workflows/pull/10421",
+        "additions": 32,
+        "deletions": 3,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxMDA5ODI0NDk=",
           "nameWithOwner": "argoproj/argo-workflows",
@@ -3309,14 +3589,14 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 3927704
+                "size": 3941826
               },
               {
                 "node": {
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 620622
+                "size": 620855
               },
               {
                 "node": {
@@ -3337,7 +3617,7 @@
                   "name": "SCSS",
                   "color": "#c6538c"
                 },
-                "size": 31918
+                "size": 31904
               },
               {
                 "node": {
@@ -3386,6 +3666,9 @@
         "title": "feat: support to FileInfo.Sys()",
         "mergedAt": "2023-01-24T09:41:11Z",
         "permalink": "https://github.com/liamg/memoryfs/pull/19",
+        "additions": 66,
+        "deletions": 2,
+        "changedFiles": 3,
         "repository": {
           "id": "R_kgDOHGAPnA",
           "nameWithOwner": "liamg/memoryfs",
@@ -3423,6 +3706,9 @@
         "title": "fix: use FileMode.IsDir()",
         "mergedAt": "2023-01-24T09:37:42Z",
         "permalink": "https://github.com/liamg/memoryfs/pull/18",
+        "additions": 44,
+        "deletions": 19,
+        "changedFiles": 6,
         "repository": {
           "id": "R_kgDOHGAPnA",
           "nameWithOwner": "liamg/memoryfs",
@@ -3460,6 +3746,9 @@
         "title": "feat: add SetMode",
         "mergedAt": "2023-01-15T11:44:48Z",
         "permalink": "https://github.com/yktakaha4/memoryfs/pull/7",
+        "additions": 39,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "R_kgDOILh_KQ",
           "nameWithOwner": "yktakaha4/memoryfs",
@@ -3497,6 +3786,9 @@
         "title": "feat: add FS.SetTimeProvider()",
         "mergedAt": "2023-01-14T05:54:01Z",
         "permalink": "https://github.com/yktakaha4/memoryfs/pull/6",
+        "additions": 75,
+        "deletions": 17,
+        "changedFiles": 5,
         "repository": {
           "id": "R_kgDOILh_KQ",
           "nameWithOwner": "yktakaha4/memoryfs",
@@ -3534,6 +3826,9 @@
         "title": "feat: support to FileInfo.Sys()",
         "mergedAt": "2023-01-14T04:11:17Z",
         "permalink": "https://github.com/yktakaha4/memoryfs/pull/4",
+        "additions": 66,
+        "deletions": 2,
+        "changedFiles": 3,
         "repository": {
           "id": "R_kgDOILh_KQ",
           "nameWithOwner": "yktakaha4/memoryfs",
@@ -3571,6 +3866,9 @@
         "title": "Fix/perm",
         "mergedAt": "2023-01-14T04:11:05Z",
         "permalink": "https://github.com/yktakaha4/memoryfs/pull/3",
+        "additions": 44,
+        "deletions": 19,
+        "changedFiles": 6,
         "repository": {
           "id": "R_kgDOILh_KQ",
           "nameWithOwner": "yktakaha4/memoryfs",
@@ -3608,6 +3906,9 @@
         "title": "Revert \"Fix/perm\"",
         "mergedAt": "2023-01-08T13:40:24Z",
         "permalink": "https://github.com/yktakaha4/memoryfs/pull/2",
+        "additions": 19,
+        "deletions": 44,
+        "changedFiles": 6,
         "repository": {
           "id": "R_kgDOILh_KQ",
           "nameWithOwner": "yktakaha4/memoryfs",
@@ -3645,6 +3946,9 @@
         "title": "Fix/perm",
         "mergedAt": "2023-01-08T13:36:25Z",
         "permalink": "https://github.com/yktakaha4/memoryfs/pull/1",
+        "additions": 44,
+        "deletions": 19,
+        "changedFiles": 6,
         "repository": {
           "id": "R_kgDOILh_KQ",
           "nameWithOwner": "yktakaha4/memoryfs",
@@ -3682,6 +3986,9 @@
         "title": "add docs",
         "mergedAt": "2022-12-22T15:34:16Z",
         "permalink": "https://github.com/yktakaha4/kunitori/pull/4",
+        "additions": 50,
+        "deletions": 2,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOIoPPvQ",
           "nameWithOwner": "yktakaha4/kunitori",
@@ -3726,6 +4033,9 @@
         "title": "Refactor/release",
         "mergedAt": "2022-12-20T16:22:27Z",
         "permalink": "https://github.com/yktakaha4/kunitori/pull/2",
+        "additions": 43,
+        "deletions": 4,
+        "changedFiles": 4,
         "repository": {
           "id": "R_kgDOIoPPvQ",
           "nameWithOwner": "yktakaha4/kunitori",
@@ -3770,6 +4080,9 @@
         "title": "add ci",
         "mergedAt": "2022-12-20T15:32:52Z",
         "permalink": "https://github.com/yktakaha4/kunitori/pull/1",
+        "additions": 132,
+        "deletions": 13,
+        "changedFiles": 9,
         "repository": {
           "id": "R_kgDOIoPPvQ",
           "nameWithOwner": "yktakaha4/kunitori",
@@ -3814,6 +4127,9 @@
         "title": "update",
         "mergedAt": "2022-11-12T03:34:32Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/192",
+        "additions": 10,
+        "deletions": 9,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -3879,6 +4195,9 @@
         "title": "feat: Add SetModified",
         "mergedAt": "2022-11-07T11:05:07Z",
         "permalink": "https://github.com/liamg/memoryfs/pull/17",
+        "additions": 106,
+        "deletions": 66,
+        "changedFiles": 2,
         "repository": {
           "id": "R_kgDOHGAPnA",
           "nameWithOwner": "liamg/memoryfs",
@@ -3916,6 +4235,9 @@
         "title": "Feat/ecrpublic tags",
         "mergedAt": "2022-07-30T17:17:20Z",
         "permalink": "https://github.com/yktakaha4/terraform-provider-aws/pull/1",
+        "additions": 206,
+        "deletions": 1,
+        "changedFiles": 5,
         "repository": {
           "id": "R_kgDOHvcrag",
           "nameWithOwner": "yktakaha4/terraform-provider-aws",
@@ -3995,6 +4317,9 @@
         "title": "reenabled windows build target",
         "mergedAt": "2022-10-27T07:49:38Z",
         "permalink": "https://github.com/lapras-inc/terraform-provider-uptimerobot/pull/11",
+        "additions": 1,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOIByJ5w",
           "nameWithOwner": "lapras-inc/terraform-provider-uptimerobot",
@@ -4032,6 +4357,9 @@
         "title": "fix test",
         "mergedAt": "2022-09-20T00:21:56Z",
         "permalink": "https://github.com/lapras-inc/terraform-provider-uptimerobot/pull/1",
+        "additions": 2,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOIByJ5w",
           "nameWithOwner": "lapras-inc/terraform-provider-uptimerobot",
@@ -4069,6 +4397,9 @@
         "title": "Feat/timeout",
         "mergedAt": "2022-10-27T02:00:01Z",
         "permalink": "https://github.com/lapras-inc/terraform-provider-uptimerobot/pull/10",
+        "additions": 219,
+        "deletions": 0,
+        "changedFiles": 4,
         "repository": {
           "id": "R_kgDOIByJ5w",
           "nameWithOwner": "lapras-inc/terraform-provider-uptimerobot",
@@ -4106,6 +4437,9 @@
         "title": "add catch",
         "mergedAt": "2022-10-19T06:04:25Z",
         "permalink": "https://github.com/yktakaha4/hashicat-aws/pull/1",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOIQWHaQ",
           "nameWithOwner": "yktakaha4/hashicat-aws",
@@ -4143,6 +4477,9 @@
         "title": "add 登壇歴",
         "mergedAt": "2022-10-16T06:15:31Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/191",
+        "additions": 6,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -4208,6 +4545,9 @@
         "title": "add paths-ignore",
         "mergedAt": "2022-09-26T14:35:22Z",
         "permalink": "https://github.com/lapras-inc/terraform-provider-uptimerobot/pull/9",
+        "additions": 9,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOIByJ5w",
           "nameWithOwner": "lapras-inc/terraform-provider-uptimerobot",
@@ -4245,6 +4585,9 @@
         "title": "fix badge",
         "mergedAt": "2022-09-26T14:01:41Z",
         "permalink": "https://github.com/lapras-inc/terraform-provider-uptimerobot/pull/7",
+        "additions": 22,
+        "deletions": 2,
+        "changedFiles": 3,
         "repository": {
           "id": "R_kgDOIByJ5w",
           "nameWithOwner": "lapras-inc/terraform-provider-uptimerobot",
@@ -4282,6 +4625,9 @@
         "title": "fix release",
         "mergedAt": "2022-09-26T13:29:42Z",
         "permalink": "https://github.com/lapras-inc/terraform-provider-uptimerobot/pull/6",
+        "additions": 22,
+        "deletions": 14,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOIByJ5w",
           "nameWithOwner": "lapras-inc/terraform-provider-uptimerobot",
@@ -4319,6 +4665,9 @@
         "title": "Feat/custom http status",
         "mergedAt": "2022-09-26T00:24:27Z",
         "permalink": "https://github.com/lapras-inc/terraform-provider-uptimerobot/pull/3",
+        "additions": 157,
+        "deletions": 0,
+        "changedFiles": 4,
         "repository": {
           "id": "R_kgDOIByJ5w",
           "nameWithOwner": "lapras-inc/terraform-provider-uptimerobot",
@@ -4356,6 +4705,9 @@
         "title": "Revert \"Feat/timeout\"",
         "mergedAt": "2022-09-26T00:14:13Z",
         "permalink": "https://github.com/lapras-inc/terraform-provider-uptimerobot/pull/5",
+        "additions": 0,
+        "deletions": 217,
+        "changedFiles": 4,
         "repository": {
           "id": "R_kgDOIByJ5w",
           "nameWithOwner": "lapras-inc/terraform-provider-uptimerobot",
@@ -4393,6 +4745,9 @@
         "title": "Fix/manual",
         "mergedAt": "2022-09-25T23:50:24Z",
         "permalink": "https://github.com/lapras-inc/terraform-provider-uptimerobot/pull/4",
+        "additions": 18,
+        "deletions": 18,
+        "changedFiles": 13,
         "repository": {
           "id": "R_kgDOIByJ5w",
           "nameWithOwner": "lapras-inc/terraform-provider-uptimerobot",
@@ -4430,6 +4785,9 @@
         "title": "Feat/timeout",
         "mergedAt": "2022-09-25T23:39:20Z",
         "permalink": "https://github.com/lapras-inc/terraform-provider-uptimerobot/pull/2",
+        "additions": 217,
+        "deletions": 0,
+        "changedFiles": 4,
         "repository": {
           "id": "R_kgDOIByJ5w",
           "nameWithOwner": "lapras-inc/terraform-provider-uptimerobot",
@@ -4467,6 +4825,9 @@
         "title": "Fix",
         "mergedAt": "2022-09-21T14:42:44Z",
         "permalink": "https://github.com/yktakaha4/terraform-provider-hashicups/pull/2",
+        "additions": 192,
+        "deletions": 148,
+        "changedFiles": 9,
         "repository": {
           "id": "R_kgDOIByxNQ",
           "nameWithOwner": "yktakaha4/terraform-provider-hashicups",
@@ -4504,6 +4865,9 @@
         "title": "Update README.md",
         "mergedAt": "2022-09-19T05:50:23Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/11",
+        "additions": 10,
+        "deletions": 2,
+        "changedFiles": 3,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -4541,6 +4905,9 @@
         "title": "Fix flake8",
         "mergedAt": "2022-08-26T06:41:12Z",
         "permalink": "https://github.com/python-social-auth/social-core/pull/707",
+        "additions": 95,
+        "deletions": 88,
+        "changedFiles": 25,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk2Njc3NjI3Ng==",
           "nameWithOwner": "python-social-auth/social-core",
@@ -4549,7 +4916,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 805,
+          "stargazerCount": 807,
           "languages": {
             "edges": [
               {
@@ -4557,7 +4924,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 893403
+                "size": 893507
               },
               {
                 "node": {
@@ -4592,6 +4959,9 @@
         "title": "Identify Qiita users by permanent_id",
         "mergedAt": "2022-08-26T06:40:07Z",
         "permalink": "https://github.com/python-social-auth/social-core/pull/698",
+        "additions": 101,
+        "deletions": 3,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk2Njc3NjI3Ng==",
           "nameWithOwner": "python-social-auth/social-core",
@@ -4600,7 +4970,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 805,
+          "stargazerCount": 807,
           "languages": {
             "edges": [
               {
@@ -4608,7 +4978,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 893403
+                "size": 893507
               },
               {
                 "node": {
@@ -4643,6 +5013,9 @@
         "title": "Add description of SOCIAL_AUTH_QIITA_IDENTIFIED_BY_PERMANENT_ID",
         "mergedAt": "2022-08-26T06:40:14Z",
         "permalink": "https://github.com/python-social-auth/social-docs/pull/116",
+        "additions": 5,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk2OTExOTM2NQ==",
           "nameWithOwner": "python-social-auth/social-docs",
@@ -4687,6 +5060,9 @@
         "title": "Revert \"feat: identify Qiita users by permanent_id\"",
         "mergedAt": "2022-08-25T12:43:15Z",
         "permalink": "https://github.com/yktakaha4/social-core/pull/4",
+        "additions": 3,
+        "deletions": 99,
+        "changedFiles": 2,
         "repository": {
           "id": "R_kgDOHvYhLg",
           "nameWithOwner": "yktakaha4/social-core",
@@ -4738,6 +5114,9 @@
         "title": "fix flake8 error",
         "mergedAt": "2022-08-16T13:41:20Z",
         "permalink": "https://github.com/yktakaha4/social-core/pull/2",
+        "additions": 100,
+        "deletions": 90,
+        "changedFiles": 27,
         "repository": {
           "id": "R_kgDOHvYhLg",
           "nameWithOwner": "yktakaha4/social-core",
@@ -4789,6 +5168,9 @@
         "title": "Update README.md",
         "mergedAt": "2022-08-12T03:47:15Z",
         "permalink": "https://github.com/lapras-inc/exam-swe-template/pull/9",
+        "additions": 26,
+        "deletions": 16,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOHiBChw",
           "nameWithOwner": "lapras-inc/exam-swe-template",
@@ -4861,6 +5243,9 @@
         "title": "Update README.md",
         "mergedAt": "2022-08-07T10:07:50Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/188",
+        "additions": 10,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -4926,6 +5311,9 @@
         "title": "add notes for reset my security token",
         "mergedAt": "2022-08-07T06:41:25Z",
         "permalink": "https://github.com/yktakaha4/amazon-connect-salesforce-cti/pull/1",
+        "additions": 8,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOHxsSGA",
           "nameWithOwner": "yktakaha4/amazon-connect-salesforce-cti",
@@ -4963,6 +5351,9 @@
         "title": "15355/add ci",
         "mergedAt": "2022-08-04T23:46:00Z",
         "permalink": "https://github.com/lapras-inc/exam-swe-template/pull/3",
+        "additions": 820,
+        "deletions": 298,
+        "changedFiles": 30,
         "repository": {
           "id": "R_kgDOHiBChw",
           "nameWithOwner": "lapras-inc/exam-swe-template",
@@ -5035,6 +5426,9 @@
         "title": "feat: identify Qiita users by permanent_id",
         "mergedAt": "2022-07-30T09:01:17Z",
         "permalink": "https://github.com/yktakaha4/social-core/pull/1",
+        "additions": 99,
+        "deletions": 3,
+        "changedFiles": 2,
         "repository": {
           "id": "R_kgDOHvYhLg",
           "nameWithOwner": "yktakaha4/social-core",
@@ -5086,6 +5480,9 @@
         "title": "add ogp",
         "mergedAt": "2022-07-29T13:32:10Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/187",
+        "additions": 38,
+        "deletions": 22,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5151,6 +5548,9 @@
         "title": "add",
         "mergedAt": "2022-07-29T13:06:06Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/186",
+        "additions": 1269,
+        "deletions": 1270,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5216,6 +5616,9 @@
         "title": "add image height",
         "mergedAt": "2022-07-29T12:36:48Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/185",
+        "additions": 4,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5281,6 +5684,9 @@
         "title": "update requirements python version",
         "mergedAt": "2022-06-05T11:26:58Z",
         "permalink": "https://github.com/localstack/docs/pull/178",
+        "additions": 4,
+        "deletions": 6,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOGHyK9A",
           "nameWithOwner": "localstack/docs",
@@ -5353,6 +5759,9 @@
         "title": "Update README.md",
         "mergedAt": "2022-06-01T06:06:50Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/181",
+        "additions": 1,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5418,6 +5827,9 @@
         "title": "add",
         "mergedAt": "2022-05-21T14:31:12Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/180",
+        "additions": 8,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5483,6 +5895,9 @@
         "title": "add meety",
         "mergedAt": "2022-05-21T11:45:10Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/179",
+        "additions": 4,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5548,6 +5963,9 @@
         "title": "remove plugin",
         "mergedAt": "2022-05-21T11:39:02Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/178",
+        "additions": 17,
+        "deletions": 12,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5613,6 +6031,9 @@
         "title": "yarn",
         "mergedAt": "2022-05-21T11:20:14Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/177",
+        "additions": 9933,
+        "deletions": 37145,
+        "changedFiles": 8,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5678,6 +6099,9 @@
         "title": "add noto emoji",
         "mergedAt": "2022-05-21T11:01:29Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/176",
+        "additions": 25,
+        "deletions": 18,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5743,6 +6167,9 @@
         "title": "整理",
         "mergedAt": "2022-05-21T10:45:08Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/175",
+        "additions": 21,
+        "deletions": 37,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5808,6 +6235,9 @@
         "title": "rename",
         "mergedAt": "2022-05-21T10:30:06Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/174",
+        "additions": 22058,
+        "deletions": 25451,
+        "changedFiles": 7,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5873,6 +6303,9 @@
         "title": "Fix",
         "mergedAt": "2022-05-21T10:06:26Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/173",
+        "additions": 26942,
+        "deletions": 20448,
+        "changedFiles": 5,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -5938,6 +6371,9 @@
         "title": "fix 誤記",
         "mergedAt": "2022-04-23T05:37:45Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/142",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -6003,6 +6439,9 @@
         "title": "Add ci",
         "mergedAt": "2022-04-18T01:53:00Z",
         "permalink": "https://github.com/showwin/kintai-paccho/pull/23",
+        "additions": 464,
+        "deletions": 444,
+        "changedFiles": 22,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxMzA2Nzc4MjE=",
           "nameWithOwner": "showwin/kintai-paccho",
@@ -6040,6 +6479,9 @@
         "title": "add unit test",
         "mergedAt": "2022-04-15T01:46:36Z",
         "permalink": "https://github.com/showwin/kintai-paccho/pull/22",
+        "additions": 1582,
+        "deletions": 48,
+        "changedFiles": 18,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxMzA2Nzc4MjE=",
           "nameWithOwner": "showwin/kintai-paccho",
@@ -6077,6 +6519,9 @@
         "title": "add index.d.ts",
         "mergedAt": "2022-03-29T09:34:01Z",
         "permalink": "https://github.com/elwerene/libreoffice-convert/pull/77",
+        "additions": 988,
+        "deletions": 743,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNDE4NDA3NA==",
           "nameWithOwner": "elwerene/libreoffice-convert",
@@ -6107,6 +6552,9 @@
         "title": "Update README.md",
         "mergedAt": "2022-03-26T05:15:27Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/162",
+        "additions": 1,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -6172,6 +6620,9 @@
         "title": "feat: set url if bookmark title is empty",
         "mergedAt": "2022-03-10T00:30:26Z",
         "permalink": "https://github.com/kawamataryo/chikamichi/pull/71",
+        "additions": 16,
+        "deletions": 4,
+        "changedFiles": 2,
         "repository": {
           "id": "R_kgDOGnWhvA",
           "nameWithOwner": "kawamataryo/chikamichi",
@@ -6230,6 +6681,9 @@
         "title": "Develop",
         "mergedAt": "2022-01-09T09:28:09Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/10",
+        "additions": 33,
+        "deletions": 36,
+        "changedFiles": 5,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -6267,6 +6721,9 @@
         "title": "fix for lax parameters",
         "mergedAt": "2022-01-09T06:56:21Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/9",
+        "additions": 94,
+        "deletions": 57,
+        "changedFiles": 4,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -6304,6 +6761,9 @@
         "title": "add badge",
         "mergedAt": "2022-01-09T05:51:41Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/8",
+        "additions": 2,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -6341,6 +6801,9 @@
         "title": "fix cli",
         "mergedAt": "2022-01-09T05:39:21Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/7",
+        "additions": 8,
+        "deletions": 10,
+        "changedFiles": 3,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -6378,6 +6841,9 @@
         "title": "Develop",
         "mergedAt": "2022-01-09T05:22:55Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/6",
+        "additions": 288,
+        "deletions": 65,
+        "changedFiles": 13,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -6415,6 +6881,9 @@
         "title": "more logging",
         "mergedAt": "2022-01-08T18:10:10Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/5",
+        "additions": 7,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -6452,6 +6921,9 @@
         "title": "update docs",
         "mergedAt": "2022-01-08T17:45:22Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/4",
+        "additions": 40,
+        "deletions": 21,
+        "changedFiles": 6,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -6489,6 +6961,9 @@
         "title": "change test data",
         "mergedAt": "2022-01-08T11:47:24Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/3",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -6526,6 +7001,9 @@
         "title": "Create LICENSE",
         "mergedAt": "2022-01-08T11:30:44Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/1",
+        "additions": 21,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -6563,6 +7041,9 @@
         "title": "Update issue templates",
         "mergedAt": "2022-01-08T11:36:57Z",
         "permalink": "https://github.com/yktakaha4/kintone-form-model-generator/pull/2",
+        "additions": 60,
+        "deletions": 0,
+        "changedFiles": 3,
         "repository": {
           "id": "R_kgDOGoOoUw",
           "nameWithOwner": "yktakaha4/kintone-form-model-generator",
@@ -6600,6 +7081,9 @@
         "title": "Update README.md",
         "mergedAt": "2022-01-06T07:31:00Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/141",
+        "additions": 3,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -6665,6 +7149,9 @@
         "title": "add ckad",
         "mergedAt": "2022-01-06T06:21:06Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/140",
+        "additions": 79,
+        "deletions": 78,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -6730,6 +7217,9 @@
         "title": "add lapras",
         "mergedAt": "2021-12-25T08:07:12Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/137",
+        "additions": 28,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -6795,6 +7285,9 @@
         "title": "Update README.md",
         "mergedAt": "2021-12-25T07:34:40Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/136",
+        "additions": 21,
+        "deletions": 19,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -6860,6 +7353,9 @@
         "title": "fix clear cache if Employee are updated",
         "mergedAt": "2021-12-24T07:03:01Z",
         "permalink": "https://github.com/showwin/kintai-paccho/pull/15",
+        "additions": 1,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxMzA2Nzc4MjE=",
           "nameWithOwner": "showwin/kintai-paccho",
@@ -6897,6 +7393,9 @@
         "title": "Update index.rst",
         "mergedAt": "2021-12-20T15:32:31Z",
         "permalink": "https://github.com/doc1oo/LovelyComposerDocs/pull/1",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOGi6LPQ",
           "nameWithOwner": "doc1oo/LovelyComposerDocs",
@@ -6955,6 +7454,9 @@
         "title": "fix",
         "mergedAt": "2021-11-20T10:58:10Z",
         "permalink": "https://github.com/yktakaha4/study-eks-github-oidc/pull/6",
+        "additions": 5,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOGZNL5g",
           "nameWithOwner": "yktakaha4/study-eks-github-oidc",
@@ -6985,6 +7487,9 @@
         "title": "update workflow",
         "mergedAt": "2021-11-20T08:48:34Z",
         "permalink": "https://github.com/yktakaha4/study-eks-github-oidc/pull/5",
+        "additions": 5,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "R_kgDOGZNL5g",
           "nameWithOwner": "yktakaha4/study-eks-github-oidc",
@@ -7015,6 +7520,9 @@
         "title": "add readme",
         "mergedAt": "2021-11-18T16:27:45Z",
         "permalink": "https://github.com/yktakaha4/study-eks-github-oidc/pull/1",
+        "additions": 35,
+        "deletions": 3,
+        "changedFiles": 2,
         "repository": {
           "id": "R_kgDOGZNL5g",
           "nameWithOwner": "yktakaha4/study-eks-github-oidc",
@@ -7045,6 +7553,9 @@
         "title": "fix",
         "mergedAt": "2021-11-18T17:08:30Z",
         "permalink": "https://github.com/yktakaha4/study-eks-github-oidc/pull/3",
+        "additions": 31,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "R_kgDOGZNL5g",
           "nameWithOwner": "yktakaha4/study-eks-github-oidc",
@@ -7075,6 +7586,9 @@
         "title": "fix",
         "mergedAt": "2021-11-20T08:45:24Z",
         "permalink": "https://github.com/yktakaha4/study-eks-github-oidc/pull/4",
+        "additions": 16,
+        "deletions": 13,
+        "changedFiles": 3,
         "repository": {
           "id": "R_kgDOGZNL5g",
           "nameWithOwner": "yktakaha4/study-eks-github-oidc",
@@ -7105,6 +7619,9 @@
         "title": "add template",
         "mergedAt": "2021-11-18T16:47:11Z",
         "permalink": "https://github.com/yktakaha4/study-eks-github-oidc/pull/2",
+        "additions": 27,
+        "deletions": 27,
+        "changedFiles": 4,
         "repository": {
           "id": "R_kgDOGZNL5g",
           "nameWithOwner": "yktakaha4/study-eks-github-oidc",
@@ -7135,6 +7652,9 @@
         "title": "fix bugs",
         "mergedAt": "2021-09-26T06:58:33Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/125",
+        "additions": 4,
+        "deletions": 2,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7200,6 +7720,9 @@
         "title": "Koushin",
         "mergedAt": "2021-09-26T06:53:03Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/124",
+        "additions": 22,
+        "deletions": 15,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7265,6 +7788,9 @@
         "title": "Koushin",
         "mergedAt": "2021-09-26T06:46:17Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/123",
+        "additions": 27,
+        "deletions": 18,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7330,6 +7856,9 @@
         "title": "docs: client.yml file path in snap",
         "mergedAt": "2021-04-26T12:17:01Z",
         "permalink": "https://github.com/Rigellute/spotify-tui/pull/778",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDI3ODc4NzY=",
           "nameWithOwner": "Rigellute/spotify-tui",
@@ -7338,7 +7867,7 @@
             "login": "Rigellute"
           },
           "isFork": false,
-          "stargazerCount": 16298,
+          "stargazerCount": 16310,
           "languages": {
             "edges": [
               {
@@ -7367,6 +7896,9 @@
         "title": "Lapras2",
         "mergedAt": "2021-04-04T02:42:17Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/98",
+        "additions": 21366,
+        "deletions": 2137,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7432,6 +7964,9 @@
         "title": "update: noteを追加",
         "mergedAt": "2021-01-24T17:34:16Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/78",
+        "additions": 2,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7497,6 +8032,9 @@
         "title": "Dev",
         "mergedAt": "2021-01-17T08:36:02Z",
         "permalink": "https://github.com/yktakaha4/python-grpc-newbie/pull/1",
+        "additions": 486,
+        "deletions": 1,
+        "changedFiles": 22,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkzMzAzMjU2MDI=",
           "nameWithOwner": "yktakaha4/python-grpc-newbie",
@@ -7527,6 +8065,9 @@
         "title": "docs: Describe an example of a Geometry type",
         "mergedAt": "2021-01-11T13:00:54Z",
         "permalink": "https://github.com/typeorm/typeorm/pull/7116",
+        "additions": 5,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk1Mjc3MzE1Nw==",
           "nameWithOwner": "typeorm/typeorm",
@@ -7535,7 +8076,7 @@
             "login": "typeorm"
           },
           "isFork": false,
-          "stargazerCount": 32936,
+          "stargazerCount": 32947,
           "languages": {
             "edges": [
               {
@@ -7571,6 +8112,9 @@
         "title": "Lapras",
         "mergedAt": "2021-01-11T10:07:23Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/72",
+        "additions": 558,
+        "deletions": 425,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7636,6 +8180,9 @@
         "title": "update 文字切れ",
         "mergedAt": "2020-11-29T13:54:11Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/65",
+        "additions": 2,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7701,6 +8248,9 @@
         "title": "update: PDFへのリンクを追加",
         "mergedAt": "2020-11-29T13:48:48Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/64",
+        "additions": 3,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7766,6 +8316,9 @@
         "title": "fix tz",
         "mergedAt": "2020-11-29T13:44:02Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/63",
+        "additions": 3,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7831,6 +8384,9 @@
         "title": "update PDFに改ページを設定",
         "mergedAt": "2020-11-29T13:35:13Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/61",
+        "additions": 17,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7896,6 +8452,9 @@
         "title": "fix echo",
         "mergedAt": "2020-11-29T13:11:36Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/60",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -7961,6 +8520,9 @@
         "title": "update 202011",
         "mergedAt": "2020-11-29T13:05:55Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/59",
+        "additions": 2460,
+        "deletions": 1572,
+        "changedFiles": 9,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -8026,6 +8588,9 @@
         "title": "update 肯定選品について加筆",
         "mergedAt": "2020-10-29T07:40:28Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/53",
+        "additions": 37,
+        "deletions": 20,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -8091,6 +8656,9 @@
         "title": "docs: add enable SQS Event Source",
         "mergedAt": "2020-10-27T20:12:24Z",
         "permalink": "https://github.com/serverless/serverless/pull/8420",
+        "additions": 1,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkzNDMwMjY5OA==",
           "nameWithOwner": "serverless/serverless",
@@ -8099,7 +8667,7 @@
             "login": "serverless"
           },
           "isFork": false,
-          "stargazerCount": 45860,
+          "stargazerCount": 45865,
           "languages": {
             "edges": [
               {
@@ -8163,6 +8731,9 @@
         "title": "Update README.md",
         "mergedAt": "2020-10-01T04:10:26Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/44",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -8228,6 +8799,9 @@
         "title": "趣味を追記",
         "mergedAt": "2020-09-19T15:58:58Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/39",
+        "additions": 9,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -8293,6 +8867,9 @@
         "title": "Dev",
         "mergedAt": "2020-09-13T13:32:25Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/38",
+        "additions": 73,
+        "deletions": 62,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -8358,6 +8935,9 @@
         "title": "Document log levels",
         "mergedAt": "2020-08-14T18:03:42Z",
         "permalink": "https://github.com/amazon-connect/amazon-connect-streams/pull/265",
+        "additions": 15,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk4MzM0MTk4Nw==",
           "nameWithOwner": "amazon-connect/amazon-connect-streams",
@@ -8388,6 +8968,9 @@
         "title": "fix: clear pending messages when call purge_queue",
         "mergedAt": "2020-08-03T14:09:25Z",
         "permalink": "https://github.com/getmoto/moto/pull/3208",
+        "additions": 33,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk4Mjc3Mzcy",
           "nameWithOwner": "getmoto/moto",
@@ -8396,7 +8979,7 @@
             "login": "getmoto"
           },
           "isFork": false,
-          "stargazerCount": 7273,
+          "stargazerCount": 7276,
           "languages": {
             "edges": [
               {
@@ -8404,7 +8987,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 17618212
+                "size": 17625087
               },
               {
                 "node": {
@@ -8481,6 +9064,9 @@
         "title": "Dev",
         "mergedAt": "2020-07-24T16:35:18Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/11",
+        "additions": 267,
+        "deletions": 44,
+        "changedFiles": 10,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -8546,6 +9132,9 @@
         "title": "update exceptions.md",
         "mergedAt": "2020-07-18T07:13:16Z",
         "permalink": "https://github.com/typescript-book-ja/typescript-book-jp/pull/126",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxNjA0Mjg1ODQ=",
           "nameWithOwner": "typescript-book-ja/typescript-book-jp",
@@ -8597,6 +9186,9 @@
         "title": "Dev",
         "mergedAt": "2020-06-29T23:18:03Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/9",
+        "additions": 56,
+        "deletions": 20,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -8662,6 +9254,9 @@
         "title": "Develop",
         "mergedAt": "2020-06-23T17:03:04Z",
         "permalink": "https://github.com/perst-one/kintone-clipboard-plugin/pull/3",
+        "additions": 97,
+        "deletions": 72,
+        "changedFiles": 13,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNzQ0MzE4NTc=",
           "nameWithOwner": "perst-one/kintone-clipboard-plugin",
@@ -8706,6 +9301,9 @@
         "title": "fix workflows",
         "mergedAt": "2020-06-23T15:14:17Z",
         "permalink": "https://github.com/perst-one/kintone-clipboard-plugin/pull/2",
+        "additions": 3,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNzQ0MzE4NTc=",
           "nameWithOwner": "perst-one/kintone-clipboard-plugin",
@@ -8750,6 +9348,9 @@
         "title": "add release wordflow",
         "mergedAt": "2020-06-23T15:11:40Z",
         "permalink": "https://github.com/perst-one/kintone-clipboard-plugin/pull/1",
+        "additions": 43,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNzQ0MzE4NTc=",
           "nameWithOwner": "perst-one/kintone-clipboard-plugin",
@@ -8794,6 +9395,9 @@
         "title": "Develop",
         "mergedAt": "2020-06-23T14:42:05Z",
         "permalink": "https://github.com/perst-one/kintone-plugin-template/pull/2",
+        "additions": 49,
+        "deletions": 0,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNzQ0MjM1MzE=",
           "nameWithOwner": "perst-one/kintone-plugin-template",
@@ -8838,6 +9442,9 @@
         "title": "add template",
         "mergedAt": "2020-06-23T14:27:45Z",
         "permalink": "https://github.com/perst-one/kintone-plugin-template/pull/1",
+        "additions": 8809,
+        "deletions": 0,
+        "changedFiles": 20,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNzQ0MjM1MzE=",
           "nameWithOwner": "perst-one/kintone-plugin-template",
@@ -8882,6 +9489,9 @@
         "title": "Dev",
         "mergedAt": "2020-06-17T17:00:05Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/7",
+        "additions": 37,
+        "deletions": 10,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -8947,6 +9557,9 @@
         "title": "Dev",
         "mergedAt": "2020-06-08T15:32:53Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/6",
+        "additions": 1391,
+        "deletions": 29,
+        "changedFiles": 5,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -9012,6 +9625,9 @@
         "title": "Dev",
         "mergedAt": "2020-05-31T04:01:36Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/3",
+        "additions": 9,
+        "deletions": 13,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -9077,6 +9693,9 @@
         "title": "Dev",
         "mergedAt": "2020-05-31T03:51:35Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/2",
+        "additions": 3,
+        "deletions": 11,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -9142,6 +9761,9 @@
         "title": "経歴にrails追加",
         "mergedAt": "2020-05-31T03:34:46Z",
         "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/1",
+        "additions": 1447,
+        "deletions": 8,
+        "changedFiles": 5,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
           "nameWithOwner": "yktakaha4/yktakaha4.github.io",
@@ -9207,6 +9829,9 @@
         "title": "Warning state initialization",
         "mergedAt": "2020-04-25T00:52:08Z",
         "permalink": "https://github.com/championswimmer/vuex-module-decorators/pull/248",
+        "additions": 4,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxMzE2NDg4MjQ=",
           "nameWithOwner": "championswimmer/vuex-module-decorators",
@@ -9251,6 +9876,9 @@
         "title": "Fix audit",
         "mergedAt": "2020-03-28T06:34:46Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/18",
+        "additions": 3807,
+        "deletions": 449,
+        "changedFiles": 5,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9281,6 +9909,9 @@
         "title": "add readme",
         "mergedAt": "2020-03-14T07:59:47Z",
         "permalink": "https://github.com/yktakaha4/cw-metrics-notifier/pull/2",
+        "additions": 3,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNDcyMTc0MzY=",
           "nameWithOwner": "yktakaha4/cw-metrics-notifier",
@@ -9311,6 +9942,9 @@
         "title": "Develop",
         "mergedAt": "2020-03-14T06:52:19Z",
         "permalink": "https://github.com/yktakaha4/cw-metrics-notifier/pull/1",
+        "additions": 79,
+        "deletions": 0,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyNDcyMTc0MzY=",
           "nameWithOwner": "yktakaha4/cw-metrics-notifier",
@@ -9341,6 +9975,9 @@
         "title": "Fix/ssm",
         "mergedAt": "2020-01-19T12:59:51Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/16",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9371,6 +10008,9 @@
         "title": "fix ssmの暗号化を使わなくする",
         "mergedAt": "2020-01-19T12:44:37Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/15",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9401,6 +10041,9 @@
         "title": "Feature/add adage",
         "mergedAt": "2020-01-18T17:00:43Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/14",
+        "additions": 100,
+        "deletions": 9,
+        "changedFiles": 5,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9431,6 +10074,9 @@
         "title": "Develop",
         "mergedAt": "2020-01-13T08:30:14Z",
         "permalink": "https://github.com/yktakaha4/lunrjs-poc/pull/2",
+        "additions": 186,
+        "deletions": 35,
+        "changedFiles": 10,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1OTM3MDc=",
           "nameWithOwner": "yktakaha4/lunrjs-poc",
@@ -9468,6 +10114,9 @@
         "title": "Develop",
         "mergedAt": "2020-01-12T17:54:44Z",
         "permalink": "https://github.com/yktakaha4/lunrjs-poc/pull/1",
+        "additions": 9984,
+        "deletions": 11,
+        "changedFiles": 12,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1OTM3MDc=",
           "nameWithOwner": "yktakaha4/lunrjs-poc",
@@ -9505,6 +10154,9 @@
         "title": "update 権限追加",
         "mergedAt": "2020-01-11T07:09:14Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/13",
+        "additions": 1,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9535,6 +10187,9 @@
         "title": "update テーブル指定",
         "mergedAt": "2020-01-11T07:00:51Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/12",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9565,6 +10220,9 @@
         "title": "update iamロールにdynamodbの権限追加",
         "mergedAt": "2020-01-11T06:59:07Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/11",
+        "additions": 6,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9595,6 +10253,9 @@
         "title": "Feature/add emoji bot",
         "mergedAt": "2020-01-11T06:47:16Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/10",
+        "additions": 195,
+        "deletions": 42,
+        "changedFiles": 6,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9625,6 +10286,9 @@
         "title": "delete デプロイ先バケットをssmから取得",
         "mergedAt": "2020-01-03T12:32:20Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/5",
+        "additions": 4,
+        "deletions": 5,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9655,6 +10319,9 @@
         "title": "add prune plugin",
         "mergedAt": "2020-01-03T12:16:03Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/4",
+        "additions": 15,
+        "deletions": 0,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9685,6 +10352,9 @@
         "title": "update 手順かひつ",
         "mergedAt": "2020-01-03T12:06:56Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/3",
+        "additions": 7,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9715,6 +10385,9 @@
         "title": "Develop",
         "mergedAt": "2020-01-03T10:19:45Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/1",
+        "additions": 364,
+        "deletions": 0,
+        "changedFiles": 8,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9745,6 +10418,9 @@
         "title": "Feature/add schedule",
         "mergedAt": "2020-01-03T11:56:31Z",
         "permalink": "https://github.com/Nanka-Tsukurou/slack-bot/pull/2",
+        "additions": 4722,
+        "deletions": 1,
+        "changedFiles": 8,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMzE1NDQwMDQ=",
           "nameWithOwner": "Nanka-Tsukurou/slack-bot",
@@ -9775,6 +10451,9 @@
         "title": "fix フィルタ指定を誤っていたので修正",
         "mergedAt": "2019-12-09T00:52:36Z",
         "permalink": "https://github.com/yktakaha4/sourcegraph-ec2/pull/5",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMjA2MDgxMzg=",
           "nameWithOwner": "yktakaha4/sourcegraph-ec2",
@@ -9805,6 +10484,9 @@
         "title": "update requirements",
         "mergedAt": "2019-12-08T12:24:15Z",
         "permalink": "https://github.com/yktakaha4/sourcegraph-ec2/pull/4",
+        "additions": 9,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMjA2MDgxMzg=",
           "nameWithOwner": "yktakaha4/sourcegraph-ec2",
@@ -9835,6 +10517,9 @@
         "title": "Develop",
         "mergedAt": "2019-12-08T10:12:48Z",
         "permalink": "https://github.com/yktakaha4/sourcegraph-ec2/pull/3",
+        "additions": 36,
+        "deletions": 13,
+        "changedFiles": 5,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMjA2MDgxMzg=",
           "nameWithOwner": "yktakaha4/sourcegraph-ec2",
@@ -9865,6 +10550,9 @@
         "title": "Develop",
         "mergedAt": "2019-11-11T01:31:08Z",
         "permalink": "https://github.com/yktakaha4/sourcegraph-ec2/pull/2",
+        "additions": 9,
+        "deletions": 0,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMjA2MDgxMzg=",
           "nameWithOwner": "yktakaha4/sourcegraph-ec2",
@@ -9895,6 +10583,9 @@
         "title": "Develop",
         "mergedAt": "2019-11-09T16:50:19Z",
         "permalink": "https://github.com/yktakaha4/sourcegraph-ec2/pull/1",
+        "additions": 343,
+        "deletions": 0,
+        "changedFiles": 8,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkyMjA2MDgxMzg=",
           "nameWithOwner": "yktakaha4/sourcegraph-ec2",
@@ -9925,6 +10616,9 @@
         "title": "Load balancer and dns",
         "mergedAt": "2019-07-13T03:24:18Z",
         "permalink": "https://github.com/yktakaha4/pragmatic-terraform-on-aws/pull/6",
+        "additions": 110,
+        "deletions": 1,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxOTI0NjM4NTM=",
           "nameWithOwner": "yktakaha4/pragmatic-terraform-on-aws",
@@ -9962,6 +10656,9 @@
         "title": "add firewall",
         "mergedAt": "2019-06-22T11:47:48Z",
         "permalink": "https://github.com/yktakaha4/pragmatic-terraform-on-aws/pull/5",
+        "additions": 44,
+        "deletions": 2,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxOTI0NjM4NTM=",
           "nameWithOwner": "yktakaha4/pragmatic-terraform-on-aws",
@@ -9999,6 +10696,9 @@
         "title": "Networks",
         "mergedAt": "2019-06-20T11:50:28Z",
         "permalink": "https://github.com/yktakaha4/pragmatic-terraform-on-aws/pull/4",
+        "additions": 113,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxOTI0NjM4NTM=",
           "nameWithOwner": "yktakaha4/pragmatic-terraform-on-aws",
@@ -10036,6 +10736,9 @@
         "title": "add storage",
         "mergedAt": "2019-06-19T07:09:55Z",
         "permalink": "https://github.com/yktakaha4/pragmatic-terraform-on-aws/pull/3",
+        "additions": 67,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxOTI0NjM4NTM=",
           "nameWithOwner": "yktakaha4/pragmatic-terraform-on-aws",
@@ -10073,6 +10776,9 @@
         "title": "add iam role modules",
         "mergedAt": "2019-06-19T02:13:26Z",
         "permalink": "https://github.com/yktakaha4/pragmatic-terraform-on-aws/pull/2",
+        "additions": 37,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxOTI0NjM4NTM=",
           "nameWithOwner": "yktakaha4/pragmatic-terraform-on-aws",
@@ -10110,6 +10816,9 @@
         "title": "Chapter 3",
         "mergedAt": "2019-06-18T11:38:56Z",
         "permalink": "https://github.com/yktakaha4/pragmatic-terraform-on-aws/pull/1",
+        "additions": 49,
+        "deletions": 0,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxOTI0NjM4NTM=",
           "nameWithOwner": "yktakaha4/pragmatic-terraform-on-aws",
@@ -10147,6 +10856,9 @@
         "title": "update makefile",
         "mergedAt": "2019-06-08T18:32:04Z",
         "permalink": "https://github.com/yktakaha4/homebrew-shelltool/pull/1",
+        "additions": 2,
+        "deletions": 2,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxOTA5MjE3ODc=",
           "nameWithOwner": "yktakaha4/homebrew-shelltool",
@@ -10177,6 +10889,9 @@
         "title": "update makefile",
         "mergedAt": "2019-06-08T18:27:40Z",
         "permalink": "https://github.com/yktakaha4/Open-usp-Tukubai/pull/1",
+        "additions": 3,
+        "deletions": 3,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxOTA5MjA5NTI=",
           "nameWithOwner": "yktakaha4/Open-usp-Tukubai",
@@ -10256,6 +10971,9 @@
         "title": "Chapter 4",
         "mergedAt": "2019-06-08T17:48:06Z",
         "permalink": "https://github.com/yktakaha4/vue-js-handbook/pull/3",
+        "additions": 402,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODg4NTgxMzU=",
           "nameWithOwner": "yktakaha4/vue-js-handbook",
@@ -10293,6 +11011,9 @@
         "title": "Chapter 3",
         "mergedAt": "2019-06-03T10:35:54Z",
         "permalink": "https://github.com/yktakaha4/vue-js-handbook/pull/2",
+        "additions": 90,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODg4NTgxMzU=",
           "nameWithOwner": "yktakaha4/vue-js-handbook",
@@ -10330,6 +11051,9 @@
         "title": "Chapter 2",
         "mergedAt": "2019-06-02T15:51:49Z",
         "permalink": "https://github.com/yktakaha4/vue-js-handbook/pull/1",
+        "additions": 89,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODg4NTgxMzU=",
           "nameWithOwner": "yktakaha4/vue-js-handbook",
@@ -10367,6 +11091,9 @@
         "title": "Extensions",
         "mergedAt": "2019-06-01T15:13:49Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/16",
+        "additions": 9,
+        "deletions": 6,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10397,6 +11124,9 @@
         "title": "Extensions",
         "mergedAt": "2019-06-01T13:46:43Z",
         "permalink": "https://github.com/yktakaha4/KotlinSandbox/pull/3",
+        "additions": 20,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDc3ODc=",
           "nameWithOwner": "yktakaha4/KotlinSandbox",
@@ -10427,6 +11157,9 @@
         "title": "Generics",
         "mergedAt": "2019-05-19T16:08:07Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/15",
+        "additions": 55,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10457,6 +11190,9 @@
         "title": "Interfaces and abstract classes",
         "mergedAt": "2019-05-19T01:42:43Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/14",
+        "additions": 76,
+        "deletions": 3,
+        "changedFiles": 4,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10487,6 +11223,9 @@
         "title": "Object",
         "mergedAt": "2019-05-18T14:02:27Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/13",
+        "additions": 84,
+        "deletions": 9,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10517,6 +11256,9 @@
         "title": "Inheritance",
         "mergedAt": "2019-05-12T15:23:44Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/12",
+        "additions": 23,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10547,6 +11289,9 @@
         "title": "Initializing",
         "mergedAt": "2019-05-12T07:31:14Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/11",
+        "additions": 38,
+        "deletions": 7,
+        "changedFiles": 3,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10577,6 +11322,9 @@
         "title": "Class",
         "mergedAt": "2019-05-06T13:41:32Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/10",
+        "additions": 56,
+        "deletions": 61,
+        "changedFiles": 5,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10607,6 +11355,9 @@
         "title": "Map",
         "mergedAt": "2019-05-04T15:01:10Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/9",
+        "additions": 14,
+        "deletions": 16,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10637,6 +11388,9 @@
         "title": "List and set",
         "mergedAt": "2019-05-04T12:32:30Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/8",
+        "additions": 47,
+        "deletions": 6,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10667,6 +11421,9 @@
         "title": "add purchase",
         "mergedAt": "2019-04-29T13:32:20Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/7",
+        "additions": 19,
+        "deletions": 1,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10697,6 +11454,9 @@
         "title": "String",
         "mergedAt": "2019-04-29T11:08:03Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/6",
+        "additions": 30,
+        "deletions": 7,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10727,6 +11487,9 @@
         "title": "Nullable",
         "mergedAt": "2019-04-29T06:00:42Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/5",
+        "additions": 38,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10757,6 +11520,9 @@
         "title": "Anonymous functions",
         "mergedAt": "2019-04-28T15:02:57Z",
         "permalink": "https://github.com/yktakaha4/KotlinSandbox/pull/2",
+        "additions": 21,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDc3ODc=",
           "nameWithOwner": "yktakaha4/KotlinSandbox",
@@ -10787,6 +11553,9 @@
         "title": "Functions",
         "mergedAt": "2019-04-28T12:42:02Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/4",
+        "additions": 37,
+        "deletions": 7,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10817,6 +11586,9 @@
         "title": "Control flows",
         "mergedAt": "2019-04-28T08:04:20Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/3",
+        "additions": 9,
+        "deletions": 12,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10847,6 +11619,9 @@
         "title": "add readme",
         "mergedAt": "2019-04-28T05:03:10Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/2",
+        "additions": 3,
+        "deletions": 0,
+        "changedFiles": 1,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10877,6 +11652,9 @@
         "title": "Control flows",
         "mergedAt": "2019-04-28T04:59:43Z",
         "permalink": "https://github.com/yktakaha4/NyetHack/pull/1",
+        "additions": 36,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDgzNTQ=",
           "nameWithOwner": "yktakaha4/NyetHack",
@@ -10907,6 +11685,9 @@
         "title": "add files",
         "mergedAt": "2019-04-27T08:30:58Z",
         "permalink": "https://github.com/yktakaha4/KotlinSandbox/pull/1",
+        "additions": 21,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxODM3NDc3ODc=",
           "nameWithOwner": "yktakaha4/KotlinSandbox",
@@ -10937,6 +11718,9 @@
         "title": "With lambda",
         "mergedAt": "2019-04-02T11:21:57Z",
         "permalink": "https://github.com/yktakaha4/api-gateway-to-sqs-serverless/pull/1",
+        "additions": 130,
+        "deletions": 117,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnkxNzg2NTEyOTM=",
           "nameWithOwner": "yktakaha4/api-gateway-to-sqs-serverless",
@@ -10967,6 +11751,9 @@
         "title": "Master",
         "mergedAt": "2016-10-29T03:43:22Z",
         "permalink": "https://github.com/aigamo/TheFourSamurai/pull/3",
+        "additions": 126,
+        "deletions": 0,
+        "changedFiles": 2,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk3MjE2NjcyNw==",
           "nameWithOwner": "aigamo/TheFourSamurai",
@@ -11032,6 +11819,9 @@
         "title": "Master",
         "mergedAt": "2016-10-29T03:34:43Z",
         "permalink": "https://github.com/aigamo/TheFourSamurai/pull/2",
+        "additions": 0,
+        "deletions": 0,
+        "changedFiles": 0,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk3MjE2NjcyNw==",
           "nameWithOwner": "aigamo/TheFourSamurai",
@@ -11097,6 +11887,9 @@
         "title": "Master",
         "mergedAt": "2016-10-28T09:00:42Z",
         "permalink": "https://github.com/aigamo/TheFourSamurai/pull/1",
+        "additions": 13139,
+        "deletions": 0,
+        "changedFiles": 5,
         "repository": {
           "id": "MDEwOlJlcG9zaXRvcnk3MjE2NjcyNw==",
           "nameWithOwner": "aigamo/TheFourSamurai",

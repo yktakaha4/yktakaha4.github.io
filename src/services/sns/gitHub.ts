@@ -16,6 +16,9 @@ query ($login: String!, $cursor: String) {
           title
           mergedAt
           permalink
+          additions
+          deletions
+          changedFiles
           repository {
             id
             nameWithOwner
