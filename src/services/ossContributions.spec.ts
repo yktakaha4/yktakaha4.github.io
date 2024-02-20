@@ -31,6 +31,7 @@ describe('sortOSSContributions', () => {
       mergedAt: new Date(),
       url: 'https://dummy.com',
       kind: 'mergedPullRequest',
+      changedLines: 0,
       repository: {
         owner: 'dummy',
         name: 'dummy',
@@ -44,19 +45,28 @@ describe('sortOSSContributions', () => {
       {
         ...defaultValues,
         title: 'dummy1',
+        changedLines: 10,
         mergedAt: new Date('2021-01-01'),
       },
       {
         ...defaultValues,
         title: 'dummy2',
+        changedLines: 20,
+        mergedAt: new Date('2021-01-02'),
+      },
+      {
+        ...defaultValues,
+        title: 'dummy3',
+        changedLines: 30,
         mergedAt: new Date('2021-01-02'),
       },
     ];
 
     const sorted = sortOSSContributions(contributions);
-    expect(sorted.length).toBe(2);
-    expect(sorted[0].title).toBe('dummy2');
-    expect(sorted[1].title).toBe('dummy1');
+    expect(sorted.length).toBe(3);
+    expect(sorted[0].title).toBe('dummy3');
+    expect(sorted[1].title).toBe('dummy2');
+    expect(sorted[2].title).toBe('dummy1');
 
     expect(sorted).not.toEqual(contributions);
   });

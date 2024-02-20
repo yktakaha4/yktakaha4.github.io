@@ -2,6 +2,7 @@
     --ifm-table-border-width: 0;
     --ifm-table-cell-padding: 0.3rem;
     --ifm-footer-background-color: transparent;
+    --ifm-color-warning: #ff8800;
 }
 
 .capy--mobile-only {

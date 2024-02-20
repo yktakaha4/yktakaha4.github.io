@@ -17,6 +17,7 @@ jest.mock('@/components/data/ossContributions.json', () => {
         url: `https://example.com/user${i}/repo${i}/pull/${i}`,
         kind: kinds[i % kinds.length],
         mergedAt: date.toISOString(),
+        changedLines: 8 * i,
         repository: {
           owner: `user${i}`,
           name: `user${i}/repo${i}`,

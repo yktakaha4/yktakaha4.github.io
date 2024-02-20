@@ -1,14 +1,31 @@
 {
   "contributions": [
     {
+      "title": "fix: handle none value",
+      "url": "https://github.com/domainaware/parsedmarc/pull/468",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2024-02-19T23:53:52.000Z",
+      "changedLines": 58,
+      "repository": {
+        "owner": "domainaware",
+        "name": "domainaware/parsedmarc",
+        "stars": 873,
+        "url": "https://github.com/domainaware/parsedmarc",
+        "languages": [
+          "Python"
+        ]
+      }
+    },
+    {
       "title": "Fix description of diff suppress option",
       "url": "https://github.com/databus23/helm-diff/pull/491",
       "kind": "mergedPullRequest",
       "mergedAt": "2024-01-09T00:06:13.000Z",
+      "changedLines": 4,
       "repository": {
         "owner": "databus23",
         "name": "databus23/helm-diff",
-        "stars": 2426,
+        "stars": 2429,
         "url": "https://github.com/databus23/helm-diff",
         "languages": [
           "Go"
@@ -20,10 +37,11 @@
       "url": "https://github.com/hashicorp/terraform-provider-aws/pull/34312",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-11-08T15:31:58.000Z",
+      "changedLines": 4,
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9318,
+        "stars": 9326,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -35,10 +53,11 @@
       "url": "https://github.com/aws/aws-eks-best-practices/pull/398",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-10-16T22:30:15.000Z",
+      "changedLines": 4,
       "repository": {
         "owner": "aws",
         "name": "aws/aws-eks-best-practices",
-        "stars": 1767,
+        "stars": 1769,
         "url": "https://github.com/aws/aws-eks-best-practices",
         "languages": [
           "Python"
@@ -50,10 +69,11 @@
       "url": "https://github.com/helmfile/helmfile/pull/1019",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-09-14T02:23:42.000Z",
+      "changedLines": 73,
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 2977,
+        "stars": 2983,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -65,10 +85,11 @@
       "url": "https://github.com/hashicorp/terraform-provider-aws/pull/27604",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-06-16T18:36:43.000Z",
+      "changedLines": 52,
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9318,
+        "stars": 9326,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -80,6 +101,7 @@
       "url": "https://github.com/ebitengine/ebitengine.org/pull/17",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-05-06T15:52:27.000Z",
+      "changedLines": 8,
       "repository": {
         "owner": "ebitengine",
         "name": "ebitengine/ebitengine.org",
@@ -95,6 +117,7 @@
       "url": "https://github.com/cloudflare/terraform-provider-cloudflare/pull/2298",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-03-20T00:16:43.000Z",
+      "changedLines": 62,
       "repository": {
         "owner": "cloudflare",
         "name": "cloudflare/terraform-provider-cloudflare",
@@ -110,10 +133,11 @@
       "url": "https://github.com/FairwindsOps/pluto/pull/457",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-02-22T21:11:40.000Z",
+      "changedLines": 45,
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1907,
+        "stars": 1909,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -125,10 +149,11 @@
       "url": "https://github.com/FairwindsOps/pluto/pull/452",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-02-21T21:43:57.000Z",
+      "changedLines": 441,
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1907,
+        "stars": 1909,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -140,10 +165,11 @@
       "url": "https://github.com/FairwindsOps/pluto/pull/448",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-02-04T13:57:01.000Z",
+      "changedLines": 1,
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1907,
+        "stars": 1909,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -155,6 +181,7 @@
       "url": "https://github.com/argoproj/argo-workflows/pull/10421",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-02-01T16:10:20.000Z",
+      "changedLines": 35,
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
@@ -170,6 +197,7 @@
       "url": "https://github.com/liamg/memoryfs/pull/19",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-01-24T09:41:11.000Z",
+      "changedLines": 68,
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
@@ -185,6 +213,7 @@
       "url": "https://github.com/liamg/memoryfs/pull/18",
       "kind": "mergedPullRequest",
       "mergedAt": "2023-01-24T09:37:42.000Z",
+      "changedLines": 63,
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
@@ -200,6 +229,7 @@
       "url": "https://github.com/liamg/memoryfs/pull/17",
       "kind": "mergedPullRequest",
       "mergedAt": "2022-11-07T11:05:07.000Z",
+      "changedLines": 172,
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
@@ -215,10 +245,11 @@
       "url": "https://github.com/python-social-auth/social-core/pull/707",
       "kind": "mergedPullRequest",
       "mergedAt": "2022-08-26T06:41:12.000Z",
+      "changedLines": 183,
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 805,
+        "stars": 807,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -230,6 +261,7 @@
       "url": "https://github.com/python-social-auth/social-docs/pull/116",
       "kind": "mergedPullRequest",
       "mergedAt": "2022-08-26T06:40:14.000Z",
+      "changedLines": 5,
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-docs",
@@ -245,10 +277,11 @@
       "url": "https://github.com/python-social-auth/social-core/pull/698",
       "kind": "mergedPullRequest",
       "mergedAt": "2022-08-26T06:40:07.000Z",
+      "changedLines": 104,
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 805,
+        "stars": 807,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -260,10 +293,11 @@
       "url": "https://github.com/hashicorp/terraform-provider-aws/pull/26057",
       "kind": "mergedPullRequest",
       "mergedAt": "2022-08-01T17:37:58.000Z",
+      "changedLines": 226,
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9318,
+        "stars": 9326,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -275,6 +309,7 @@
       "url": "https://github.com/localstack/docs/pull/178",
       "kind": "mergedPullRequest",
       "mergedAt": "2022-06-05T11:26:58.000Z",
+      "changedLines": 10,
       "repository": {
         "owner": "localstack",
         "name": "localstack/docs",
@@ -290,6 +325,7 @@
       "url": "https://github.com/showwin/kintai-paccho/pull/23",
       "kind": "mergedPullRequest",
       "mergedAt": "2022-04-18T01:53:00.000Z",
+      "changedLines": 908,
       "repository": {
         "owner": "showwin",
         "name": "showwin/kintai-paccho",
@@ -305,6 +341,7 @@
       "url": "https://github.com/showwin/kintai-paccho/pull/22",
       "kind": "mergedPullRequest",
       "mergedAt": "2022-04-15T01:46:36.000Z",
+      "changedLines": 1630,
       "repository": {
         "owner": "showwin",
         "name": "showwin/kintai-paccho",
@@ -320,6 +357,7 @@
       "url": "https://github.com/elwerene/libreoffice-convert/pull/77",
       "kind": "mergedPullRequest",
       "mergedAt": "2022-03-29T09:34:01.000Z",
+      "changedLines": 1731,
       "repository": {
         "owner": "elwerene",
         "name": "elwerene/libreoffice-convert",
@@ -335,6 +373,7 @@
       "url": "https://github.com/kawamataryo/chikamichi/pull/71",
       "kind": "mergedPullRequest",
       "mergedAt": "2022-03-10T00:30:26.000Z",
+      "changedLines": 20,
       "repository": {
         "owner": "kawamataryo",
         "name": "kawamataryo/chikamichi",
@@ -351,6 +390,7 @@
       "url": "https://github.com/showwin/kintai-paccho/pull/15",
       "kind": "mergedPullRequest",
       "mergedAt": "2021-12-24T07:03:01.000Z",
+      "changedLines": 1,
       "repository": {
         "owner": "showwin",
         "name": "showwin/kintai-paccho",
@@ -366,6 +406,7 @@
       "url": "https://github.com/doc1oo/LovelyComposerDocs/pull/1",
       "kind": "mergedPullRequest",
       "mergedAt": "2021-12-20T15:32:31.000Z",
+      "changedLines": 2,
       "repository": {
         "owner": "doc1oo",
         "name": "doc1oo/LovelyComposerDocs",
@@ -381,10 +422,11 @@
       "url": "https://github.com/Rigellute/spotify-tui/pull/778",
       "kind": "mergedPullRequest",
       "mergedAt": "2021-04-26T12:17:01.000Z",
+      "changedLines": 2,
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 16298,
+        "stars": 16310,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -396,10 +438,11 @@
       "url": "https://github.com/typeorm/typeorm/pull/7116",
       "kind": "mergedPullRequest",
       "mergedAt": "2021-01-11T13:00:54.000Z",
+      "changedLines": 5,
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 32936,
+        "stars": 32947,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -411,10 +454,11 @@
       "url": "https://github.com/serverless/serverless/pull/8420",
       "kind": "mergedPullRequest",
       "mergedAt": "2020-10-27T20:12:24.000Z",
+      "changedLines": 1,
       "repository": {
         "owner": "serverless",
         "name": "serverless/serverless",
-        "stars": 45860,
+        "stars": 45865,
         "url": "https://github.com/serverless/serverless",
         "languages": [
           "JavaScript"
@@ -426,6 +470,7 @@
       "url": "https://github.com/amazon-connect/amazon-connect-streams/pull/265",
       "kind": "mergedPullRequest",
       "mergedAt": "2020-08-14T18:03:42.000Z",
+      "changedLines": 15,
       "repository": {
         "owner": "amazon-connect",
         "name": "amazon-connect/amazon-connect-streams",
@@ -441,10 +486,11 @@
       "url": "https://github.com/getmoto/moto/pull/3208",
       "kind": "mergedPullRequest",
       "mergedAt": "2020-08-03T14:09:25.000Z",
+      "changedLines": 33,
       "repository": {
         "owner": "getmoto",
         "name": "getmoto/moto",
-        "stars": 7273,
+        "stars": 7276,
         "url": "https://github.com/getmoto/moto",
         "languages": [
           "Python"
@@ -456,6 +502,7 @@
       "url": "https://github.com/typescript-book-ja/typescript-book-jp/pull/126",
       "kind": "mergedPullRequest",
       "mergedAt": "2020-07-18T07:13:16.000Z",
+      "changedLines": 2,
       "repository": {
         "owner": "typescript-book-ja",
         "name": "typescript-book-ja/typescript-book-jp",
@@ -471,6 +518,7 @@
       "url": "https://github.com/championswimmer/vuex-module-decorators/pull/248",
       "kind": "mergedPullRequest",
       "mergedAt": "2020-04-25T00:52:08.000Z",
+      "changedLines": 4,
       "repository": {
         "owner": "championswimmer",
         "name": "championswimmer/vuex-module-decorators",

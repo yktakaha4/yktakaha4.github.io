@@ -15,6 +15,7 @@ export type OSSContribution = {
   mergedAt: Date;
   url: string;
   kind: OSSContributionKind;
+  changedLines: number;
   repository: {
     owner: string;
     name: string;
@@ -47,6 +48,7 @@ export const getOSSContributions = () => {
         url: permalink,
         kind: 'mergedPullRequest',
         mergedAt: dayjs(mergedAt).toDate(),
+        changedLines: (node.additions || 0) + (node.deletions || 0),
         repository: {
           owner: owner.login,
           name: nameWithOwner,
@@ -70,7 +72,11 @@ export const getOSSContributions = () => {
 
 export const sortOSSContributions = (contributions: Array<OSSContribution>) => {
   return [...contributions].sort((lhs, rhs) => {
-    return rhs.mergedAt.getTime() - lhs.mergedAt.getTime();
+    if (rhs.mergedAt.getTime() === lhs.mergedAt.getTime()) {
+      return rhs.changedLines - lhs.changedLines;
+    } else {
+      return rhs.mergedAt.getTime() - lhs.mergedAt.getTime();
+    }
   });
 };
 
