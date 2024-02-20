@@ -40,6 +40,36 @@ export const getOssContributionIcon = (
   }
 };
 
+export type OSSContributionSizeKind = 'xs' | 's' | 'm' | 'l' | 'xl';
+const OSSContributionSizeKindName: {
+  [key in OSSContributionSizeKind]: string;
+} = {
+  xs: 'XS',
+  s: 'S',
+  m: 'M',
+  l: 'L',
+  xl: 'XL',
+} as const;
+export const getOssContributionSizeKind = (
+  lines: number,
+): OSSContributionSizeKind => {
+  if (lines < 10) {
+    return 'xs';
+  } else if (lines < 100) {
+    return 's';
+  } else if (lines < 500) {
+    return 'm';
+  } else if (lines < 1000) {
+    return 'l';
+  } else {
+    return 'xl';
+  }
+};
+export const getOSSContributionSizeKindName = (lines: number) => {
+  const kind = getOssContributionSizeKind(lines);
+  return OSSContributionSizeKindName[kind];
+};
+
 const snsDataBasePath = `${__dirname}/services/sns/data`;
 export type SNSData =
   | 'gitHubPullRequests'

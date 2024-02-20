@@ -5,6 +5,7 @@ import { TableHeaders, TableRow } from '@/components/ui/Table';
 import {
   getOssContributionIcon,
   getOSSContributionKindName,
+  getOSSContributionSizeKindName,
 } from '@/constants';
 import { SearchableTable } from '@/components/ui/SearchableTable';
 
@@ -18,17 +19,17 @@ export const OSSContributions: FC = () => {
     {
       label: 'タイトル',
       align: 'left',
-      width: '40%',
+      width: '35%',
     },
     {
       label: 'リポジトリ',
       align: 'left',
-      width: '40%',
+      width: '35%',
     },
     {
       label: 'タグ',
       align: 'left',
-      width: '10%',
+      width: '20%',
     },
   ];
 
@@ -74,6 +75,16 @@ export const OSSContributions: FC = () => {
             icon: getOssContributionIcon(item.kind) ?? undefined,
             value: getOSSContributionKindName(item.kind),
             color: 'primary',
+          },
+          {
+            icon: 'prChanges',
+            value: getOSSContributionSizeKindName(item.changedLines),
+            color: 'secondary',
+          },
+          {
+            icon: 'star',
+            value: item.repository.stars.toLocaleString(),
+            color: 'warning',
           },
         ],
       },

@@ -1,8 +1,13 @@
 import { CSSProperties, FC } from 'react';
 import { FaHeart } from 'react-icons/fa';
-import { FaCodeMerge, FaNewspaper } from 'react-icons/fa6';
+import {
+  FaCodeMerge,
+  FaNewspaper,
+  FaRegFileCode,
+  FaStar,
+} from 'react-icons/fa6';
 
-export type Icon = 'heart' | 'publisher' | 'prMerge';
+export type Icon = 'heart' | 'publisher' | 'prMerge' | 'prChanges' | 'star';
 
 export type TagColor =
   | 'primary'
@@ -31,6 +36,10 @@ const createIcon = (icon: Icon) => {
       return <FaNewspaper style={{ ...defaultStyle }} />;
     case 'prMerge':
       return <FaCodeMerge style={{ ...defaultStyle }} />;
+    case 'prChanges':
+      return <FaRegFileCode style={{ ...defaultStyle }} />;
+    case 'star':
+      return <FaStar style={{ ...defaultStyle }} />;
   }
 };
 
