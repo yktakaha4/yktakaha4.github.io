@@ -19,6 +19,7 @@ jobs:
       - run: gh pr merge --auto --merge "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   automated:
     name: Auto merge(automated)
     runs-on: ubuntu-22.04
