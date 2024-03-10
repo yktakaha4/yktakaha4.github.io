@@ -4,7 +4,7 @@
       "title": "電子メール送信に関する技術",
       "url": "https://zenn.dev/yktakaha4/articles/technology_for_sending_email",
       "publishedAt": "2022-03-28T04:00:47.989Z",
-      "likes": 223,
+      "likes": 224,
       "publisher": "zenn",
       "tags": [
         "AWS",
@@ -213,7 +213,7 @@
       "title": "AWS+EKSで稼働するWebアプリにSorryページを設計・実装する",
       "url": "https://zenn.dev/yktakaha4/articles/how_to_make_sorry_page",
       "publishedAt": "2022-04-12T00:01:51.542Z",
-      "likes": 19,
+      "likes": 20,
       "publisher": "zenn",
       "tags": [
         "alb",
@@ -301,6 +301,19 @@
       ]
     },
     {
+      "title": "独自ドメインのGmailとAmazon SESをTerraformにて設定する",
+      "url": "https://zenn.dev/yktakaha4/articles/gmail_and_ses_by_tf",
+      "publishedAt": "2020-10-08T15:00:15.219Z",
+      "likes": 14,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "Gmail",
+        "ses",
+        "Terraform"
+      ]
+    },
+    {
       "title": "シェルスクリプトからコマンド実行（っぽいもの）を抜き出すワンライナー",
       "url": "https://qiita.com/yktakaha4/items/a11c7bc6245c37a6d428",
       "publishedAt": "2019-11-16T17:02:46.000Z",
@@ -332,19 +345,6 @@
       "tags": [
         "Chrome",
         "CORS"
-      ]
-    },
-    {
-      "title": "独自ドメインのGmailとAmazon SESをTerraformにて設定する",
-      "url": "https://zenn.dev/yktakaha4/articles/gmail_and_ses_by_tf",
-      "publishedAt": "2020-10-08T15:00:15.219Z",
-      "likes": 13,
-      "publisher": "zenn",
-      "tags": [
-        "AWS",
-        "Gmail",
-        "ses",
-        "Terraform"
       ]
     },
     {
