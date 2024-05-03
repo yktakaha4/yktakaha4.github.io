@@ -39,7 +39,7 @@
     "react-icons": "^5.2.0"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^3.2.1",
+    "@docusaurus/eslint-plugin": "^3.3.0",
     "@docusaurus/module-type-aliases": "^3.2.1",
     "@docusaurus/tsconfig": "^3.2.1",
     "@docusaurus/types": "^3.3.0",
