@@ -9,7 +9,7 @@
       "repository": {
         "owner": "domainaware",
         "name": "domainaware/parsedmarc",
-        "stars": 937,
+        "stars": 941,
         "url": "https://github.com/domainaware/parsedmarc",
         "languages": [
           "Python"
@@ -25,7 +25,7 @@
       "repository": {
         "owner": "databus23",
         "name": "databus23/helm-diff",
-        "stars": 2510,
+        "stars": 2513,
         "url": "https://github.com/databus23/helm-diff",
         "languages": [
           "Go"
@@ -41,7 +41,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9490,
+        "stars": 9509,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -57,7 +57,7 @@
       "repository": {
         "owner": "aws",
         "name": "aws/aws-eks-best-practices",
-        "stars": 1874,
+        "stars": 1881,
         "url": "https://github.com/aws/aws-eks-best-practices",
         "languages": [
           "Python"
@@ -73,7 +73,7 @@
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 3218,
+        "stars": 3251,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -89,7 +89,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9490,
+        "stars": 9509,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -105,7 +105,7 @@
       "repository": {
         "owner": "ebitengine",
         "name": "ebitengine/ebitengine.org",
-        "stars": 16,
+        "stars": 17,
         "url": "https://github.com/ebitengine/ebitengine.org",
         "languages": [
           "HTML"
@@ -121,7 +121,7 @@
       "repository": {
         "owner": "cloudflare",
         "name": "cloudflare/terraform-provider-cloudflare",
-        "stars": 707,
+        "stars": 710,
         "url": "https://github.com/cloudflare/terraform-provider-cloudflare",
         "languages": [
           "Go"
@@ -137,7 +137,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1987,
+        "stars": 1993,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -153,7 +153,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1987,
+        "stars": 1993,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -169,7 +169,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1987,
+        "stars": 1993,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -185,7 +185,7 @@
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
-        "stars": 14357,
+        "stars": 14386,
         "url": "https://github.com/argoproj/argo-workflows",
         "languages": [
           "Go"
@@ -201,7 +201,7 @@
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
-        "stars": 87,
+        "stars": 88,
         "url": "https://github.com/liamg/memoryfs",
         "languages": [
           "Go"
@@ -217,7 +217,7 @@
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
-        "stars": 87,
+        "stars": 88,
         "url": "https://github.com/liamg/memoryfs",
         "languages": [
           "Go"
@@ -233,7 +233,7 @@
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
-        "stars": 87,
+        "stars": 88,
         "url": "https://github.com/liamg/memoryfs",
         "languages": [
           "Go"
@@ -249,7 +249,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 822,
+        "stars": 824,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -281,7 +281,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 822,
+        "stars": 824,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -297,7 +297,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9490,
+        "stars": 9509,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -377,7 +377,7 @@
       "repository": {
         "owner": "kawamataryo",
         "name": "kawamataryo/chikamichi",
-        "stars": 274,
+        "stars": 275,
         "url": "https://github.com/kawamataryo/chikamichi",
         "languages": [
           "TypeScript",
@@ -426,7 +426,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 16656,
+        "stars": 16677,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -442,7 +442,7 @@
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 33440,
+        "stars": 33461,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -458,7 +458,7 @@
       "repository": {
         "owner": "serverless",
         "name": "serverless/serverless",
-        "stars": 46111,
+        "stars": 46119,
         "url": "https://github.com/serverless/serverless",
         "languages": [
           "JavaScript"
@@ -474,7 +474,7 @@
       "repository": {
         "owner": "amazon-connect",
         "name": "amazon-connect/amazon-connect-streams",
-        "stars": 375,
+        "stars": 378,
         "url": "https://github.com/amazon-connect/amazon-connect-streams",
         "languages": [
           "JavaScript"
@@ -490,7 +490,7 @@
       "repository": {
         "owner": "getmoto",
         "name": "getmoto/moto",
-        "stars": 7405,
+        "stars": 7416,
         "url": "https://github.com/getmoto/moto",
         "languages": [
           "Python"
@@ -522,7 +522,7 @@
       "repository": {
         "owner": "championswimmer",
         "name": "championswimmer/vuex-module-decorators",
-        "stars": 1800,
+        "stars": 1799,
         "url": "https://github.com/championswimmer/vuex-module-decorators",
         "languages": [
           "TypeScript"
