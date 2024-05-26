@@ -9,7 +9,7 @@
       "repository": {
         "owner": "domainaware",
         "name": "domainaware/parsedmarc",
-        "stars": 941,
+        "stars": 944,
         "url": "https://github.com/domainaware/parsedmarc",
         "languages": [
           "Python"
@@ -25,7 +25,7 @@
       "repository": {
         "owner": "databus23",
         "name": "databus23/helm-diff",
-        "stars": 2513,
+        "stars": 2525,
         "url": "https://github.com/databus23/helm-diff",
         "languages": [
           "Go"
@@ -41,7 +41,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9509,
+        "stars": 9520,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -57,7 +57,7 @@
       "repository": {
         "owner": "aws",
         "name": "aws/aws-eks-best-practices",
-        "stars": 1881,
+        "stars": 1892,
         "url": "https://github.com/aws/aws-eks-best-practices",
         "languages": [
           "Python"
@@ -73,7 +73,7 @@
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 3251,
+        "stars": 3273,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -89,7 +89,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9509,
+        "stars": 9520,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -105,7 +105,7 @@
       "repository": {
         "owner": "ebitengine",
         "name": "ebitengine/ebitengine.org",
-        "stars": 17,
+        "stars": 18,
         "url": "https://github.com/ebitengine/ebitengine.org",
         "languages": [
           "HTML"
@@ -121,7 +121,7 @@
       "repository": {
         "owner": "cloudflare",
         "name": "cloudflare/terraform-provider-cloudflare",
-        "stars": 710,
+        "stars": 714,
         "url": "https://github.com/cloudflare/terraform-provider-cloudflare",
         "languages": [
           "Go"
@@ -137,7 +137,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1993,
+        "stars": 2001,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -153,7 +153,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1993,
+        "stars": 2001,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -169,7 +169,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 1993,
+        "stars": 2001,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -185,7 +185,7 @@
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
-        "stars": 14386,
+        "stars": 14406,
         "url": "https://github.com/argoproj/argo-workflows",
         "languages": [
           "Go"
@@ -201,7 +201,7 @@
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
-        "stars": 88,
+        "stars": 89,
         "url": "https://github.com/liamg/memoryfs",
         "languages": [
           "Go"
@@ -217,7 +217,7 @@
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
-        "stars": 88,
+        "stars": 89,
         "url": "https://github.com/liamg/memoryfs",
         "languages": [
           "Go"
@@ -233,7 +233,7 @@
       "repository": {
         "owner": "liamg",
         "name": "liamg/memoryfs",
-        "stars": 88,
+        "stars": 89,
         "url": "https://github.com/liamg/memoryfs",
         "languages": [
           "Go"
@@ -249,7 +249,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 824,
+        "stars": 827,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -281,7 +281,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 824,
+        "stars": 827,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -297,7 +297,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9509,
+        "stars": 9520,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -426,7 +426,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 16677,
+        "stars": 16714,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -442,7 +442,7 @@
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 33461,
+        "stars": 33501,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -458,7 +458,7 @@
       "repository": {
         "owner": "serverless",
         "name": "serverless/serverless",
-        "stars": 46119,
+        "stars": 46123,
         "url": "https://github.com/serverless/serverless",
         "languages": [
           "JavaScript"
@@ -474,7 +474,7 @@
       "repository": {
         "owner": "amazon-connect",
         "name": "amazon-connect/amazon-connect-streams",
-        "stars": 378,
+        "stars": 379,
         "url": "https://github.com/amazon-connect/amazon-connect-streams",
         "languages": [
           "JavaScript"
@@ -490,7 +490,7 @@
       "repository": {
         "owner": "getmoto",
         "name": "getmoto/moto",
-        "stars": 7416,
+        "stars": 7427,
         "url": "https://github.com/getmoto/moto",
         "languages": [
           "Python"
