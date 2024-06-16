@@ -16,7 +16,7 @@
       "title": "HTTPキャッシュに学ぶ、無理のないドキュメント更新運用",
       "url": "https://zenn.dev/yktakaha4/articles/documentation_inspired_by_http_cache",
       "publishedAt": "2022-05-09T05:10:39.252Z",
-      "likes": 220,
+      "likes": 221,
       "publisher": "zenn",
       "tags": [
         "http",
@@ -27,7 +27,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "url": "https://zenn.dev/yktakaha4/articles/study_csrf_attack",
       "publishedAt": "2022-10-30T13:41:45.651Z",
-      "likes": 201,
+      "likes": 202,
       "publisher": "zenn",
       "tags": [
         "CSRF",
@@ -39,7 +39,7 @@
       "title": "アジャイルなSREチームの運用",
       "url": "https://zenn.dev/yktakaha4/articles/running_an_agile_sre_team",
       "publishedAt": "2023-04-25T04:03:13.984Z",
-      "likes": 65,
+      "likes": 66,
       "publisher": "zenn",
       "tags": [
         "SRE",
@@ -236,6 +236,17 @@
       ]
     },
     {
+      "title": "Chromeに消されたCORS Preflight requestを確認する方法",
+      "url": "https://zenn.dev/yktakaha4/articles/analyze_cors_request_with_chrome",
+      "publishedAt": "2022-03-19T17:08:25.463Z",
+      "likes": 17,
+      "publisher": "zenn",
+      "tags": [
+        "Chrome",
+        "CORS"
+      ]
+    },
+    {
       "title": "NestJS + OpenAPI(Swagger)からAPIクライアントを生成し型安全に通信する",
       "url": "https://qiita.com/yktakaha4/items/0aecde44848d6a861bf5",
       "publishedAt": "2020-12-09T18:06:46.000Z",
@@ -272,17 +283,6 @@
         "Dash",
         "Automator",
         "google翻訳"
-      ]
-    },
-    {
-      "title": "Chromeに消されたCORS Preflight requestを確認する方法",
-      "url": "https://zenn.dev/yktakaha4/articles/analyze_cors_request_with_chrome",
-      "publishedAt": "2022-03-19T17:08:25.463Z",
-      "likes": 16,
-      "publisher": "zenn",
-      "tags": [
-        "Chrome",
-        "CORS"
       ]
     },
     {
@@ -328,7 +328,7 @@
       "title": "ANSI artをつくろう",
       "url": "https://zenn.dev/yktakaha4/articles/how_to_make_ansi_art",
       "publishedAt": "2022-11-30T22:00:00.928Z",
-      "likes": 14,
+      "likes": 15,
       "publisher": "zenn",
       "tags": [
         "ansiart",
