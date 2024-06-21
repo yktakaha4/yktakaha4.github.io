@@ -59,7 +59,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-location-mock": "^2.0.0",
     "nock": "^13.5.4",
-    "pdfjs-dist": "^4.0.379",
+    "pdfjs-dist": "^4.3.136",
     "prettier": "^3.3.2",
     "textlint": "^14.0.4",
     "textlint-rule-preset-jtf-style": "^2.3.14",
