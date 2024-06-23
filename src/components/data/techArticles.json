@@ -4,7 +4,7 @@
       "title": "電子メール送信に関する技術",
       "url": "https://zenn.dev/yktakaha4/articles/technology_for_sending_email",
       "publishedAt": "2022-03-28T04:00:47.989Z",
-      "likes": 228,
+      "likes": 227,
       "publisher": "zenn",
       "tags": [
         "AWS",
@@ -27,7 +27,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "url": "https://zenn.dev/yktakaha4/articles/study_csrf_attack",
       "publishedAt": "2022-10-30T13:41:45.651Z",
-      "likes": 202,
+      "likes": 201,
       "publisher": "zenn",
       "tags": [
         "CSRF",
@@ -48,6 +48,18 @@
       ]
     },
     {
+      "title": "情報技術に関する歴史や文化の本",
+      "url": "https://zenn.dev/yktakaha4/articles/history_books_on_information_technology",
+      "publishedAt": "2023-07-01T00:11:30.613Z",
+      "likes": 51,
+      "publisher": "zenn",
+      "tags": [
+        "コンピュータ",
+        "情報技術",
+        "読書"
+      ]
+    },
+    {
       "title": "HTML+jQueryでできたLPをwebpack+TypeScript+Cypressで楽しく保守する",
       "url": "https://zenn.dev/yktakaha4/articles/update_lp_for_maintenanceability",
       "publishedAt": "2021-02-28T07:39:55.316Z",
@@ -59,18 +71,6 @@
         "jQuery",
         "TypeScript",
         "webpack"
-      ]
-    },
-    {
-      "title": "情報技術に関する歴史や文化の本",
-      "url": "https://zenn.dev/yktakaha4/articles/history_books_on_information_technology",
-      "publishedAt": "2023-07-01T00:11:30.613Z",
-      "likes": 50,
-      "publisher": "zenn",
-      "tags": [
-        "コンピュータ",
-        "情報技術",
-        "読書"
       ]
     },
     {
