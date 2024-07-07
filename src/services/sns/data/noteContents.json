@@ -100,7 +100,12 @@
         "duplication": true
       },
       "discountCampaigns": [],
-      "freeBodyCharNum": 5558
+      "freeBodyCharNum": 5558,
+      "priceInfo": {
+        "isFree": true,
+        "lowestPrice": null,
+        "hasMultiple": false
+      }
     },
     {
       "id": 26545807,
@@ -212,7 +217,12 @@
         "duplication": true
       },
       "discountCampaigns": [],
-      "freeBodyCharNum": 4782
+      "freeBodyCharNum": 4782,
+      "priceInfo": {
+        "isFree": true,
+        "lowestPrice": null,
+        "hasMultiple": false
+      }
     }
   ]
 }
