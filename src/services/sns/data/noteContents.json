@@ -100,7 +100,7 @@
         "duplication": true
       },
       "discountCampaigns": [],
-      "freeBodyCharNum": 5558,
+      "remainedCharNum": 0,
       "priceInfo": {
         "isFree": true,
         "lowestPrice": null,
@@ -217,7 +217,7 @@
         "duplication": true
       },
       "discountCampaigns": [],
-      "freeBodyCharNum": 4782,
+      "remainedCharNum": 0,
       "priceInfo": {
         "isFree": true,
         "lowestPrice": null,
