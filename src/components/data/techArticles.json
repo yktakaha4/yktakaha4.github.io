@@ -51,7 +51,7 @@
       "title": "情報技術に関する歴史や文化の本",
       "url": "https://zenn.dev/yktakaha4/articles/history_books_on_information_technology",
       "publishedAt": "2023-07-01T00:11:30.613Z",
-      "likes": 52,
+      "likes": 53,
       "publisher": "zenn",
       "tags": [
         "コンピュータ",
@@ -247,6 +247,20 @@
       ]
     },
     {
+      "title": "NestJS + OpenAPI(Swagger)からAPIクライアントを生成し型安全に通信する",
+      "url": "https://qiita.com/yktakaha4/items/0aecde44848d6a861bf5",
+      "publishedAt": "2020-12-09T18:06:46.000Z",
+      "likes": 17,
+      "publisher": "qiita",
+      "tags": [
+        "npm",
+        "TypeScript",
+        "OpenAPI",
+        "NestJS",
+        "GitHubActions"
+      ]
+    },
+    {
       "title": "JS + GAS + AWSでルーレットゲームを作ってウェディングパーティの余興を担当する（ソース付き）",
       "url": "https://qiita.com/yktakaha4/items/50582331df743ecf565a",
       "publishedAt": "2019-01-02T13:09:43.000Z",
@@ -269,20 +283,6 @@
         "Dash",
         "Automator",
         "google翻訳"
-      ]
-    },
-    {
-      "title": "NestJS + OpenAPI(Swagger)からAPIクライアントを生成し型安全に通信する",
-      "url": "https://qiita.com/yktakaha4/items/0aecde44848d6a861bf5",
-      "publishedAt": "2020-12-09T18:06:46.000Z",
-      "likes": 16,
-      "publisher": "qiita",
-      "tags": [
-        "npm",
-        "TypeScript",
-        "OpenAPI",
-        "NestJS",
-        "GitHubActions"
       ]
     },
     {
@@ -624,6 +624,18 @@
       ]
     },
     {
+      "title": "Issueに紐づくGitHub Projectsの情報をGraphQL経由で取得する",
+      "url": "https://zenn.dev/yktakaha4/articles/get_github_projects_item_with_graphql",
+      "publishedAt": "2023-03-29T08:17:42.538Z",
+      "likes": 4,
+      "publisher": "zenn",
+      "tags": [
+        "githubprojects",
+        "GraphQL",
+        "Python"
+      ]
+    },
+    {
       "title": "データから2022年をふりかえる",
       "url": "https://zenn.dev/yktakaha4/articles/looking_back_to_2022",
       "publishedAt": "2022-12-31T14:59:00.925Z",
@@ -665,18 +677,6 @@
       "tags": [
         "MacOSX",
         "MIDI"
-      ]
-    },
-    {
-      "title": "Issueに紐づくGitHub Projectsの情報をGraphQL経由で取得する",
-      "url": "https://zenn.dev/yktakaha4/articles/get_github_projects_item_with_graphql",
-      "publishedAt": "2023-03-29T08:17:42.538Z",
-      "likes": 3,
-      "publisher": "zenn",
-      "tags": [
-        "githubprojects",
-        "GraphQL",
-        "Python"
       ]
     },
     {

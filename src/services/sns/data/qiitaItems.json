@@ -68,10 +68,10 @@
       "created_at": "2020-12-10T03:06:46+09:00",
       "group": null,
       "id": "0aecde44848d6a861bf5",
-      "likes_count": 16,
+      "likes_count": 17,
       "private": false,
       "reactions_count": 0,
-      "stocks_count": 10,
+      "stocks_count": 11,
       "tags": [
         {
           "name": "npm",
