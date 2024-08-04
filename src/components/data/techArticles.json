@@ -515,6 +515,18 @@
       ]
     },
     {
+      "title": "NestJSでOpenAPI(Swagger)定義をファイル出力する",
+      "url": "https://qiita.com/yktakaha4/items/97ea169ed97dbcdd25fb",
+      "publishedAt": "2020-03-15T11:32:52.000Z",
+      "likes": 7,
+      "publisher": "qiita",
+      "tags": [
+        "TypeScript",
+        "OpenAPI",
+        "NestJS"
+      ]
+    },
+    {
       "title": "Lambda上で動くPythonにてSlack Appからのリクエストを検証する",
       "url": "https://zenn.dev/yktakaha4/articles/verify_slack_signature_on_aws_lambda",
       "publishedAt": "2021-04-04T14:10:02.812Z",
@@ -537,18 +549,6 @@
         "stripe",
         "TypeScript",
         "Cypress"
-      ]
-    },
-    {
-      "title": "NestJSでOpenAPI(Swagger)定義をファイル出力する",
-      "url": "https://qiita.com/yktakaha4/items/97ea169ed97dbcdd25fb",
-      "publishedAt": "2020-03-15T11:32:52.000Z",
-      "likes": 6,
-      "publisher": "qiita",
-      "tags": [
-        "TypeScript",
-        "OpenAPI",
-        "NestJS"
       ]
     },
     {

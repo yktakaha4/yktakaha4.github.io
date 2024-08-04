@@ -105,7 +105,9 @@
       "priceInfo": {
         "isFree": true,
         "lowestPrice": null,
-        "hasMultiple": false
+        "hasMultiple": false,
+        "hasSubscription": false,
+        "oneshotLowestPrice": null
       }
     },
     {
@@ -223,7 +225,9 @@
       "priceInfo": {
         "isFree": true,
         "lowestPrice": null,
-        "hasMultiple": false
+        "hasMultiple": false,
+        "hasSubscription": false,
+        "oneshotLowestPrice": null
       }
     }
   ]
