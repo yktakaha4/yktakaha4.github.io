@@ -14,6 +14,12 @@ yarn fix
 
 # Run tests
 yarn test
+
+# Generate PDF
+./generate_pdf.bash
+
+# E2E Test
+yarn test:e2e
 ```
 
 ## Update data

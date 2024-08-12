@@ -31,7 +31,7 @@ const getPageLinks = async (document: PDFDocumentProxy, pageNumber: number) => {
 describe('pdf', () => {
   let document: PDFDocumentProxy;
 
-  const expectedMaxPageNumber = 6;
+  const expectedMaxPageNumber = 7;
 
   beforeAll(async () => {
     const pdfPath = `${rootDirectoryName}/pdf/out/resume.pdf`;
@@ -57,18 +57,18 @@ describe('pdf', () => {
     [1, 'Portfolio | yktakaha4.github.io'],
     [1, `1 / ${expectedMaxPageNumber}`],
     [1, 'プロフィール'],
-    [1, '職務経歴'],
-    [1, '正社員'],
-    [2, '副業'],
-    [3, '経験'],
-    [4, 'イベント参加‧登壇'],
-    [4, '資格‧認定'],
-    [5, '公開アウトプット'],
-    [5, '個人開発'],
-    [5, '技術記事'],
-    [6, 'OSS活動'],
-    [6, 'このページについて'],
-    [6, `6 / ${expectedMaxPageNumber}`],
+    [2, '職務経歴'],
+    [2, '正社員'],
+    [3, '副業'],
+    [4, '経験'],
+    [5, 'イベント参加‧登壇'],
+    [5, '資格‧認定'],
+    [6, '公開アウトプット'],
+    [6, '個人開発'],
+    [6, '技術記事'],
+    [7, 'OSS活動'],
+    [7, 'このページについて'],
+    [7, `${expectedMaxPageNumber} / ${expectedMaxPageNumber}`],
   ])(`ページに特定の値が含まれる #%#`, async (pageNumber, expected) => {
     const text = await getPageText(document, pageNumber);
     expect(text).toContain(expected);
