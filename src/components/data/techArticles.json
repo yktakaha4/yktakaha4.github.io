@@ -680,6 +680,19 @@
       ]
     },
     {
+      "title": "Conftestでおこなうポリシーチェック",
+      "url": "https://zenn.dev/yktakaha4/articles/policy_check_with_conftest",
+      "publishedAt": "2024-08-13T00:54:17.780Z",
+      "likes": 3,
+      "publisher": "zenn",
+      "tags": [
+        "conftest",
+        "Kubernetes",
+        "Rundeck",
+        "Terraform"
+      ]
+    },
+    {
       "title": "Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処",
       "url": "https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu",
       "publishedAt": "2021-10-15T00:00:00.000Z",
