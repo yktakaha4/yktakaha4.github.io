@@ -30,7 +30,7 @@
     "@mdx-js/react": "^3.0.0",
     "@octokit/graphql": "^7.0.2",
     "clsx": "^2.1.1",
-    "dayjs": "^1.11.12",
+    "dayjs": "^1.11.13",
     "fs-extra": "^11.2.0",
     "log4js": "^6.9.1",
     "prism-react-renderer": "^2.3.0",
