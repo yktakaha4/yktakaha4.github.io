@@ -158,6 +158,20 @@
       ]
     },
     {
+      "title": "AWS+EKSで稼働するWebアプリにSorryページを設計・実装する",
+      "url": "https://zenn.dev/yktakaha4/articles/how_to_make_sorry_page",
+      "publishedAt": "2022-04-12T00:01:51.542Z",
+      "likes": 23,
+      "publisher": "zenn",
+      "tags": [
+        "alb",
+        "AWS",
+        "EKS",
+        "Kubernetes",
+        "SRE"
+      ]
+    },
+    {
       "title": "Watson Discovery + Google Home + Spring Boot + Reactでミュージックアプリを作る（ソース付き）",
       "url": "https://qiita.com/yktakaha4/items/e535c310f0532798e721",
       "publishedAt": "2018-05-15T15:06:30.000Z",
@@ -169,20 +183,6 @@
         "React",
         "SpringBoot",
         "GoogleHome"
-      ]
-    },
-    {
-      "title": "AWS+EKSで稼働するWebアプリにSorryページを設計・実装する",
-      "url": "https://zenn.dev/yktakaha4/articles/how_to_make_sorry_page",
-      "publishedAt": "2022-04-12T00:01:51.542Z",
-      "likes": 22,
-      "publisher": "zenn",
-      "tags": [
-        "alb",
-        "AWS",
-        "EKS",
-        "Kubernetes",
-        "SRE"
       ]
     },
     {
@@ -624,6 +624,19 @@
       ]
     },
     {
+      "title": "Conftestでおこなうポリシーチェック",
+      "url": "https://zenn.dev/yktakaha4/articles/policy_check_with_conftest",
+      "publishedAt": "2024-08-13T00:54:17.780Z",
+      "likes": 4,
+      "publisher": "zenn",
+      "tags": [
+        "conftest",
+        "Kubernetes",
+        "Rundeck",
+        "Terraform"
+      ]
+    },
+    {
       "title": "Issueに紐づくGitHub Projectsの情報をGraphQL経由で取得する",
       "url": "https://zenn.dev/yktakaha4/articles/get_github_projects_item_with_graphql",
       "publishedAt": "2023-03-29T08:17:42.538Z",
@@ -677,19 +690,6 @@
       "tags": [
         "MacOSX",
         "MIDI"
-      ]
-    },
-    {
-      "title": "Conftestでおこなうポリシーチェック",
-      "url": "https://zenn.dev/yktakaha4/articles/policy_check_with_conftest",
-      "publishedAt": "2024-08-13T00:54:17.780Z",
-      "likes": 3,
-      "publisher": "zenn",
-      "tags": [
-        "conftest",
-        "Kubernetes",
-        "Rundeck",
-        "Terraform"
       ]
     },
     {
