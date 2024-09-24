@@ -48,7 +48,7 @@
     "@testing-library/user-event": "^14.5.2",
     "@types/fs-extra": "^11.0.4",
     "@types/jest": "^29.5.13",
-    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
     "@typescript-eslint/parser": "^8.6.0",
     "babel-plugin-tsconfig-paths-module-resolver": "^1.0.4",
     "cross-fetch": "^4.0.0",
