@@ -170,6 +170,16 @@
       "published": true
     },
     {
+      "slug": "learn_about_web_application_timeouts",
+      "topics": [
+        "AWS",
+        "Python",
+        "webアプリケーション",
+        "タイムアウト"
+      ],
+      "published": true
+    },
+    {
       "slug": "libfaketime_oneliner",
       "topics": [
         "libfaketime"
