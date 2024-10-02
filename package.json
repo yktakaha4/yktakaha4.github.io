@@ -49,7 +49,7 @@
     "@types/fs-extra": "^11.0.4",
     "@types/jest": "^29.5.13",
     "@typescript-eslint/eslint-plugin": "^8.8.0",
-    "@typescript-eslint/parser": "^8.7.0",
+    "@typescript-eslint/parser": "^8.8.0",
     "babel-plugin-tsconfig-paths-module-resolver": "^1.0.4",
     "cross-fetch": "^4.0.0",
     "eslint": "^8.57.1",
