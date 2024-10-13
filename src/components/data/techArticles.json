@@ -27,7 +27,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "url": "https://zenn.dev/yktakaha4/articles/study_csrf_attack",
       "publishedAt": "2022-10-30T13:41:45.651Z",
-      "likes": 206,
+      "likes": 207,
       "publisher": "zenn",
       "tags": [
         "CSRF",
@@ -51,7 +51,7 @@
       "title": "Webアプリケーションにおけるタイムアウトについて",
       "url": "https://zenn.dev/yktakaha4/articles/learn_about_web_application_timeouts",
       "publishedAt": "2024-09-25T02:11:40.411Z",
-      "likes": 61,
+      "likes": 63,
       "publisher": "zenn",
       "tags": [
         "AWS",

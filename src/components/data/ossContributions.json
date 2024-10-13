@@ -9,7 +9,7 @@
       "repository": {
         "owner": "celery",
         "name": "celery/django-celery-results",
-        "stars": 684,
+        "stars": 685,
         "url": "https://github.com/celery/django-celery-results",
         "languages": [
           "Python"
@@ -25,7 +25,7 @@
       "repository": {
         "owner": "axllent",
         "name": "axllent/mailpit",
-        "stars": 5481,
+        "stars": 5525,
         "url": "https://github.com/axllent/mailpit",
         "languages": [
           "Go"
@@ -41,7 +41,7 @@
       "repository": {
         "owner": "domainaware",
         "name": "domainaware/parsedmarc",
-        "stars": 995,
+        "stars": 997,
         "url": "https://github.com/domainaware/parsedmarc",
         "languages": [
           "Python"
@@ -57,7 +57,7 @@
       "repository": {
         "owner": "databus23",
         "name": "databus23/helm-diff",
-        "stars": 2685,
+        "stars": 2703,
         "url": "https://github.com/databus23/helm-diff",
         "languages": [
           "Go"
@@ -73,7 +73,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9766,
+        "stars": 9777,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -89,7 +89,7 @@
       "repository": {
         "owner": "aws",
         "name": "aws/aws-eks-best-practices",
-        "stars": 2008,
+        "stars": 2021,
         "url": "https://github.com/aws/aws-eks-best-practices",
         "languages": [
           "Python"
@@ -105,7 +105,7 @@
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 3771,
+        "stars": 3804,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -121,7 +121,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9766,
+        "stars": 9777,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -153,7 +153,7 @@
       "repository": {
         "owner": "cloudflare",
         "name": "cloudflare/terraform-provider-cloudflare",
-        "stars": 768,
+        "stars": 772,
         "url": "https://github.com/cloudflare/terraform-provider-cloudflare",
         "languages": [
           "Go"
@@ -169,7 +169,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 2119,
+        "stars": 2130,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -185,7 +185,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 2119,
+        "stars": 2130,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -201,7 +201,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 2119,
+        "stars": 2130,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -217,7 +217,7 @@
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
-        "stars": 14932,
+        "stars": 14954,
         "url": "https://github.com/argoproj/argo-workflows",
         "languages": [
           "Go"
@@ -281,7 +281,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 847,
+        "stars": 848,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -313,7 +313,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 847,
+        "stars": 848,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -329,7 +329,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 9766,
+        "stars": 9777,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -393,7 +393,7 @@
       "repository": {
         "owner": "elwerene",
         "name": "elwerene/libreoffice-convert",
-        "stars": 254,
+        "stars": 256,
         "url": "https://github.com/elwerene/libreoffice-convert",
         "languages": [
           "JavaScript"
@@ -458,7 +458,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 17395,
+        "stars": 17426,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -474,7 +474,7 @@
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 34076,
+        "stars": 34103,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -490,7 +490,7 @@
       "repository": {
         "owner": "serverless",
         "name": "serverless/serverless",
-        "stars": 46401,
+        "stars": 46410,
         "url": "https://github.com/serverless/serverless",
         "languages": [
           "JavaScript"
@@ -522,7 +522,7 @@
       "repository": {
         "owner": "getmoto",
         "name": "getmoto/moto",
-        "stars": 7603,
+        "stars": 7616,
         "url": "https://github.com/getmoto/moto",
         "languages": [
           "Python"
@@ -538,7 +538,7 @@
       "repository": {
         "owner": "typescript-book-ja",
         "name": "typescript-book-ja/typescript-book-jp",
-        "stars": 308,
+        "stars": 309,
         "url": "https://github.com/typescript-book-ja/typescript-book-jp",
         "languages": [
           "TypeScript"
