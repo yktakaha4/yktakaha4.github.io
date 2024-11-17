@@ -16,7 +16,7 @@
       "title": "HTTPキャッシュに学ぶ、無理のないドキュメント更新運用",
       "url": "https://zenn.dev/lapras_inc/articles/documentation_inspired_by_http_cache",
       "publishedAt": "2022-05-09T05:10:39.252Z",
-      "likes": 222,
+      "likes": 224,
       "publisher": "zenn",
       "tags": [
         "http",
@@ -27,7 +27,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "url": "https://zenn.dev/yktakaha4/articles/study_csrf_attack",
       "publishedAt": "2022-10-30T13:41:45.651Z",
-      "likes": 209,
+      "likes": 210,
       "publisher": "zenn",
       "tags": [
         "CSRF",
@@ -51,7 +51,7 @@
       "title": "Webアプリケーションにおけるタイムアウトについて",
       "url": "https://zenn.dev/yktakaha4/articles/learn_about_web_application_timeouts",
       "publishedAt": "2024-09-25T02:11:40.411Z",
-      "likes": 63,
+      "likes": 64,
       "publisher": "zenn",
       "tags": [
         "AWS",
@@ -240,7 +240,7 @@
       "title": "Chromeに消されたCORS Preflight requestを確認する方法",
       "url": "https://zenn.dev/yktakaha4/articles/analyze_cors_request_with_chrome",
       "publishedAt": "2022-03-19T17:08:25.463Z",
-      "likes": 18,
+      "likes": 19,
       "publisher": "zenn",
       "tags": [
         "Chrome",
@@ -374,7 +374,7 @@
     },
     {
       "title": "ISUCON13に参加しました",
-      "url": "https://zenn.dev/yktakaha4/articles/postmortem_isucon13",
+      "url": "https://zenn.dev/lapras_inc/articles/postmortem_isucon13",
       "publishedAt": "2023-11-30T15:00:01.288Z",
       "likes": 12,
       "publisher": "zenn",
@@ -397,6 +397,18 @@
       ]
     },
     {
+      "title": "（SRE的）作ってよかったドキュメント・表・運用",
+      "url": "https://zenn.dev/lapras_inc/articles/useful_documents_tables_and_operations_for_sre",
+      "publishedAt": "2023-12-18T09:28:09.207Z",
+      "likes": 8,
+      "publisher": "zenn",
+      "tags": [
+        "SRE",
+        "ドキュメンテーション",
+        "運用"
+      ]
+    },
+    {
       "title": "Salesforce Bulk API 2.0 & 外部IDを使ったデータ移行をjsforceでおこなう",
       "url": "https://zenn.dev/yktakaha4/articles/salesforce_bulk2_with_jsforce",
       "publishedAt": "2022-09-17T09:11:43.814Z",
@@ -411,7 +423,7 @@
     },
     {
       "title": "Pythonで画像のビジュアルリグレッションテストを書く",
-      "url": "https://zenn.dev/yktakaha4/articles/visual_regression_test_in_python",
+      "url": "https://zenn.dev/lapras_inc/articles/visual_regression_test_in_python",
       "publishedAt": "2022-06-12T23:25:47.533Z",
       "likes": 8,
       "publisher": "zenn",
@@ -466,18 +478,6 @@
         "Bluemix",
         "Watson",
         "node-red"
-      ]
-    },
-    {
-      "title": "（SRE的）作ってよかったドキュメント・表・運用",
-      "url": "https://zenn.dev/lapras_inc/articles/useful_documents_tables_and_operations_for_sre",
-      "publishedAt": "2023-12-18T09:28:09.207Z",
-      "likes": 7,
-      "publisher": "zenn",
-      "tags": [
-        "SRE",
-        "ドキュメンテーション",
-        "運用"
       ]
     },
     {

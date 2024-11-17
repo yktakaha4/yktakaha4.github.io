@@ -6,7 +6,7 @@
       "title": "Webアプリケーションにおけるタイムアウトについて",
       "slug": "learn_about_web_application_timeouts",
       "comments_count": 0,
-      "liked_count": 63,
+      "liked_count": 64,
       "body_letters_count": 23404,
       "article_type": "tech",
       "emoji": "⌛",
@@ -62,7 +62,7 @@
       "title": "（SRE的）作ってよかったドキュメント・表・運用",
       "slug": "useful_documents_tables_and_operations_for_sre",
       "comments_count": 0,
-      "liked_count": 7,
+      "liked_count": 8,
       "body_letters_count": 10494,
       "article_type": "idea",
       "emoji": "🥹",
@@ -125,16 +125,24 @@
       "is_suspending_private": false,
       "published_at": "2023-12-01T00:00:01.288+09:00",
       "body_updated_at": "2023-11-27T00:51:17.480+09:00",
-      "source_repo_updated_at": "2023-11-27T00:51:17.474+09:00",
+      "source_repo_updated_at": "2024-11-15T08:43:57.258+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/postmortem_isucon13",
+      "path": "/lapras_inc/articles/postmortem_isucon13",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 207023,
@@ -454,7 +462,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "slug": "study_csrf_attack",
       "comments_count": 2,
-      "liked_count": 209,
+      "liked_count": 210,
       "body_letters_count": 24959,
       "article_type": "tech",
       "emoji": "🏄",
@@ -661,16 +669,24 @@
       "is_suspending_private": false,
       "published_at": "2022-06-13T08:25:47.533+09:00",
       "body_updated_at": "2022-06-13T08:52:17.395+09:00",
-      "source_repo_updated_at": "2022-06-13T09:21:18.238+09:00",
+      "source_repo_updated_at": "2024-11-15T08:43:57.621+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/visual_regression_test_in_python",
+      "path": "/lapras_inc/articles/visual_regression_test_in_python",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 93985,
@@ -702,7 +718,7 @@
       "title": "HTTPキャッシュに学ぶ、無理のないドキュメント更新運用",
       "slug": "documentation_inspired_by_http_cache",
       "comments_count": 0,
-      "liked_count": 222,
+      "liked_count": 224,
       "body_letters_count": 11457,
       "article_type": "idea",
       "emoji": "📚",
@@ -790,7 +806,7 @@
       "title": "Chromeに消されたCORS Preflight requestを確認する方法",
       "slug": "analyze_cors_request_with_chrome",
       "comments_count": 0,
-      "liked_count": 18,
+      "liked_count": 19,
       "body_letters_count": 1403,
       "article_type": "tech",
       "emoji": "✈️",
