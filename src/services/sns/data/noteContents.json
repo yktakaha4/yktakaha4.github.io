@@ -95,7 +95,6 @@
       "imageCount": 0,
       "format": "3.3",
       "capabilities": {
-        "affiliateTest": false,
         "rubyText": true,
         "formulaText": true,
         "duplication": true
@@ -215,7 +214,6 @@
       "imageCount": 0,
       "format": "3.2",
       "capabilities": {
-        "affiliateTest": false,
         "rubyText": true,
         "formulaText": true,
         "duplication": true

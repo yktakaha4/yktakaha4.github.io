@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "id": 316129,
+      "post_type": "Article",
+      "title": "Webアプリケーションにおけるタイムアウトについて",
+      "slug": "learn_about_web_application_timeouts",
+      "comments_count": 0,
+      "liked_count": 64,
+      "body_letters_count": 23404,
+      "article_type": "tech",
+      "emoji": "⌛",
+      "is_suspending_private": false,
+      "published_at": "2024-09-25T11:11:40.411+09:00",
+      "body_updated_at": "2024-09-30T08:13:35.583+09:00",
+      "source_repo_updated_at": "2024-09-30T08:13:35.576+09:00",
+      "pinned": false,
+      "path": "/yktakaha4/articles/learn_about_web_application_timeouts",
+      "user": {
+        "id": 627,
+        "username": "yktakaha4",
+        "name": "Yuuki Takahashi",
+        "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
+      },
+      "publication": null
+    },
+    {
       "id": 303588,
       "post_type": "Article",
       "title": "Conftestでおこなうポリシーチェック",
@@ -13,16 +37,24 @@
       "is_suspending_private": false,
       "published_at": "2024-08-13T09:54:17.780+09:00",
       "body_updated_at": "2024-08-13T21:08:05.737+09:00",
-      "source_repo_updated_at": "2024-08-13T21:08:05.726+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:37.746+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/policy_check_with_conftest",
+      "path": "/lapras_inc/articles/policy_check_with_conftest",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 221696,
@@ -30,23 +62,31 @@
       "title": "（SRE的）作ってよかったドキュメント・表・運用",
       "slug": "useful_documents_tables_and_operations_for_sre",
       "comments_count": 0,
-      "liked_count": 7,
+      "liked_count": 8,
       "body_letters_count": 10494,
       "article_type": "idea",
       "emoji": "🥹",
       "is_suspending_private": false,
       "published_at": "2023-12-18T18:28:09.207+09:00",
       "body_updated_at": "2023-12-18T18:28:09.207+09:00",
-      "source_repo_updated_at": "2023-12-18T18:28:09.199+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:40.007+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/useful_documents_tables_and_operations_for_sre",
+      "path": "/lapras_inc/articles/useful_documents_tables_and_operations_for_sre",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 225831,
@@ -85,16 +125,24 @@
       "is_suspending_private": false,
       "published_at": "2023-12-01T00:00:01.288+09:00",
       "body_updated_at": "2023-11-27T00:51:17.480+09:00",
-      "source_repo_updated_at": "2023-11-27T00:51:17.474+09:00",
+      "source_repo_updated_at": "2024-11-15T08:43:57.258+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/postmortem_isucon13",
+      "path": "/lapras_inc/articles/postmortem_isucon13",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 207023,
@@ -133,16 +181,24 @@
       "is_suspending_private": false,
       "published_at": "2023-08-06T16:00:08.712+09:00",
       "body_updated_at": "2023-08-06T15:56:51.956+09:00",
-      "source_repo_updated_at": "2023-08-06T16:00:08.705+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:38.722+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/redirector_with_alb",
+      "path": "/lapras_inc/articles/redirector_with_alb",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 181755,
@@ -150,14 +206,14 @@
       "title": "情報技術に関する歴史や文化の本",
       "slug": "history_books_on_information_technology",
       "comments_count": 2,
-      "liked_count": 53,
-      "body_letters_count": 22761,
+      "liked_count": 56,
+      "body_letters_count": 25794,
       "article_type": "idea",
       "emoji": "🖥",
       "is_suspending_private": false,
       "published_at": "2023-07-01T09:11:30.613+09:00",
-      "body_updated_at": "2024-08-23T23:43:30.287+09:00",
-      "source_repo_updated_at": "2024-08-23T23:43:30.279+09:00",
+      "body_updated_at": "2024-10-14T14:03:08.867+09:00",
+      "source_repo_updated_at": "2024-10-14T14:03:08.857+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/history_books_on_information_technology",
       "user": {
@@ -198,23 +254,31 @@
       "title": "アジャイルなSREチームの運用",
       "slug": "running_an_agile_sre_team",
       "comments_count": 0,
-      "liked_count": 67,
+      "liked_count": 68,
       "body_letters_count": 18662,
       "article_type": "idea",
       "emoji": "🦜",
       "is_suspending_private": false,
       "published_at": "2023-04-25T13:03:13.984+09:00",
       "body_updated_at": "2023-04-24T22:23:05.939+09:00",
-      "source_repo_updated_at": "2023-04-25T13:03:13.977+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:39.015+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/running_an_agile_sre_team",
+      "path": "/lapras_inc/articles/running_an_agile_sre_team",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 158601,
@@ -270,23 +334,31 @@
       "title": "チームに知見が残るEKSクラスタバージョンアップ運用",
       "slug": "steady_update_of_eks",
       "comments_count": 0,
-      "liked_count": 16,
+      "liked_count": 17,
       "body_letters_count": 25225,
       "article_type": "tech",
       "emoji": "🍗",
       "is_suspending_private": false,
       "published_at": "2023-02-13T11:11:32.729+09:00",
       "body_updated_at": "2023-02-13T11:11:32.729+09:00",
-      "source_repo_updated_at": "2023-02-13T11:11:32.723+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:39.321+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/steady_update_of_eks",
+      "path": "/lapras_inc/articles/steady_update_of_eks",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 137704,
@@ -300,17 +372,25 @@
       "emoji": "🐸",
       "is_suspending_private": false,
       "published_at": "2022-12-31T23:59:00.925+09:00",
-      "body_updated_at": "2022-12-31T23:59:00.925+09:00",
-      "source_repo_updated_at": "2022-12-31T15:52:37.734+09:00",
+      "body_updated_at": "2024-10-21T15:50:37.113+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:37.100+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/looking_back_to_2022",
+      "path": "/lapras_inc/articles/looking_back_to_2022",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 135606,
@@ -324,17 +404,25 @@
       "emoji": "🗾",
       "is_suspending_private": false,
       "published_at": "2022-12-23T00:39:16.404+09:00",
-      "body_updated_at": "2022-12-23T00:39:16.404+09:00",
-      "source_repo_updated_at": "2022-12-23T00:39:16.399+09:00",
+      "body_updated_at": "2024-10-21T15:50:36.401+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:36.398+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/introducing_kunitori",
+      "path": "/lapras_inc/articles/introducing_kunitori",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 128958,
@@ -349,16 +437,24 @@
       "is_suspending_private": false,
       "published_at": "2022-12-01T07:00:00.928+09:00",
       "body_updated_at": "2022-12-01T07:00:00.928+09:00",
-      "source_repo_updated_at": "2022-11-28T01:42:41.126+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:35.403+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/how_to_make_ansi_art",
+      "path": "/lapras_inc/articles/how_to_make_ansi_art",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 103552,
@@ -366,7 +462,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "slug": "study_csrf_attack",
       "comments_count": 2,
-      "liked_count": 205,
+      "liked_count": 210,
       "body_letters_count": 24959,
       "article_type": "tech",
       "emoji": "🏄",
@@ -397,16 +493,24 @@
       "is_suspending_private": false,
       "published_at": "2022-10-19T18:01:03.538+09:00",
       "body_updated_at": "2022-10-30T22:32:15.680+09:00",
-      "source_repo_updated_at": "2022-10-30T22:32:15.675+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:39.635+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/synthetic_monitoring_with_ur_and_tf",
+      "path": "/lapras_inc/articles/synthetic_monitoring_with_ur_and_tf",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 117706,
@@ -534,7 +638,7 @@
       "title": "SquidのTips集",
       "slug": "squid_proxy_tips",
       "comments_count": 0,
-      "liked_count": 4,
+      "liked_count": 5,
       "body_letters_count": 3110,
       "article_type": "tech",
       "emoji": "🦑",
@@ -565,16 +669,24 @@
       "is_suspending_private": false,
       "published_at": "2022-06-13T08:25:47.533+09:00",
       "body_updated_at": "2022-06-13T08:52:17.395+09:00",
-      "source_repo_updated_at": "2022-06-13T09:21:18.238+09:00",
+      "source_repo_updated_at": "2024-11-15T08:43:57.621+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/visual_regression_test_in_python",
+      "path": "/lapras_inc/articles/visual_regression_test_in_python",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 93985,
@@ -606,23 +718,31 @@
       "title": "HTTPキャッシュに学ぶ、無理のないドキュメント更新運用",
       "slug": "documentation_inspired_by_http_cache",
       "comments_count": 0,
-      "liked_count": 221,
+      "liked_count": 224,
       "body_letters_count": 11457,
       "article_type": "idea",
       "emoji": "📚",
       "is_suspending_private": false,
       "published_at": "2022-05-09T14:10:39.252+09:00",
-      "body_updated_at": "2022-05-09T14:10:39.252+09:00",
-      "source_repo_updated_at": "2022-05-09T14:10:39.252+09:00",
+      "body_updated_at": "2024-10-21T15:50:34.942+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:34.939+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/documentation_inspired_by_http_cache",
+      "path": "/lapras_inc/articles/documentation_inspired_by_http_cache",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 84876,
@@ -630,23 +750,31 @@
       "title": "AWS+EKSで稼働するWebアプリにSorryページを設計・実装する",
       "slug": "how_to_make_sorry_page",
       "comments_count": 2,
-      "liked_count": 23,
-      "body_letters_count": 14305,
+      "liked_count": 24,
+      "body_letters_count": 14304,
       "article_type": "tech",
       "emoji": "🙏",
       "is_suspending_private": false,
       "published_at": "2022-04-12T09:01:51.542+09:00",
-      "body_updated_at": "2022-04-12T09:01:51.542+09:00",
-      "source_repo_updated_at": "2022-04-12T09:01:51.542+09:00",
+      "body_updated_at": "2024-10-21T15:50:35.718+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:35.710+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/how_to_make_sorry_page",
+      "path": "/lapras_inc/articles/how_to_make_sorry_page",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 83372,
@@ -654,7 +782,7 @@
       "title": "電子メール送信に関する技術",
       "slug": "technology_for_sending_email",
       "comments_count": 1,
-      "liked_count": 228,
+      "liked_count": 227,
       "body_letters_count": 19496,
       "article_type": "tech",
       "emoji": "📨",
@@ -678,7 +806,7 @@
       "title": "Chromeに消されたCORS Preflight requestを確認する方法",
       "slug": "analyze_cors_request_with_chrome",
       "comments_count": 0,
-      "liked_count": 17,
+      "liked_count": 19,
       "body_letters_count": 1403,
       "article_type": "tech",
       "emoji": "✈️",
@@ -733,16 +861,24 @@
       "is_suspending_private": false,
       "published_at": "2022-02-28T10:31:09.909+09:00",
       "body_updated_at": "2022-02-28T10:31:09.909+09:00",
-      "source_repo_updated_at": "2022-02-28T10:31:09.909+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:38.018+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/production_freeze_manual",
+      "path": "/lapras_inc/articles/production_freeze_manual",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 74380,
@@ -798,7 +934,7 @@
       "title": "TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った",
       "slug": "kintone-form-model-generator",
       "comments_count": 2,
-      "liked_count": 47,
+      "liked_count": 48,
       "body_letters_count": 11978,
       "article_type": "tech",
       "emoji": "🧑‍🦲",
@@ -846,23 +982,31 @@
       "title": "TerraformでGitHub Actions OIDC with AWSを定義し、EKSに安全にアクセスする",
       "slug": "access_eks_with_github_actions_oidc",
       "comments_count": 0,
-      "liked_count": 24,
+      "liked_count": 23,
       "body_letters_count": 7569,
       "article_type": "tech",
       "emoji": "🐙",
       "is_suspending_private": false,
       "published_at": "2021-12-02T09:22:29.260+09:00",
       "body_updated_at": "2021-12-02T09:22:29.260+09:00",
-      "source_repo_updated_at": "2021-12-02T09:22:29.260+09:00",
+      "source_repo_updated_at": "2024-10-21T15:50:34.363+09:00",
       "pinned": false,
-      "path": "/yktakaha4/articles/access_eks_with_github_actions_oidc",
+      "path": "/lapras_inc/articles/access_eks_with_github_actions_oidc",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": {
+        "id": 980,
+        "name": "lapras_inc",
+        "display_name": "LAPRAS Inc.",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--5NhCrYoF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
+        "pro": false,
+        "avatar_registered": true
+      }
     },
     {
       "id": 51502,
