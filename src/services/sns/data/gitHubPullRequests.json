@@ -2,6 +2,328 @@
   "pullRequests": [
     {
       "node": {
+        "id": "PR_kwDOKu8DVM6C8AUL",
+        "number": 5,
+        "title": "add unix domain socket",
+        "mergedAt": "2024-12-01T06:53:35Z",
+        "permalink": "https://github.com/isushintaro/isunippets/pull/5",
+        "additions": 165,
+        "deletions": 0,
+        "changedFiles": 3,
+        "repository": {
+          "id": "R_kgDOKu8DVA",
+          "nameWithOwner": "isushintaro/isunippets",
+          "url": "https://github.com/isushintaro/isunippets",
+          "owner": {
+            "login": "isushintaro"
+          },
+          "isFork": false,
+          "stargazerCount": 1,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Go",
+                  "color": "#00ADD8"
+                },
+                "size": 41873
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 302
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONSskls6DpSjO",
+        "number": 7,
+        "title": "fix",
+        "mergedAt": "2024-12-01T00:50:07Z",
+        "permalink": "https://github.com/yktakaha4/rdb-lock-newbie/pull/7",
+        "additions": 7,
+        "deletions": 9,
+        "changedFiles": 1,
+        "repository": {
+          "id": "R_kgDONSsklg",
+          "nameWithOwner": "yktakaha4/rdb-lock-newbie",
+          "url": "https://github.com/yktakaha4/rdb-lock-newbie",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 58966
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1043
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 159
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONSskls6DoV8y",
+        "number": 6,
+        "title": "fix",
+        "mergedAt": "2024-11-30T14:51:04Z",
+        "permalink": "https://github.com/yktakaha4/rdb-lock-newbie/pull/6",
+        "additions": 8,
+        "deletions": 12,
+        "changedFiles": 1,
+        "repository": {
+          "id": "R_kgDONSsklg",
+          "nameWithOwner": "yktakaha4/rdb-lock-newbie",
+          "url": "https://github.com/yktakaha4/rdb-lock-newbie",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 58966
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1043
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 159
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONSskls6DoQQJ",
+        "number": 5,
+        "title": "add psql case",
+        "mergedAt": "2024-11-30T14:45:19Z",
+        "permalink": "https://github.com/yktakaha4/rdb-lock-newbie/pull/5",
+        "additions": 172,
+        "deletions": 1,
+        "changedFiles": 7,
+        "repository": {
+          "id": "R_kgDONSsklg",
+          "nameWithOwner": "yktakaha4/rdb-lock-newbie",
+          "url": "https://github.com/yktakaha4/rdb-lock-newbie",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 58966
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1043
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 159
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONSskls6DidpW",
+        "number": 3,
+        "title": "add option",
+        "mergedAt": "2024-11-29T09:31:16Z",
+        "permalink": "https://github.com/yktakaha4/rdb-lock-newbie/pull/3",
+        "additions": 146,
+        "deletions": 1,
+        "changedFiles": 2,
+        "repository": {
+          "id": "R_kgDONSsklg",
+          "nameWithOwner": "yktakaha4/rdb-lock-newbie",
+          "url": "https://github.com/yktakaha4/rdb-lock-newbie",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 58966
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1043
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 159
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONSskls6DhbaV",
+        "number": 2,
+        "title": "add command",
+        "mergedAt": "2024-11-29T07:37:46Z",
+        "permalink": "https://github.com/yktakaha4/rdb-lock-newbie/pull/2",
+        "additions": 496,
+        "deletions": 81,
+        "changedFiles": 7,
+        "repository": {
+          "id": "R_kgDONSsklg",
+          "nameWithOwner": "yktakaha4/rdb-lock-newbie",
+          "url": "https://github.com/yktakaha4/rdb-lock-newbie",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 58966
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1043
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 159
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOMLOmTM6Dbs2G",
+        "number": 1,
+        "title": "26378/feat/test",
+        "mergedAt": "2024-11-28T07:26:55Z",
+        "permalink": "https://github.com/lapras-inc/slack-rage/pull/1",
+        "additions": 279,
+        "deletions": 15,
+        "changedFiles": 9,
+        "repository": {
+          "id": "R_kgDOMLOmTA",
+          "nameWithOwner": "lapras-inc/slack-rage",
+          "url": "https://github.com/lapras-inc/slack-rage",
+          "owner": {
+            "login": "lapras-inc"
+          },
+          "isFork": true,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Go",
+                  "color": "#00ADD8"
+                },
+                "size": 16259
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 169
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 151
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
         "id": "PR_kwDONSskls6C8Eq2",
         "number": 1,
         "title": "add psql",
@@ -26,21 +348,21 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 30956
+                "size": 58966
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 651
+                "size": 1043
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 215
+                "size": 159
               }
             ]
           }
@@ -73,7 +395,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 38432
+                "size": 41873
               },
               {
                 "node": {
@@ -113,7 +435,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 38432
+                "size": 41873
               },
               {
                 "node": {
@@ -153,7 +475,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 38432
+                "size": 41873
               },
               {
                 "node": {
@@ -193,7 +515,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 38432
+                "size": 41873
               },
               {
                 "node": {
@@ -225,7 +547,7 @@
             "login": "yasslab"
           },
           "isFork": false,
-          "stargazerCount": 51,
+          "stargazerCount": 50,
           "languages": {
             "edges": [
               {
@@ -455,7 +777,7 @@
             "login": "helmfile"
           },
           "isFork": false,
-          "stargazerCount": 3944,
+          "stargazerCount": 3959,
           "languages": {
             "edges": [
               {
@@ -814,7 +1136,7 @@
             "login": "axllent"
           },
           "isFork": false,
-          "stargazerCount": 6107,
+          "stargazerCount": 6166,
           "languages": {
             "edges": [
               {
@@ -822,7 +1144,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 416482
+                "size": 416747
               },
               {
                 "node": {
@@ -1209,7 +1531,7 @@
             "login": "domainaware"
           },
           "isFork": false,
-          "stargazerCount": 1017,
+          "stargazerCount": 1019,
           "languages": {
             "edges": [
               {
@@ -2548,7 +2870,7 @@
             "login": "databus23"
           },
           "isFork": false,
-          "stargazerCount": 2751,
+          "stargazerCount": 2756,
           "languages": {
             "edges": [
               {
@@ -3463,7 +3785,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9851,
+          "stargazerCount": 9868,
           "languages": {
             "edges": [
               {
@@ -3471,7 +3793,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 61861381
+                "size": 61952401
               },
               {
                 "node": {
@@ -3485,7 +3807,7 @@
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 206681
+                "size": 206702
               },
               {
                 "node": {
@@ -3632,7 +3954,7 @@
             "login": "aws"
           },
           "isFork": false,
-          "stargazerCount": 2050,
+          "stargazerCount": 2049,
           "languages": {
             "edges": [
               {
@@ -3965,7 +4287,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9851,
+          "stargazerCount": 9868,
           "languages": {
             "edges": [
               {
@@ -3973,7 +4295,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 61861381
+                "size": 61952401
               },
               {
                 "node": {
@@ -3987,7 +4309,7 @@
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 206681
+                "size": 206702
               },
               {
                 "node": {
@@ -4256,7 +4578,7 @@
             "login": "cloudflare"
           },
           "isFork": false,
-          "stargazerCount": 799,
+          "stargazerCount": 803,
           "languages": {
             "edges": [
               {
@@ -4264,7 +4586,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 3234510
+                "size": 3234539
               },
               {
                 "node": {
@@ -4378,7 +4700,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9851,
+          "stargazerCount": 9868,
           "languages": {
             "edges": [
               {
@@ -4386,7 +4708,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 61861381
+                "size": 61952401
               },
               {
                 "node": {
@@ -4400,7 +4722,7 @@
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 206681
+                "size": 206702
               },
               {
                 "node": {
@@ -4467,7 +4789,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2147,
+          "stargazerCount": 2149,
           "languages": {
             "edges": [
               {
@@ -4528,7 +4850,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2147,
+          "stargazerCount": 2149,
           "languages": {
             "edges": [
               {
@@ -4589,7 +4911,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2147,
+          "stargazerCount": 2149,
           "languages": {
             "edges": [
               {
@@ -4650,7 +4972,7 @@
             "login": "argoproj"
           },
           "isFork": false,
-          "stargazerCount": 15106,
+          "stargazerCount": 15123,
           "languages": {
             "edges": [
               {
@@ -4658,14 +4980,14 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 4288678
+                "size": 4298766
               },
               {
                 "node": {
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 661900
+                "size": 666170
               },
               {
                 "node": {
@@ -4679,14 +5001,14 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 40139
+                "size": 40144
               },
               {
                 "node": {
                   "name": "SCSS",
                   "color": "#c6538c"
                 },
-                "size": 31715
+                "size": 32853
               },
               {
                 "node": {
@@ -5985,7 +6307,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 849,
+          "stargazerCount": 851,
           "languages": {
             "edges": [
               {
@@ -5993,7 +6315,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 897840
+                "size": 899897
               },
               {
                 "node": {
@@ -6039,7 +6361,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 849,
+          "stargazerCount": 851,
           "languages": {
             "edges": [
               {
@@ -6047,7 +6369,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 897840
+                "size": 899897
               },
               {
                 "node": {
@@ -6764,7 +7086,7 @@
             "login": "localstack"
           },
           "isFork": false,
-          "stargazerCount": 61,
+          "stargazerCount": 62,
           "languages": {
             "edges": [
               {
@@ -7599,7 +7921,7 @@
             "login": "elwerene"
           },
           "isFork": false,
-          "stargazerCount": 268,
+          "stargazerCount": 269,
           "languages": {
             "edges": [
               {
@@ -7700,7 +8022,7 @@
             "login": "kawamataryo"
           },
           "isFork": false,
-          "stargazerCount": 292,
+          "stargazerCount": 293,
           "languages": {
             "edges": [
               {
@@ -8936,7 +9258,7 @@
             "login": "Rigellute"
           },
           "isFork": false,
-          "stargazerCount": 17581,
+          "stargazerCount": 17612,
           "languages": {
             "edges": [
               {
@@ -9145,7 +9467,7 @@
             "login": "typeorm"
           },
           "isFork": false,
-          "stargazerCount": 34279,
+          "stargazerCount": 34490,
           "languages": {
             "edges": [
               {
@@ -9736,7 +10058,7 @@
             "login": "serverless"
           },
           "isFork": false,
-          "stargazerCount": 46489,
+          "stargazerCount": 46503,
           "languages": {
             "edges": [
               {
@@ -9744,7 +10066,7 @@
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 3286201
+                "size": 3287679
               },
               {
                 "node": {
@@ -10001,7 +10323,7 @@
             "login": "amazon-connect"
           },
           "isFork": false,
-          "stargazerCount": 394,
+          "stargazerCount": 395,
           "languages": {
             "edges": [
               {
@@ -10034,7 +10356,7 @@
             "login": "getmoto"
           },
           "isFork": false,
-          "stargazerCount": 7669,
+          "stargazerCount": 7679,
           "languages": {
             "edges": [
               {
@@ -10042,7 +10364,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 21629639
+                "size": 22015913
               },
               {
                 "node": {
