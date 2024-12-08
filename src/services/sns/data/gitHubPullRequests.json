@@ -2,6 +2,147 @@
   "pullRequests": [
     {
       "node": {
+        "id": "PR_kwDONSskls6ER-7p",
+        "number": 9,
+        "title": "add",
+        "mergedAt": "2024-12-06T06:55:44Z",
+        "permalink": "https://github.com/yktakaha4/rdb-lock-newbie/pull/9",
+        "additions": 4,
+        "deletions": 0,
+        "changedFiles": 1,
+        "repository": {
+          "id": "R_kgDONSsklg",
+          "nameWithOwner": "yktakaha4/rdb-lock-newbie",
+          "url": "https://github.com/yktakaha4/rdb-lock-newbie",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 1,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 58966
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1170
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 159
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONSskls6D6VJN",
+        "number": 8,
+        "title": "add world db",
+        "mergedAt": "2024-12-03T15:44:47Z",
+        "permalink": "https://github.com/yktakaha4/rdb-lock-newbie/pull/8",
+        "additions": 6,
+        "deletions": 0,
+        "changedFiles": 3,
+        "repository": {
+          "id": "R_kgDONSsklg",
+          "nameWithOwner": "yktakaha4/rdb-lock-newbie",
+          "url": "https://github.com/yktakaha4/rdb-lock-newbie",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 1,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 58966
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1170
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 159
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOMLOmTM6DbwR3",
+        "number": 2,
+        "title": "update go version",
+        "mergedAt": "2024-12-02T00:18:59Z",
+        "permalink": "https://github.com/lapras-inc/slack-rage/pull/2",
+        "additions": 188,
+        "deletions": 142,
+        "changedFiles": 8,
+        "repository": {
+          "id": "R_kgDOMLOmTA",
+          "nameWithOwner": "lapras-inc/slack-rage",
+          "url": "https://github.com/lapras-inc/slack-rage",
+          "owner": {
+            "login": "lapras-inc"
+          },
+          "isFork": true,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Go",
+                  "color": "#00ADD8"
+                },
+                "size": 19961
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 169
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 151
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
         "id": "PR_kwDOKu8DVM6C8AUL",
         "number": 5,
         "title": "add unix domain socket",
@@ -58,7 +199,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 0,
+          "stargazerCount": 1,
           "languages": {
             "edges": [
               {
@@ -73,7 +214,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 1043
+                "size": 1170
               },
               {
                 "node": {
@@ -105,7 +246,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 0,
+          "stargazerCount": 1,
           "languages": {
             "edges": [
               {
@@ -120,7 +261,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 1043
+                "size": 1170
               },
               {
                 "node": {
@@ -152,7 +293,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 0,
+          "stargazerCount": 1,
           "languages": {
             "edges": [
               {
@@ -167,7 +308,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 1043
+                "size": 1170
               },
               {
                 "node": {
@@ -199,7 +340,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 0,
+          "stargazerCount": 1,
           "languages": {
             "edges": [
               {
@@ -214,7 +355,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 1043
+                "size": 1170
               },
               {
                 "node": {
@@ -246,7 +387,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 0,
+          "stargazerCount": 1,
           "languages": {
             "edges": [
               {
@@ -261,7 +402,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 1043
+                "size": 1170
               },
               {
                 "node": {
@@ -301,7 +442,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 16259
+                "size": 19961
               },
               {
                 "node": {
@@ -340,7 +481,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 0,
+          "stargazerCount": 1,
           "languages": {
             "edges": [
               {
@@ -355,7 +496,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 1043
+                "size": 1170
               },
               {
                 "node": {
@@ -547,7 +688,7 @@
             "login": "yasslab"
           },
           "isFork": false,
-          "stargazerCount": 50,
+          "stargazerCount": 51,
           "languages": {
             "edges": [
               {
@@ -567,7 +708,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 1517
               },
@@ -736,7 +877,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -777,7 +918,7 @@
             "login": "helmfile"
           },
           "isFork": false,
-          "stargazerCount": 3959,
+          "stargazerCount": 3975,
           "languages": {
             "edges": [
               {
@@ -785,14 +926,14 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 1180785
+                "size": 1180976
               },
               {
                 "node": {
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 58714
+                "size": 59078
               },
               {
                 "node": {
@@ -879,7 +1020,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -947,7 +1088,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -1015,7 +1156,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -1056,7 +1197,7 @@
             "login": "celery"
           },
           "isFork": false,
-          "stargazerCount": 696,
+          "stargazerCount": 697,
           "languages": {
             "edges": [
               {
@@ -1136,7 +1277,7 @@
             "login": "axllent"
           },
           "isFork": false,
-          "stargazerCount": 6166,
+          "stargazerCount": 6202,
           "languages": {
             "edges": [
               {
@@ -1144,7 +1285,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 416747
+                "size": 420028
               },
               {
                 "node": {
@@ -1354,7 +1495,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -1422,7 +1563,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -1490,7 +1631,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -1531,7 +1672,7 @@
             "login": "domainaware"
           },
           "isFork": false,
-          "stargazerCount": 1019,
+          "stargazerCount": 1023,
           "languages": {
             "edges": [
               {
@@ -1605,7 +1746,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -1673,7 +1814,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -1741,7 +1882,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -1809,7 +1950,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -1877,7 +2018,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -1945,7 +2086,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2013,7 +2154,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2081,7 +2222,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2149,7 +2290,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2217,7 +2358,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2285,7 +2426,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2353,7 +2494,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2421,7 +2562,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2489,7 +2630,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2557,7 +2698,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2625,7 +2766,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2693,7 +2834,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2761,7 +2902,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2829,7 +2970,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -2870,7 +3011,7 @@
             "login": "databus23"
           },
           "isFork": false,
-          "stargazerCount": 2756,
+          "stargazerCount": 2761,
           "languages": {
             "edges": [
               {
@@ -2944,7 +3085,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3012,7 +3153,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3080,7 +3221,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3148,7 +3289,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3216,7 +3357,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3284,7 +3425,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3352,7 +3493,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3420,7 +3561,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3488,7 +3629,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3556,7 +3697,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3624,7 +3765,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -3785,7 +3926,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9868,
+          "stargazerCount": 9957,
           "languages": {
             "edges": [
               {
@@ -3793,21 +3934,21 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 61952401
+                "size": 62359162
               },
               {
                 "node": {
                   "name": "Groovy",
                   "color": "#4298b8"
                 },
-                "size": 365505
+                "size": 365459
               },
               {
                 "node": {
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 206702
+                "size": 207067
               },
               {
                 "node": {
@@ -3821,7 +3962,7 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 15827
+                "size": 15824
               },
               {
                 "node": {
@@ -3954,7 +4095,7 @@
             "login": "aws"
           },
           "isFork": false,
-          "stargazerCount": 2049,
+          "stargazerCount": 2053,
           "languages": {
             "edges": [
               {
@@ -4008,7 +4149,7 @@
             "login": "lapras-inc"
           },
           "isFork": false,
-          "stargazerCount": 137,
+          "stargazerCount": 138,
           "languages": {
             "edges": [
               {
@@ -4056,7 +4197,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 123
               }
@@ -4110,7 +4251,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -4178,7 +4319,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -4246,7 +4387,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -4287,7 +4428,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9868,
+          "stargazerCount": 9957,
           "languages": {
             "edges": [
               {
@@ -4295,21 +4436,21 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 61952401
+                "size": 62359162
               },
               {
                 "node": {
                   "name": "Groovy",
                   "color": "#4298b8"
                 },
-                "size": 365505
+                "size": 365459
               },
               {
                 "node": {
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 206702
+                "size": 207067
               },
               {
                 "node": {
@@ -4323,7 +4464,7 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 15827
+                "size": 15824
               },
               {
                 "node": {
@@ -4424,7 +4565,7 @@
                   "name": "HTML",
                   "color": "#e34c26"
                 },
-                "size": 963482
+                "size": 1045085
               },
               {
                 "node": {
@@ -4438,12 +4579,12 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 23042
+                "size": 25247
               },
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 13332
               }
@@ -4497,7 +4638,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -4578,7 +4719,7 @@
             "login": "cloudflare"
           },
           "isFork": false,
-          "stargazerCount": 803,
+          "stargazerCount": 815,
           "languages": {
             "edges": [
               {
@@ -4586,7 +4727,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 3234539
+                "size": 3284406
               },
               {
                 "node": {
@@ -4659,7 +4800,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -4700,7 +4841,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9868,
+          "stargazerCount": 9957,
           "languages": {
             "edges": [
               {
@@ -4708,21 +4849,21 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 61952401
+                "size": 62359162
               },
               {
                 "node": {
                   "name": "Groovy",
                   "color": "#4298b8"
                 },
-                "size": 365505
+                "size": 365459
               },
               {
                 "node": {
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 206702
+                "size": 207067
               },
               {
                 "node": {
@@ -4736,7 +4877,7 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 15827
+                "size": 15824
               },
               {
                 "node": {
@@ -4789,7 +4930,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2149,
+          "stargazerCount": 2153,
           "languages": {
             "edges": [
               {
@@ -4850,7 +4991,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2149,
+          "stargazerCount": 2153,
           "languages": {
             "edges": [
               {
@@ -4911,7 +5052,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2149,
+          "stargazerCount": 2153,
           "languages": {
             "edges": [
               {
@@ -4972,7 +5113,7 @@
             "login": "argoproj"
           },
           "isFork": false,
-          "stargazerCount": 15123,
+          "stargazerCount": 15142,
           "languages": {
             "edges": [
               {
@@ -4980,7 +5121,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 4298766
+                "size": 4308549
               },
               {
                 "node": {
@@ -4994,14 +5135,14 @@
                   "name": "Nix",
                   "color": "#7e7eff"
                 },
-                "size": 111103
+                "size": 110538
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 40144
+                "size": 39879
               },
               {
                 "node": {
@@ -5556,7 +5697,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -5906,7 +6047,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -6307,7 +6448,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 851,
+          "stargazerCount": 853,
           "languages": {
             "edges": [
               {
@@ -6361,7 +6502,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 851,
+          "stargazerCount": 853,
           "languages": {
             "edges": [
               {
@@ -6435,7 +6576,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 54
               }
@@ -6570,7 +6711,7 @@
             "login": "lapras-inc"
           },
           "isFork": false,
-          "stargazerCount": 137,
+          "stargazerCount": 138,
           "languages": {
             "edges": [
               {
@@ -6618,7 +6759,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 123
               }
@@ -6672,7 +6813,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -6726,7 +6867,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 1405
               }
@@ -6753,7 +6894,7 @@
             "login": "lapras-inc"
           },
           "isFork": false,
-          "stargazerCount": 137,
+          "stargazerCount": 138,
           "languages": {
             "edges": [
               {
@@ -6801,7 +6942,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 123
               }
@@ -6909,7 +7050,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -6977,7 +7118,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7045,7 +7186,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7188,7 +7329,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7256,7 +7397,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7324,7 +7465,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7392,7 +7533,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7460,7 +7601,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7528,7 +7669,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7596,7 +7737,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7664,7 +7805,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7732,7 +7873,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7800,7 +7941,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -7981,7 +8122,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -8022,7 +8163,7 @@
             "login": "kawamataryo"
           },
           "isFork": false,
-          "stargazerCount": 293,
+          "stargazerCount": 296,
           "languages": {
             "edges": [
               {
@@ -8042,7 +8183,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 872
               },
@@ -8510,7 +8651,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -8578,7 +8719,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -8646,7 +8787,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -8714,7 +8855,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -8829,7 +8970,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 413
               }
@@ -9081,7 +9222,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9149,7 +9290,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9217,7 +9358,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9258,7 +9399,7 @@
             "login": "Rigellute"
           },
           "isFork": false,
-          "stargazerCount": 17612,
+          "stargazerCount": 17644,
           "languages": {
             "edges": [
               {
@@ -9325,7 +9466,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9393,7 +9534,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9467,7 +9608,7 @@
             "login": "typeorm"
           },
           "isFork": false,
-          "stargazerCount": 34490,
+          "stargazerCount": 34527,
           "languages": {
             "edges": [
               {
@@ -9541,7 +9682,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9609,7 +9750,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9677,7 +9818,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9745,7 +9886,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9813,7 +9954,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9881,7 +10022,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -9949,7 +10090,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -10017,7 +10158,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -10058,7 +10199,7 @@
             "login": "serverless"
           },
           "isFork": false,
-          "stargazerCount": 46503,
+          "stargazerCount": 46511,
           "languages": {
             "edges": [
               {
@@ -10146,7 +10287,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -10214,7 +10355,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -10282,7 +10423,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -10323,7 +10464,7 @@
             "login": "amazon-connect"
           },
           "isFork": false,
-          "stargazerCount": 395,
+          "stargazerCount": 397,
           "languages": {
             "edges": [
               {
@@ -10331,7 +10472,7 @@
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 2797250
+                "size": 3042756
               }
             ]
           }
@@ -10356,7 +10497,7 @@
             "login": "getmoto"
           },
           "isFork": false,
-          "stargazerCount": 7679,
+          "stargazerCount": 7689,
           "languages": {
             "edges": [
               {
@@ -10364,7 +10505,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 22015913
+                "size": 22078715
               },
               {
                 "node": {
@@ -10479,7 +10620,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -10547,7 +10688,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 32
               }
@@ -10601,7 +10742,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -10662,7 +10803,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 323
               }
@@ -10709,7 +10850,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 323
               }
@@ -10756,7 +10897,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 323
               }
@@ -10803,7 +10944,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 427
               }
@@ -10850,7 +10991,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 427
               }
@@ -10904,7 +11045,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -10972,7 +11113,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -11040,7 +11181,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -11108,7 +11249,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -11176,7 +11317,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 754
               },
@@ -12311,7 +12452,7 @@
               {
                 "node": {
                   "name": "CSS",
-                  "color": "#563d7c"
+                  "color": "#663399"
                 },
                 "size": 28829
               },
