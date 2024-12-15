@@ -144,6 +144,15 @@
       "published": true
     },
     {
+      "slug": "how_to_optimize_eks_containers",
+      "topics": [
+        "AWS",
+        "EKS",
+        "Kubernetes"
+      ],
+      "published": true
+    },
+    {
       "slug": "introducing_kunitori",
       "topics": [
         "CLI",
@@ -227,6 +236,13 @@
     },
     {
       "slug": "postmortem_isucon13",
+      "topics": [
+        "ISUCON"
+      ],
+      "published": true
+    },
+    {
+      "slug": "postmortem_isucon14",
       "topics": [
         "ISUCON"
       ],

@@ -27,7 +27,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "url": "https://zenn.dev/yktakaha4/articles/study_csrf_attack",
       "publishedAt": "2022-10-30T13:41:45.651Z",
-      "likes": 210,
+      "likes": 211,
       "publisher": "zenn",
       "tags": [
         "CSRF",
@@ -600,6 +600,16 @@
       ]
     },
     {
+      "title": "ISUCON14に参加しました",
+      "url": "https://zenn.dev/lapras_inc/articles/postmortem_isucon14",
+      "publishedAt": "2024-12-01T00:00:00.000Z",
+      "likes": 5,
+      "publisher": "zenn",
+      "tags": [
+        "ISUCON"
+      ]
+    },
+    {
       "title": "AWSの2FA認証をCLIからおこなうワンライナー",
       "url": "https://zenn.dev/yktakaha4/articles/aws_2fa_oneliner",
       "publishedAt": "2022-06-22T03:03:30.389Z",
@@ -703,6 +713,18 @@
       "tags": [
         "MacOSX",
         "MIDI"
+      ]
+    },
+    {
+      "title": "EKSのコンテナリソース最適化メモ",
+      "url": "https://zenn.dev/yktakaha4/articles/how_to_optimize_eks_containers",
+      "publishedAt": "2024-12-12T12:06:23.719Z",
+      "likes": 3,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "EKS",
+        "Kubernetes"
       ]
     },
     {
