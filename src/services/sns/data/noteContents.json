@@ -95,6 +95,9 @@
       "imageCount": 0,
       "format": "3.3",
       "capabilities": {
+        "amazonpayCampaign": false,
+        "amazonpay": null,
+        "guestAmazonpay": null,
         "rubyText": true,
         "formulaText": true,
         "duplication": true
@@ -214,6 +217,9 @@
       "imageCount": 0,
       "format": "3.2",
       "capabilities": {
+        "amazonpayCampaign": false,
+        "amazonpay": null,
+        "guestAmazonpay": null,
         "rubyText": true,
         "formulaText": true,
         "duplication": true
