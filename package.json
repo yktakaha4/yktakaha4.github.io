@@ -28,7 +28,7 @@
     "@docusaurus/core": "^3.1.1",
     "@docusaurus/preset-classic": "^3.5.2",
     "@mdx-js/react": "^3.1.0",
-    "@octokit/graphql": "^7.0.2",
+    "@octokit/graphql": "^8.1.2",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
     "fs-extra": "^11.2.0",
