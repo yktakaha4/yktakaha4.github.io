@@ -2,6 +2,7 @@
 /build.*
 .envrc
 coverage/
+.node-version
 
 # Dependencies
 /node_modules
