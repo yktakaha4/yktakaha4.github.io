@@ -46,6 +46,7 @@ for (const aTag of aTags) {
 const expectedContent = 'yktakaha4.github.io';
 
 const escape = (arg) => `'${arg.replace(/'/g, "'\\''")}'`;
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const run = async () => {
   console.log('Precondition check...');
@@ -67,7 +68,7 @@ const run = async () => {
   await page.goto(url, { waitUntil: 'networkidle0' });
   await page.addStyleTag({ content: styleTagContent });
   await page.addScriptTag({ content: scriptTagContent });
-  await page.waitForTimeout(sleepTime);
+  await sleep(sleepTime);
 
   console.log(`Checking expected content: ${expectedContent}`);
   const content = await page.content();
