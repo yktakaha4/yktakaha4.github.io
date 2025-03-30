@@ -1,4 +1,4 @@
-import config from './jest.config.js';
+import config from './jest.config.mjs';
 
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 export default {

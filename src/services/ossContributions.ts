@@ -27,45 +27,87 @@ export type OSSContribution = {
 
 export const getOSSContributions = () => {
   const contributions = githubPullRequests.pullRequests
-    .map(({ node }: { node: any }): OSSContribution => {
-      const { title, permalink, mergedAt, repository } = node;
-      const { nameWithOwner, stargazerCount, url, owner } = repository;
+    .map(
+      ({
+        node,
+      }: {
+        node: {
+          title: string;
+          permalink: string;
+          mergedAt: string;
+          additions?: number;
+          deletions?: number;
+          repository: {
+            nameWithOwner: string;
+            stargazerCount: number;
+            url: string;
+            owner: {
+              login: string;
+            };
+            languages: {
+              edges: Array<{
+                node: {
+                  name: string;
+                };
+                size: number;
+              }>;
+            };
+          };
+        };
+      }): OSSContribution => {
+        const { title, permalink, mergedAt, repository } = node;
+        const { nameWithOwner, stargazerCount, url, owner } = repository;
 
-      const totalSize = repository.languages.edges.reduce(
-        (acc: number, { size }: { size: number }) => acc + size,
-        0,
-      );
-      const languages: Array<string> = [];
-      for (const { node, size } of repository.languages.edges as Array<{ node: any; size: number }>) {
-        if (size / totalSize >= gitHubLanguageSizeThreshold) {
-          const { name } = node;
-          languages.push(name);
+        const totalSize = repository.languages.edges.reduce(
+          (acc: number, { size }: { size: number }) => acc + size,
+          0,
+        );
+        const languages: Array<string> = [];
+        for (const { node, size } of repository.languages.edges as Array<{
+          node: { name: string };
+          size: number;
+        }>) {
+          if (size / totalSize >= gitHubLanguageSizeThreshold) {
+            const { name } = node;
+            languages.push(name);
+          }
         }
-      }
 
-      return {
-        title,
-        url: permalink,
-        kind: 'mergedPullRequest',
-        mergedAt: dayjs(mergedAt).toDate(),
-        changedLines: (node.additions || 0) + (node.deletions || 0),
+        return {
+          title,
+          url: permalink,
+          kind: 'mergedPullRequest',
+          mergedAt: dayjs(mergedAt).toDate(),
+          changedLines: (node.additions || 0) + (node.deletions || 0),
+          repository: {
+            owner: owner.login,
+            name: nameWithOwner,
+            stars: stargazerCount,
+            url,
+            languages,
+          },
+        };
+      },
+    )
+    .filter(
+      ({
+        url,
+        repository,
+      }: {
+        url: string;
         repository: {
-          owner: owner.login,
-          name: nameWithOwner,
-          stars: stargazerCount,
-          url,
-          languages,
-        },
-      };
-    })
-    .filter(({ url, repository }: { url: string; repository: any }) => {
-      const { owner, stars } = repository;
-      const visible =
-        stars >= gitHubStargazersCountThreshold &&
-        !gitHubIgnoreOwnerNames.includes(owner);
-      logger.debug('filter', { url, visible });
-      return visible;
-    });
+          owner: string;
+          stars: number;
+        };
+      }) => {
+        const { owner, stars } = repository;
+        const visible =
+          stars >= gitHubStargazersCountThreshold &&
+          !gitHubIgnoreOwnerNames.includes(owner);
+        logger.debug('filter', { url, visible });
+        return visible;
+      },
+    );
 
   return sortOSSContributions(contributions);
 };

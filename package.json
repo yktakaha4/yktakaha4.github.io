@@ -2,7 +2,6 @@
   "name": "yktakaha-4-github-io",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -15,8 +14,8 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "fix": "tsc && textlint --fix src/ && eslint --fix '**/*.{ts,tsx,js}' && prettier --write '**/*.{ts,tsx,js,mdx,md,json,yaml,yml}'",
     "lint": "tsc && textlint src/ && eslint '**/*.{ts,tsx,js}' && prettier -c '**/*.{ts,tsx,js,mdx,md,json,yaml,yml}'",
-    "test": "jest --runInBand",
-    "test:e2e": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest --runInBand --config jest.config.e2e.js",
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --runInBand",
+    "test:e2e": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest --runInBand --config jest.config.e2e.mjs",
     "refresh-components-data": "yarn fetch-github-pull-requests && yarn fetch-qiita-items && yarn fetch-zenn-articles && yarn fetch-zenn-topics && yarn fetch-note-contents && yarn build-components-data",
     "build-components-data": "ts-node -P tsconfig.scripts.json src/services/scripts/buildComponentsData.ts",
     "fetch-github-pull-requests": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchGitHubPullRequests.ts",

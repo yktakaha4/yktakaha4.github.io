@@ -27,32 +27,48 @@ export type TechArticle = {
 
 export const getTechArticles = () => {
   const techArticles: Array<TechArticle> = zennArticles.articles
-    .map(({ title, path, published_at, liked_count, slug }: { 
-      title: string; 
-      path: string; 
-      published_at: string; 
-      liked_count: number; 
-      slug: string 
-    }): TechArticle => {
-      const tags =
-        zennTopics.topics.find((topic: { slug: string }) => topic.slug === slug)?.topics || [];
-      return {
+    .map(
+      ({
         title,
-        url: `${zennBaseURL}${path}`,
-        publishedAt: dayjs(published_at).toDate(),
-        likes: liked_count,
-        publisher: 'zenn',
-        tags,
-      };
-    })
+        path,
+        published_at,
+        liked_count,
+        slug,
+      }: {
+        title: string;
+        path: string;
+        published_at: string;
+        liked_count: number;
+        slug: string;
+      }): TechArticle => {
+        const tags =
+          zennTopics.topics.find(
+            (topic: { slug: string }) => topic.slug === slug,
+          )?.topics || [];
+        return {
+          title,
+          url: `${zennBaseURL}${path}`,
+          publishedAt: dayjs(published_at).toDate(),
+          likes: liked_count,
+          publisher: 'zenn',
+          tags,
+        };
+      },
+    )
     .concat(
       qiitaItems.items.map(
-        ({ title, url, created_at, likes_count, tags }: { 
-          title: string; 
-          url: string; 
-          created_at: string; 
-          likes_count: number; 
-          tags: Array<{ name: string }> 
+        ({
+          title,
+          url,
+          created_at,
+          likes_count,
+          tags,
+        }: {
+          title: string;
+          url: string;
+          created_at: string;
+          likes_count: number;
+          tags: Array<{ name: string }>;
         }): TechArticle => {
           return {
             title,
@@ -67,12 +83,18 @@ export const getTechArticles = () => {
     )
     .concat(
       noteContents.contents.map(
-        ({ name, noteUrl, publishAt, likeCount, hashtags }: { 
-          name: string; 
-          noteUrl: string; 
-          publishAt: string; 
-          likeCount: number; 
-          hashtags: Array<{ hashtag: { name: string } }> 
+        ({
+          name,
+          noteUrl,
+          publishAt,
+          likeCount,
+          hashtags,
+        }: {
+          name: string;
+          noteUrl: string;
+          publishAt: string;
+          likeCount: number;
+          hashtags: Array<{ hashtag: { name: string } }>;
         }): TechArticle => {
           return {
             title: name,
@@ -80,7 +102,9 @@ export const getTechArticles = () => {
             publishedAt: new Date(publishAt),
             likes: likeCount,
             publisher: 'note',
-            tags: hashtags.map(({ hashtag }: { hashtag: { name: string } }) => hashtag.name.replace(/^#/, '')),
+            tags: hashtags.map(({ hashtag }: { hashtag: { name: string } }) =>
+              hashtag.name.replace(/^#/, ''),
+            ),
           };
         },
       ),
