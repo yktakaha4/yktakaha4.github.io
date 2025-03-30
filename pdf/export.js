@@ -1,5 +1,5 @@
-const puppeteer = require('puppeteer');
-const { execSync } = require('child_process');
+import puppeteer from 'puppeteer';
+import { execSync } from 'child_process';
 
 const args = process.argv.slice(2);
 const url = args[0];

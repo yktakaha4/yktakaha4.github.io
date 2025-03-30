@@ -2,51 +2,57 @@ import { FC } from 'react';
 import { Avatar } from '@/components/ui/Avatar';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { getCustomFields } from '@/components/helper';
+import iconJpg from '@site/static/img/icon.jpg';
+import iconThumbJpg from '@site/static/img/icon_thumb.jpg';
+import iconThumbWebp from '@site/static/img/icon_thumb.webp';
+import yktakaha4Jpg from '@site/static/img/yktakaha4.jpg';
+import yktakaha4ThumbJpg from '@site/static/img/yktakaha4_thumb.jpg';
+import yktakaha4ThumbWebp from '@site/static/img/yktakaha4_thumb.webp';
 
 export const ProfileImages: FC = () => {
   const { isProduction: absolute } = getCustomFields();
   const src = [
     {
-      src: useBaseUrl(require('@site/static/img/icon.jpg').default, {
+      src: useBaseUrl(iconJpg, {
         absolute,
       }),
       alt: 'コウテイペンギン',
       srcSets: [
         {
-          src: require('@site/static/img/icon_thumb.jpg').default,
+          src: iconThumbJpg,
           width: '128w',
         },
         {
-          src: require('@site/static/img/icon.jpg').default,
+          src: iconJpg,
           width: '400w',
         },
       ],
       sources: [
         {
           type: 'image/webp',
-          srcset: require('@site/static/img/icon_thumb.webp').default,
+          srcset: iconThumbWebp,
         },
       ],
     },
     {
-      src: useBaseUrl(require('@site/static/img/yktakaha4.jpg').default, {
+      src: useBaseUrl(yktakaha4Jpg, {
         absolute,
       }),
       alt: '近影',
       srcSets: [
         {
-          src: require('@site/static/img/yktakaha4_thumb.jpg').default,
+          src: yktakaha4ThumbJpg,
           width: '128w',
         },
         {
-          src: require('@site/static/img/yktakaha4.jpg').default,
+          src: yktakaha4Jpg,
           width: '400w',
         },
       ],
       sources: [
         {
           type: 'image/webp',
-          srcset: require('@site/static/img/yktakaha4_thumb.webp').default,
+          srcset: yktakaha4ThumbWebp,
         },
       ],
     },

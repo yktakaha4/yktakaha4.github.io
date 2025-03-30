@@ -27,16 +27,16 @@ export type OSSContribution = {
 
 export const getOSSContributions = () => {
   const contributions = githubPullRequests.pullRequests
-    .map(({ node }): OSSContribution => {
+    .map(({ node }: { node: any }): OSSContribution => {
       const { title, permalink, mergedAt, repository } = node;
       const { nameWithOwner, stargazerCount, url, owner } = repository;
 
       const totalSize = repository.languages.edges.reduce(
-        (acc, { size }) => acc + size,
+        (acc: number, { size }: { size: number }) => acc + size,
         0,
       );
       const languages: Array<string> = [];
-      for (const { node, size } of repository.languages.edges) {
+      for (const { node, size } of repository.languages.edges as Array<{ node: any; size: number }>) {
         if (size / totalSize >= gitHubLanguageSizeThreshold) {
           const { name } = node;
           languages.push(name);
@@ -58,7 +58,7 @@ export const getOSSContributions = () => {
         },
       };
     })
-    .filter(({ url, repository }) => {
+    .filter(({ url, repository }: { url: string; repository: any }) => {
       const { owner, stars } = repository;
       const visible =
         stars >= gitHubStargazersCountThreshold &&

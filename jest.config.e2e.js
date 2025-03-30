@@ -1,7 +1,7 @@
-const config = require('./jest.config');
+import config from './jest.config.js';
 
 /** @type {import('ts-jest').JestConfigWithTsJest} */
-module.exports = {
+export default {
   ...config,
   testRegex: '/e2e/.+(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$',
   collectCoverage: false,

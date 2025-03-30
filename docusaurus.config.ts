@@ -9,13 +9,12 @@ import * as process from 'process';
 import { CustomFields } from '@/components/helper';
 import * as path from 'path';
 import { existsSync, readFileSync, writeFileSync } from 'fs-extra';
+import { execSync } from 'child_process';
 
 const buildAt = dayjs().format();
 let commitHash = 'unset';
 try {
-  commitHash = require('child_process')
-    .execSync('git rev-parse HEAD')
-    .toString();
+  commitHash = execSync('git rev-parse HEAD').toString();
 } catch (e) {
   console.warn(e);
 }
