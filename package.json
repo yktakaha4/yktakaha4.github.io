@@ -25,45 +25,45 @@
     "fetch-note-contents": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchNoteContents.ts"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.1.1",
-    "@docusaurus/preset-classic": "^3.5.2",
+    "@docusaurus/core": "3.7.0",
+    "@docusaurus/preset-classic": "3.7.0",
     "@mdx-js/react": "^3.1.0",
-    "@octokit/graphql": "^7.0.2",
+    "@octokit/graphql": "7.1.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
-    "fs-extra": "^11.2.0",
+    "fs-extra": "11.3.0",
     "log4js": "^6.9.1",
-    "prism-react-renderer": "^2.4.0",
+    "prism-react-renderer": "2.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-icons": "^5.3.0"
+    "react-icons": "5.5.0"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^3.5.2",
-    "@docusaurus/module-type-aliases": "^3.5.2",
-    "@docusaurus/tsconfig": "^3.5.2",
-    "@docusaurus/types": "^3.3.2",
+    "@docusaurus/eslint-plugin": "3.7.0",
+    "@docusaurus/module-type-aliases": "3.7.0",
+    "@docusaurus/tsconfig": "3.7.0",
+    "@docusaurus/types": "3.7.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^15.0.7",
-    "@testing-library/user-event": "^14.5.2",
+    "@testing-library/user-event": "14.6.1",
     "@types/fs-extra": "^11.0.4",
     "@types/jest": "^29.5.14",
-    "@typescript-eslint/eslint-plugin": "^8.12.2",
-    "@typescript-eslint/parser": "^8.12.2",
+    "@typescript-eslint/eslint-plugin": "8.28.0",
+    "@typescript-eslint/parser": "8.28.0",
     "babel-plugin-tsconfig-paths-module-resolver": "^1.0.4",
-    "cross-fetch": "^4.0.0",
+    "cross-fetch": "4.1.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-prettier": "5.2.5",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "jest-location-mock": "^2.0.0",
-    "nock": "^13.5.5",
+    "nock": "13.5.6",
     "pdfjs-dist": "^4.0.379",
-    "prettier": "^3.3.3",
-    "textlint": "^14.3.0",
+    "prettier": "3.5.3",
+    "textlint": "14.5.0",
     "textlint-rule-preset-jtf-style": "^2.3.14",
-    "ts-jest": "^29.2.0",
+    "ts-jest": "29.3.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "~5.6.3"
@@ -81,6 +81,6 @@
     ]
   },
   "engines": {
-    "node": ">=18.0"
+    "node": ">=22.0"
   }
 }
