@@ -12,4 +12,19 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-var-requires': 'off',
   },
+  overrides: [
+    {
+      files: [
+        'jest.config.e2e.js',
+        'jest.config.js',
+        '.eslintrc.js',
+        'babel.config.js',
+        'pdf/export.js',
+      ],
+      rules: {
+        '@typescript-eslint/no-require-imports': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
 };
