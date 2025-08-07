@@ -1,4 +1,4 @@
-FROM ghcr.io/puppeteer/puppeteer:21
+FROM ghcr.io/puppeteer/puppeteer:24
 
 ENV TZ=Asia/Tokyo
 
