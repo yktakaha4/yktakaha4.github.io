@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
       - id: yarn-cache-dir-path
         run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3
@@ -28,17 +28,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - run: yarn install
-      - run: yarn lint 2>&1 | tee lint.log
-      - run: |
-          RESULT="$(cat "lint.log")"
-          cat << EOF >> "$GITHUB_STEP_SUMMARY"
-          ### Result
-
-          \`\`\`
-          $RESULT
-          \`\`\`
-
-          EOF
+      - run: yarn lint
 
   build:
     name: Build
@@ -48,7 +38,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
       - id: yarn-cache-dir-path
         run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3
@@ -63,19 +53,6 @@ jobs:
         with:
           name: build
           path: ./build/
-      - run: |
-          FILES="$(du -ach ./build/*)"
-          cat << EOF >> "$GITHUB_STEP_SUMMARY"
-          ### Files
-
-          <details>
-
-          \`\`\`
-          $FILES
-          \`\`\`
-
-          </details>
-          EOF
 
   test:
     name: Test
@@ -85,7 +62,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
       - id: yarn-cache-dir-path
         run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3
@@ -96,27 +73,6 @@ jobs:
             ${{ runner.os }}-yarn-
       - run: yarn install
       - run: yarn test
-      - run: |
-          COVERAGE="$(cat "coverage/summary.txt")"
-          DETAILS="$(cat "coverage/details.txt")"
-          cat << EOF >> "$GITHUB_STEP_SUMMARY"
-          ### Coverage
-
-          \`\`\`
-          $COVERAGE
-          \`\`\`
-
-          ### Details
-
-          <details>
-
-          \`\`\`
-          $DETAILS
-          \`\`\`
-
-          </details>
-
-          EOF
 
   e2e:
     name: E2E Test
@@ -133,7 +89,7 @@ jobs:
           mv -v pdf_out/* ./pdf/out
       - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
       - id: yarn-cache-dir-path
         run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3

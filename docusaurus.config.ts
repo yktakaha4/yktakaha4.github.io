@@ -1,3 +1,4 @@
+import { execSync } from 'child_process';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import ReactDOMServer from 'react-dom/server';
@@ -13,9 +14,7 @@ import { existsSync, readFileSync, writeFileSync } from 'fs-extra';
 const buildAt = dayjs().format();
 let commitHash = 'unset';
 try {
-  commitHash = require('child_process')
-    .execSync('git rev-parse HEAD')
-    .toString();
+  commitHash = execSync('git rev-parse HEAD').toString();
 } catch (e) {
   console.warn(e);
 }
