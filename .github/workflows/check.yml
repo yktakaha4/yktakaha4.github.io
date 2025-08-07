@@ -28,7 +28,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - run: yarn install
-      - run: yarn lint 2>&1 | tee lint.log
+      - run: yarn lint
 
   build:
     name: Build
