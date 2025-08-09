@@ -101,26 +101,55 @@ export const fetchArticles = async (userName: string) => {
     throw new Error('userName is not specified');
   }
 
-  const params = new URLSearchParams({
-    username: userName,
-    order: 'latest',
+  const allArticles: Array<Record<string, unknown>> = [];
+  let currentPage = 1;
+  let hasNextPage = true;
+  const sleepTime = 1000;
+
+  while (hasNextPage) {
+    const params = new URLSearchParams({
+      username: userName,
+      order: 'latest',
+      page: String(currentPage),
+    });
+
+    logger.debug('fetch', { baseUri, params, currentPage });
+    const response = await fetch(`${baseUri}?${params.toString()}`);
+    logger.debug('fetched', { response, currentPage });
+    if (!response.ok) {
+      throw new Error(
+        `Failed to fetch articles (page ${currentPage}): ${response.status}`,
+      );
+    }
+
+    const getArticlesResponse: ZennApiGetArticlesResponse =
+      await response.json();
+    const { articles, next_page } = getArticlesResponse;
+
+    logger.debug('fetched page', {
+      currentPage,
+      articlesCount: articles.length,
+      nextPage: next_page,
+    });
+
+    allArticles.push(...articles);
+
+    hasNextPage = next_page !== null;
+    currentPage = next_page ?? currentPage + 1;
+
+    // 次のページがある場合は少し待機してからリクエスト
+    if (hasNextPage) {
+      logger.debug('sleep before next page', { sleepTime });
+      await new Promise((resolve) => setTimeout(resolve, sleepTime));
+    }
+  }
+
+  logger.debug('completed fetching all pages', {
+    totalArticles: allArticles.length,
+    totalPages: currentPage - 1,
   });
 
-  logger.debug('fetch', { baseUri, params });
-  const response = await fetch(`${baseUri}?${params.toString()}`);
-  logger.debug('fetched', { response });
-  if (!response.ok) {
-    throw new Error('Failed to fetch articles');
-  }
-
-  const getArticlesResponse: ZennApiGetArticlesResponse = await response.json();
-  const nextPage = getArticlesResponse.next_page;
-  logger.debug('fetched', { nextPage });
-  if (nextPage) {
-    throw new Error('Pagination is not implemented');
-  }
-
-  return getArticlesResponse.articles;
+  return allArticles;
 };
 
 export const storeArticles = async (articles: Array<unknown>) => {

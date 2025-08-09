@@ -1,13 +1,67 @@
 {
   "articles": [
     {
+      "id": 349491,
+      "post_type": "Article",
+      "title": "写経や情報共有に単体テストを役立てる",
+      "slug": "using_unit_tests_to_learn",
+      "comments_count": 0,
+      "liked_count": 6,
+      "bookmarked_count": 0,
+      "body_letters_count": 3317,
+      "article_type": "idea",
+      "emoji": "🧪",
+      "is_suspending_private": false,
+      "published_at": "2024-12-22T07:00:01.449+09:00",
+      "body_updated_at": "2024-12-21T23:30:34.264+09:00",
+      "source_repo_updated_at": "2024-12-21T23:33:27.712+09:00",
+      "pinned": false,
+      "path": "/yktakaha4/articles/using_unit_tests_to_learn",
+      "principal_type": "User",
+      "user": {
+        "id": 627,
+        "username": "yktakaha4",
+        "name": "Yuuki Takahashi",
+        "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
+      },
+      "publication": null,
+      "publication_article_override": null
+    },
+    {
+      "id": 346709,
+      "post_type": "Article",
+      "title": "WindowsでGitHub Copilotをパッと開けるようにする",
+      "slug": "how_to_make_github_copilot_button",
+      "comments_count": 0,
+      "liked_count": 2,
+      "bookmarked_count": 0,
+      "body_letters_count": 2065,
+      "article_type": "tech",
+      "emoji": "🛫",
+      "is_suspending_private": false,
+      "published_at": "2024-12-16T11:10:43.329+09:00",
+      "body_updated_at": "2024-12-16T11:10:43.329+09:00",
+      "source_repo_updated_at": "2024-12-16T11:10:43.321+09:00",
+      "pinned": false,
+      "path": "/yktakaha4/articles/how_to_make_github_copilot_button",
+      "principal_type": "User",
+      "user": {
+        "id": 627,
+        "username": "yktakaha4",
+        "name": "Yuuki Takahashi",
+        "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
+      },
+      "publication": null,
+      "publication_article_override": null
+    },
+    {
       "id": 344927,
       "post_type": "Article",
       "title": "EKSのコンテナリソース最適化メモ",
       "slug": "how_to_optimize_eks_containers",
       "comments_count": 0,
-      "liked_count": 3,
-      "bookmarked_count": 0,
+      "liked_count": 5,
+      "bookmarked_count": 1,
       "body_letters_count": 13652,
       "article_type": "tech",
       "emoji": "💰",
@@ -17,13 +71,15 @@
       "source_repo_updated_at": "2024-12-12T21:51:16.688+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/how_to_optimize_eks_containers",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 342518,
@@ -31,7 +87,7 @@
       "title": "ISUCON14に参加しました",
       "slug": "postmortem_isucon14",
       "comments_count": 0,
-      "liked_count": 5,
+      "liked_count": 7,
       "bookmarked_count": 0,
       "body_letters_count": 6418,
       "article_type": "idea",
@@ -42,6 +98,7 @@
       "source_repo_updated_at": "2024-12-09T23:00:38.292+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/postmortem_isucon14",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -56,7 +113,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 316129,
@@ -64,8 +122,8 @@
       "title": "Webアプリケーションにおけるタイムアウトについて",
       "slug": "learn_about_web_application_timeouts",
       "comments_count": 0,
-      "liked_count": 66,
-      "bookmarked_count": 0,
+      "liked_count": 67,
+      "bookmarked_count": 1,
       "body_letters_count": 23404,
       "article_type": "tech",
       "emoji": "⌛",
@@ -75,13 +133,15 @@
       "source_repo_updated_at": "2024-09-30T08:13:35.576+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/learn_about_web_application_timeouts",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 303588,
@@ -100,6 +160,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:37.746+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/policy_check_with_conftest",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -114,7 +175,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 221696,
@@ -122,8 +184,8 @@
       "title": "（SRE的）作ってよかったドキュメント・表・運用",
       "slug": "useful_documents_tables_and_operations_for_sre",
       "comments_count": 0,
-      "liked_count": 9,
-      "bookmarked_count": 0,
+      "liked_count": 10,
+      "bookmarked_count": 2,
       "body_letters_count": 10494,
       "article_type": "idea",
       "emoji": "🥹",
@@ -133,6 +195,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:40.007+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/useful_documents_tables_and_operations_for_sre",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -147,7 +210,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 225831,
@@ -166,13 +230,15 @@
       "source_repo_updated_at": "2023-12-12T12:31:49.525+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/check_imap_tls_version_in_python",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 220095,
@@ -191,6 +257,7 @@
       "source_repo_updated_at": "2024-11-15T08:43:57.258+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/postmortem_isucon13",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -205,7 +272,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 207023,
@@ -224,13 +292,15 @@
       "source_repo_updated_at": "2023-10-03T13:05:13.154+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/assert_function_calls_in_all_unittests",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 190474,
@@ -249,6 +319,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:38.722+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/redirector_with_alb",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -263,7 +334,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 181755,
@@ -271,24 +343,26 @@
       "title": "情報技術に関する歴史や文化の本",
       "slug": "history_books_on_information_technology",
       "comments_count": 2,
-      "liked_count": 59,
-      "bookmarked_count": 0,
-      "body_letters_count": 25794,
+      "liked_count": 65,
+      "bookmarked_count": 2,
+      "body_letters_count": 27667,
       "article_type": "idea",
       "emoji": "🖥",
       "is_suspending_private": false,
       "published_at": "2023-07-01T09:11:30.613+09:00",
-      "body_updated_at": "2024-10-14T14:03:08.867+09:00",
-      "source_repo_updated_at": "2024-10-14T14:03:08.857+09:00",
+      "body_updated_at": "2025-07-19T17:26:12.326+09:00",
+      "source_repo_updated_at": "2025-07-19T17:26:12.320+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/history_books_on_information_technology",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 167181,
@@ -307,13 +381,15 @@
       "source_repo_updated_at": "2023-05-02T23:34:54.693+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/describe_remaining_id_length_in_django",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 160847,
@@ -321,7 +397,7 @@
       "title": "アジャイルなSREチームの運用",
       "slug": "running_an_agile_sre_team",
       "comments_count": 0,
-      "liked_count": 69,
+      "liked_count": 72,
       "bookmarked_count": 0,
       "body_letters_count": 18662,
       "article_type": "idea",
@@ -332,6 +408,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:39.015+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/running_an_agile_sre_team",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -346,7 +423,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 158601,
@@ -365,13 +443,15 @@
       "source_repo_updated_at": "2023-03-29T17:18:42.993+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/get_github_projects_item_with_graphql",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 150770,
@@ -390,13 +470,15 @@
       "source_repo_updated_at": "2023-02-24T09:07:23.176+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/send_mail_to_mailhog_with_telnet",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 147815,
@@ -404,8 +486,8 @@
       "title": "チームに知見が残るEKSクラスタバージョンアップ運用",
       "slug": "steady_update_of_eks",
       "comments_count": 0,
-      "liked_count": 18,
-      "bookmarked_count": 0,
+      "liked_count": 19,
+      "bookmarked_count": 1,
       "body_letters_count": 25225,
       "article_type": "tech",
       "emoji": "🍗",
@@ -415,6 +497,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:39.321+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/steady_update_of_eks",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -429,7 +512,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 137704,
@@ -448,6 +532,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:37.100+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/looking_back_to_2022",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -462,7 +547,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 135606,
@@ -481,6 +567,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:36.398+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/introducing_kunitori",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -495,7 +582,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 128958,
@@ -503,7 +591,7 @@
       "title": "ANSI artをつくろう",
       "slug": "how_to_make_ansi_art",
       "comments_count": 0,
-      "liked_count": 16,
+      "liked_count": 17,
       "bookmarked_count": 0,
       "body_letters_count": 14346,
       "article_type": "tech",
@@ -514,6 +602,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:35.403+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/how_to_make_ansi_art",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -528,7 +617,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 103552,
@@ -536,8 +626,8 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "slug": "study_csrf_attack",
       "comments_count": 2,
-      "liked_count": 211,
-      "bookmarked_count": 0,
+      "liked_count": 215,
+      "bookmarked_count": 2,
       "body_letters_count": 24959,
       "article_type": "tech",
       "emoji": "🏄",
@@ -547,13 +637,15 @@
       "source_repo_updated_at": "2022-11-03T13:55:40.639+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/study_csrf_attack",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 119400,
@@ -572,6 +664,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:39.635+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/synthetic_monitoring_with_ur_and_tf",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -586,7 +679,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 117706,
@@ -594,7 +688,7 @@
       "title": "Ebitengineでビジュアルリグレッションテストをやる",
       "slug": "visual_regression_test_in_ebitengine",
       "comments_count": 0,
-      "liked_count": 9,
+      "liked_count": 11,
       "bookmarked_count": 0,
       "body_letters_count": 8715,
       "article_type": "tech",
@@ -605,13 +699,15 @@
       "source_repo_updated_at": "2022-10-05T02:00:45.407+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/visual_regression_test_in_ebitengine",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 115822,
@@ -630,13 +726,15 @@
       "source_repo_updated_at": "2022-09-23T14:16:31.550+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/ses_delivery_log_with_athena",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 114609,
@@ -644,7 +742,7 @@
       "title": "Salesforce Bulk API 2.0 & 外部IDを使ったデータ移行をjsforceでおこなう",
       "slug": "salesforce_bulk2_with_jsforce",
       "comments_count": 0,
-      "liked_count": 8,
+      "liked_count": 9,
       "bookmarked_count": 0,
       "body_letters_count": 5811,
       "article_type": "tech",
@@ -655,13 +753,15 @@
       "source_repo_updated_at": "2022-09-18T11:34:47.834+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/salesforce_bulk2_with_jsforce",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 102674,
@@ -680,13 +780,15 @@
       "source_repo_updated_at": "2022-07-12T07:35:16.527+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/pretty_print_tf_plan",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 99286,
@@ -705,13 +807,15 @@
       "source_repo_updated_at": "2022-06-22T12:04:57.702+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/aws_2fa_oneliner",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 98677,
@@ -730,13 +834,15 @@
       "source_repo_updated_at": "2022-06-19T00:02:03.904+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/squid_proxy_tips",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 97641,
@@ -755,6 +861,7 @@
       "source_repo_updated_at": "2024-11-15T08:43:57.621+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/visual_regression_test_in_python",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -769,7 +876,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 93985,
@@ -788,13 +896,15 @@
       "source_repo_updated_at": "2022-05-24T00:20:35.917+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/sls_invoke_local_another_docker_container",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 89101,
@@ -802,7 +912,7 @@
       "title": "HTTPキャッシュに学ぶ、無理のないドキュメント更新運用",
       "slug": "documentation_inspired_by_http_cache",
       "comments_count": 0,
-      "liked_count": 225,
+      "liked_count": 224,
       "bookmarked_count": 0,
       "body_letters_count": 11457,
       "article_type": "idea",
@@ -813,6 +923,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:34.939+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/documentation_inspired_by_http_cache",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -827,7 +938,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 84876,
@@ -835,7 +947,7 @@
       "title": "AWS+EKSで稼働するWebアプリにSorryページを設計・実装する",
       "slug": "how_to_make_sorry_page",
       "comments_count": 2,
-      "liked_count": 24,
+      "liked_count": 25,
       "bookmarked_count": 0,
       "body_letters_count": 14304,
       "article_type": "tech",
@@ -846,6 +958,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:35.710+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/how_to_make_sorry_page",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -860,7 +973,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 83372,
@@ -868,8 +982,8 @@
       "title": "電子メール送信に関する技術",
       "slug": "technology_for_sending_email",
       "comments_count": 1,
-      "liked_count": 228,
-      "bookmarked_count": 0,
+      "liked_count": 230,
+      "bookmarked_count": 1,
       "body_letters_count": 19496,
       "article_type": "tech",
       "emoji": "📨",
@@ -879,13 +993,15 @@
       "source_repo_updated_at": "2024-08-13T21:35:21.517+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/technology_for_sending_email",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 81932,
@@ -904,13 +1020,15 @@
       "source_repo_updated_at": "2022-03-20T02:10:07.452+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/analyze_cors_request_with_chrome",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 81239,
@@ -929,13 +1047,15 @@
       "source_repo_updated_at": "2022-03-19T11:53:52.282+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/how_to_develop_ducktify",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 75920,
@@ -943,7 +1063,7 @@
       "title": "エラーバジェット枯渇時のプロダクションフリーズ運用マニュアル",
       "slug": "production_freeze_manual",
       "comments_count": 0,
-      "liked_count": 31,
+      "liked_count": 32,
       "bookmarked_count": 0,
       "body_letters_count": 8897,
       "article_type": "idea",
@@ -954,6 +1074,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:38.018+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/production_freeze_manual",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -968,7 +1089,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 74380,
@@ -987,13 +1109,15 @@
       "source_repo_updated_at": "2022-02-05T16:39:36.019+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/how_to_buy_ri_and_sp",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 69976,
@@ -1012,13 +1136,15 @@
       "source_repo_updated_at": "2022-01-10T13:08:49.518+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/kintone_webhook_type_definitions",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 69880,
@@ -1026,7 +1152,7 @@
       "title": "TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った",
       "slug": "kintone-form-model-generator",
       "comments_count": 2,
-      "liked_count": 48,
+      "liked_count": 49,
       "bookmarked_count": 0,
       "body_letters_count": 11978,
       "article_type": "tech",
@@ -1037,13 +1163,15 @@
       "source_repo_updated_at": "2022-01-09T20:34:52.572+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/kintone-form-model-generator",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 69723,
@@ -1062,13 +1190,15 @@
       "source_repo_updated_at": "2022-01-09T20:15:34.422+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/my-log4js-settings",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 61030,
@@ -1087,6 +1217,7 @@
       "source_repo_updated_at": "2024-10-21T15:50:34.363+09:00",
       "pinned": false,
       "path": "/lapras_inc/articles/access_eks_with_github_actions_oidc",
+      "principal_type": "Publication",
       "user": {
         "id": 627,
         "username": "yktakaha4",
@@ -1101,7 +1232,8 @@
         "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/20145099dd.jpeg",
         "pro": false,
         "avatar_registered": true
-      }
+      },
+      "publication_article_override": null
     },
     {
       "id": 51502,
@@ -1120,13 +1252,15 @@
       "source_repo_updated_at": "2021-09-11T16:56:01.497+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/study_k8s_terraform",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 48745,
@@ -1145,13 +1279,15 @@
       "source_repo_updated_at": "2021-08-22T16:39:35.653+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/postmortem_isucon11",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 47861,
@@ -1170,13 +1306,15 @@
       "source_repo_updated_at": "2021-08-15T14:54:57.573+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/mysqltuner_oneliner",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 41804,
@@ -1195,13 +1333,15 @@
       "source_repo_updated_at": "2021-06-28T21:22:43.234+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/libfaketime_oneliner",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 40608,
@@ -1220,13 +1360,15 @@
       "source_repo_updated_at": "2021-06-20T13:21:45.239+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/cf_with_basic_auth_in_cfn",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 29844,
@@ -1245,13 +1387,15 @@
       "source_repo_updated_at": "2021-04-04T23:10:02.812+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/verify_slack_signature_on_aws_lambda",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 25124,
@@ -1270,13 +1414,15 @@
       "source_repo_updated_at": "2021-02-28T16:45:18.774+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/update_lp_for_maintenanceability",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 19171,
@@ -1295,13 +1441,15 @@
       "source_repo_updated_at": "2021-01-17T15:52:59.836+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/connect_to_rds_with_datagrip_and_ssm",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     },
     {
       "id": 6515,
@@ -1320,13 +1468,15 @@
       "source_repo_updated_at": "2020-10-09T00:00:15.219+09:00",
       "pinned": false,
       "path": "/yktakaha4/articles/gmail_and_ses_by_tf",
+      "principal_type": "User",
       "user": {
         "id": 627,
         "username": "yktakaha4",
         "name": "Yuuki Takahashi",
         "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
       },
-      "publication": null
+      "publication": null,
+      "publication_article_override": null
     }
   ]
 }
