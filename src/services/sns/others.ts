@@ -3,14 +3,14 @@ import { TechArticle } from '@/services/techArticles';
 export const othersArticles: Array<TechArticle> = [
   {
     title: 'すごいVBAをLambda+HTML帳票+Puppeteerに置き換えた話',
-    url: 'https://www.hands-lab.com/tech/t4835/',
+    url: 'https://web.archive.org/web/20250328120534/https://www.hands-lab.com/tech/t4835/',
     publishedAt: new Date('2019-07-05'),
     publisher: 'techBlog',
     tags: ['AWS', 'Node.js', 'PDF'],
   },
   {
     title: 'GitHub ActionsでServerless FrameworkのCI/CDパイプラインを構築する',
-    url: 'https://www.hands-lab.com/tech/t5202/',
+    url: 'https://web.archive.org/web/20250328120534/https://www.hands-lab.com/tech/t5202/',
     publishedAt: new Date('2019-10-04'),
     publisher: 'techBlog',
     tags: ['AWS'],
