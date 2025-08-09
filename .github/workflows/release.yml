@@ -13,8 +13,8 @@ env:
   TZ: Asia/Tokyo
 
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages
+  setup:
+    name: Setup
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
@@ -22,15 +22,27 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - id: npm-cache-dir-path
-        run: echo "NPM_CACHE_DIR=$(npm config get cache)" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
-          path: ${{ steps.npm-cache-dir-path.outputs.NPM_CACHE_DIR }}
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-npm-
-      - run: npm install
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npm ci
+
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    needs:
+      - setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
       - run: npm run build
       - uses: peaceiris/actions-gh-pages@v3
         with:
