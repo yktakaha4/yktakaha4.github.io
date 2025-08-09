@@ -184,6 +184,7 @@ describe('fetchArticles', () => {
       .query({
         username: 'yktakaha4',
         order: 'latest',
+        page: String(1),
       })
       .reply(200, zennApiGetArticlesResponse);
 
