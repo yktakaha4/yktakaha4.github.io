@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-base_path="$(cd "$(dirname "$0")";pwd)"
+base_path="$(cd "$(dirname "$0")/..";pwd)"
 pdf_out_path="$base_path/pdf/out"
 pdf_file_path="$pdf_out_path/resume.pdf"
 

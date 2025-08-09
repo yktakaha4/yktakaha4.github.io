@@ -10,6 +10,7 @@
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
+    "generate:pdf": "bash ./pdf/generate_pdf.bash",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "fix": "tsc && textlint --fix src/ && eslint --fix '**/*.{ts,tsx,js}' && prettier --write '**/*.{ts,tsx,js,mdx,md,json,yaml,yml}'",
