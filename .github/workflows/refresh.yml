@@ -21,16 +21,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - id: yarn-cache-dir-path
-        run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
+      - id: npm-cache-dir-path
+        run: echo "NPM_CACHE_DIR=$(npm config get cache)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.YARN_CACHE_DIR }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          path: ${{ steps.npm-cache-dir-path.outputs.NPM_CACHE_DIR }}
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-
-      - run: yarn install
-      - run: yarn refresh-components-data
+            ${{ runner.os }}-npm-
+      - run: npm install
+      - run: npm run refresh-components-data
         env:
           GITHUB_PAT: ${{ secrets.X_GITHUB_PAT }}
       - uses: peter-evans/create-pull-request@v5
