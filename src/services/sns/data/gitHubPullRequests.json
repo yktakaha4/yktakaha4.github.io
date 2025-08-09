@@ -2,6 +2,1501 @@
   "pullRequests": [
     {
       "node": {
+        "id": "PR_kwDODHHSac6i4qIM",
+        "number": 522,
+        "title": "fix zenn",
+        "mergedAt": "2025-08-09T15:58:29Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/522",
+        "additions": 270,
+        "deletions": 90,
+        "changedFiles": 3,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 4,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 107469
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 13017
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5584
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 754
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 548
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 387
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDODHHSac6i4YSV",
+        "number": 521,
+        "title": "create pdf command",
+        "mergedAt": "2025-08-09T15:16:21Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/521",
+        "additions": 20742,
+        "deletions": 13269,
+        "changedFiles": 9,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 4,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 107469
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 13017
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5584
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 754
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 548
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 387
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDODHHSac6imvJJ",
+        "number": 520,
+        "title": "update packages",
+        "mergedAt": "2025-08-09T14:20:32Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/520",
+        "additions": 1037,
+        "deletions": 694,
+        "changedFiles": 12,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 4,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 107469
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 13017
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5584
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 754
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 548
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 387
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOLZPyrM6ie8tI",
+        "number": 4148,
+        "title": "fix typo",
+        "mergedAt": "2025-08-07T15:47:55Z",
+        "permalink": "https://github.com/grafana/alloy/pull/4148",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
+        "repository": {
+          "id": "R_kgDOLZPyrA",
+          "nameWithOwner": "grafana/alloy",
+          "url": "https://github.com/grafana/alloy",
+          "owner": {
+            "login": "grafana"
+          },
+          "isFork": false,
+          "stargazerCount": 2352,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Go",
+                  "color": "#00ADD8"
+                },
+                "size": 8265152
+              },
+              {
+                "node": {
+                  "name": "Jsonnet",
+                  "color": "#0064bd"
+                },
+                "size": 111479
+              },
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 77117
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 25024
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 18179
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 14058
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 10519
+              },
+              {
+                "node": {
+                  "name": "Smarty",
+                  "color": "#f0c040"
+                },
+                "size": 8115
+              },
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 918
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDODHHSac6imPvV",
+        "number": 518,
+        "title": "update to node v20",
+        "mergedAt": "2025-08-07T14:38:32Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/518",
+        "additions": 65,
+        "deletions": 68,
+        "changedFiles": 13,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 4,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 107469
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 13017
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5584
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 754
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 548
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 387
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOPE_gac6iZmXI",
+        "number": 5,
+        "title": "fix2",
+        "mergedAt": "2025-08-06T14:31:46Z",
+        "permalink": "https://github.com/yktakaha4/the-night-is-still-young/pull/5",
+        "additions": 98,
+        "deletions": 20,
+        "changedFiles": 3,
+        "repository": {
+          "id": "R_kgDOPE_gaQ",
+          "nameWithOwner": "yktakaha4/the-night-is-still-young",
+          "url": "https://github.com/yktakaha4/the-night-is-still-young",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 32188
+              },
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 2036
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 1040
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 34
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOPE_gac6iZZUi",
+        "number": 4,
+        "title": "Fix issue",
+        "mergedAt": "2025-08-06T14:14:42Z",
+        "permalink": "https://github.com/yktakaha4/the-night-is-still-young/pull/4",
+        "additions": 239,
+        "deletions": 49,
+        "changedFiles": 7,
+        "repository": {
+          "id": "R_kgDOPE_gaQ",
+          "nameWithOwner": "yktakaha4/the-night-is-still-young",
+          "url": "https://github.com/yktakaha4/the-night-is-still-young",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 32188
+              },
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 2036
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 1040
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 34
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOBtg8Jc6cs17J",
+        "number": 14409,
+        "title": "add cloudfront domain to storage transfer job",
+        "mergedAt": "2025-08-05T21:30:50Z",
+        "permalink": "https://github.com/GoogleCloudPlatform/magic-modules/pull/14409",
+        "additions": 17,
+        "deletions": 1,
+        "changedFiles": 3,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkxMTQ4MzQ0Njk=",
+          "nameWithOwner": "GoogleCloudPlatform/magic-modules",
+          "url": "https://github.com/GoogleCloudPlatform/magic-modules",
+          "owner": {
+            "login": "GoogleCloudPlatform"
+          },
+          "isFork": false,
+          "stargazerCount": 887,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Go",
+                  "color": "#00ADD8"
+                },
+                "size": 1243106
+              },
+              {
+                "node": {
+                  "name": "HCL",
+                  "color": "#844FBA"
+                },
+                "size": 19847
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 8561
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 5010
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 2746
+              },
+              {
+                "node": {
+                  "name": "Kotlin",
+                  "color": "#A97BFF"
+                },
+                "size": 789
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOFNPEfs6h6Wci",
+        "number": 9,
+        "title": "add dt",
+        "mergedAt": "2025-08-04T00:59:02Z",
+        "permalink": "https://github.com/yktakaha4/dotfiles/pull/9",
+        "additions": 20,
+        "deletions": 2,
+        "changedFiles": 3,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkzNDk0MjI3MTg=",
+          "nameWithOwner": "yktakaha4/dotfiles",
+          "url": "https://github.com/yktakaha4/dotfiles",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 15524
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1455
+              },
+              {
+                "node": {
+                  "name": "Vim Script",
+                  "color": "#199f4b"
+                },
+                "size": 257
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOFNPEfs6gLELg",
+        "number": 8,
+        "title": "Revert \"add q developer\"",
+        "mergedAt": "2025-07-23T02:05:19Z",
+        "permalink": "https://github.com/yktakaha4/dotfiles/pull/8",
+        "additions": 0,
+        "deletions": 11,
+        "changedFiles": 2,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkzNDk0MjI3MTg=",
+          "nameWithOwner": "yktakaha4/dotfiles",
+          "url": "https://github.com/yktakaha4/dotfiles",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 15524
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1455
+              },
+              {
+                "node": {
+                  "name": "Vim Script",
+                  "color": "#199f4b"
+                },
+                "size": 257
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOFNPEfs6gLC7r",
+        "number": 7,
+        "title": "add q developer",
+        "mergedAt": "2025-07-23T02:01:04Z",
+        "permalink": "https://github.com/yktakaha4/dotfiles/pull/7",
+        "additions": 11,
+        "deletions": 0,
+        "changedFiles": 2,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkzNDk0MjI3MTg=",
+          "nameWithOwner": "yktakaha4/dotfiles",
+          "url": "https://github.com/yktakaha4/dotfiles",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 15524
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1455
+              },
+              {
+                "node": {
+                  "name": "Vim Script",
+                  "color": "#199f4b"
+                },
+                "size": 257
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOFNPEfs6evV6z",
+        "number": 6,
+        "title": "add claude.md",
+        "mergedAt": "2025-07-14T09:27:15Z",
+        "permalink": "https://github.com/yktakaha4/dotfiles/pull/6",
+        "additions": 59,
+        "deletions": 0,
+        "changedFiles": 6,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkzNDk0MjI3MTg=",
+          "nameWithOwner": "yktakaha4/dotfiles",
+          "url": "https://github.com/yktakaha4/dotfiles",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 15524
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1455
+              },
+              {
+                "node": {
+                  "name": "Vim Script",
+                  "color": "#199f4b"
+                },
+                "size": 257
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOPE_gac6doEVp",
+        "number": 2,
+        "title": "fix",
+        "mergedAt": "2025-07-06T11:30:03Z",
+        "permalink": "https://github.com/yktakaha4/the-night-is-still-young/pull/2",
+        "additions": 0,
+        "deletions": 6,
+        "changedFiles": 2,
+        "repository": {
+          "id": "R_kgDOPE_gaQ",
+          "nameWithOwner": "yktakaha4/the-night-is-still-young",
+          "url": "https://github.com/yktakaha4/the-night-is-still-young",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 32188
+              },
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 2036
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 1040
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 34
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOPE_gac6doCrj",
+        "number": 1,
+        "title": "add ci",
+        "mergedAt": "2025-07-06T11:22:42Z",
+        "permalink": "https://github.com/yktakaha4/the-night-is-still-young/pull/1",
+        "additions": 64,
+        "deletions": 0,
+        "changedFiles": 1,
+        "repository": {
+          "id": "R_kgDOPE_gaQ",
+          "nameWithOwner": "yktakaha4/the-night-is-still-young",
+          "url": "https://github.com/yktakaha4/the-night-is-still-young",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 32188
+              },
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 2036
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 1040
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 34
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOAz3Ajs6XiCiq",
+        "number": 1561,
+        "title": "Add postpone-cut-over-flag-file interactive command",
+        "mergedAt": "2025-07-01T16:19:49Z",
+        "permalink": "https://github.com/github/gh-ost/pull/1561",
+        "additions": 62,
+        "deletions": 0,
+        "changedFiles": 3,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnk1NDM3ODYzOA==",
+          "nameWithOwner": "github/gh-ost",
+          "url": "https://github.com/github/gh-ost",
+          "owner": {
+            "login": "github"
+          },
+          "isFork": false,
+          "stargazerCount": 12870,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Go",
+                  "color": "#00ADD8"
+                },
+                "size": 447911
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 26656
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOAxF--s6XnrIO",
+        "number": 51072,
+        "title": "[ja] specify the version using the shortcode",
+        "mergedAt": "2025-05-27T16:08:19Z",
+        "permalink": "https://github.com/kubernetes/website/pull/51072",
+        "additions": 1,
+        "deletions": 1,
+        "changedFiles": 1,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnk1MTQ3ODI2Ng==",
+          "nameWithOwner": "kubernetes/website",
+          "url": "https://github.com/kubernetes/website",
+          "owner": {
+            "login": "kubernetes"
+          },
+          "isFork": false,
+          "stargazerCount": 4965,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 58745870
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 141316
+              },
+              {
+                "node": {
+                  "name": "Go",
+                  "color": "#00ADD8"
+                },
+                "size": 104802
+              },
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 92216
+              },
+              {
+                "node": {
+                  "name": "SCSS",
+                  "color": "#c6538c"
+                },
+                "size": 77562
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 50053
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 40405
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 8729
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 4896
+              },
+              {
+                "node": {
+                  "name": "Mermaid",
+                  "color": "#ff3670"
+                },
+                "size": 1584
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOOlRyOc6Vcd_p",
+        "number": 1,
+        "title": "test",
+        "mergedAt": "2025-05-08T14:26:44Z",
+        "permalink": "https://github.com/yktakaha4/github-context-mcp/pull/1",
+        "additions": 24,
+        "deletions": 7,
+        "changedFiles": 4,
+        "repository": {
+          "id": "R_kgDOOlRyOQ",
+          "nameWithOwner": "yktakaha4/github-context-mcp",
+          "url": "https://github.com/yktakaha4/github-context-mcp",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 25885
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 148
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOOT_iXM6RiA4G",
+        "number": 1,
+        "title": "Add own server",
+        "mergedAt": "2025-04-06T11:33:13Z",
+        "permalink": "https://github.com/yktakaha4/mcpservers/pull/1",
+        "additions": 633,
+        "deletions": 0,
+        "changedFiles": 6,
+        "repository": {
+          "id": "R_kgDOOT_iXA",
+          "nameWithOwner": "yktakaha4/mcpservers",
+          "url": "https://github.com/yktakaha4/mcpservers",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 3569
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 726
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONl9YCc6Qr1jd",
+        "number": 4,
+        "title": "add code-insiders",
+        "mergedAt": "2025-03-30T06:30:26Z",
+        "permalink": "https://github.com/yktakaha4/b1pro/pull/4",
+        "additions": 70,
+        "deletions": 0,
+        "changedFiles": 5,
+        "repository": {
+          "id": "R_kgDONl9YCQ",
+          "nameWithOwner": "yktakaha4/b1pro",
+          "url": "https://github.com/yktakaha4/b1pro",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 7319
+              },
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 2812
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 1479
+              },
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 1469
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONl9YCc6Qryyt",
+        "number": 3,
+        "title": "delete openhands",
+        "mergedAt": "2025-03-30T05:49:38Z",
+        "permalink": "https://github.com/yktakaha4/b1pro/pull/3",
+        "additions": 0,
+        "deletions": 100,
+        "changedFiles": 5,
+        "repository": {
+          "id": "R_kgDONl9YCQ",
+          "nameWithOwner": "yktakaha4/b1pro",
+          "url": "https://github.com/yktakaha4/b1pro",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 7319
+              },
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 2812
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 1479
+              },
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 1469
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONl9YCc6QryYK",
+        "number": 2,
+        "title": "add sandbox",
+        "mergedAt": "2025-03-30T05:42:52Z",
+        "permalink": "https://github.com/yktakaha4/b1pro/pull/2",
+        "additions": 144,
+        "deletions": 3,
+        "changedFiles": 7,
+        "repository": {
+          "id": "R_kgDONl9YCQ",
+          "nameWithOwner": "yktakaha4/b1pro",
+          "url": "https://github.com/yktakaha4/b1pro",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 7319
+              },
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 2812
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 1479
+              },
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 1469
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONl9YCc6PdLpp",
+        "number": 1,
+        "title": "Add openhands",
+        "mergedAt": "2025-03-20T12:17:58Z",
+        "permalink": "https://github.com/yktakaha4/b1pro/pull/1",
+        "additions": 104,
+        "deletions": 6,
+        "changedFiles": 7,
+        "repository": {
+          "id": "R_kgDONl9YCQ",
+          "nameWithOwner": "yktakaha4/b1pro",
+          "url": "https://github.com/yktakaha4/b1pro",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 7319
+              },
+              {
+                "node": {
+                  "name": "Python",
+                  "color": "#3572A5"
+                },
+                "size": 2812
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 1479
+              },
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 1469
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDODHHSac6IXPh-",
+        "number": 516,
+        "title": "add mixi",
+        "mergedAt": "2025-01-20T14:38:16Z",
+        "permalink": "https://github.com/yktakaha4/yktakaha4.github.io/pull/516",
+        "additions": 9,
+        "deletions": 3,
+        "changedFiles": 2,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkyMDg3ODYwMjU=",
+          "nameWithOwner": "yktakaha4/yktakaha4.github.io",
+          "url": "https://github.com/yktakaha4/yktakaha4.github.io",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 4,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+                },
+                "size": 107469
+              },
+              {
+                "node": {
+                  "name": "MDX",
+                  "color": "#fcb32c"
+                },
+                "size": 13017
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 5584
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 754
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 548
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 387
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOFNPEfs59n0cO",
+        "number": 2,
+        "title": "Feat/thinkahashi",
+        "mergedAt": "2024-10-04T13:26:01Z",
+        "permalink": "https://github.com/yktakaha4/dotfiles/pull/2",
+        "additions": 31,
+        "deletions": 16,
+        "changedFiles": 13,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkzNDk0MjI3MTg=",
+          "nameWithOwner": "yktakaha4/dotfiles",
+          "url": "https://github.com/yktakaha4/dotfiles",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 15524
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1455
+              },
+              {
+                "node": {
+                  "name": "Vim Script",
+                  "color": "#199f4b"
+                },
+                "size": 257
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDOFNPEfs6Hd8Nf",
+        "number": 3,
+        "title": "v3",
+        "mergedAt": "2025-01-14T08:07:01Z",
+        "permalink": "https://github.com/yktakaha4/dotfiles/pull/3",
+        "additions": 489,
+        "deletions": 1365,
+        "changedFiles": 63,
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnkzNDk0MjI3MTg=",
+          "nameWithOwner": "yktakaha4/dotfiles",
+          "url": "https://github.com/yktakaha4/dotfiles",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 15524
+              },
+              {
+                "node": {
+                  "name": "Makefile",
+                  "color": "#427819"
+                },
+                "size": 1455
+              },
+              {
+                "node": {
+                  "name": "Vim Script",
+                  "color": "#199f4b"
+                },
+                "size": 257
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "PR_kwDONhiWis6GMWvC",
+        "number": 1,
+        "title": "add a static pages controller",
+        "mergedAt": "2024-12-25T05:44:05Z",
+        "permalink": "https://github.com/yktakaha4/rails-tutorial/pull/1",
+        "additions": 60,
+        "deletions": 0,
+        "changedFiles": 8,
+        "repository": {
+          "id": "R_kgDONhiWig",
+          "nameWithOwner": "yktakaha4/rails-tutorial",
+          "url": "https://github.com/yktakaha4/rails-tutorial",
+          "owner": {
+            "login": "yktakaha4"
+          },
+          "isFork": false,
+          "stargazerCount": 0,
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Ruby",
+                  "color": "#701516"
+                },
+                "size": 129222
+              },
+              {
+                "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 33651
+              },
+              {
+                "node": {
+                  "name": "SCSS",
+                  "color": "#c6538c"
+                },
+                "size": 4621
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 4054
+              },
+              {
+                "node": {
+                  "name": "CSS",
+                  "color": "#663399"
+                },
+                "size": 2163
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 151
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "node": {
         "id": "PR_kwDONSskls6ER-7p",
         "number": 9,
         "title": "add",
@@ -688,7 +2183,7 @@
             "login": "yasslab"
           },
           "isFork": false,
-          "stargazerCount": 51,
+          "stargazerCount": 61,
           "languages": {
             "edges": [
               {
@@ -696,7 +2191,7 @@
                   "name": "Ruby",
                   "color": "#701516"
                 },
-                "size": 23522
+                "size": 23579
               },
               {
                 "node": {
@@ -726,60 +2221,6 @@
     },
     {
       "node": {
-        "id": "PR_kwDOFNPEfs59n0cO",
-        "number": 2,
-        "title": "Feat/thinkahashi",
-        "mergedAt": "2024-10-04T13:26:01Z",
-        "permalink": "https://github.com/yktakaha4/dotfiles/pull/2",
-        "additions": 31,
-        "deletions": 16,
-        "changedFiles": 13,
-        "repository": {
-          "id": "MDEwOlJlcG9zaXRvcnkzNDk0MjI3MTg=",
-          "nameWithOwner": "yktakaha4/dotfiles",
-          "url": "https://github.com/yktakaha4/dotfiles",
-          "owner": {
-            "login": "yktakaha4"
-          },
-          "isFork": false,
-          "stargazerCount": 1,
-          "languages": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Shell",
-                  "color": "#89e051"
-                },
-                "size": 20067
-              },
-              {
-                "node": {
-                  "name": "Vim Script",
-                  "color": "#199f4b"
-                },
-                "size": 1301
-              },
-              {
-                "node": {
-                  "name": "JavaScript",
-                  "color": "#f1e05a"
-                },
-                "size": 1111
-              },
-              {
-                "node": {
-                  "name": "Makefile",
-                  "color": "#427819"
-                },
-                "size": 680
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "node": {
         "id": "PR_kwDOFNPEfs59gpdH",
         "number": 1,
         "title": "Feat/thinkahashi",
@@ -796,7 +2237,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 1,
+          "stargazerCount": 0,
           "languages": {
             "edges": [
               {
@@ -804,28 +2245,21 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 20067
-              },
-              {
-                "node": {
-                  "name": "Vim Script",
-                  "color": "#199f4b"
-                },
-                "size": 1301
-              },
-              {
-                "node": {
-                  "name": "JavaScript",
-                  "color": "#f1e05a"
-                },
-                "size": 1111
+                "size": 15524
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 680
+                "size": 1455
+              },
+              {
+                "node": {
+                  "name": "Vim Script",
+                  "color": "#199f4b"
+                },
+                "size": 257
               }
             ]
           }
@@ -850,7 +2284,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -858,21 +2292,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -886,14 +2320,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -918,7 +2352,7 @@
             "login": "helmfile"
           },
           "isFork": false,
-          "stargazerCount": 4003,
+          "stargazerCount": 4636,
           "languages": {
             "edges": [
               {
@@ -926,28 +2360,28 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 1185471
+                "size": 1188238
               },
               {
                 "node": {
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 59078
+                "size": 60038
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 5301
+                "size": 5178
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 4516
+                "size": 4372
               },
               {
                 "node": {
@@ -993,7 +2427,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1001,21 +2435,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -1029,14 +2463,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -1061,7 +2495,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1069,21 +2503,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -1097,14 +2531,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -1129,7 +2563,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1137,21 +2571,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -1165,14 +2599,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -1197,7 +2631,7 @@
             "login": "celery"
           },
           "isFork": false,
-          "stargazerCount": 698,
+          "stargazerCount": 747,
           "languages": {
             "edges": [
               {
@@ -1205,7 +2639,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 129075
+                "size": 135717
               },
               {
                 "node": {
@@ -1213,6 +2647,13 @@
                   "color": "#427819"
                 },
                 "size": 3562
+              },
+              {
+                "node": {
+                  "name": "Dockerfile",
+                  "color": "#384d54"
+                },
+                "size": 2363
               }
             ]
           }
@@ -1245,7 +2686,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 59419
+                "size": 84542
               },
               {
                 "node": {
@@ -1277,7 +2718,7 @@
             "login": "axllent"
           },
           "isFork": false,
-          "stargazerCount": 6247,
+          "stargazerCount": 7467,
           "languages": {
             "edges": [
               {
@@ -1285,49 +2726,49 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 479471
+                "size": 537759
               },
               {
                 "node": {
                   "name": "Vue",
                   "color": "#41b883"
                 },
-                "size": 163824
+                "size": 180373
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 13776
+                "size": 16087
               },
               {
                 "node": {
                   "name": "SCSS",
                   "color": "#c6538c"
                 },
-                "size": 9384
+                "size": 8120
               },
               {
                 "node": {
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 1962
+                "size": 5969
               },
               {
                 "node": {
                   "name": "HTML",
                   "color": "#e34c26"
                 },
-                "size": 1358
+                "size": 1393
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 889
+                "size": 935
               }
             ]
           }
@@ -1468,7 +2909,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1476,21 +2917,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -1504,14 +2945,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -1536,7 +2977,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1544,21 +2985,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -1572,14 +3013,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -1604,7 +3045,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1612,21 +3053,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -1640,14 +3081,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -1672,7 +3113,7 @@
             "login": "domainaware"
           },
           "isFork": false,
-          "stargazerCount": 1025,
+          "stargazerCount": 1132,
           "languages": {
             "edges": [
               {
@@ -1680,7 +3121,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 278478
+                "size": 287973
               },
               {
                 "node": {
@@ -1694,7 +3135,7 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 479
+                "size": 545
               }
             ]
           }
@@ -1719,7 +3160,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1727,21 +3168,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -1755,14 +3196,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -1787,7 +3228,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1795,21 +3236,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -1823,14 +3264,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -1855,7 +3296,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1863,21 +3304,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -1891,14 +3332,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -1923,7 +3364,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1931,21 +3372,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -1959,14 +3400,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -1991,7 +3432,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -1999,21 +3440,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2027,14 +3468,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2059,7 +3500,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2067,21 +3508,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2095,14 +3536,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2127,7 +3568,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2135,21 +3576,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2163,14 +3604,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2195,7 +3636,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2203,21 +3644,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2231,14 +3672,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2263,7 +3704,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2271,21 +3712,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2299,14 +3740,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2331,7 +3772,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2339,21 +3780,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2367,14 +3808,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2399,7 +3840,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2407,21 +3848,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2435,14 +3876,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2467,7 +3908,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2475,21 +3916,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2503,14 +3944,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2535,7 +3976,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2543,21 +3984,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2571,14 +4012,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2603,7 +4044,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2611,21 +4052,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2639,14 +4080,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2671,7 +4112,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2679,21 +4120,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2707,14 +4148,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2739,7 +4180,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2747,21 +4188,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2775,14 +4216,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2807,7 +4248,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2815,21 +4256,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2843,14 +4284,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2875,7 +4316,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2883,21 +4324,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2911,14 +4352,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -2943,7 +4384,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -2951,21 +4392,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -2979,14 +4420,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3011,7 +4452,7 @@
             "login": "databus23"
           },
           "isFork": false,
-          "stargazerCount": 2764,
+          "stargazerCount": 3064,
           "languages": {
             "edges": [
               {
@@ -3019,7 +4460,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 112819
+                "size": 134818
               },
               {
                 "node": {
@@ -3033,7 +4474,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 3688
+                "size": 3702
               }
             ]
           }
@@ -3058,7 +4499,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3066,21 +4507,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3094,14 +4535,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3126,7 +4567,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3134,21 +4575,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3162,14 +4603,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3194,7 +4635,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3202,21 +4643,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3230,14 +4671,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3262,7 +4703,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3270,21 +4711,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3298,14 +4739,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3330,7 +4771,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3338,21 +4779,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3366,14 +4807,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3398,7 +4839,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3406,21 +4847,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3434,14 +4875,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3466,7 +4907,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3474,21 +4915,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3502,14 +4943,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3534,7 +4975,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3542,21 +4983,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3570,14 +5011,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3602,7 +5043,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3610,21 +5051,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3638,14 +5079,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3670,7 +5111,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3678,21 +5119,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3706,14 +5147,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3738,7 +5179,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -3746,21 +5187,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -3774,14 +5215,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -3926,7 +5367,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9973,
+          "stargazerCount": 10449,
           "languages": {
             "edges": [
               {
@@ -3934,56 +5375,56 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 62473913
+                "size": 67125951
               },
               {
                 "node": {
                   "name": "Groovy",
                   "color": "#4298b8"
                 },
-                "size": 365459
+                "size": 444226
               },
               {
                 "node": {
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 207066
+                "size": 225233
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 40616
+                "size": 43930
               },
               {
                 "node": {
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 15824
+                "size": 16581
               },
               {
                 "node": {
                   "name": "Smarty",
                   "color": "#f0c040"
                 },
-                "size": 13293
+                "size": 11507
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 3114
+                "size": 3793
               },
               {
                 "node": {
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 2996
+                "size": 3242
               },
               {
                 "node": {
@@ -4023,7 +5464,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 59419
+                "size": 84542
               },
               {
                 "node": {
@@ -4063,7 +5504,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 59419
+                "size": 84542
               },
               {
                 "node": {
@@ -4095,7 +5536,7 @@
             "login": "aws"
           },
           "isFork": false,
-          "stargazerCount": 2059,
+          "stargazerCount": 2124,
           "languages": {
             "edges": [
               {
@@ -4103,7 +5544,14 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 8960
+                "size": 9282
+              },
+              {
+                "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 2872
               },
               {
                 "node": {
@@ -4114,17 +5562,17 @@
               },
               {
                 "node": {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                },
+                "size": 614
+              },
+              {
+                "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
                 "size": 530
-              },
-              {
-                "node": {
-                  "name": "HTML",
-                  "color": "#e34c26"
-                },
-                "size": 363
               }
             ]
           }
@@ -4149,7 +5597,7 @@
             "login": "lapras-inc"
           },
           "isFork": false,
-          "stargazerCount": 138,
+          "stargazerCount": 141,
           "languages": {
             "edges": [
               {
@@ -4224,7 +5672,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -4232,21 +5680,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -4260,14 +5708,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -4292,7 +5740,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -4300,21 +5748,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -4328,14 +5776,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -4360,7 +5808,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -4368,21 +5816,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -4396,14 +5844,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -4428,7 +5876,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9973,
+          "stargazerCount": 10449,
           "languages": {
             "edges": [
               {
@@ -4436,56 +5884,56 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 62473913
+                "size": 67125951
               },
               {
                 "node": {
                   "name": "Groovy",
                   "color": "#4298b8"
                 },
-                "size": 365459
+                "size": 444226
               },
               {
                 "node": {
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 207066
+                "size": 225233
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 40616
+                "size": 43930
               },
               {
                 "node": {
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 15824
+                "size": 16581
               },
               {
                 "node": {
                   "name": "Smarty",
                   "color": "#f0c040"
                 },
-                "size": 13293
+                "size": 11507
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 3114
+                "size": 3793
               },
               {
                 "node": {
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 2996
+                "size": 3242
               },
               {
                 "node": {
@@ -4525,7 +5973,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 59419
+                "size": 84542
               },
               {
                 "node": {
@@ -4557,7 +6005,7 @@
             "login": "ebitengine"
           },
           "isFork": false,
-          "stargazerCount": 26,
+          "stargazerCount": 28,
           "languages": {
             "edges": [
               {
@@ -4565,7 +6013,7 @@
                   "name": "HTML",
                   "color": "#e34c26"
                 },
-                "size": 1045085
+                "size": 1092336
               },
               {
                 "node": {
@@ -4611,7 +6059,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -4619,21 +6067,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -4647,14 +6095,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -4687,7 +6135,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 59419
+                "size": 84542
               },
               {
                 "node": {
@@ -4719,7 +6167,7 @@
             "login": "cloudflare"
           },
           "isFork": false,
-          "stargazerCount": 817,
+          "stargazerCount": 1089,
           "languages": {
             "edges": [
               {
@@ -4727,28 +6175,28 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 3327651
+                "size": 9600731
               },
               {
                 "node": {
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 5424
+                "size": 14871
               },
               {
                 "node": {
-                  "name": "Makefile",
-                  "color": "#427819"
+                  "name": "TypeScript",
+                  "color": "#3178c6"
                 },
-                "size": 3183
+                "size": 4905
               },
               {
                 "node": {
-                  "name": "Dockerfile",
-                  "color": "#384d54"
+                  "name": "Ruby",
+                  "color": "#701516"
                 },
-                "size": 576
+                "size": 10
               }
             ]
           }
@@ -4773,7 +6221,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -4781,21 +6229,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -4809,14 +6257,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -4841,7 +6289,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 9973,
+          "stargazerCount": 10449,
           "languages": {
             "edges": [
               {
@@ -4849,56 +6297,56 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 62473913
+                "size": 67125951
               },
               {
                 "node": {
                   "name": "Groovy",
                   "color": "#4298b8"
                 },
-                "size": 365459
+                "size": 444226
               },
               {
                 "node": {
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 207066
+                "size": 225233
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 40616
+                "size": 43930
               },
               {
                 "node": {
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 15824
+                "size": 16581
               },
               {
                 "node": {
                   "name": "Smarty",
                   "color": "#f0c040"
                 },
-                "size": 13293
+                "size": 11507
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 3114
+                "size": 3793
               },
               {
                 "node": {
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 2996
+                "size": 3242
               },
               {
                 "node": {
@@ -4930,7 +6378,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2155,
+          "stargazerCount": 2347,
           "languages": {
             "edges": [
               {
@@ -4938,7 +6386,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 138085
+                "size": 137825
               },
               {
                 "node": {
@@ -4991,7 +6439,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2155,
+          "stargazerCount": 2347,
           "languages": {
             "edges": [
               {
@@ -4999,7 +6447,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 138085
+                "size": 137825
               },
               {
                 "node": {
@@ -5052,7 +6500,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2155,
+          "stargazerCount": 2347,
           "languages": {
             "edges": [
               {
@@ -5060,7 +6508,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 138085
+                "size": 137825
               },
               {
                 "node": {
@@ -5113,7 +6561,7 @@
             "login": "argoproj"
           },
           "isFork": false,
-          "stargazerCount": 15161,
+          "stargazerCount": 15908,
           "languages": {
             "edges": [
               {
@@ -5121,56 +6569,56 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 4318083
+                "size": 4791350
               },
               {
                 "node": {
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 676091
+                "size": 709632
               },
               {
                 "node": {
                   "name": "Nix",
                   "color": "#7e7eff"
                 },
-                "size": 110538
+                "size": 114000
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 40539
+                "size": 46308
               },
               {
                 "node": {
                   "name": "SCSS",
                   "color": "#c6538c"
                 },
-                "size": 33758
+                "size": 39547
               },
               {
                 "node": {
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 16715
-              },
-              {
-                "node": {
-                  "name": "JavaScript",
-                  "color": "#f1e05a"
-                },
-                "size": 4234
+                "size": 14744
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 3977
+                "size": 5399
+              },
+              {
+                "node": {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                },
+                "size": 4423
               },
               {
                 "node": {
@@ -5209,7 +6657,7 @@
             "login": "liamg"
           },
           "isFork": false,
-          "stargazerCount": 89,
+          "stargazerCount": 91,
           "languages": {
             "edges": [
               {
@@ -5249,7 +6697,7 @@
             "login": "liamg"
           },
           "isFork": false,
-          "stargazerCount": 89,
+          "stargazerCount": 91,
           "languages": {
             "edges": [
               {
@@ -5670,7 +7118,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -5678,21 +7126,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -5706,14 +7154,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -5738,7 +7186,7 @@
             "login": "liamg"
           },
           "isFork": false,
-          "stargazerCount": 89,
+          "stargazerCount": 91,
           "languages": {
             "edges": [
               {
@@ -6020,7 +7468,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -6028,21 +7476,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -6056,14 +7504,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -6448,7 +7896,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 854,
+          "stargazerCount": 883,
           "languages": {
             "edges": [
               {
@@ -6456,28 +7904,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 906611
-              },
-              {
-                "node": {
-                  "name": "Shell",
-                  "color": "#89e051"
-                },
-                "size": 1923
-              },
-              {
-                "node": {
-                  "name": "Dockerfile",
-                  "color": "#384d54"
-                },
-                "size": 958
-              },
-              {
-                "node": {
-                  "name": "Makefile",
-                  "color": "#427819"
-                },
-                "size": 316
+                "size": 963664
               }
             ]
           }
@@ -6502,7 +7929,7 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 854,
+          "stargazerCount": 883,
           "languages": {
             "edges": [
               {
@@ -6510,28 +7937,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 906611
-              },
-              {
-                "node": {
-                  "name": "Shell",
-                  "color": "#89e051"
-                },
-                "size": 1923
-              },
-              {
-                "node": {
-                  "name": "Dockerfile",
-                  "color": "#384d54"
-                },
-                "size": 958
-              },
-              {
-                "node": {
-                  "name": "Makefile",
-                  "color": "#427819"
-                },
-                "size": 316
+                "size": 963664
               }
             ]
           }
@@ -6556,31 +7962,9 @@
             "login": "python-social-auth"
           },
           "isFork": false,
-          "stargazerCount": 35,
+          "stargazerCount": 34,
           "languages": {
-            "edges": [
-              {
-                "node": {
-                  "name": "HTML",
-                  "color": "#e34c26"
-                },
-                "size": 4910
-              },
-              {
-                "node": {
-                  "name": "Makefile",
-                  "color": "#427819"
-                },
-                "size": 151
-              },
-              {
-                "node": {
-                  "name": "CSS",
-                  "color": "#663399"
-                },
-                "size": 54
-              }
-            ]
+            "edges": []
           }
         }
       }
@@ -6711,7 +8095,7 @@
             "login": "lapras-inc"
           },
           "isFork": false,
-          "stargazerCount": 138,
+          "stargazerCount": 141,
           "languages": {
             "edges": [
               {
@@ -6786,7 +8170,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -6794,21 +8178,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -6822,14 +8206,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -6894,7 +8278,7 @@
             "login": "lapras-inc"
           },
           "isFork": false,
-          "stargazerCount": 138,
+          "stargazerCount": 141,
           "languages": {
             "edges": [
               {
@@ -7023,7 +8407,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7031,21 +8415,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7059,14 +8443,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7091,7 +8475,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7099,21 +8483,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7127,14 +8511,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7159,7 +8543,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7167,21 +8551,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7195,14 +8579,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7227,7 +8611,7 @@
             "login": "localstack"
           },
           "isFork": false,
-          "stargazerCount": 63,
+          "stargazerCount": 69,
           "languages": {
             "edges": [
               {
@@ -7235,21 +8619,21 @@
                   "name": "HTML",
                   "color": "#e34c26"
                 },
-                "size": 81348
+                "size": 69547
               },
               {
                 "node": {
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 32750
+                "size": 37632
               },
               {
                 "node": {
                   "name": "SCSS",
                   "color": "#c6538c"
                 },
-                "size": 20069
+                "size": 16416
               },
               {
                 "node": {
@@ -7257,13 +8641,6 @@
                   "color": "#f1e05a"
                 },
                 "size": 12362
-              },
-              {
-                "node": {
-                  "name": "Shell",
-                  "color": "#89e051"
-                },
-                "size": 5475
               },
               {
                 "node": {
@@ -7277,7 +8654,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 831
+                "size": 995
               }
             ]
           }
@@ -7302,7 +8679,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7310,21 +8687,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7338,14 +8715,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7370,7 +8747,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7378,21 +8755,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7406,14 +8783,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7438,7 +8815,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7446,21 +8823,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7474,14 +8851,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7506,7 +8883,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7514,21 +8891,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7542,14 +8919,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7574,7 +8951,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7582,21 +8959,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7610,14 +8987,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7642,7 +9019,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7650,21 +9027,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7678,14 +9055,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7710,7 +9087,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7718,21 +9095,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7746,14 +9123,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7778,7 +9155,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7786,21 +9163,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7814,14 +9191,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7846,7 +9223,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7854,21 +9231,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7882,14 +9259,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -7914,7 +9291,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -7922,21 +9299,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -7950,14 +9327,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -8062,7 +9439,7 @@
             "login": "elwerene"
           },
           "isFork": false,
-          "stargazerCount": 270,
+          "stargazerCount": 291,
           "languages": {
             "edges": [
               {
@@ -8070,7 +9447,7 @@
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5046
+                "size": 5296
               }
             ]
           }
@@ -8095,7 +9472,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -8103,21 +9480,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -8131,14 +9508,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -8163,7 +9540,7 @@
             "login": "kawamataryo"
           },
           "isFork": false,
-          "stargazerCount": 296,
+          "stargazerCount": 305,
           "languages": {
             "edges": [
               {
@@ -8624,7 +10001,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -8632,21 +10009,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -8660,14 +10037,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -8692,7 +10069,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -8700,21 +10077,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -8728,14 +10105,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -8760,7 +10137,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -8768,21 +10145,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -8796,14 +10173,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -8828,7 +10205,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -8836,21 +10213,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -8864,14 +10241,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9195,7 +10572,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -9203,21 +10580,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -9231,14 +10608,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9263,7 +10640,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -9271,21 +10648,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -9299,14 +10676,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9331,7 +10708,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -9339,21 +10716,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -9367,14 +10744,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9399,7 +10776,7 @@
             "login": "Rigellute"
           },
           "isFork": false,
-          "stargazerCount": 17658,
+          "stargazerCount": 18413,
           "languages": {
             "edges": [
               {
@@ -9439,7 +10816,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -9447,21 +10824,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -9475,14 +10852,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9507,7 +10884,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -9515,21 +10892,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -9543,14 +10920,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9608,7 +10985,7 @@
             "login": "typeorm"
           },
           "isFork": false,
-          "stargazerCount": 34628,
+          "stargazerCount": 35645,
           "languages": {
             "edges": [
               {
@@ -9616,21 +10993,14 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 9159919
+                "size": 9426161
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 15807
-              },
-              {
-                "node": {
-                  "name": "Dockerfile",
-                  "color": "#384d54"
-                },
-                "size": 187
+                "size": 19158
               }
             ]
           }
@@ -9655,7 +11025,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -9663,21 +11033,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -9691,14 +11061,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9723,7 +11093,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -9731,21 +11101,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -9759,14 +11129,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9791,7 +11161,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -9799,21 +11169,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -9827,14 +11197,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9859,7 +11229,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -9867,21 +11237,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -9895,14 +11265,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9927,7 +11297,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -9935,21 +11305,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -9963,14 +11333,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -9995,7 +11365,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -10003,21 +11373,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -10031,14 +11401,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -10063,7 +11433,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -10071,21 +11441,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -10099,14 +11469,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -10131,7 +11501,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -10139,21 +11509,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -10167,14 +11537,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -10199,7 +11569,7 @@
             "login": "serverless"
           },
           "isFork": false,
-          "stargazerCount": 46517,
+          "stargazerCount": 46813,
           "languages": {
             "edges": [
               {
@@ -10207,7 +11577,7 @@
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 3288281
+                "size": 3289757
               },
               {
                 "node": {
@@ -10260,7 +11630,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -10268,21 +11638,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -10296,14 +11666,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -10328,7 +11698,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -10336,21 +11706,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -10364,14 +11734,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -10396,7 +11766,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -10404,21 +11774,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -10432,14 +11802,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -10464,7 +11834,7 @@
             "login": "amazon-connect"
           },
           "isFork": false,
-          "stargazerCount": 399,
+          "stargazerCount": 437,
           "languages": {
             "edges": [
               {
@@ -10472,7 +11842,7 @@
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 3042756
+                "size": 3955949
               }
             ]
           }
@@ -10497,7 +11867,7 @@
             "login": "getmoto"
           },
           "isFork": false,
-          "stargazerCount": 7699,
+          "stargazerCount": 7990,
           "languages": {
             "edges": [
               {
@@ -10505,21 +11875,21 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 22113494
+                "size": 24117637
               },
               {
                 "node": {
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 25870
+                "size": 29128
               },
               {
                 "node": {
                   "name": "ANTLR",
                   "color": "#9DC3FF"
                 },
-                "size": 22096
+                "size": 25899
               },
               {
                 "node": {
@@ -10530,6 +11900,13 @@
               },
               {
                 "node": {
+                  "name": "Shell",
+                  "color": "#89e051"
+                },
+                "size": 15146
+              },
+              {
+                "node": {
                   "name": "HTML",
                   "color": "#e34c26"
                 },
@@ -10537,10 +11914,10 @@
               },
               {
                 "node": {
-                  "name": "Shell",
-                  "color": "#89e051"
+                  "name": "C++",
+                  "color": "#f34b7d"
                 },
-                "size": 5097
+                "size": 5736
               },
               {
                 "node": {
@@ -10551,24 +11928,17 @@
               },
               {
                 "node": {
-                  "name": "Jinja",
-                  "color": "#a52a22"
+                  "name": "Go",
+                  "color": "#00ADD8"
                 },
-                "size": 2284
+                "size": 3303
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 2116
-              },
-              {
-                "node": {
-                  "name": "Makefile",
-                  "color": "#427819"
-                },
-                "size": 2018
+                "size": 2424
               }
             ]
           }
@@ -10593,7 +11963,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -10601,21 +11971,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -10629,14 +11999,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -10661,7 +12031,7 @@
             "login": "typescript-book-ja"
           },
           "isFork": true,
-          "stargazerCount": 310,
+          "stargazerCount": 314,
           "languages": {
             "edges": [
               {
@@ -10715,7 +12085,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -10723,21 +12093,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -10751,14 +12121,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -11018,7 +12388,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -11026,21 +12396,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -11054,14 +12424,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -11086,7 +12456,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -11094,21 +12464,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -11122,14 +12492,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -11154,7 +12524,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -11162,21 +12532,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -11190,14 +12560,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -11222,7 +12592,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -11230,21 +12600,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -11258,14 +12628,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -11290,7 +12660,7 @@
             "login": "yktakaha4"
           },
           "isFork": false,
-          "stargazerCount": 3,
+          "stargazerCount": 4,
           "languages": {
             "edges": [
               {
@@ -11298,21 +12668,21 @@
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 106609
+                "size": 107469
               },
               {
                 "node": {
                   "name": "MDX",
                   "color": "#fcb32c"
                 },
-                "size": 12631
+                "size": 13017
               },
               {
                 "node": {
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 5242
+                "size": 5584
               },
               {
                 "node": {
@@ -11326,14 +12696,14 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 545
+                "size": 548
               },
               {
                 "node": {
                   "name": "Dockerfile",
                   "color": "#384d54"
                 },
-                "size": 204
+                "size": 387
               }
             ]
           }
@@ -11358,7 +12728,7 @@
             "login": "championswimmer"
           },
           "isFork": false,
-          "stargazerCount": 1797,
+          "stargazerCount": 1787,
           "languages": {
             "edges": [
               {
