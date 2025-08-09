@@ -14,23 +14,36 @@ permissions:
   pull-requests: write
 
 jobs:
-  refresh:
+  setup:
+    name: Setup
     runs-on: ubuntu-24.04
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - id: yarn-cache-dir-path
-        run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.YARN_CACHE_DIR }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - run: yarn install
-      - run: yarn refresh-components-data
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npm ci
+
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    needs:
+      - setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npm run refresh-components-data
         env:
           GITHUB_PAT: ${{ secrets.X_GITHUB_PAT }}
       - uses: peter-evans/create-pull-request@v5

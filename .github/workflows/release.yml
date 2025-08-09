@@ -13,25 +13,37 @@ env:
   TZ: Asia/Tokyo
 
 jobs:
+  setup:
+    name: Setup
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npm ci
+
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-24.04
     timeout-minutes: 5
+    needs:
+      - setup
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - id: yarn-cache-dir-path
-        run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.YARN_CACHE_DIR }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - run: yarn install
-      - run: yarn build
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npm run build
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -48,9 +60,9 @@ jobs:
     timeout-minutes: 5
     needs: deploy
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
-      - run: ./generate_pdf.bash
+      - run: npm run generate:pdf
       - run: tar -zcvf build.tgz ./build
       - run: echo "release_tag=v$(date '+%Y%m%d_%H%M%S')" >> $GITHUB_ENV
       - uses: actions/create-release@v1

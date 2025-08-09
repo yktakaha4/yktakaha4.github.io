@@ -4,16 +4,21 @@
 
 ```shell
 # Install dependencies
-yarn install
+npm install
 
 # Start development server
-yarn start
+npm run start
 
 # Fix code styles
-yarn fix
+npm run fix
 
 # Run tests
-yarn test
+npm run test
+
+# Run E2E tests
+npm run build
+npm run generate:pdf
+npm run test:e2e
 ```
 
 ## Update data
