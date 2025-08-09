@@ -133,6 +133,14 @@
       "published": true
     },
     {
+      "slug": "how_to_make_github_copilot_button",
+      "topics": [
+        "GitHub Copilot",
+        "Windows"
+      ],
+      "published": true
+    },
+    {
       "slug": "how_to_make_sorry_page",
       "topics": [
         "alb",
@@ -391,6 +399,13 @@
         "SRE",
         "ドキュメンテーション",
         "運用"
+      ],
+      "published": true
+    },
+    {
+      "slug": "using_unit_tests_to_learn",
+      "topics": [
+        "単体テスト"
       ],
       "published": true
     },

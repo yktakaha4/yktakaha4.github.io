@@ -1,6 +1,109 @@
 {
   "contents": [
     {
+      "id": 111738109,
+      "type": "TextNote",
+      "status": "published",
+      "name": "自分で価値を決めず、気軽にアウトプットしよう",
+      "description": null,
+      "likeCount": 4,
+      "price": 0,
+      "key": "n9642b2502371",
+      "slug": "slug-n9642b2502371",
+      "publishAt": "2025-05-07T13:10:18+09:00",
+      "thumbnailExternalUrl": "",
+      "eyecatch": "https://assets.st-note.com/production/uploads/images/188590394/rectangle_large_type_2_aba36ebbeddfce8a91013bc7585989c9.png?fit=bounds&quality=85&width=1280",
+      "user": {
+        "id": 2611487,
+        "key": "9c529ba15cc5600da9d9ed95d94cf17c",
+        "name": "Yuuki Takahashi",
+        "urlname": "yktakaha4",
+        "nickname": "Yuuki Takahashi",
+        "userProfileImagePath": "https://assets.st-note.com/production/uploads/images/43856443/profile_b11510033435d21a9dde679212a4da95.jpeg?fit=bounds&format=jpeg&quality=85&width=330",
+        "customDomain": null,
+        "disableSupport": false,
+        "disableGuestPurchase": false,
+        "emailConfirmedFlag": true,
+        "likeAppealText": "ありがとう！励みになります！",
+        "likeAppealImage": "https://assets.st-note.com/poc-image/manual/production/preset_reaction_0.png",
+        "purchaseAppealTextNote": null,
+        "twitterNickname": "yktakaha4",
+        "shareAppeal": {
+          "text": null,
+          "image": null
+        },
+        "magazineAddAppeal": {
+          "text": null,
+          "image": null
+        }
+      },
+      "canRead": true,
+      "isAuthor": false,
+      "externalUrl": null,
+      "customDomain": null,
+      "body": "yktakaha4と申します🐧\n2025年1月より株式会社MIXIに転職し、『家族アルバム みてね』のSREとして働いています\n\nことのおこり試用期間も過ぎ、これから成果を出していくぞというところではあるのですが、2025年7月11日〜12日にかけて開催される SRE NEXT 2025 IN TOKYO にて、『オンコール入門〜ページャーが鳴る前に、あなたが備えられること〜』という内容で採択いただき、登壇できることとなりました\n\nちなみに、みてねからは同僚のkohbisさん",
+      "separator": null,
+      "isLimited": false,
+      "isTrial": false,
+      "canUpdate": false,
+      "tweetText": "自分で価値を決めず、気軽にアウトプットしよう｜Yuuki Takahashi @yktakaha4",
+      "twitterRelatedAccounts": "yktakaha4,note_PR",
+      "isRefund": false,
+      "isLiked": false,
+      "commentCount": 0,
+      "likes": [],
+      "anonymousLikeCount": 0,
+      "disableComment": false,
+      "hashtags": [
+        {
+          "hashtag": {
+            "name": "#srenext"
+          }
+        }
+      ],
+      "twitterShareUrl": "https://twitter.com/intent/tweet?url=https://note.com/yktakaha4/n/n9642b2502371&text=%E8%87%AA%E5%88%86%E3%81%A7%E4%BE%A1%E5%80%A4%E3%82%92%E6%B1%BA%E3%82%81%E3%81%9A%E3%80%81%E6%B0%97%E8%BB%BD%E3%81%AB%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88%E3%81%97%E3%82%88%E3%81%86%EF%BD%9CYuuki+Takahashi+%40yktakaha4&related=yktakaha4,note_PR",
+      "facebookShareUrl": "https://www.facebook.com/share.php?u=https://note.com/yktakaha4/n/n9642b2502371&t=%E8%87%AA%E5%88%86%E3%81%A7%E4%BE%A1%E5%80%A4%E3%82%92%E6%B1%BA%E3%82%81%E3%81%9A%E3%80%81%E6%B0%97%E8%BB%BD%E3%81%AB%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88%E3%81%97%E3%82%88%E3%81%86%EF%BD%9CYuuki+Takahashi%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89",
+      "lineShareUrl": "https://line.naver.jp/R/msg/text/?%E8%87%AA%E5%88%86%E3%81%A7%E4%BE%A1%E5%80%A4%E3%82%92%E6%B1%BA%E3%82%81%E3%81%9A%E3%80%81%E6%B0%97%E8%BB%BD%E3%81%AB%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88%E3%81%97%E3%82%88%E3%81%86%EF%BD%9CYuuki+Takahashi%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89%0Ahttps://note.com/yktakaha4/n/n9642b2502371",
+      "audio": {},
+      "pictures": [],
+      "limitedMessage": null,
+      "labels": [],
+      "priorSale": null,
+      "canMultipleLimitedNote": false,
+      "isMembershipConnected": false,
+      "hasAvailableCirclePlans": false,
+      "isPinned": false,
+      "pinnedUserNoteId": null,
+      "spEyecatch": "https://assets.st-note.com/production/uploads/images/188590394/square_large_aba36ebbeddfce8a91013bc7585989c9.png?fit=bounds&format=jpeg&quality=85&width=360",
+      "enableBacktoDraft": false,
+      "notificationMessages": [],
+      "isProfiled": false,
+      "isForWork": false,
+      "isCircleDescription": false,
+      "noteDraft": null,
+      "noteUrl": "https://note.com/yktakaha4/n/n9642b2502371",
+      "imageCount": 1,
+      "format": "4.0",
+      "capabilities": {
+        "amazonpayCampaign": false,
+        "amazonpay": false,
+        "guestAmazonpay": false,
+        "rubyText": true,
+        "formulaText": true,
+        "duplication": true
+      },
+      "discountCampaigns": [],
+      "workreqSetting": null,
+      "remainedCharNum": 0,
+      "priceInfo": {
+        "isFree": true,
+        "lowestPrice": null,
+        "hasMultiple": false,
+        "hasSubscription": false,
+        "oneshotLowestPrice": null
+      }
+    },
+    {
       "id": 30261149,
       "type": "TextNote",
       "status": "published",
@@ -24,8 +127,8 @@
         "disableSupport": false,
         "disableGuestPurchase": false,
         "emailConfirmedFlag": true,
-        "likeAppealText": null,
-        "likeAppealImage": null,
+        "likeAppealText": "ありがとう！励みになります！",
+        "likeAppealImage": "https://assets.st-note.com/poc-image/manual/production/preset_reaction_0.png",
         "purchaseAppealTextNote": null,
         "twitterNickname": "yktakaha4",
         "shareAppeal": {
@@ -46,7 +149,7 @@
       "isLimited": false,
       "isTrial": false,
       "canUpdate": false,
-      "tweetText": "新しいチームに加わるエンジニアのための \"被\" オンボーディングガイド v0.1.1｜Yuuki Takahashi @yktakaha4 #note",
+      "tweetText": "新しいチームに加わるエンジニアのための \"被\" オンボーディングガイド v0.1.1｜Yuuki Takahashi @yktakaha4",
       "twitterRelatedAccounts": "yktakaha4,note_PR",
       "isRefund": false,
       "isLiked": false,
@@ -71,7 +174,7 @@
           }
         }
       ],
-      "twitterShareUrl": "https://twitter.com/intent/tweet?url=https://note.com/yktakaha4/n/n2acd5a198fa3&text=%E6%96%B0%E3%81%97%E3%81%84%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AB%E5%8A%A0%E3%82%8F%E3%82%8B%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE+%22%E8%A2%AB%22+%E3%82%AA%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%82%A4%E3%83%89+v0.1.1%EF%BD%9CYuuki+Takahashi+%40yktakaha4+%23note&related=yktakaha4,note_PR",
+      "twitterShareUrl": "https://twitter.com/intent/tweet?url=https://note.com/yktakaha4/n/n2acd5a198fa3&text=%E6%96%B0%E3%81%97%E3%81%84%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AB%E5%8A%A0%E3%82%8F%E3%82%8B%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE+%22%E8%A2%AB%22+%E3%82%AA%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%82%A4%E3%83%89+v0.1.1%EF%BD%9CYuuki+Takahashi+%40yktakaha4&related=yktakaha4,note_PR",
       "facebookShareUrl": "https://www.facebook.com/share.php?u=https://note.com/yktakaha4/n/n2acd5a198fa3&t=%E6%96%B0%E3%81%97%E3%81%84%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AB%E5%8A%A0%E3%82%8F%E3%82%8B%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE+%22%E8%A2%AB%22+%E3%82%AA%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%82%A4%E3%83%89+v0.1.1%EF%BD%9CYuuki+Takahashi%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89",
       "lineShareUrl": "https://line.naver.jp/R/msg/text/?%E6%96%B0%E3%81%97%E3%81%84%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AB%E5%8A%A0%E3%82%8F%E3%82%8B%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE+%22%E8%A2%AB%22+%E3%82%AA%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%82%A4%E3%83%89+v0.1.1%EF%BD%9CYuuki+Takahashi%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89%0Ahttps://note.com/yktakaha4/n/n2acd5a198fa3",
       "audio": {},
@@ -96,13 +199,14 @@
       "format": "3.3",
       "capabilities": {
         "amazonpayCampaign": false,
-        "amazonpay": null,
-        "guestAmazonpay": null,
+        "amazonpay": false,
+        "guestAmazonpay": false,
         "rubyText": true,
         "formulaText": true,
         "duplication": true
       },
       "discountCampaigns": [],
+      "workreqSetting": null,
       "remainedCharNum": 0,
       "priceInfo": {
         "isFree": true,
@@ -118,7 +222,7 @@
       "status": "published",
       "name": "LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性",
       "description": null,
-      "likeCount": 50,
+      "likeCount": 48,
       "price": 0,
       "key": "n67789c25ad73",
       "slug": "slug-n67789c25ad73",
@@ -136,8 +240,8 @@
         "disableSupport": false,
         "disableGuestPurchase": false,
         "emailConfirmedFlag": true,
-        "likeAppealText": null,
-        "likeAppealImage": null,
+        "likeAppealText": "ありがとう！励みになります！",
+        "likeAppealImage": "https://assets.st-note.com/poc-image/manual/production/preset_reaction_0.png",
         "purchaseAppealTextNote": null,
         "twitterNickname": "yktakaha4",
         "shareAppeal": {
@@ -158,7 +262,7 @@
       "isLimited": false,
       "isTrial": false,
       "canUpdate": false,
-      "tweetText": "LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性｜Yuuki Takahashi @yktakaha4 #note #入社エントリ",
+      "tweetText": "LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性｜Yuuki Takahashi @yktakaha4 #入社エントリ",
       "twitterRelatedAccounts": "yktakaha4,note_PR",
       "isRefund": false,
       "isLiked": false,
@@ -184,16 +288,16 @@
         },
         {
           "hashtag": {
-            "name": "#LAPRAS"
+            "name": "#採用CX"
           }
         },
         {
           "hashtag": {
-            "name": "#採用CX"
+            "name": "#LAPRAS"
           }
         }
       ],
-      "twitterShareUrl": "https://twitter.com/intent/tweet?url=https://note.com/yktakaha4/n/n67789c25ad73&text=LAPRAS%E3%81%AE%E6%8E%A1%E7%94%A8%E9%81%B8%E8%80%83%E3%82%92%E5%8F%97%E3%81%91%E3%81%A6%E6%84%9F%E3%81%98%E3%81%9FCX%28Candidate+Experience%29%E3%81%A8%E3%80%81%E3%81%9D%E3%81%AE%E9%87%8D%E8%A6%81%E6%80%A7%EF%BD%9CYuuki+Takahashi+%40yktakaha4+%23note+%23%E5%85%A5%E7%A4%BE%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA&related=yktakaha4,note_PR",
+      "twitterShareUrl": "https://twitter.com/intent/tweet?url=https://note.com/yktakaha4/n/n67789c25ad73&text=LAPRAS%E3%81%AE%E6%8E%A1%E7%94%A8%E9%81%B8%E8%80%83%E3%82%92%E5%8F%97%E3%81%91%E3%81%A6%E6%84%9F%E3%81%98%E3%81%9FCX%28Candidate+Experience%29%E3%81%A8%E3%80%81%E3%81%9D%E3%81%AE%E9%87%8D%E8%A6%81%E6%80%A7%EF%BD%9CYuuki+Takahashi+%40yktakaha4+%23%E5%85%A5%E7%A4%BE%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA&related=yktakaha4,note_PR",
       "facebookShareUrl": "https://www.facebook.com/share.php?u=https://note.com/yktakaha4/n/n67789c25ad73&t=LAPRAS%E3%81%AE%E6%8E%A1%E7%94%A8%E9%81%B8%E8%80%83%E3%82%92%E5%8F%97%E3%81%91%E3%81%A6%E6%84%9F%E3%81%98%E3%81%9FCX%28Candidate+Experience%29%E3%81%A8%E3%80%81%E3%81%9D%E3%81%AE%E9%87%8D%E8%A6%81%E6%80%A7%EF%BD%9CYuuki+Takahashi%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89",
       "lineShareUrl": "https://line.naver.jp/R/msg/text/?LAPRAS%E3%81%AE%E6%8E%A1%E7%94%A8%E9%81%B8%E8%80%83%E3%82%92%E5%8F%97%E3%81%91%E3%81%A6%E6%84%9F%E3%81%98%E3%81%9FCX%28Candidate+Experience%29%E3%81%A8%E3%80%81%E3%81%9D%E3%81%AE%E9%87%8D%E8%A6%81%E6%80%A7%EF%BD%9CYuuki+Takahashi%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89%0Ahttps://note.com/yktakaha4/n/n67789c25ad73",
       "audio": {},
@@ -218,13 +322,14 @@
       "format": "3.2",
       "capabilities": {
         "amazonpayCampaign": false,
-        "amazonpay": null,
-        "guestAmazonpay": null,
+        "amazonpay": false,
+        "guestAmazonpay": false,
         "rubyText": true,
         "formulaText": true,
         "duplication": true
       },
       "discountCampaigns": [],
+      "workreqSetting": null,
       "remainedCharNum": 0,
       "priceInfo": {
         "isFree": true,
