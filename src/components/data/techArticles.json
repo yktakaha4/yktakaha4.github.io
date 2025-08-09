@@ -48,6 +48,18 @@
       ]
     },
     {
+      "title": "Karpenterを再導入してEC2コストを削減した話",
+      "url": "https://team-blog.mitene.us/72e9cc4ce08f",
+      "publishedAt": "2025-05-28T00:00:00.000Z",
+      "likes": 67,
+      "publisher": "techBlog",
+      "tags": [
+        "AWS",
+        "Karpenter",
+        "EKS"
+      ]
+    },
+    {
       "title": "Webアプリケーションにおけるタイムアウトについて",
       "url": "https://zenn.dev/yktakaha4/articles/learn_about_web_application_timeouts",
       "publishedAt": "2024-09-25T02:11:40.411Z",
@@ -750,11 +762,12 @@
     {
       "title": "Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処",
       "url": "https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu",
-      "publishedAt": "2021-10-15T00:00:00.000Z",
+      "publishedAt": "2022-10-15T00:00:00.000Z",
       "likes": 3,
       "publisher": "speakerDeck",
       "tags": [
-        "Django"
+        "Django",
+        "OAuth"
       ]
     },
     {
@@ -769,6 +782,17 @@
         "lambda",
         "ServerlessFramework",
         "GitHubActions"
+      ]
+    },
+    {
+      "title": "オンコール⼊⾨〜ページャーが鳴る前に、あなたが備えられること〜",
+      "url": "https://speakerdeck.com/yktakaha4/before-the-pager-rings",
+      "publishedAt": "2025-07-12T00:00:00.000Z",
+      "likes": 2,
+      "publisher": "speakerDeck",
+      "tags": [
+        "SRE",
+        "オンコール対応"
       ]
     },
     {
