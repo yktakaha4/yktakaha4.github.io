@@ -13,7 +13,7 @@ permissions:
 jobs:
   dependabot:
     name: Auto merge(dependabot)
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     if: github.actor == 'dependabot[bot]'
     steps:
       - run: gh pr merge --auto --merge "$PR_URL"
@@ -22,7 +22,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   automated:
     name: Auto merge(automated)
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     if: contains(github.event.pull_request.labels.*.name, 'automated')
     steps:
       - run: gh pr merge --auto --merge "$PR_URL"
