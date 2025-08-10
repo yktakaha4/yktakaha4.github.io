@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "upgrade-interactive": "npm-check --update",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
+    "start:external": "docusaurus start --host 0.0.0.0",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -26,8 +28,8 @@
     "fetch-note-contents": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchNoteContents.ts"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.1.1",
-    "@docusaurus/preset-classic": "^3.5.2",
+    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
     "@mdx-js/react": "^3.1.0",
     "@octokit/graphql": "^7.0.2",
     "clsx": "^2.1.1",
@@ -35,16 +37,16 @@
     "fs-extra": "^11.2.0",
     "log4js": "^6.9.1",
     "prism-react-renderer": "^2.4.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-icons": "^5.3.0"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^3.5.2",
-    "@docusaurus/module-type-aliases": "^3.5.2",
-    "@docusaurus/tsconfig": "^3.5.2",
-    "@docusaurus/types": "^3.3.2",
-    "@testing-library/react": "^15.0.7",
+    "@docusaurus/eslint-plugin": "^3.8.1",
+    "@docusaurus/module-type-aliases": "^3.8.1",
+    "@docusaurus/tsconfig": "^3.8.1",
+    "@docusaurus/types": "^3.8.1",
+    "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.5.2",
     "@types/fs-extra": "^11.0.4",
     "@types/jest": "^29.5.14",
@@ -59,6 +61,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-location-mock": "^2.0.0",
     "nock": "^13.5.5",
+    "npm-check": "^6.0.1",
     "pdfjs-dist": "^4.0.379",
     "prettier": "^3.3.3",
     "textlint": "^14.3.0",
@@ -66,7 +69,7 @@
     "ts-jest": "^29.2.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "~5.6.3"
+    "typescript": "^5.9.2"
   },
   "browserslist": {
     "production": [
