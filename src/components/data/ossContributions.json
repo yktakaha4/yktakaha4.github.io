@@ -41,7 +41,7 @@
       "repository": {
         "owner": "github",
         "name": "github/gh-ost",
-        "stars": 12870,
+        "stars": 12869,
         "url": "https://github.com/github/gh-ost",
         "languages": [
           "Go"
@@ -57,7 +57,7 @@
       "repository": {
         "owner": "kubernetes",
         "name": "kubernetes/website",
-        "stars": 4965,
+        "stars": 4966,
         "url": "https://github.com/kubernetes/website",
         "languages": [
           "HTML"
@@ -89,7 +89,7 @@
       "repository": {
         "owner": "celery",
         "name": "celery/django-celery-results",
-        "stars": 747,
+        "stars": 748,
         "url": "https://github.com/celery/django-celery-results",
         "languages": [
           "Python"
@@ -105,7 +105,7 @@
       "repository": {
         "owner": "axllent",
         "name": "axllent/mailpit",
-        "stars": 7467,
+        "stars": 7471,
         "url": "https://github.com/axllent/mailpit",
         "languages": [
           "Go"
@@ -185,7 +185,7 @@
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 4636,
+        "stars": 4637,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -233,7 +233,7 @@
       "repository": {
         "owner": "cloudflare",
         "name": "cloudflare/terraform-provider-cloudflare",
-        "stars": 1089,
+        "stars": 1090,
         "url": "https://github.com/cloudflare/terraform-provider-cloudflare",
         "languages": [
           "Go"
@@ -297,7 +297,7 @@
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
-        "stars": 15908,
+        "stars": 15910,
         "url": "https://github.com/argoproj/argo-workflows",
         "languages": [
           "Go"
@@ -536,7 +536,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 18414,
+        "stars": 18419,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -552,7 +552,7 @@
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 35645,
+        "stars": 35646,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -568,7 +568,7 @@
       "repository": {
         "owner": "serverless",
         "name": "serverless/serverless",
-        "stars": 46813,
+        "stars": 46812,
         "url": "https://github.com/serverless/serverless",
         "languages": [
           "JavaScript"
