@@ -1,4 +1,4 @@
-name: Merge
+name: Release
 
 on:
   push:
@@ -11,6 +11,9 @@ concurrency:
 
 env:
   TZ: Asia/Tokyo
+
+permissions:
+  contents: write
 
 jobs:
   setup:
@@ -65,28 +68,11 @@ jobs:
       - run: npm run generate:pdf
       - run: tar -zcvf build.tgz ./build
       - run: echo "release_tag=v$(date '+%Y%m%d_%H%M%S')" >> $GITHUB_ENV
-      - uses: actions/create-release@v1
-        id: create_release
+      - run: |
+          gh release create ${{ env.release_tag }} \
+            --title "Release ${{ env.release_tag }}" \
+            --generate-notes \
+            pdf/out/resume.pdf \
+            build.tgz
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ env.release_tag }}
-          release_name: Release ${{ env.release_tag }}
-          draft: false
-          prerelease: false
-      - uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: pdf/out/resume.pdf
-          asset_name: resume.pdf
-          asset_content_type: application/pdf
-      - uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: build.tgz
-          asset_name: build.tgz
-          asset_content_type: application/x-gzip
