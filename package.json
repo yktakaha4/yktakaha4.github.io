@@ -27,8 +27,8 @@
     "fetch-note-contents": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchNoteContents.ts"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.1.1",
-    "@docusaurus/preset-classic": "^3.5.2",
+    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
     "@mdx-js/react": "^3.1.0",
     "@octokit/graphql": "^7.0.2",
     "clsx": "^2.1.1",
@@ -41,10 +41,10 @@
     "react-icons": "^5.3.0"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^3.5.2",
-    "@docusaurus/module-type-aliases": "^3.5.2",
-    "@docusaurus/tsconfig": "^3.5.2",
-    "@docusaurus/types": "^3.3.2",
+    "@docusaurus/eslint-plugin": "^3.8.1",
+    "@docusaurus/module-type-aliases": "^3.8.1",
+    "@docusaurus/tsconfig": "^3.8.1",
+    "@docusaurus/types": "^3.8.1",
     "@testing-library/react": "^15.0.7",
     "@testing-library/user-event": "^14.5.2",
     "@types/fs-extra": "^11.0.4",
