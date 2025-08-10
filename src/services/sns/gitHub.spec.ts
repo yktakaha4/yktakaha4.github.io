@@ -85,7 +85,7 @@ describe('checkGitHubPAT', () => {
         },
       );
 
-    await expect(github.checkGitHubPAT()).rejects.toThrowError(
+    await expect(github.checkGitHubPAT()).rejects.toThrow(
       'Invalid scope: public_repo, repo',
     );
   });
