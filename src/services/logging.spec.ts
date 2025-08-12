@@ -1,5 +1,7 @@
-const mockedLog = jest.fn();
-jest.spyOn(console, 'log').mockImplementation(mockedLog);
+import { vi } from 'vitest';
+
+const mockedLog = vi.fn();
+vi.spyOn(console, 'log').mockImplementation(mockedLog);
 
 import { logger } from '@/services/logging';
 

@@ -10,9 +10,10 @@ import nock from 'nock';
 import zennApiGetArticleResponse from '@/services/sns/mocks/zennApiGetArticleResponse.json';
 import zennApiGetArticlesResponse from '@/services/sns/mocks/zennApiGetArticlesResponse.json';
 import * as constants from '@/constants';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
+const mockedGetSNSDataPath = vi.fn();
+vi
   .spyOn(constants, 'getSNSDataPath')
   .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 
@@ -34,7 +35,7 @@ describe('fetchTopics', () => {
       .get(`/api/articles/${errorSlug}`)
       .reply(500);
 
-    jest.spyOn(global, 'setTimeout').mockImplementation((callback) => {
+    vi.spyOn(global, 'setTimeout').mockImplementation((callback: any) => {
       callback();
       return 123 as unknown as NodeJS.Timeout;
     });

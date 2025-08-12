@@ -7,6 +7,7 @@ import { render, screen } from '@testing-library/react';
 import { TableHeaders, TableRow } from '@/components/ui/Table';
 import dayjs from 'dayjs';
 import { userEvent } from '@testing-library/user-event';
+import { vi } from 'vitest';
 
 describe('createSearchRegexp', () => {
   test.each([
@@ -180,11 +181,11 @@ describe('SearchableTable', () => {
 
   describe('バリデーションエラー', () => {
     beforeAll(() => {
-      jest.spyOn(console, 'error').mockImplementation();
+      vi.spyOn(console, 'error').mockImplementation(() => {});
     });
 
     afterAll(() => {
-      jest.restoreAllMocks();
+      vi.restoreAllMocks();
     });
 
     test('headersが空の場合はエラーが発生する', () => {

@@ -11,6 +11,7 @@ import {
   TableRows,
   TagsCellValue,
 } from '@/components/ui/Table';
+import { vi } from 'vitest';
 
 describe('decorate', () => {
   test.each<[string | null, CellValueOptions, string, string]>([
@@ -169,11 +170,11 @@ describe('Table', () => {
 
   describe('バリデーションエラー', () => {
     beforeAll(() => {
-      jest.spyOn(console, 'error').mockImplementation();
+      vi.spyOn(console, 'error').mockImplementation(() => {});
     });
 
     afterAll(() => {
-      jest.restoreAllMocks();
+      vi.restoreAllMocks();
     });
 
     test('ヘッダと行の長さが一致しない', () => {

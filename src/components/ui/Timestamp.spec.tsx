@@ -1,11 +1,12 @@
 import { render } from '@testing-library/react';
 import { Timestamp } from '@/components/ui/Timestamp';
 import dayjs from 'dayjs';
+import { vi } from 'vitest';
 
 describe('Timestamp', () => {
   test('更新時刻とコミットハッシュが描画される', () => {
     const mockedDate = dayjs('2021-02-03 12:34:56').toDate();
-    jest.spyOn(global, 'Date').mockImplementation(() => mockedDate);
+    vi.spyOn(global, 'Date').mockImplementation(() => mockedDate);
 
     const { container } = render(<Timestamp />);
     expect(container.textContent).toBe(
