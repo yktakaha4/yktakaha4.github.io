@@ -5,7 +5,7 @@ import {
   TechArticle,
 } from '@/services/techArticles';
 import * as constants from '@/constants';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 
 const mockedGetComponentsDataPath = jest.fn();

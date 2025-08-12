@@ -1,5 +1,5 @@
 import * as constants from '@/constants';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { fetchGitHubPullRequests } from '@/services/scripts/fetchGitHubPullRequests';
 import * as github from '@/services/sns/gitHub';
 import { readJsonSync } from 'fs-extra';

@@ -1,7 +1,7 @@
 import nock from 'nock';
 import qiitaApiGetItemsResponse from '@/services/sns/mocks/qiitaApiGetItemsResponse.json';
 import { fetchItems, storeItems } from '@/services/sns/qiita';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 import * as constants from '@/constants';
 

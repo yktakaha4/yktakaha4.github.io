@@ -1,6 +1,6 @@
 import { buildComponentsData } from '@/services/scripts/buildComponentsData';
 import * as constants from '@/constants';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { readJsonSync } from 'fs-extra';
 
 const mockedGetComponentsDataPath = jest.fn();

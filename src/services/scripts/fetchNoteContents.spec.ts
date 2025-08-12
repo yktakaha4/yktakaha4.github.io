@@ -1,6 +1,6 @@
 import * as constants from '@/constants';
 import * as note from '@/services/sns/note';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { fetchNoteContents } from '@/services/scripts/fetchNoteContents';
 import { readJsonSync } from 'fs-extra';
 

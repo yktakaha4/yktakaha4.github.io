@@ -2,7 +2,7 @@ import gitHubGraphqlFetchPullRequestsResponse from '@/services/sns/mocks/gitHubG
 import * as github from '@/services/sns/gitHub';
 import * as constants from '@/constants';
 import { fetchPullRequests, storePullRequests } from '@/services/sns/gitHub';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 import nock from 'nock';
 

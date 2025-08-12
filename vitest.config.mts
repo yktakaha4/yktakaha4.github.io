@@ -10,13 +10,13 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: ['src/jest/setupFiles.ts', 'src/jest/setupFilesAfterEnv.ts'],
+    setupFiles: ['src/test/setupFiles.ts', 'src/test/setupFilesAfterEnv.ts'],
     include: ['src/**/*.{spec,test}.{ts,tsx}'],
     exclude: ['node_modules', 'build', 'e2e'],
     alias: {
-      '@docusaurus/Link': path.resolve(__dirname, './src/jest/LinkMock.tsx'),
-      '@docusaurus/useDocusaurusContext': path.resolve(__dirname, './src/jest/useDocusaurusContextMock.ts'),
-      '@docusaurus/useBaseUrl': path.resolve(__dirname, './src/jest/useBaseUrlMock.ts'),
+      '@docusaurus/Link': path.resolve(__dirname, './src/test/LinkMock.tsx'),
+      '@docusaurus/useDocusaurusContext': path.resolve(__dirname, './src/test/useDocusaurusContextMock.ts'),
+      '@docusaurus/useBaseUrl': path.resolve(__dirname, './src/test/useBaseUrlMock.ts'),
     },
   },
 });

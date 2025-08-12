@@ -1,7 +1,7 @@
 import { fetchQiitaItems } from '@/services/scripts/fetchQiitaItems';
 import * as constants from '@/constants';
 import * as qiita from '@/services/sns/qiita';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { readJsonSync } from 'fs-extra';
 
 const mockedGetSNSDataPath = jest.fn();

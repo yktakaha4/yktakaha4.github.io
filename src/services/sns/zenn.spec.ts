@@ -4,7 +4,7 @@ import {
   storeArticles,
   storeTopics,
 } from '@/services/sns/zenn';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 import nock from 'nock';
 import zennApiGetArticleResponse from '@/services/sns/mocks/zennApiGetArticleResponse.json';

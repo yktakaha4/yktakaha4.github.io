@@ -1,7 +1,7 @@
 import { fetchZennTopics } from '@/services/scripts/fetchZennTopics';
 import * as zenn from '@/services/sns/zenn';
 import * as constants from '@/constants';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { readJsonSync } from 'fs-extra';
 
 const mockedGetSNSDataPath = jest.fn();

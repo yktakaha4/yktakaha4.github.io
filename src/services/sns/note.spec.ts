@@ -2,7 +2,7 @@ import nock from 'nock';
 import noteApiGetContentsResponse from '@/services/sns/mocks/noteApiGetContentsResponse.json';
 import * as constants from '@/constants';
 import { fetchContents, storeContents } from '@/services/sns/note';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 
 const mockedGetSNSDataPath = jest.fn();

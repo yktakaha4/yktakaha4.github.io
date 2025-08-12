@@ -1,4 +1,4 @@
-import { removeAllTempDirs, tempDir, uuid } from '@/jest/helper';
+import { removeAllTempDirs, tempDir, uuid } from '@/test/helper';
 import { existsSync, readdirSync } from 'fs-extra';
 
 describe('uuid', () => {
