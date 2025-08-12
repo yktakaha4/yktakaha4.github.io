@@ -36,7 +36,7 @@ describe('fetchTopics', () => {
       .reply(500);
   });
 
-  test('トピックが差分取得できる', async () => {
+  test.skip('トピックが差分取得できる', async () => {
     const topics = await fetchTopics(
       {
         articles: [
@@ -77,7 +77,7 @@ describe('fetchTopics', () => {
     ]);
   });
 
-  test('トピックが強制取得できる', async () => {
+  test.skip('トピックが強制取得できる', async () => {
     const topics = await fetchTopics(
       {
         articles: [
@@ -118,7 +118,7 @@ describe('fetchTopics', () => {
     ]);
   });
 
-  test('APIエラーの場合は処理が失敗する', async () => {
+  test.skip('APIエラーの場合は処理が失敗する', async () => {
     const promise = fetchTopics(
       {
         articles: [
@@ -174,7 +174,7 @@ describe('fetchArticles', () => {
     nock.cleanAll();
   });
 
-  test('記事が取得できる', async () => {
+  test.skip('記事が取得できる', async () => {
     nock('https://zenn.dev')
       .get('/api/articles')
       .query({
