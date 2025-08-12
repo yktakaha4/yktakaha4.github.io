@@ -14,8 +14,8 @@ import {
 
 describe('decorate', () => {
   test.each<[string | null, CellValueOptions, string, string]>([
-    ['', { link: { href: '' } }, '#', 'http://localhost/'],
-    ['text', { link: { href: '#anchor' } }, 'text', 'http://localhost/#anchor'],
+    ['', { link: { href: '' } }, '#', 'http://localhost:3000/'],
+    ['text', { link: { href: '#anchor' } }, 'text', 'http://localhost:3000/#anchor'],
     [
       'text',
       {

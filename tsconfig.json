@@ -8,6 +8,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@site/*": ["./*"]
-    }
+    },
+    "types": ["vitest/globals"]
   }
 }

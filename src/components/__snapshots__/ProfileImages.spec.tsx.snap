@@ -1,4 +1,67 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProfileImages > スナップショットテスト > プロフィール画像が描画される 1`] = `
+<div>
+  <div
+    class="avatar"
+  >
+    <a
+      class="avatar__photo-link avatar__photo avatar__photo--lg"
+      data-mock="LinkMock"
+      href="/static/img/icon.jpg"
+      target="_blank"
+      to="/static/img/icon.jpg"
+    >
+      <picture>
+        <source
+          srcset="/static/img/icon_thumb.webp"
+          type="image/webp"
+        />
+        <img
+          alt="コウテイペンギン"
+          decoding="async"
+          loading="lazy"
+          src="/static/img/icon.jpg"
+          srcset="/static/img/icon_thumb.jpg 128w,/static/img/icon.jpg 400w"
+          title="コウテイペンギン"
+        />
+      </picture>
+    </a>
+    <a
+      class="avatar__photo-link avatar__photo avatar__photo--lg"
+      data-mock="LinkMock"
+      href="/static/img/yktakaha4.jpg"
+      target="_blank"
+      to="/static/img/yktakaha4.jpg"
+    >
+      <picture>
+        <source
+          srcset="/static/img/yktakaha4_thumb.webp"
+          type="image/webp"
+        />
+        <img
+          alt="近影"
+          decoding="async"
+          loading="lazy"
+          src="/static/img/yktakaha4.jpg"
+          srcset="/static/img/yktakaha4_thumb.jpg 128w,/static/img/yktakaha4.jpg 400w"
+          title="近影"
+        />
+      </picture>
+    </a>
+    <div
+      class="avatar__intro"
+    >
+      <div
+        class="avatar__name"
+      />
+      <small
+        class="avatar__subtitle"
+      />
+    </div>
+  </div>
+</div>
+`;
 
 exports[`ProfileImages スナップショットテスト プロフィール画像が描画される 1`] = `
 <div>

@@ -33,8 +33,6 @@ module.exports = defineConfig([
   {
     files: [
       'eslint.config.js',
-      '**/jest.config.e2e.js',
-      '**/jest.config.js',
       '**/babel.config.js',
       'pdf/export.js',
     ],

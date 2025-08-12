@@ -5,6 +5,6 @@ describe('NotFound', () => {
   test('リダイレクト表示がおこなれる', () => {
     const { container } = render(<NotFound />);
     expect(container.textContent).toBe('Redirecting...');
-    expect(window.location.href).toBe('http://localhost/');
+    expect(window.location.href).toBe('http://localhost:3000/');
   });
 });
