@@ -32,7 +32,9 @@ vi.mock('@/components/data/ossContributions.json', () => {
       };
     }),
   };
-  return mockedOssContributions;
+  return {
+    default: mockedOssContributions
+  };
 });
 
 describe('OSSContributions', () => {

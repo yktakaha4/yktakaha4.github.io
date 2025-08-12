@@ -5,14 +5,15 @@ import { fetchPullRequests, storePullRequests } from '@/services/sns/gitHub';
 import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 import nock from 'nock';
+import { vi } from 'vitest';
 
-const mockedGraphQLClient = jest.fn();
-jest
+const mockedGraphQLClient = vi.fn();
+vi
   .spyOn(github, 'createGraphQLClient')
   .mockImplementation(() => mockedGraphQLClient as never);
 
-const mockedGetSNSDataPath = jest.fn();
-jest
+const mockedGetSNSDataPath = vi.fn();
+vi
   .spyOn(constants, 'getSNSDataPath')
   .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 

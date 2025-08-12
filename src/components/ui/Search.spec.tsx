@@ -1,6 +1,7 @@
 import { render } from '@testing-library/react';
 import { Search } from '@/components/ui/Search';
 import { userEvent } from '@testing-library/user-event';
+import { vi } from 'vitest';
 
 describe('Search', () => {
   test('検索が描画される', () => {
@@ -22,7 +23,7 @@ describe('Search', () => {
 
   test('クリック時にイベントが発火する', async () => {
     const user = userEvent.setup();
-    const onChange = jest.fn();
+    const onChange = vi.fn();
 
     const { container } = render(
       <Search query={'Python'} onChange={onChange} />,

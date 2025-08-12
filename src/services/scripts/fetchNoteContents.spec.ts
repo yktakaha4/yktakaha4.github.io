@@ -3,14 +3,15 @@ import * as note from '@/services/sns/note';
 import { tempDir } from '@/test/helper';
 import { fetchNoteContents } from '@/services/scripts/fetchNoteContents';
 import { readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
+const mockedGetSNSDataPath = vi.fn();
+vi
   .spyOn(constants, 'getSNSDataPath')
   .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 
-const mockedFetchContents = jest.fn();
-jest
+const mockedFetchContents = vi.fn();
+vi
   .spyOn(note, 'fetchContents')
   .mockImplementation((...args) => mockedFetchContents(...args));
 

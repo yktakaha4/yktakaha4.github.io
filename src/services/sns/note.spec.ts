@@ -4,9 +4,10 @@ import * as constants from '@/constants';
 import { fetchContents, storeContents } from '@/services/sns/note';
 import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
+const mockedGetSNSDataPath = vi.fn();
+vi
   .spyOn(constants, 'getSNSDataPath')
   .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 

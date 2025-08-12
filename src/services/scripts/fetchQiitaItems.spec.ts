@@ -3,14 +3,15 @@ import * as constants from '@/constants';
 import * as qiita from '@/services/sns/qiita';
 import { tempDir } from '@/test/helper';
 import { readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
+const mockedGetSNSDataPath = vi.fn();
+vi
   .spyOn(constants, 'getSNSDataPath')
   .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 
-const mockedFetchItems = jest.fn();
-jest
+const mockedFetchItems = vi.fn();
+vi
   .spyOn(qiita, 'fetchItems')
   .mockImplementation((...args) => mockedFetchItems(...args));
 

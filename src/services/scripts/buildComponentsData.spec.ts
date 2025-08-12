@@ -2,9 +2,10 @@ import { buildComponentsData } from '@/services/scripts/buildComponentsData';
 import * as constants from '@/constants';
 import { tempDir } from '@/test/helper';
 import { readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetComponentsDataPath = jest.fn();
-jest
+const mockedGetComponentsDataPath = vi.fn();
+vi
   .spyOn(constants, 'getComponentsDataPath')
   .mockImplementation((...args) => mockedGetComponentsDataPath(...args));
 

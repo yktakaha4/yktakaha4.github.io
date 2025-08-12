@@ -3,19 +3,20 @@ import { tempDir } from '@/test/helper';
 import { fetchGitHubPullRequests } from '@/services/scripts/fetchGitHubPullRequests';
 import * as github from '@/services/sns/gitHub';
 import { readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
+const mockedGetSNSDataPath = vi.fn();
+vi
   .spyOn(constants, 'getSNSDataPath')
   .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 
-const mockedCheckGitHubPAT = jest.fn();
-jest
+const mockedCheckGitHubPAT = vi.fn();
+vi
   .spyOn(github, 'checkGitHubPAT')
   .mockImplementation((...args) => mockedCheckGitHubPAT(...args));
 
-const mockedFetchPullRequests = jest.fn();
-jest
+const mockedFetchPullRequests = vi.fn();
+vi
   .spyOn(github, 'fetchPullRequests')
   .mockImplementation((...args) => mockedFetchPullRequests(...args));
 

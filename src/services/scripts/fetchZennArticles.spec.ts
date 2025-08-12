@@ -3,14 +3,15 @@ import * as constants from '@/constants';
 import * as zenn from '@/services/sns/zenn';
 import { tempDir } from '@/test/helper';
 import { readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
+const mockedGetSNSDataPath = vi.fn();
+vi
   .spyOn(constants, 'getSNSDataPath')
   .mockImplementation((...args) => mockedGetSNSDataPath(...args));
 
-const mockedFetchArticles = jest.fn();
-jest
+const mockedFetchArticles = vi.fn();
+vi
   .spyOn(zenn, 'fetchArticles')
   .mockImplementation((...args) => mockedFetchArticles(...args));
 
