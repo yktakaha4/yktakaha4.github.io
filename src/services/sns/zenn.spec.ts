@@ -34,11 +34,6 @@ describe('fetchTopics', () => {
       .reply(404)
       .get(`/api/articles/${errorSlug}`)
       .reply(500);
-
-    vi.spyOn(global, 'setTimeout').mockImplementation((callback: any) => {
-      callback();
-      return 123 as unknown as NodeJS.Timeout;
-    });
   });
 
   test('トピックが差分取得できる', async () => {
