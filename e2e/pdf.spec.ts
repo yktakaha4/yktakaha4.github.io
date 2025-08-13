@@ -1,6 +1,3 @@
-/**
- * @jest-environment node
- */
 import { getDocument, PDFDocumentProxy } from 'pdfjs-dist/legacy/build/pdf.mjs';
 import { isExternalLink, rootDirectoryName } from './helper';
 import fs from 'fs-extra';

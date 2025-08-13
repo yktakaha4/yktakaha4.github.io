@@ -18,7 +18,7 @@
     "fix": "tsc && textlint --fix src/ && eslint --fix '**/*.{ts,tsx,js}' && prettier --write '**/*.{ts,tsx,js,mdx,md,json,yaml,yml}'",
     "lint": "tsc && textlint src/ && eslint '**/*.{ts,tsx,js}' && prettier -c '**/*.{ts,tsx,js,mdx,md,json,yaml,yml}'",
     "test": "vitest run",
-    "test:e2e": "vitest --config vitest.config.e2e.ts",
+    "test:e2e": "vitest run --config vitest.config.e2e.mts",
     "refresh-components-data": "npm run fetch-github-pull-requests && npm run fetch-qiita-items && npm run fetch-zenn-articles && npm run fetch-zenn-topics && npm run fetch-note-contents && npm run build-components-data",
     "build-components-data": "ts-node -P tsconfig.scripts.json src/services/scripts/buildComponentsData.ts",
     "fetch-github-pull-requests": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchGitHubPullRequests.ts",
