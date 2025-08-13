@@ -10,6 +10,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
+    globalSetup: ['./src/test/globalSetup.ts'],
     setupFiles: ['src/test/setupFiles.ts'],
     include: ['src/**/*.{spec,test}.{ts,tsx}'],
     exclude: ['node_modules', 'build', 'e2e'],
@@ -17,6 +18,11 @@ export default defineConfig({
       '@docusaurus/Link': path.resolve(__dirname, './src/test/LinkMock.tsx'),
       '@docusaurus/useDocusaurusContext': path.resolve(__dirname, './src/test/useDocusaurusContextMock.ts'),
       '@docusaurus/useBaseUrl': path.resolve(__dirname, './src/test/useBaseUrlMock.ts'),
+    },
+    coverage: {
+      enabled: true,
+      reporter: ['text', 'json', 'html'],
+      include: ['src/**/*.{ts,tsx}'],
     },
   },
 });
