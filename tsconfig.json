@@ -3,13 +3,16 @@
   "compilerOptions": {
     "strict": true,
     "baseUrl": ".",
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
+    "target": "esnext",
     "paths": {
       "@/*": ["./src/*"],
       "@site/*": ["./*"]
     },
     "jsx": "react-jsx",
     "types": ["vitest/globals"]
+  },
+  "ts-node": {
+    "esm": true,
+    "require": ["tsconfig-paths/register"]
   }
 }

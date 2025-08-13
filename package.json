@@ -2,6 +2,7 @@
   "name": "yktakaha-4-github-io",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "upgrade-interactive": "npm-check --update",
     "docusaurus": "docusaurus",
@@ -20,12 +21,12 @@
     "test": "vitest run",
     "test:e2e": "vitest run --config vitest.config.e2e.mts",
     "refresh-components-data": "npm run fetch-github-pull-requests && npm run fetch-qiita-items && npm run fetch-zenn-articles && npm run fetch-zenn-topics && npm run fetch-note-contents && npm run build-components-data",
-    "build-components-data": "ts-node -P tsconfig.scripts.json src/services/scripts/buildComponentsData.ts",
-    "fetch-github-pull-requests": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchGitHubPullRequests.ts",
-    "fetch-qiita-items": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchQiitaItems.ts",
-    "fetch-zenn-articles": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchZennArticles.ts",
-    "fetch-zenn-topics": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchZennTopics.ts",
-    "fetch-note-contents": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchNoteContents.ts"
+    "build-components-data": "ts-node src/services/scripts/buildComponentsData.ts",
+    "fetch-github-pull-requests": "ts-node src/services/scripts/fetchGitHubPullRequests.ts",
+    "fetch-qiita-items": "ts-node src/services/scripts/fetchQiitaItems.ts",
+    "fetch-zenn-articles": "ts-node src/services/scripts/fetchZennArticles.ts",
+    "fetch-zenn-topics": "ts-node src/services/scripts/fetchZennTopics.ts",
+    "fetch-note-contents": "ts-node src/services/scripts/fetchNoteContents.ts"
   },
   "dependencies": {
     "@docusaurus/core": "^3.8.1",
