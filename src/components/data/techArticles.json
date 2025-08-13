@@ -572,6 +572,18 @@
       ]
     },
     {
+      "title": "EKSのコンテナリソース最適化メモ",
+      "url": "https://zenn.dev/yktakaha4/articles/how_to_optimize_eks_containers",
+      "publishedAt": "2024-12-12T12:06:23.719Z",
+      "likes": 6,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "EKS",
+        "Kubernetes"
+      ]
+    },
+    {
       "title": "SquidのTips集",
       "url": "https://zenn.dev/yktakaha4/articles/squid_proxy_tips",
       "publishedAt": "2022-06-18T14:53:47.098Z",
@@ -629,18 +641,6 @@
         "AWS",
         "CloudFormation",
         "ECS"
-      ]
-    },
-    {
-      "title": "EKSのコンテナリソース最適化メモ",
-      "url": "https://zenn.dev/yktakaha4/articles/how_to_optimize_eks_containers",
-      "publishedAt": "2024-12-12T12:06:23.719Z",
-      "likes": 5,
-      "publisher": "zenn",
-      "tags": [
-        "AWS",
-        "EKS",
-        "Kubernetes"
       ]
     },
     {
