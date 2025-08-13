@@ -1,18 +1,19 @@
 import { fetchZennTopics } from '@/services/scripts/fetchZennTopics';
 import * as zenn from '@/services/sns/zenn';
 import * as constants from '@/constants';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+const mockedGetSNSDataPath = vi.fn();
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
-const mockedFetchTopics = jest.fn();
-jest
-  .spyOn(zenn, 'fetchTopics')
-  .mockImplementation((...args) => mockedFetchTopics(...args));
+const mockedFetchTopics = vi.fn();
+vi.spyOn(zenn, 'fetchTopics').mockImplementation((...args) =>
+  mockedFetchTopics(...args),
+);
 
 describe('fetchZennTopics', () => {
   test('正常に動作する', async () => {

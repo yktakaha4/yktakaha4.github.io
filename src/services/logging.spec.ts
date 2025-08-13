@@ -1,15 +1,20 @@
-const mockedLog = jest.fn();
-jest.spyOn(console, 'log').mockImplementation(mockedLog);
+import { singleLine } from '@/services/logging';
 
-import { logger } from '@/services/logging';
-
-describe('logger', () => {
-  test('所定の情報が出力される', async () => {
-    logger.info('テストメッセージ');
-
-    expect(mockedLog.mock.calls.length).toBe(1);
-    expect(mockedLog.mock.calls[0][0]).toContain('INFO');
-    expect(mockedLog.mock.calls[0][0]).toContain('logging.spec.ts:8');
-    expect(mockedLog.mock.calls[0][0]).toContain('テストメッセージ');
+describe('singleLine', () => {
+  test('単一行に変換される', () => {
+    const func = () => {};
+    const logEvent = {
+      data: [
+        'test message',
+        { key: 'value', func },
+        [1, 2, 3],
+        null,
+        undefined,
+      ],
+    };
+    const result = singleLine(logEvent);
+    expect(result).toBe(
+      "test message { key: 'value', func: [Function: func] } [ 1, 2, 3 ] null undefined",
+    );
   });
 });

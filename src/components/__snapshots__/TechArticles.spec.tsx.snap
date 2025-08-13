@@ -1,4 +1,761 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TechArticles > スナップショットテスト > 技術記事が描画される 1`] = `
+<div>
+  <div
+    style="margin-bottom: 0.2rem;"
+  >
+    <nav
+      class="navbar"
+      style="margin: 0px; padding: 0px; background-color: transparent; box-shadow: none; height: inherit;"
+    >
+      <div
+        class="navbar__inner"
+      >
+        <div
+          class="navbar__items"
+        >
+          <div
+            class="navbar__search"
+          >
+            <input
+              class="navbar__search-input"
+              maxlength="100"
+              placeholder="検索"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="navbar__item"
+          >
+            30
+             件
+          </div>
+        </div>
+        <div
+          class="navbar__items navbar__items--right"
+        >
+          <div
+            class="navbar__item"
+          >
+            <ul
+              class="pagination"
+              style="margin: 0px;"
+            >
+              <li
+                class="pagination__item"
+              >
+                <a
+                  class="pagination__link"
+                  data-mock="LinkMock"
+                  href="#"
+                  to="#"
+                >
+                  «
+                </a>
+              </li>
+              <li
+                class="pagination__item pagination__item--active"
+              >
+                <a
+                  class="pagination__link"
+                  data-mock="LinkMock"
+                  href="#"
+                  to="#"
+                >
+                  1
+                </a>
+              </li>
+              <li
+                class="pagination__item "
+              >
+                <a
+                  class="pagination__link"
+                  data-mock="LinkMock"
+                  href="#"
+                  to="#"
+                >
+                  2
+                </a>
+              </li>
+              <li
+                class="pagination__item "
+              >
+                <a
+                  class="pagination__link"
+                  data-mock="LinkMock"
+                  href="#"
+                  to="#"
+                >
+                  3
+                </a>
+              </li>
+              <li
+                class="pagination__item"
+              >
+                <a
+                  class="pagination__link"
+                  data-mock="LinkMock"
+                  href="#"
+                  to="#"
+                >
+                  »
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <table
+    style="margin: 0px;"
+  >
+    <thead>
+      <tr>
+        <th
+          style="text-align: center; width: 10%;"
+        >
+          公開日
+        </th>
+        <th
+          style="text-align: left; width: 70%;"
+        >
+          タイトル
+        </th>
+        <th
+          style="text-align: left; width: 20%;"
+        >
+          タグ
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          2020/1/1
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/0"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/0"
+          >
+            Article title 0
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              Zenn
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              0
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/12/31
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/1"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/1"
+          >
+            Article title 1
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              Qiita
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              123
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/12/28
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/2"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/2"
+          >
+            Article title 2
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              note
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              246
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/12/23
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/3"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/3"
+          >
+            Article title 3
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              Zenn
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              369
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/12/16
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/4"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/4"
+          >
+            Article title 4
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              Qiita
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              492
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/12/7
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/5"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/5"
+          >
+            Article title 5
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              note
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              615
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/11/26
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/6"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/6"
+          >
+            Article title 6
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              Zenn
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              738
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/11/13
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/7"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/7"
+          >
+            Article title 7
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              Qiita
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              861
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/10/29
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/8"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/8"
+          >
+            Article title 8
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              note
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              984
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019/10/12
+        </td>
+        <td>
+          <a
+            data-mock="LinkMock"
+            href="https://example.com/articles/9"
+            rel="noopener noreferrer"
+            target="_blank"
+            to="https://example.com/articles/9"
+          >
+            Article title 9
+          </a>
+        </td>
+        <td>
+          <div
+            style="display: flex; gap: 0.2rem; flex-wrap: wrap;"
+          >
+            <div
+              class="badge badge--primary"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"
+                />
+              </svg>
+              Zenn
+            </div>
+            <div
+              class="badge badge--danger"
+              style="white-space: nowrap;"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="margin-right: 0.2rem; vertical-align: bottom;"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              1,107
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
 
 exports[`TechArticles スナップショットテスト 技術記事が描画される 1`] = `
 <div>

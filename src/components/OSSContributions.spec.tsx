@@ -1,8 +1,9 @@
 import ossContributions from '@/components/data/ossContributions.json';
 import { render } from '@testing-library/react';
 import { OSSContributions } from '@/components/OSSContributions';
+import { vi } from 'vitest';
 
-jest.mock('@/components/data/ossContributions.json', () => {
+vi.mock('@/components/data/ossContributions.json', () => {
   const itemsCount = 30;
   const baseDate = new Date('2020-01-01');
   const kinds = ['mergedPullRequest'];
@@ -31,7 +32,9 @@ jest.mock('@/components/data/ossContributions.json', () => {
       };
     }),
   };
-  return mockedOssContributions;
+  return {
+    default: mockedOssContributions,
+  };
 });
 
 describe('OSSContributions', () => {

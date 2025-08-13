@@ -1,8 +1,9 @@
 import { render } from '@testing-library/react';
 import { TechArticles } from '@/components/TechArticles';
 import techArticles from '@/components/data/techArticles.json';
+import { vi } from 'vitest';
 
-jest.mock('@/components/data/techArticles.json', () => {
+vi.mock('@/components/data/techArticles.json', () => {
   const itemsCount = 30;
   const baseDate = new Date('2020-01-01');
   const publishers = ['zenn', 'qiita', 'note'];
@@ -22,7 +23,9 @@ jest.mock('@/components/data/techArticles.json', () => {
       };
     }),
   };
-  return mockedTechArticles;
+  return {
+    default: mockedTechArticles,
+  };
 });
 
 describe('TechArticles', () => {

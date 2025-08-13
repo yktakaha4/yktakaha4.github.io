@@ -4,17 +4,18 @@ import {
   storeArticles,
   storeTopics,
 } from '@/services/sns/zenn';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 import nock from 'nock';
 import zennApiGetArticleResponse from '@/services/sns/mocks/zennApiGetArticleResponse.json';
 import zennApiGetArticlesResponse from '@/services/sns/mocks/zennApiGetArticlesResponse.json';
 import * as constants from '@/constants';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+const mockedGetSNSDataPath = vi.fn();
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
 describe('fetchTopics', () => {
   const alreadySavedSlug = 'already_saved_slug';
@@ -33,11 +34,6 @@ describe('fetchTopics', () => {
       .reply(404)
       .get(`/api/articles/${errorSlug}`)
       .reply(500);
-
-    jest.spyOn(global, 'setTimeout').mockImplementation((callback) => {
-      callback();
-      return 123 as unknown as NodeJS.Timeout;
-    });
   });
 
   test('トピックが差分取得できる', async () => {

@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { getSliceIndex, Pager } from '@/components/ui/Pager';
 import { userEvent } from '@testing-library/user-event';
+import { vi } from 'vitest';
 
 describe('getSliceIndex', () => {
   test.each([
@@ -12,11 +13,11 @@ describe('getSliceIndex', () => {
 
   describe('バリデーションエラー', () => {
     beforeAll(() => {
-      jest.spyOn(console, 'error').mockImplementation();
+      vi.spyOn(console, 'error').mockImplementation(() => {});
     });
 
     afterAll(() => {
-      jest.restoreAllMocks();
+      vi.restoreAllMocks();
     });
 
     test('ページが一定値を下回る', () => {
@@ -58,7 +59,7 @@ describe('Pager', () => {
     ['»', { page: 6 }],
   ])('クリック時にイベントが発火する #%#', async (text, expected) => {
     const user = userEvent.setup();
-    const onChange = jest.fn();
+    const onChange = vi.fn();
 
     render(
       <Pager page={3} perPage={5} size={3} total={30} onChange={onChange} />,
@@ -71,11 +72,11 @@ describe('Pager', () => {
 
   describe('バリデーションエラー', () => {
     beforeAll(() => {
-      jest.spyOn(console, 'error').mockImplementation();
+      vi.spyOn(console, 'error').mockImplementation(() => {});
     });
 
     afterAll(() => {
-      jest.restoreAllMocks();
+      vi.restoreAllMocks();
     });
 
     test('サイズが一定値を下回る', () => {

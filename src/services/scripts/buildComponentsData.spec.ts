@@ -1,12 +1,13 @@
 import { buildComponentsData } from '@/services/scripts/buildComponentsData';
 import * as constants from '@/constants';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetComponentsDataPath = jest.fn();
-jest
-  .spyOn(constants, 'getComponentsDataPath')
-  .mockImplementation((...args) => mockedGetComponentsDataPath(...args));
+const mockedGetComponentsDataPath = vi.fn();
+vi.spyOn(constants, 'getComponentsDataPath').mockImplementation((...args) =>
+  mockedGetComponentsDataPath(...args),
+);
 
 describe('buildComponentsData', () => {
   test('正常に動作する', async () => {

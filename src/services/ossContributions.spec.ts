@@ -4,14 +4,15 @@ import {
   sortOSSContributions,
   storeOSSContributions,
 } from '@/services/ossContributions';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 import * as constants from '@/constants';
+import { vi } from 'vitest';
 
-const mockedGetComponentsDataPath = jest.fn();
-jest
-  .spyOn(constants, 'getComponentsDataPath')
-  .mockImplementation((...args) => mockedGetComponentsDataPath(...args));
+const mockedGetComponentsDataPath = vi.fn();
+vi.spyOn(constants, 'getComponentsDataPath').mockImplementation((...args) =>
+  mockedGetComponentsDataPath(...args),
+);
 
 describe('getOSSContributions', () => {
   test('OSS活動が取得できる', () => {

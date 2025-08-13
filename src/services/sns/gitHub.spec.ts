@@ -2,25 +2,21 @@ import gitHubGraphqlFetchPullRequestsResponse from '@/services/sns/mocks/gitHubG
 import * as github from '@/services/sns/gitHub';
 import * as constants from '@/constants';
 import { fetchPullRequests, storePullRequests } from '@/services/sns/gitHub';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 import nock from 'nock';
+import { vi } from 'vitest';
 
-const mockedGraphQLClient = jest.fn();
-jest
-  .spyOn(github, 'createGraphQLClient')
-  .mockImplementation(() => mockedGraphQLClient as never);
-
-const mockedGetSNSDataPath = jest.fn();
-jest
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+const mockedGetSNSDataPath = vi.fn();
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
 describe('fetchPullRequests', () => {
   test('PRが取得できる', async () => {
-    mockedGraphQLClient.mockImplementation(() => {
-      return gitHubGraphqlFetchPullRequestsResponse;
-    });
+    nock('https://api.github.com')
+      .post('/graphql')
+      .reply(200, { data: gitHubGraphqlFetchPullRequestsResponse });
 
     const pullRequests = await fetchPullRequests('yktakaha4');
 

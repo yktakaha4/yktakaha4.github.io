@@ -11,11 +11,17 @@ import {
   TableRows,
   TagsCellValue,
 } from '@/components/ui/Table';
+import { vi } from 'vitest';
 
 describe('decorate', () => {
   test.each<[string | null, CellValueOptions, string, string]>([
-    ['', { link: { href: '' } }, '#', 'http://localhost/'],
-    ['text', { link: { href: '#anchor' } }, 'text', 'http://localhost/#anchor'],
+    ['', { link: { href: '' } }, '#', 'http://localhost:3000/'],
+    [
+      'text',
+      { link: { href: '#anchor' } },
+      'text',
+      'http://localhost:3000/#anchor',
+    ],
     [
       'text',
       {
@@ -169,11 +175,11 @@ describe('Table', () => {
 
   describe('バリデーションエラー', () => {
     beforeAll(() => {
-      jest.spyOn(console, 'error').mockImplementation();
+      vi.spyOn(console, 'error').mockImplementation(() => {});
     });
 
     afterAll(() => {
-      jest.restoreAllMocks();
+      vi.restoreAllMocks();
     });
 
     test('ヘッダと行の長さが一致しない', () => {

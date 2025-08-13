@@ -1,6 +1,3 @@
-/**
- * @jest-environment node
- */
 import { getDocument, PDFDocumentProxy } from 'pdfjs-dist/legacy/build/pdf.mjs';
 import { isExternalLink, rootDirectoryName } from './helper';
 import fs from 'fs-extra';
@@ -36,7 +33,7 @@ describe('pdf', () => {
   beforeAll(async () => {
     const pdfPath = `${rootDirectoryName}/pdf/out/resume.pdf`;
     if (!fs.existsSync(pdfPath)) {
-      fail(`Pdf file is not found: ${pdfPath}`);
+      throw new Error(`Pdf file is not found: ${pdfPath}`);
     }
     document = await getDocument(pdfPath).promise;
   });

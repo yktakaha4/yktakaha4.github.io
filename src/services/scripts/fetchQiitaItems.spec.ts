@@ -1,18 +1,19 @@
 import { fetchQiitaItems } from '@/services/scripts/fetchQiitaItems';
 import * as constants from '@/constants';
 import * as qiita from '@/services/sns/qiita';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+const mockedGetSNSDataPath = vi.fn();
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
-const mockedFetchItems = jest.fn();
-jest
-  .spyOn(qiita, 'fetchItems')
-  .mockImplementation((...args) => mockedFetchItems(...args));
+const mockedFetchItems = vi.fn();
+vi.spyOn(qiita, 'fetchItems').mockImplementation((...args) =>
+  mockedFetchItems(...args),
+);
 
 describe('fetchQiitaItems', () => {
   test('正常に動作する', async () => {

@@ -5,13 +5,14 @@ import {
   TechArticle,
 } from '@/services/techArticles';
 import * as constants from '@/constants';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetComponentsDataPath = jest.fn();
-jest
-  .spyOn(constants, 'getComponentsDataPath')
-  .mockImplementation((...args) => mockedGetComponentsDataPath(...args));
+const mockedGetComponentsDataPath = vi.fn();
+vi.spyOn(constants, 'getComponentsDataPath').mockImplementation((...args) =>
+  mockedGetComponentsDataPath(...args),
+);
 
 describe('getTechArticles', () => {
   test('技術記事が取得できる', () => {

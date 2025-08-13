@@ -1,23 +1,24 @@
 import * as constants from '@/constants';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { fetchGitHubPullRequests } from '@/services/scripts/fetchGitHubPullRequests';
 import * as github from '@/services/sns/gitHub';
 import { readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+const mockedGetSNSDataPath = vi.fn();
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
-const mockedCheckGitHubPAT = jest.fn();
-jest
-  .spyOn(github, 'checkGitHubPAT')
-  .mockImplementation((...args) => mockedCheckGitHubPAT(...args));
+const mockedCheckGitHubPAT = vi.fn();
+vi.spyOn(github, 'checkGitHubPAT').mockImplementation((...args) =>
+  mockedCheckGitHubPAT(...args),
+);
 
-const mockedFetchPullRequests = jest.fn();
-jest
-  .spyOn(github, 'fetchPullRequests')
-  .mockImplementation((...args) => mockedFetchPullRequests(...args));
+const mockedFetchPullRequests = vi.fn();
+vi.spyOn(github, 'fetchPullRequests').mockImplementation((...args) =>
+  mockedFetchPullRequests(...args),
+);
 
 describe('fetchGitHubPullRequests', () => {
   test('正常に動作する', async () => {

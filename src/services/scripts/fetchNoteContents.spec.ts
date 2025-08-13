@@ -1,18 +1,19 @@
 import * as constants from '@/constants';
 import * as note from '@/services/sns/note';
-import { tempDir } from '@/jest/helper';
+import { tempDir } from '@/test/helper';
 import { fetchNoteContents } from '@/services/scripts/fetchNoteContents';
 import { readJsonSync } from 'fs-extra';
+import { vi } from 'vitest';
 
-const mockedGetSNSDataPath = jest.fn();
-jest
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+const mockedGetSNSDataPath = vi.fn();
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
-const mockedFetchContents = jest.fn();
-jest
-  .spyOn(note, 'fetchContents')
-  .mockImplementation((...args) => mockedFetchContents(...args));
+const mockedFetchContents = vi.fn();
+vi.spyOn(note, 'fetchContents').mockImplementation((...args) =>
+  mockedFetchContents(...args),
+);
 
 describe('fetchNoteContents', () => {
   test('正常に動作する', async () => {
