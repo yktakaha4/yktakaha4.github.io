@@ -53,7 +53,7 @@ describe('storePullRequests', () => {
 });
 
 describe('checkGitHubPAT', () => {
-  test.skip('PATが適切なスコープを持っている', async () => {
+  test('PATが適切なスコープを持っている', async () => {
     nock('https://api.github.com', {
       reqheaders: {
         authorization: (value) => value === 'Bearer dummy_github_pat',
@@ -71,7 +71,7 @@ describe('checkGitHubPAT', () => {
     await expect(github.checkGitHubPAT()).resolves.toBeUndefined();
   });
 
-  test.skip('PATが適切なスコープを持っていない', async () => {
+  test('PATが適切なスコープを持っていない', async () => {
     nock('https://api.github.com', {
       reqheaders: {
         authorization: (value) => value === 'Bearer dummy_github_pat',

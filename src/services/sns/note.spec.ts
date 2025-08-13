@@ -16,7 +16,7 @@ describe('fetchContents', () => {
     nock.cleanAll();
   });
 
-  test.skip('記事が取得できる', async () => {
+  test('記事が取得できる', async () => {
     nock('https://note.com')
       .get('/api/v2/creators/yktakaha4/contents')
       .query({
