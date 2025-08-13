@@ -16,7 +16,7 @@ describe('fetchItems', () => {
     nock.cleanAll();
   });
 
-  test.skip('記事が取得できる', async () => {
+  test('記事が取得できる', async () => {
     nock('https://qiita.com')
       .get('/api/v2/items')
       .query({
