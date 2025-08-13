@@ -6,14 +6,14 @@ import { readJsonSync } from 'fs-extra';
 import { vi } from 'vitest';
 
 const mockedGetSNSDataPath = vi.fn();
-vi
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
 const mockedFetchItems = vi.fn();
-vi
-  .spyOn(qiita, 'fetchItems')
-  .mockImplementation((...args) => mockedFetchItems(...args));
+vi.spyOn(qiita, 'fetchItems').mockImplementation((...args) =>
+  mockedFetchItems(...args),
+);
 
 describe('fetchQiitaItems', () => {
   test('正常に動作する', async () => {

@@ -7,9 +7,9 @@ import * as constants from '@/constants';
 import { vi } from 'vitest';
 
 const mockedGetSNSDataPath = vi.fn();
-vi
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
 describe('fetchItems', () => {
   beforeEach(() => {

@@ -7,9 +7,9 @@ import { existsSync, readJsonSync } from 'fs-extra';
 import { vi } from 'vitest';
 
 const mockedGetSNSDataPath = vi.fn();
-vi
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
 describe('fetchContents', () => {
   beforeEach(() => {

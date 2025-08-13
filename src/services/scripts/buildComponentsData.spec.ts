@@ -5,9 +5,9 @@ import { readJsonSync } from 'fs-extra';
 import { vi } from 'vitest';
 
 const mockedGetComponentsDataPath = vi.fn();
-vi
-  .spyOn(constants, 'getComponentsDataPath')
-  .mockImplementation((...args) => mockedGetComponentsDataPath(...args));
+vi.spyOn(constants, 'getComponentsDataPath').mockImplementation((...args) =>
+  mockedGetComponentsDataPath(...args),
+);
 
 describe('buildComponentsData', () => {
   test('正常に動作する', async () => {

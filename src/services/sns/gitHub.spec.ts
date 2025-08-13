@@ -8,14 +8,14 @@ import nock from 'nock';
 import { vi } from 'vitest';
 
 const mockedGraphQLClient = vi.fn();
-vi
-  .spyOn(github, 'createGraphQLClient')
-  .mockImplementation(() => mockedGraphQLClient as never);
+vi.spyOn(github, 'createGraphQLClient').mockImplementation(
+  () => mockedGraphQLClient as never,
+);
 
 const mockedGetSNSDataPath = vi.fn();
-vi
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
 describe('fetchPullRequests', () => {
   test.skip('PRが取得できる', async () => {

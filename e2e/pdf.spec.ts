@@ -36,7 +36,7 @@ describe('pdf', () => {
   beforeAll(async () => {
     const pdfPath = `${rootDirectoryName}/pdf/out/resume.pdf`;
     if (!fs.existsSync(pdfPath)) {
-      fail(`Pdf file is not found: ${pdfPath}`);
+      throw new Error(`Pdf file is not found: ${pdfPath}`);
     }
     document = await getDocument(pdfPath).promise;
   });

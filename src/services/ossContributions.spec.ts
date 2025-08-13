@@ -10,9 +10,9 @@ import * as constants from '@/constants';
 import { vi } from 'vitest';
 
 const mockedGetComponentsDataPath = vi.fn();
-vi
-  .spyOn(constants, 'getComponentsDataPath')
-  .mockImplementation((...args) => mockedGetComponentsDataPath(...args));
+vi.spyOn(constants, 'getComponentsDataPath').mockImplementation((...args) =>
+  mockedGetComponentsDataPath(...args),
+);
 
 describe('getOSSContributions', () => {
   test('OSS活動が取得できる', () => {

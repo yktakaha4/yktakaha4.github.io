@@ -6,19 +6,19 @@ import { readJsonSync } from 'fs-extra';
 import { vi } from 'vitest';
 
 const mockedGetSNSDataPath = vi.fn();
-vi
-  .spyOn(constants, 'getSNSDataPath')
-  .mockImplementation((...args) => mockedGetSNSDataPath(...args));
+vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
+  mockedGetSNSDataPath(...args),
+);
 
 const mockedCheckGitHubPAT = vi.fn();
-vi
-  .spyOn(github, 'checkGitHubPAT')
-  .mockImplementation((...args) => mockedCheckGitHubPAT(...args));
+vi.spyOn(github, 'checkGitHubPAT').mockImplementation((...args) =>
+  mockedCheckGitHubPAT(...args),
+);
 
 const mockedFetchPullRequests = vi.fn();
-vi
-  .spyOn(github, 'fetchPullRequests')
-  .mockImplementation((...args) => mockedFetchPullRequests(...args));
+vi.spyOn(github, 'fetchPullRequests').mockImplementation((...args) =>
+  mockedFetchPullRequests(...args),
+);
 
 describe('fetchGitHubPullRequests', () => {
   test('正常に動作する', async () => {

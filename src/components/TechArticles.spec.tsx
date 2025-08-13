@@ -24,7 +24,7 @@ vi.mock('@/components/data/techArticles.json', () => {
     }),
   };
   return {
-    default: mockedTechArticles
+    default: mockedTechArticles,
   };
 });
 

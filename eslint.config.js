@@ -31,11 +31,7 @@ module.exports = defineConfig([
     },
   },
   {
-    files: [
-      'eslint.config.js',
-      '**/babel.config.js',
-      'pdf/export.js',
-    ],
+    files: ['eslint.config.js', '**/babel.config.js', 'pdf/export.js'],
 
     rules: {
       '@typescript-eslint/no-require-imports': 'off',

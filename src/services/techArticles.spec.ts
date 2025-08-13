@@ -10,9 +10,9 @@ import { existsSync, readJsonSync } from 'fs-extra';
 import { vi } from 'vitest';
 
 const mockedGetComponentsDataPath = vi.fn();
-vi
-  .spyOn(constants, 'getComponentsDataPath')
-  .mockImplementation((...args) => mockedGetComponentsDataPath(...args));
+vi.spyOn(constants, 'getComponentsDataPath').mockImplementation((...args) =>
+  mockedGetComponentsDataPath(...args),
+);
 
 describe('getTechArticles', () => {
   test('技術記事が取得できる', () => {
