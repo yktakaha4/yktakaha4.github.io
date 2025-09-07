@@ -562,6 +562,20 @@
       ]
     },
     {
+      "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
+      "url": "https://zenn.dev/mitene/articles/migrate-promtail-to-alloy",
+      "publishedAt": "2025-09-01T00:48:44.543Z",
+      "likes": 6,
+      "publisher": "zenn",
+      "tags": [
+        "alloy",
+        "Kubernetes",
+        "OpenTelemetry",
+        "promtail",
+        "zennfes2025infra"
+      ]
+    },
+    {
       "title": "写経や情報共有に単体テストを役立てる",
       "url": "https://zenn.dev/yktakaha4/articles/using_unit_tests_to_learn",
       "publishedAt": "2024-12-21T22:00:01.449Z",
