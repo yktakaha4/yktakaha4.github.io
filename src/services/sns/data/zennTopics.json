@@ -211,6 +211,17 @@
       "published": true
     },
     {
+      "slug": "migrate-promtail-to-alloy",
+      "topics": [
+        "alloy",
+        "Kubernetes",
+        "OpenTelemetry",
+        "promtail",
+        "zennfes2025infra"
+      ],
+      "published": true
+    },
+    {
       "slug": "my-log4js-settings",
       "topics": [
         "log4js",

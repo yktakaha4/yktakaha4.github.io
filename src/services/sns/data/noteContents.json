@@ -90,7 +90,8 @@
         "guestAmazonpay": false,
         "rubyText": true,
         "formulaText": true,
-        "duplication": true
+        "duplication": true,
+        "noteComment": false
       },
       "discountCampaigns": [],
       "workreqSetting": null,
@@ -203,7 +204,8 @@
         "guestAmazonpay": false,
         "rubyText": true,
         "formulaText": true,
-        "duplication": true
+        "duplication": true,
+        "noteComment": false
       },
       "discountCampaigns": [],
       "workreqSetting": null,
@@ -326,7 +328,8 @@
         "guestAmazonpay": false,
         "rubyText": true,
         "formulaText": true,
-        "duplication": true
+        "duplication": true,
+        "noteComment": false
       },
       "discountCampaigns": [],
       "workreqSetting": null,
