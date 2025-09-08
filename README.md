@@ -28,5 +28,5 @@ npm run test:e2e
 cp -p .envrc.example .envrc
 direnv allow
 
-yarn refresh-components-data
+npm run refresh-components-data
 ```
