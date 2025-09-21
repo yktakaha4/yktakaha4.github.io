@@ -1,13 +1,48 @@
 {
   "articles": [
     {
+      "id": 460922,
+      "post_type": "Article",
+      "title": "Claude Codeにリポジトリを調べてもらうカスタムスラッシュコマンド",
+      "slug": "claude-command-for-code-analysis",
+      "comments_count": 0,
+      "liked_count": 3,
+      "bookmarked_count": 0,
+      "body_letters_count": 4604,
+      "article_type": "tech",
+      "emoji": "🌸",
+      "is_suspending_private": false,
+      "published_at": "2025-09-16T17:23:08.744+09:00",
+      "body_updated_at": "2025-09-16T16:35:59.091+09:00",
+      "source_repo_updated_at": "2025-09-16T17:23:08.737+09:00",
+      "pinned": false,
+      "path": "/mitene/articles/claude-command-for-code-analysis",
+      "principal_type": "Publication",
+      "user": {
+        "id": 627,
+        "username": "yktakaha4",
+        "name": "Yuuki Takahashi",
+        "avatar_small_url": "https://lh3.googleusercontent.com/a-/AOh14Ghn0KIX7Ig5kFoZUYdj-rX6_bMT48DQq9XNwaEl=s80-c"
+      },
+      "publication": {
+        "id": 1383,
+        "name": "mitene",
+        "display_name": "みてね Tech Blog",
+        "avatar_small_url": "https://res.cloudinary.com/zenn/image/fetch/s--idD_Atbm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_80/https://storage.googleapis.com/zenn-user-upload/avatar/a3afc2ad86.jpeg",
+        "avatar_url": "https://storage.googleapis.com/zenn-user-upload/avatar/a3afc2ad86.jpeg",
+        "pro": true,
+        "avatar_registered": true
+      },
+      "publication_article_override": null
+    },
+    {
       "id": 453245,
       "post_type": "Article",
       "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
       "slug": "migrate-promtail-to-alloy",
       "comments_count": 0,
-      "liked_count": 6,
-      "bookmarked_count": 1,
+      "liked_count": 8,
+      "bookmarked_count": 2,
       "body_letters_count": 17832,
       "article_type": "tech",
       "emoji": "⚙️",

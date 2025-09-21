@@ -1,6 +1,22 @@
 {
   "contributions": [
     {
+      "title": "fix: ファイル名にコロンが含まれるケースを考慮",
+      "url": "https://github.com/zenn-dev/zenn-editor/pull/551",
+      "kind": "mergedPullRequest",
+      "mergedAt": "2025-09-17T00:51:19.000Z",
+      "changedLines": 18,
+      "repository": {
+        "owner": "zenn-dev",
+        "name": "zenn-dev/zenn-editor",
+        "stars": 684,
+        "url": "https://github.com/zenn-dev/zenn-editor",
+        "languages": [
+          "TypeScript"
+        ]
+      }
+    },
+    {
       "title": "Align max `--dml-batch-size` with the implementation",
       "url": "https://github.com/github/gh-ost/pull/1575",
       "kind": "mergedPullRequest",
@@ -9,7 +25,7 @@
       "repository": {
         "owner": "github",
         "name": "github/gh-ost",
-        "stars": 12927,
+        "stars": 12938,
         "url": "https://github.com/github/gh-ost",
         "languages": [
           "Go"
@@ -25,7 +41,7 @@
       "repository": {
         "owner": "grafana",
         "name": "grafana/alloy",
-        "stars": 2444,
+        "stars": 2459,
         "url": "https://github.com/grafana/alloy",
         "languages": [
           "Go"
@@ -41,7 +57,7 @@
       "repository": {
         "owner": "GoogleCloudPlatform",
         "name": "GoogleCloudPlatform/magic-modules",
-        "stars": 890,
+        "stars": 891,
         "url": "https://github.com/GoogleCloudPlatform/magic-modules",
         "languages": [
           "Go"
@@ -57,7 +73,7 @@
       "repository": {
         "owner": "github",
         "name": "github/gh-ost",
-        "stars": 12927,
+        "stars": 12938,
         "url": "https://github.com/github/gh-ost",
         "languages": [
           "Go"
@@ -73,7 +89,7 @@
       "repository": {
         "owner": "kubernetes",
         "name": "kubernetes/website",
-        "stars": 4997,
+        "stars": 5004,
         "url": "https://github.com/kubernetes/website",
         "languages": [
           "HTML"
@@ -89,7 +105,7 @@
       "repository": {
         "owner": "yasslab",
         "name": "yasslab/codespaces-railstutorial",
-        "stars": 62,
+        "stars": 63,
         "url": "https://github.com/yasslab/codespaces-railstutorial",
         "languages": [
           "Ruby"
@@ -105,7 +121,7 @@
       "repository": {
         "owner": "celery",
         "name": "celery/django-celery-results",
-        "stars": 749,
+        "stars": 751,
         "url": "https://github.com/celery/django-celery-results",
         "languages": [
           "Python"
@@ -121,7 +137,7 @@
       "repository": {
         "owner": "axllent",
         "name": "axllent/mailpit",
-        "stars": 7735,
+        "stars": 7787,
         "url": "https://github.com/axllent/mailpit",
         "languages": [
           "Go"
@@ -137,7 +153,7 @@
       "repository": {
         "owner": "domainaware",
         "name": "domainaware/parsedmarc",
-        "stars": 1142,
+        "stars": 1143,
         "url": "https://github.com/domainaware/parsedmarc",
         "languages": [
           "Python"
@@ -153,7 +169,7 @@
       "repository": {
         "owner": "databus23",
         "name": "databus23/helm-diff",
-        "stars": 3156,
+        "stars": 3165,
         "url": "https://github.com/databus23/helm-diff",
         "languages": [
           "Go"
@@ -169,7 +185,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 10505,
+        "stars": 10513,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -201,7 +217,7 @@
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 4703,
+        "stars": 4719,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -217,7 +233,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 10505,
+        "stars": 10513,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -249,7 +265,7 @@
       "repository": {
         "owner": "cloudflare",
         "name": "cloudflare/terraform-provider-cloudflare",
-        "stars": 1120,
+        "stars": 1122,
         "url": "https://github.com/cloudflare/terraform-provider-cloudflare",
         "languages": [
           "Go"
@@ -265,7 +281,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 2369,
+        "stars": 2373,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -281,7 +297,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 2369,
+        "stars": 2373,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -297,7 +313,7 @@
       "repository": {
         "owner": "FairwindsOps",
         "name": "FairwindsOps/pluto",
-        "stars": 2369,
+        "stars": 2373,
         "url": "https://github.com/FairwindsOps/pluto",
         "languages": [
           "Go"
@@ -313,7 +329,7 @@
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
-        "stars": 16015,
+        "stars": 16031,
         "url": "https://github.com/argoproj/argo-workflows",
         "languages": [
           "Go"
@@ -377,7 +393,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 887,
+        "stars": 890,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -407,7 +423,7 @@
       "repository": {
         "owner": "python-social-auth",
         "name": "python-social-auth/social-core",
-        "stars": 887,
+        "stars": 890,
         "url": "https://github.com/python-social-auth/social-core",
         "languages": [
           "Python"
@@ -423,7 +439,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 10505,
+        "stars": 10513,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -503,7 +519,7 @@
       "repository": {
         "owner": "kawamataryo",
         "name": "kawamataryo/chikamichi",
-        "stars": 307,
+        "stars": 308,
         "url": "https://github.com/kawamataryo/chikamichi",
         "languages": [
           "TypeScript",
@@ -552,7 +568,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 18521,
+        "stars": 18527,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -568,7 +584,7 @@
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 35778,
+        "stars": 35802,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -584,7 +600,7 @@
       "repository": {
         "owner": "serverless",
         "name": "serverless/serverless",
-        "stars": 46883,
+        "stars": 46889,
         "url": "https://github.com/serverless/serverless",
         "languages": [
           "JavaScript"
@@ -616,7 +632,7 @@
       "repository": {
         "owner": "getmoto",
         "name": "getmoto/moto",
-        "stars": 8028,
+        "stars": 8038,
         "url": "https://github.com/getmoto/moto",
         "languages": [
           "Python"
@@ -648,7 +664,7 @@
       "repository": {
         "owner": "championswimmer",
         "name": "championswimmer/vuex-module-decorators",
-        "stars": 1784,
+        "stars": 1782,
         "url": "https://github.com/championswimmer/vuex-module-decorators",
         "languages": [
           "TypeScript"
