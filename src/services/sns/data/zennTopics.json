@@ -53,6 +53,13 @@
       "published": true
     },
     {
+      "slug": "claude-command-for-code-analysis",
+      "topics": [
+        "Claude Code"
+      ],
+      "published": true
+    },
+    {
       "slug": "connect_to_rds_with_datagrip_and_ssm",
       "topics": [
         "AWS",

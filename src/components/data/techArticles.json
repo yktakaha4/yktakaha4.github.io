@@ -434,6 +434,20 @@
       ]
     },
     {
+      "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
+      "url": "https://zenn.dev/mitene/articles/migrate-promtail-to-alloy",
+      "publishedAt": "2025-09-01T00:48:44.543Z",
+      "likes": 8,
+      "publisher": "zenn",
+      "tags": [
+        "alloy",
+        "Kubernetes",
+        "OpenTelemetry",
+        "promtail",
+        "zennfes2025infra"
+      ]
+    },
+    {
       "title": "Pythonで画像のビジュアルリグレッションテストを書く",
       "url": "https://zenn.dev/lapras_inc/articles/visual_regression_test_in_python",
       "publishedAt": "2022-06-12T23:25:47.533Z",
@@ -559,20 +573,6 @@
         "TypeScript",
         "OpenAPI",
         "NestJS"
-      ]
-    },
-    {
-      "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
-      "url": "https://zenn.dev/mitene/articles/migrate-promtail-to-alloy",
-      "publishedAt": "2025-09-01T00:48:44.543Z",
-      "likes": 6,
-      "publisher": "zenn",
-      "tags": [
-        "alloy",
-        "Kubernetes",
-        "OpenTelemetry",
-        "promtail",
-        "zennfes2025infra"
       ]
     },
     {
@@ -771,6 +771,16 @@
       "tags": [
         "MacOSX",
         "MIDI"
+      ]
+    },
+    {
+      "title": "Claude Codeにリポジトリを調べてもらうカスタムスラッシュコマンド",
+      "url": "https://zenn.dev/mitene/articles/claude-command-for-code-analysis",
+      "publishedAt": "2025-09-16T08:23:08.744Z",
+      "likes": 3,
+      "publisher": "zenn",
+      "tags": [
+        "Claude Code"
       ]
     },
     {
