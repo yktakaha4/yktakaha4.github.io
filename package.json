@@ -28,7 +28,7 @@
     "fetch-note-contents": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchNoteContents.ts"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/core": "^3.9.0",
     "@docusaurus/preset-classic": "^3.8.1",
     "@mdx-js/react": "^3.1.1",
     "@octokit/graphql": "^9.0.1",
