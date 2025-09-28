@@ -4,7 +4,7 @@
       "title": "電子メール送信に関する技術",
       "url": "https://zenn.dev/yktakaha4/articles/technology_for_sending_email",
       "publishedAt": "2022-03-28T04:00:47.989Z",
-      "likes": 230,
+      "likes": 229,
       "publisher": "zenn",
       "tags": [
         "AWS",
@@ -27,7 +27,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "url": "https://zenn.dev/yktakaha4/articles/study_csrf_attack",
       "publishedAt": "2022-10-30T13:41:45.651Z",
-      "likes": 215,
+      "likes": 216,
       "publisher": "zenn",
       "tags": [
         "CSRF",
@@ -39,7 +39,7 @@
       "title": "アジャイルなSREチームの運用",
       "url": "https://zenn.dev/lapras_inc/articles/running_an_agile_sre_team",
       "publishedAt": "2023-04-25T04:03:13.984Z",
-      "likes": 72,
+      "likes": 73,
       "publisher": "zenn",
       "tags": [
         "SRE",
