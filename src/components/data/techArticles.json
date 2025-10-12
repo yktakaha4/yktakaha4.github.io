@@ -27,7 +27,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "url": "https://zenn.dev/yktakaha4/articles/study_csrf_attack",
       "publishedAt": "2022-10-30T13:41:45.651Z",
-      "likes": 216,
+      "likes": 215,
       "publisher": "zenn",
       "tags": [
         "CSRF",
@@ -39,7 +39,7 @@
       "title": "アジャイルなSREチームの運用",
       "url": "https://zenn.dev/lapras_inc/articles/running_an_agile_sre_team",
       "publishedAt": "2023-04-25T04:03:13.984Z",
-      "likes": 73,
+      "likes": 74,
       "publisher": "zenn",
       "tags": [
         "SRE",
@@ -421,6 +421,20 @@
       ]
     },
     {
+      "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
+      "url": "https://zenn.dev/mitene/articles/migrate-promtail-to-alloy",
+      "publishedAt": "2025-09-01T00:48:44.543Z",
+      "likes": 9,
+      "publisher": "zenn",
+      "tags": [
+        "alloy",
+        "Kubernetes",
+        "OpenTelemetry",
+        "promtail",
+        "zennfes2025infra"
+      ]
+    },
+    {
       "title": "Salesforce Bulk API 2.0 & 外部IDを使ったデータ移行をjsforceでおこなう",
       "url": "https://zenn.dev/yktakaha4/articles/salesforce_bulk2_with_jsforce",
       "publishedAt": "2022-09-17T09:11:43.814Z",
@@ -431,20 +445,6 @@
         "jsforce",
         "Node.js",
         "Salesforce"
-      ]
-    },
-    {
-      "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
-      "url": "https://zenn.dev/mitene/articles/migrate-promtail-to-alloy",
-      "publishedAt": "2025-09-01T00:48:44.543Z",
-      "likes": 8,
-      "publisher": "zenn",
-      "tags": [
-        "alloy",
-        "Kubernetes",
-        "OpenTelemetry",
-        "promtail",
-        "zennfes2025infra"
       ]
     },
     {
