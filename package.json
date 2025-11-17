@@ -64,7 +64,7 @@
     "npm-check": "^6.0.1",
     "pdfjs-dist": "^5.4.394",
     "prettier": "^3.3.3",
-    "textlint": "^15.3.0",
+    "textlint": "^15.4.0",
     "textlint-rule-preset-jtf-style": "^3.0.3",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
