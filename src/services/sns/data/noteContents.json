@@ -85,7 +85,7 @@
       "imageCount": 1,
       "format": "4.0",
       "capabilities": {
-        "amazonpayCampaign": true,
+        "amazonpayCampaign": false,
         "amazonpay": false,
         "guestAmazonpay": false,
         "rubyText": true,
@@ -199,7 +199,7 @@
       "imageCount": 0,
       "format": "3.3",
       "capabilities": {
-        "amazonpayCampaign": true,
+        "amazonpayCampaign": false,
         "amazonpay": false,
         "guestAmazonpay": false,
         "rubyText": true,
@@ -323,7 +323,7 @@
       "imageCount": 0,
       "format": "3.2",
       "capabilities": {
-        "amazonpayCampaign": true,
+        "amazonpayCampaign": false,
         "amazonpay": false,
         "guestAmazonpay": false,
         "rubyText": true,
