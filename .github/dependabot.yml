@@ -6,3 +6,9 @@ updates:
       interval: daily
       time: '21:00'
       timezone: Asia/Tokyo
+
+    groups:
+      vitest:
+        patterns:
+          - 'vitest'
+          - '@vitest/*'
