@@ -12,3 +12,7 @@ updates:
         patterns:
           - 'vitest'
           - '@vitest/*'
+
+      docusaurus:
+        patterns:
+          - '@docusaurus/*'
