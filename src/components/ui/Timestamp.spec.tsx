@@ -4,9 +4,13 @@ import dayjs from 'dayjs';
 import { vi } from 'vitest';
 
 describe('Timestamp', () => {
+  afterEach(() => {
+    vi.useRealTimers();
+  });
+
   test('更新時刻とコミットハッシュが描画される', () => {
-    const mockedDate = dayjs('2021-02-03 12:34:56').toDate();
-    vi.spyOn(global, 'Date').mockImplementation(() => mockedDate);
+    vi.useFakeTimers();
+    vi.setSystemTime(dayjs('2021-02-03 12:34:56').toDate());
 
     const { container } = render(<Timestamp />);
     expect(container.textContent).toBe(
