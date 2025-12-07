@@ -86,6 +86,16 @@
       "published": true
     },
     {
+      "slug": "eks-upgrade-rta-in-mitene-2025",
+      "topics": [
+        "AWS",
+        "EKS",
+        "Karpenter",
+        "Kubernetes"
+      ],
+      "published": true
+    },
+    {
       "slug": "get_github_projects_item_with_graphql",
       "topics": [
         "githubprojects",
