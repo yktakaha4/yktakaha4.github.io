@@ -54,6 +54,8 @@ describe('storeSlides', () => {
     await storeSlides('yktakaha4', slides);
 
     expect(existsSync(mockedJsonPath)).toBeTruthy();
-    expect(readJsonSync(mockedJsonPath)).toEqual(slides);
+    expect(readJsonSync(mockedJsonPath)).toEqual({
+      slides,
+    });
   });
 });

@@ -2,6 +2,7 @@ import zennArticles from '@/services/sns/data/zennArticles.json';
 import zennTopics from '@/services/sns/data/zennTopics.json';
 import qiitaItems from '@/services/sns/data/qiitaItems.json';
 import noteContents from '@/services/sns/data/noteContents.json';
+import speakerDeckSlides from '@/services/sns/data/speakerDeckSlides.json';
 import { othersArticles } from '@/services/sns/others';
 import dayjs from 'dayjs';
 import {
@@ -45,7 +46,7 @@ export const getTechArticles = () => {
           return {
             title,
             url,
-            publishedAt: new Date(created_at),
+            publishedAt: dayjs(created_at).toDate(),
             likes: likes_count,
             publisher: 'qiita',
             tags: tags.map(({ name }) => name),
@@ -59,13 +60,24 @@ export const getTechArticles = () => {
           return {
             title: name,
             url: noteUrl,
-            publishedAt: new Date(publishAt),
+            publishedAt: dayjs(publishAt).toDate(),
             likes: likeCount,
             publisher: 'note',
             tags: hashtags.map(({ hashtag }) => hashtag.name.replace(/^#/, '')),
           };
         },
       ),
+    )
+    .concat(
+      speakerDeckSlides.slides.map(({ title, link, pubDate }): TechArticle => {
+        return {
+          title,
+          url: link,
+          publishedAt: dayjs(pubDate).toDate(),
+          publisher: 'speakerDeck',
+          tags: [],
+        };
+      }),
     )
     .concat(othersArticles)
     .map((article) => {

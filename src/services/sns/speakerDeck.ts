@@ -56,7 +56,10 @@ export const storeSlides = async (username: string, slides: Array<unknown>) => {
   logger.debug('start', { username, count: slides.length });
 
   const path = getSNSDataPath('speakerDeckSlides');
-  await writeJson(path, slides, { spaces: 2 });
+  const data = {
+    slides,
+  };
+  await writeJson(path, data, { spaces: 2 });
 
   logger.debug('stored slides', { path });
 };

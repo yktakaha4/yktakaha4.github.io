@@ -1,0 +1,22 @@
+{
+  "slides": [
+    {
+      "title": "私のZennの書き方 / How I Write on Zenn",
+      "link": "https://speakerdeck.com/yktakaha4/how-i-write-on-zenn",
+      "pubDate": "2025-12-12T05:00:00.000Z",
+      "description": "Zenncafe#5日比谷 - Zennfes表彰式＆年末懇親会のLTスライドです\nhttps://zenn.connpass.com/event/374981/"
+    },
+    {
+      "title": "オンコール⼊⾨〜ページャーが鳴る前に、あなたが備えられること〜 / Before The Pager Rings",
+      "link": "https://speakerdeck.com/yktakaha4/before-the-pager-rings",
+      "pubDate": "2025-07-12T04:00:00.000Z",
+      "description": "SRE NEXT 2025の登壇資料です\nhttps://www.youtube.com/watch?v=m4LdSuh3hTo"
+    },
+    {
+      "title": "Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処",
+      "link": "https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu",
+      "pubDate": "2022-10-15T04:00:00.000Z",
+      "description": "PyCon JP 2022の登壇資料です\nhttps://www.youtube.com/watch?v=8bzKf6BwDos"
+    }
+  ]
+}
