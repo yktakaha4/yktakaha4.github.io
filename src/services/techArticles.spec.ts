@@ -35,6 +35,13 @@ describe('getTechArticles', () => {
     expect(
       articles.filter((a) => a.publisher === 'techBlog').length,
     ).toBeGreaterThan(0);
+    expect(
+      articles.some(
+        (a) =>
+          a.publisher === 'speakerDeck' &&
+          a.url === 'https://speakerdeck.com/yktakaha4/how-i-write-on-zenn',
+      ),
+    ).toBeTruthy();
   });
 
   test('URLが一意である', () => {

@@ -76,7 +76,8 @@ export type SNSData =
   | 'zennArticles'
   | 'zennTopics'
   | 'qiitaItems'
-  | 'noteContents';
+  | 'noteContents'
+  | 'speakerDeckSlides';
 export const getSNSDataPath = (snsData: SNSData) =>
   `${snsDataBasePath}/${snsData}.json`;
 
@@ -97,3 +98,7 @@ export const gitHubLogin = 'yktakaha4';
 export const gitHubStargazersCountThreshold = 10;
 export const gitHubLanguageSizeThreshold = 0.3;
 export const gitHubIgnoreOwnerNames = ['yktakaha4', 'lapras-inc'];
+
+export const speakerDeckUserName = 'yktakaha4';
+
+export const noteUrlName = 'yktakaha4';
