@@ -438,7 +438,7 @@
       "title": "EKSアップグレードRTA in みてね 2025",
       "url": "https://zenn.dev/mitene/articles/eks-upgrade-rta-in-mitene-2025",
       "publishedAt": "2025-12-03T23:00:01.720Z",
-      "likes": 9,
+      "likes": 10,
       "publisher": "zenn",
       "tags": [
         "AWS",
@@ -719,6 +719,16 @@
       ]
     },
     {
+      "title": "Claude Codeにリポジトリを調べてもらうカスタムスラッシュコマンド",
+      "url": "https://zenn.dev/mitene/articles/claude-command-for-code-analysis",
+      "publishedAt": "2025-09-16T08:23:08.744Z",
+      "likes": 4,
+      "publisher": "zenn",
+      "tags": [
+        "Claude Code"
+      ]
+    },
+    {
       "title": "自分で価値を決めず、気軽にアウトプットしよう",
       "url": "https://note.com/yktakaha4/n/n9642b2502371",
       "publishedAt": "2025-05-07T04:10:18.000Z",
@@ -787,27 +797,6 @@
       ]
     },
     {
-      "title": "Claude Codeにリポジトリを調べてもらうカスタムスラッシュコマンド",
-      "url": "https://zenn.dev/mitene/articles/claude-command-for-code-analysis",
-      "publishedAt": "2025-09-16T08:23:08.744Z",
-      "likes": 3,
-      "publisher": "zenn",
-      "tags": [
-        "Claude Code"
-      ]
-    },
-    {
-      "title": "Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処",
-      "url": "https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu",
-      "publishedAt": "2022-10-15T00:00:00.000Z",
-      "likes": 3,
-      "publisher": "speakerDeck",
-      "tags": [
-        "Django",
-        "OAuth"
-      ]
-    },
-    {
       "title": "Serverless FrameworkでLambdaコンテナイメージを利用する",
       "url": "https://qiita.com/yktakaha4/items/ead117870617f45c70d5",
       "publishedAt": "2020-12-17T18:25:49.000Z",
@@ -819,17 +808,6 @@
         "lambda",
         "ServerlessFramework",
         "GitHubActions"
-      ]
-    },
-    {
-      "title": "オンコール⼊⾨〜ページャーが鳴る前に、あなたが備えられること〜",
-      "url": "https://speakerdeck.com/yktakaha4/before-the-pager-rings",
-      "publishedAt": "2025-07-12T00:00:00.000Z",
-      "likes": 2,
-      "publisher": "speakerDeck",
-      "tags": [
-        "SRE",
-        "オンコール対応"
       ]
     },
     {
@@ -1021,6 +999,27 @@
         "MacOSX",
         "CompareMerge"
       ]
+    },
+    {
+      "title": "私のZennの書き方 / How I Write on Zenn",
+      "url": "https://speakerdeck.com/yktakaha4/how-i-write-on-zenn",
+      "publishedAt": "2025-12-12T05:00:00.000Z",
+      "publisher": "speakerDeck",
+      "tags": []
+    },
+    {
+      "title": "オンコール⼊⾨〜ページャーが鳴る前に、あなたが備えられること〜 / Before The Pager Rings",
+      "url": "https://speakerdeck.com/yktakaha4/before-the-pager-rings",
+      "publishedAt": "2025-07-12T04:00:00.000Z",
+      "publisher": "speakerDeck",
+      "tags": []
+    },
+    {
+      "title": "Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処",
+      "url": "https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu",
+      "publishedAt": "2022-10-15T04:00:00.000Z",
+      "publisher": "speakerDeck",
+      "tags": []
     },
     {
       "title": "LAPRAS Tech Blogのアーキテクチャ（インフラ編）",

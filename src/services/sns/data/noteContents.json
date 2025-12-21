@@ -94,8 +94,9 @@
         "noteComment": false
       },
       "discountCampaigns": [],
-      "workreqSetting": null,
       "remainedCharNum": 0,
+      "remainedImageNum": 0,
+      "remainedFileNum": 0,
       "priceInfo": {
         "isFree": true,
         "lowestPrice": null,
@@ -208,8 +209,9 @@
         "noteComment": false
       },
       "discountCampaigns": [],
-      "workreqSetting": null,
       "remainedCharNum": 0,
+      "remainedImageNum": 0,
+      "remainedFileNum": 0,
       "priceInfo": {
         "isFree": true,
         "lowestPrice": null,
@@ -332,8 +334,9 @@
         "noteComment": false
       },
       "discountCampaigns": [],
-      "workreqSetting": null,
       "remainedCharNum": 0,
+      "remainedImageNum": 0,
+      "remainedFileNum": 0,
       "priceInfo": {
         "isFree": true,
         "lowestPrice": null,
