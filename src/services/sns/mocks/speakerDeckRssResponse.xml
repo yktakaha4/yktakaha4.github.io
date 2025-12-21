@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/feed.rss.xml" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuuki Takahashi</title>
+    <description/>
+    <link>https://speakerdeck.com/yktakaha4</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://speakerdeck.com/yktakaha4.rss"/>
+    <lastBuildDate>2022-10-14 21:15:57 -0400</lastBuildDate>
+    <item>
+      <title>私のZennの書き方 / How I Write on Zenn</title>
+      <description>Zenncafe#5日比谷 - Zennfes表彰式＆年末懇親会のLTスライドです
+https://zenn.connpass.com/event/374981/</description>
+      <media:content url="https://files.speakerdeck.com/presentations/751ec5f579c74f4a8ca25c4c0ec3b081/preview_slide_0.jpg?37707063" type="image/jpeg" medium="image"/>
+      <content:encoded>Zenncafe#5日比谷 - Zennfes表彰式＆年末懇親会のLTスライドです
+https://zenn.connpass.com/event/374981/</content:encoded>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 -0500</pubDate>
+      <link>https://speakerdeck.com/yktakaha4/how-i-write-on-zenn</link>
+      <guid>https://speakerdeck.com/yktakaha4/how-i-write-on-zenn</guid>
+    </item>
+    <item>
+      <title>オンコール⼊⾨〜ページャーが鳴る前に、あなたが備えられること〜 / Before The Pager Rings</title>
+      <description>SRE NEXT 2025の登壇資料です
+https://www.youtube.com/watch?v=m4LdSuh3hTo</description>
+      <media:content url="https://files.speakerdeck.com/presentations/364f9ab8ceb844bb8ae2a09e429c4315/preview_slide_0.jpg?35851982" type="image/jpeg" medium="image"/>
+      <content:encoded>SRE NEXT 2025の登壇資料です
+https://www.youtube.com/watch?v=m4LdSuh3hTo</content:encoded>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 -0400</pubDate>
+      <link>https://speakerdeck.com/yktakaha4/before-the-pager-rings</link>
+      <guid>https://speakerdeck.com/yktakaha4/before-the-pager-rings</guid>
+    </item>
+    <item>
+      <title>Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処</title>
+      <description>PyCon JP 2022の登壇資料です
+https://www.youtube.com/watch?v=8bzKf6BwDos</description>
+      <media:content url="https://files.speakerdeck.com/presentations/4e4fa89b34a34002a491a207d7d9de26/preview_slide_0.jpg?23037391" type="image/jpeg" medium="image"/>
+      <content:encoded>PyCon JP 2022の登壇資料です
+https://www.youtube.com/watch?v=8bzKf6BwDos</content:encoded>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 -0400</pubDate>
+      <link>https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu</link>
+      <guid>https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu</guid>
+    </item>
+  </channel>
+</rss>
