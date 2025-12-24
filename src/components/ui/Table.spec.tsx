@@ -12,6 +12,7 @@ import {
   TagsCellValue,
 } from '@/components/ui/Table';
 import { vi } from 'vitest';
+import dayjs from 'dayjs';
 
 describe('decorate', () => {
   test.each<[string | null, CellValueOptions, string, string]>([
@@ -94,13 +95,13 @@ describe('Table', () => {
   test.each<[DateCellValue, string]>([
     [{ type: 'date', value: null }, ''],
     [{ type: 'date', value: undefined }, ''],
-    [{ type: 'date', value: new Date('2021-01-02') }, '2021/1/2'],
+    [{ type: 'date', value: dayjs('2021-01-02').toDate() }, '2021/1/2'],
     [
-      { type: 'date', value: new Date('2112-09-03'), format: 'YYYY/M/D' },
+      { type: 'date', value: dayjs('2112-09-03').toDate(), format: 'YYYY/M/D' },
       '2112/9/3',
     ],
     [
-      { type: 'date', value: new Date('2112-09-03'), format: 'YYYY/M' },
+      { type: 'date', value: dayjs('2112-09-03').toDate(), format: 'YYYY/M' },
       '2112/9',
     ],
   ])('日付が描画される #%#', (cell, expected) => {
@@ -144,7 +145,7 @@ describe('Table', () => {
       ],
       [
         { value: 54345, type: 'number' },
-        { value: new Date('2112-9-3'), type: 'date' },
+        { value: dayjs('2112-9-3').toDate(), type: 'date' },
         {
           type: 'tags',
           values: [{ value: 'Tag1' }, { value: 'Tag2', color: 'primary' }],

@@ -8,6 +8,7 @@ import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 import * as constants from '@/constants';
 import { vi } from 'vitest';
+import dayjs from 'dayjs';
 
 const mockedGetComponentsDataPath = vi.fn();
 vi.spyOn(constants, 'getComponentsDataPath').mockImplementation((...args) =>
@@ -29,7 +30,7 @@ describe('sortOSSContributions', () => {
   test('OSS活動がソートできる', () => {
     const defaultValues: OSSContribution = {
       title: 'dummy',
-      mergedAt: new Date(),
+      mergedAt: dayjs().toDate(),
       url: 'https://dummy.com',
       kind: 'mergedPullRequest',
       changedLines: 0,
@@ -47,19 +48,19 @@ describe('sortOSSContributions', () => {
         ...defaultValues,
         title: 'dummy1',
         changedLines: 10,
-        mergedAt: new Date('2021-01-01'),
+        mergedAt: dayjs('2021-01-01').toDate(),
       },
       {
         ...defaultValues,
         title: 'dummy2',
         changedLines: 20,
-        mergedAt: new Date('2021-01-02'),
+        mergedAt: dayjs('2021-01-02').toDate(),
       },
       {
         ...defaultValues,
         title: 'dummy3',
         changedLines: 30,
-        mergedAt: new Date('2021-01-02'),
+        mergedAt: dayjs('2021-01-02').toDate(),
       },
     ];
 

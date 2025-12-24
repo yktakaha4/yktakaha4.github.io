@@ -5,6 +5,7 @@ import { tempDir } from '@/test/helper';
 import { existsSync, readFileSync, readJsonSync } from 'fs-extra';
 import { vi } from 'vitest';
 import { join } from 'path';
+import dayjs from 'dayjs';
 
 const mockedGetSNSDataPath = vi.fn();
 vi.spyOn(constants, 'getSNSDataPath').mockImplementation((...args) =>
@@ -35,7 +36,7 @@ describe('fetchSlides', () => {
     );
     expect(slides[0].description).toContain('Zenncafe#5日比谷');
     expect(slides[0].pubDate.toISOString()).toBe(
-      new Date('2025-12-12T05:00:00.000Z').toISOString(),
+      dayjs('2025-12-12T05:00:00.000Z').toDate().toISOString(),
     );
   });
 });

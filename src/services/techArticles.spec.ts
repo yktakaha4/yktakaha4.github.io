@@ -8,6 +8,7 @@ import * as constants from '@/constants';
 import { tempDir } from '@/test/helper';
 import { existsSync, readJsonSync } from 'fs-extra';
 import { vi } from 'vitest';
+import dayjs from 'dayjs';
 
 const mockedGetComponentsDataPath = vi.fn();
 vi.spyOn(constants, 'getComponentsDataPath').mockImplementation((...args) =>
@@ -74,7 +75,7 @@ describe('sortTechArticles', () => {
       title: 'dummy',
       url: 'https://dummy.com',
       likes: 0,
-      publishedAt: new Date(),
+      publishedAt: dayjs().toDate(),
       publisher: 'zenn',
       tags: ['dummy'],
     };
@@ -84,19 +85,19 @@ describe('sortTechArticles', () => {
         ...defaultValues,
         title: 'dummy1',
         likes: 2,
-        publishedAt: new Date('2021-01-01'),
+        publishedAt: dayjs('2021-01-01').toDate(),
       },
       {
         ...defaultValues,
         title: 'dummy2',
         likes: 1,
-        publishedAt: new Date('2021-01-01'),
+        publishedAt: dayjs('2021-01-01').toDate(),
       },
       {
         ...defaultValues,
         title: 'dummy3',
         likes: 2,
-        publishedAt: new Date('2021-01-02'),
+        publishedAt: dayjs('2021-01-02').toDate(),
       },
     ];
 
