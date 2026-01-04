@@ -438,6 +438,14 @@
       "published": true
     },
     {
+      "slug": "vbox_ssh_one_liner",
+      "topics": [
+        "Ubuntu",
+        "VirtualBox"
+      ],
+      "published": true
+    },
+    {
       "slug": "verify_slack_signature_on_aws_lambda",
       "topics": [
         "AWS",

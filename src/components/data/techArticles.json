@@ -39,7 +39,7 @@
       "title": "Webアプリケーションにおけるタイムアウトについて",
       "url": "https://zenn.dev/yktakaha4/articles/learn_about_web_application_timeouts",
       "publishedAt": "2024-09-25T02:11:40.411Z",
-      "likes": 74,
+      "likes": 75,
       "publisher": "zenn",
       "tags": [
         "AWS",
@@ -140,7 +140,7 @@
       "title": "エラーバジェット枯渇時のプロダクションフリーズ運用マニュアル",
       "url": "https://zenn.dev/lapras_inc/articles/production_freeze_manual",
       "publishedAt": "2022-02-28T01:31:09.909Z",
-      "likes": 33,
+      "likes": 34,
       "publisher": "zenn",
       "tags": [
         "SLO",
@@ -373,6 +373,20 @@
       ]
     },
     {
+      "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
+      "url": "https://zenn.dev/mitene/articles/migrate-promtail-to-alloy",
+      "publishedAt": "2025-09-01T00:48:44.543Z",
+      "likes": 13,
+      "publisher": "zenn",
+      "tags": [
+        "alloy",
+        "Kubernetes",
+        "OpenTelemetry",
+        "promtail",
+        "zennfes2025infra"
+      ]
+    },
+    {
       "title": "TerraformからServerless Frameworkで作ったAPIを参照する",
       "url": "https://qiita.com/yktakaha4/items/a6fb117085f1fa546ed9",
       "publishedAt": "2019-08-05T16:04:05.000Z",
@@ -385,17 +399,15 @@
       ]
     },
     {
-      "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
-      "url": "https://zenn.dev/mitene/articles/migrate-promtail-to-alloy",
-      "publishedAt": "2025-09-01T00:48:44.543Z",
+      "title": "（SRE的）作ってよかったドキュメント・表・運用",
+      "url": "https://zenn.dev/lapras_inc/articles/useful_documents_tables_and_operations_for_sre",
+      "publishedAt": "2023-12-18T09:28:09.207Z",
       "likes": 12,
       "publisher": "zenn",
       "tags": [
-        "alloy",
-        "Kubernetes",
-        "OpenTelemetry",
-        "promtail",
-        "zennfes2025infra"
+        "SRE",
+        "ドキュメンテーション",
+        "運用"
       ]
     },
     {
@@ -419,18 +431,6 @@
         "EKS",
         "Karpenter",
         "Kubernetes"
-      ]
-    },
-    {
-      "title": "（SRE的）作ってよかったドキュメント・表・運用",
-      "url": "https://zenn.dev/lapras_inc/articles/useful_documents_tables_and_operations_for_sre",
-      "publishedAt": "2023-12-18T09:28:09.207Z",
-      "likes": 11,
-      "publisher": "zenn",
-      "tags": [
-        "SRE",
-        "ドキュメンテーション",
-        "運用"
       ]
     },
     {
@@ -794,6 +794,17 @@
       "tags": [
         "MacOSX",
         "MIDI"
+      ]
+    },
+    {
+      "title": "VirtualBoxのUbuntuにssh可能にするワンライナー",
+      "url": "https://zenn.dev/yktakaha4/articles/vbox_ssh_one_liner",
+      "publishedAt": "2025-12-30T01:19:04.616Z",
+      "likes": 3,
+      "publisher": "zenn",
+      "tags": [
+        "Ubuntu",
+        "VirtualBox"
       ]
     },
     {
