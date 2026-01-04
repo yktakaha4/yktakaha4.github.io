@@ -9,7 +9,7 @@
       "repository": {
         "owner": "zenn-dev",
         "name": "zenn-dev/zenn-editor",
-        "stars": 712,
+        "stars": 713,
         "url": "https://github.com/zenn-dev/zenn-editor",
         "languages": [
           "TypeScript"
@@ -25,7 +25,7 @@
       "repository": {
         "owner": "github",
         "name": "github/gh-ost",
-        "stars": 13110,
+        "stars": 13123,
         "url": "https://github.com/github/gh-ost",
         "languages": [
           "Go"
@@ -41,7 +41,7 @@
       "repository": {
         "owner": "grafana",
         "name": "grafana/alloy",
-        "stars": 2753,
+        "stars": 2774,
         "url": "https://github.com/grafana/alloy",
         "languages": [
           "Go"
@@ -73,7 +73,7 @@
       "repository": {
         "owner": "github",
         "name": "github/gh-ost",
-        "stars": 13110,
+        "stars": 13123,
         "url": "https://github.com/github/gh-ost",
         "languages": [
           "Go"
@@ -89,7 +89,7 @@
       "repository": {
         "owner": "kubernetes",
         "name": "kubernetes/website",
-        "stars": 5130,
+        "stars": 5136,
         "url": "https://github.com/kubernetes/website",
         "languages": [
           "HTML"
@@ -121,7 +121,7 @@
       "repository": {
         "owner": "celery",
         "name": "celery/django-celery-results",
-        "stars": 765,
+        "stars": 767,
         "url": "https://github.com/celery/django-celery-results",
         "languages": [
           "Python"
@@ -137,7 +137,7 @@
       "repository": {
         "owner": "axllent",
         "name": "axllent/mailpit",
-        "stars": 8352,
+        "stars": 8392,
         "url": "https://github.com/axllent/mailpit",
         "languages": [
           "Go"
@@ -153,7 +153,7 @@
       "repository": {
         "owner": "domainaware",
         "name": "domainaware/parsedmarc",
-        "stars": 1185,
+        "stars": 1188,
         "url": "https://github.com/domainaware/parsedmarc",
         "languages": [
           "Python"
@@ -169,7 +169,7 @@
       "repository": {
         "owner": "databus23",
         "name": "databus23/helm-diff",
-        "stars": 3293,
+        "stars": 3298,
         "url": "https://github.com/databus23/helm-diff",
         "languages": [
           "Go"
@@ -185,7 +185,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 10663,
+        "stars": 10665,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -217,7 +217,7 @@
       "repository": {
         "owner": "helmfile",
         "name": "helmfile/helmfile",
-        "stars": 4902,
+        "stars": 4910,
         "url": "https://github.com/helmfile/helmfile",
         "languages": [
           "Go"
@@ -233,7 +233,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 10663,
+        "stars": 10665,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -265,7 +265,7 @@
       "repository": {
         "owner": "cloudflare",
         "name": "cloudflare/terraform-provider-cloudflare",
-        "stars": 1173,
+        "stars": 1177,
         "url": "https://github.com/cloudflare/terraform-provider-cloudflare",
         "languages": [
           "Go"
@@ -329,7 +329,7 @@
       "repository": {
         "owner": "argoproj",
         "name": "argoproj/argo-workflows",
-        "stars": 16316,
+        "stars": 16329,
         "url": "https://github.com/argoproj/argo-workflows",
         "languages": [
           "Go"
@@ -439,7 +439,7 @@
       "repository": {
         "owner": "hashicorp",
         "name": "hashicorp/terraform-provider-aws",
-        "stars": 10663,
+        "stars": 10665,
         "url": "https://github.com/hashicorp/terraform-provider-aws",
         "languages": [
           "Go"
@@ -519,7 +519,7 @@
       "repository": {
         "owner": "kawamataryo",
         "name": "kawamataryo/chikamichi",
-        "stars": 313,
+        "stars": 312,
         "url": "https://github.com/kawamataryo/chikamichi",
         "languages": [
           "TypeScript",
@@ -568,7 +568,7 @@
       "repository": {
         "owner": "Rigellute",
         "name": "Rigellute/spotify-tui",
-        "stars": 18867,
+        "stars": 18875,
         "url": "https://github.com/Rigellute/spotify-tui",
         "languages": [
           "Rust"
@@ -584,7 +584,7 @@
       "repository": {
         "owner": "typeorm",
         "name": "typeorm/typeorm",
-        "stars": 36164,
+        "stars": 36185,
         "url": "https://github.com/typeorm/typeorm",
         "languages": [
           "TypeScript"
@@ -600,7 +600,7 @@
       "repository": {
         "owner": "serverless",
         "name": "serverless/serverless",
-        "stars": 46924,
+        "stars": 46929,
         "url": "https://github.com/serverless/serverless",
         "languages": [
           "JavaScript"
@@ -664,7 +664,7 @@
       "repository": {
         "owner": "championswimmer",
         "name": "championswimmer/vuex-module-decorators",
-        "stars": 1781,
+        "stars": 1780,
         "url": "https://github.com/championswimmer/vuex-module-decorators",
         "languages": [
           "TypeScript"
