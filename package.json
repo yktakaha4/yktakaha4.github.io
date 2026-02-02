@@ -61,7 +61,7 @@
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
-    "jsdom": "^27.4.0",
+    "jsdom": "^28.0.0",
     "nock": "^14.0.10",
     "npm-check": "^6.0.1",
     "pdfjs-dist": "^5.4.624",
