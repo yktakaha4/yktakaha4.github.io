@@ -30,3 +30,13 @@ direnv allow
 
 npm run refresh-components-data
 ```
+
+## Generate LLM.txt
+
+LLM向けに最適化されたプレーンテキスト形式のポートフォリオを生成します。
+
+```shell
+npm run generate-llm-txt
+```
+
+生成されたファイルは `static/LLM.txt` に保存され、ビルド後は `/LLM.txt` として配信されます。
