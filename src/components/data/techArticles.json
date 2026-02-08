@@ -61,6 +61,18 @@
       ]
     },
     {
+      "title": "情報技術に関する歴史や文化の本",
+      "url": "https://zenn.dev/yktakaha4/articles/history_books_on_information_technology",
+      "publishedAt": "2023-07-01T00:11:30.613Z",
+      "likes": 68,
+      "publisher": "zenn",
+      "tags": [
+        "コンピュータ",
+        "情報技術",
+        "読書"
+      ]
+    },
+    {
       "title": "Karpenterを再導入してEC2コストを削減した話",
       "url": "https://team-blog.mitene.us/72e9cc4ce08f",
       "publishedAt": "2025-05-28T00:00:00.000Z",
@@ -70,18 +82,6 @@
         "AWS",
         "Karpenter",
         "EKS"
-      ]
-    },
-    {
-      "title": "情報技術に関する歴史や文化の本",
-      "url": "https://zenn.dev/yktakaha4/articles/history_books_on_information_technology",
-      "publishedAt": "2023-07-01T00:11:30.613Z",
-      "likes": 67,
-      "publisher": "zenn",
-      "tags": [
-        "コンピュータ",
-        "情報技術",
-        "読書"
       ]
     },
     {
@@ -635,6 +635,19 @@
       ]
     },
     {
+      "title": "DataGripにてSSM接続の踏み台サーバを通じてRDSに接続する",
+      "url": "https://zenn.dev/yktakaha4/articles/connect_to_rds_with_datagrip_and_ssm",
+      "publishedAt": "2021-01-16T19:00:08.341Z",
+      "likes": 6,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "DataGrip",
+        "RDS",
+        "ssm"
+      ]
+    },
+    {
       "title": "CypressでStripe Elementsの自動テストをおこなう",
       "url": "https://qiita.com/yktakaha4/items/13c3c13a0e13d0890371",
       "publishedAt": "2020-08-30T17:03:45.000Z",
@@ -702,19 +715,6 @@
         "CloudFormation",
         "CloudFront",
         "S3"
-      ]
-    },
-    {
-      "title": "DataGripにてSSM接続の踏み台サーバを通じてRDSに接続する",
-      "url": "https://zenn.dev/yktakaha4/articles/connect_to_rds_with_datagrip_and_ssm",
-      "publishedAt": "2021-01-16T19:00:08.341Z",
-      "likes": 5,
-      "publisher": "zenn",
-      "tags": [
-        "AWS",
-        "DataGrip",
-        "RDS",
-        "ssm"
       ]
     },
     {
