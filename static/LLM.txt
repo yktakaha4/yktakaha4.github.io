@@ -1,0 +1,744 @@
+# yktakaha4.github.io
+
+## プロフィール
+
+- 髙橋祐輝 / Yuuki Takahashi / [@yktakaha4](https://x.com/yktakaha4)
+- Site Reliability Engineer in [株式会社MIXI](https://x.com/mixi_pr)
+- 1989年生まれ / 男性
+- 東京都在住
+- 東京工科大学メディア学部卒業
+
+## 職務経歴
+
+### 正社員
+
+#### 2025/1 ~ 現在 : 株式会社MIXI
+
+- [家族アルバム みてね](https://mitene.us/)のSREとしてプラットフォームの開発、保守を担当
+  - [Karpenterを再導入してEC2コストを削減した話](https://team-blog.mitene.us/72e9cc4ce08f)
+  - [ログ基盤をPromtailからGrafana Alloyに移行する](https://zenn.dev/mitene/articles/migrate-promtail-to-alloy)
+  - [オンコール⼊⾨〜ページャーが鳴る前に、あなたが備えられること〜](https://speakerdeck.com/yktakaha4/before-the-pager-rings)
+
+#### 2021/1 ~ 2024/12 : LAPRAS株式会社
+
+- エンジニア向けポートフォリオサービスおよび採用サービスの開発
+  - **2021/1 ~ 2024/12 : [LAPRAS](https://lapras.com/public/yktakaha4)および[LAPRAS SCOUT](https://scout.lapras.com/)の開発・保守**
+    - 数十万行規模のモノリスアプリケーションの開発、保守を担当
+    - ソーシャルログインやメール送受信といったビジネス重要度の高い機能の不具合解消を担当
+      - 業務で得られた知見を[技術カンファレンスで発表](https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu)
+    - アプリケーションの内部品質、非機能要件に関する改善
+    - インシデント対応、チーム内ローテーションでのオンコール対応
+  - **2021/9 ~ 2024/12 : SREとしての活動**
+    - 前任の退職に伴いWeb Application Engineerから担当変更し、Lead SREとして以下のような業務に従事
+      - [SLO・プロダクションフリーズ運用の改善](https://zenn.dev/yktakaha4/articles/production_freeze_manual)
+      - [既存インフラの監視強化](https://zenn.dev/yktakaha4/articles/synthetic_monitoring_with_ur_and_tf)
+      - [Kubernetesクラスタのランタイムアップデート運用の整備](https://zenn.dev/yktakaha4/articles/steady_update_of_eks)
+      - [アジャイルプラクティスを活用したSREチーム運用の構築](https://zenn.dev/yktakaha4/articles/running_an_agile_sre_team)
+      - [プロダクト運営に必要な各種ドキュメンテーションの実施](https://zenn.dev/yktakaha4/articles/useful_documents_tables_and_operations_for_sre)
+      - 開発ロードマップ・OKR策定の主導
+      - SREの採用要件の規定および採用選考の設計、参加
+  - **2021/4 ~ 2021/8 : 新規事業PoCの実施**
+    - PdM、デザイナーと共にユーザーインタビューを実施し、エンジニアとしてMVPの開発を担当
+- ホラクラシー組織における複数ロール（職務上の役割）を担当
+  - [ドキュメントの更新状況および陳腐化の監視](https://zenn.dev/yktakaha4/articles/documentation_inspired_by_http_cache)
+  - コーポレートサイト、オウンドメディアの運用、監視
+  - メンタルチェックにてスコアが芳しくなかったエンジニアメンバーとの1on1
+
+#### 2018/9 ~ 2020/9 : ハンズラボ株式会社（現 株式会社ハンズ）
+
+- 東急ハンズの社内システムの開発に従事
+  - **2018/9 ~ 2020/9 : [ポイントAPIシステム](https://hands.net/guide/hc/index.html)の開発・保守**
+    - 全国規模の会員数、取引量を持つポイントシステムの開発、保守を担当
+    - 年次での夜間作業やセール対応など、システムの安定稼働に向けた運用業務を実施
+  - **2019/3 ~ 2020/3 : EC注文・出荷管理Webシステムの開発・保守**
+    - 軽減税率対応に伴うシステム改修を担当
+    - [負債化していた業務重要度の高い機能のマイグレーション](https://web.archive.org/web/20250328120534/https://www.hands-lab.com/tech/t4835/)を実施
+- チームリーダーとして、メンバーのオンボーディング、1on1、目標管理、評価を実施
+- チーム・エンジニア主体での中途採用活動を主導
+
+#### 2012/4 ~ 2018/6 : 株式会社JIEC（現 SCSK株式会社）
+
+- ITエンジニアとしてお客様先に常駐し、主に金融機関向けのシステム開発に従事
+  - **2016/6 ~ 2018/6 : [銀行員向けFAQ回答支援Webシステム](https://www.nikkei.com/article/DGXLRSP437574_U7A220C1000000/)の開発・保守**
+    - 機械学習を取り入れた全文検索製品を用いたWebシステムの開発に従事
+  - **2012/8 ~ 2016/5 : [損害保険マスタデータ管理Webシステム](https://www.sompo-hd.com/~/media/hd/files/doc/pdf/news2011/20120323_1.pdf)の開発・保守**
+    - 最大15名程度の規模のチームにて、複数の案件で要件定義からリリースを担当
+- チームリーダーとして、プロジェクト管理、オフショア開発、顧客折衝、OJTを実施
+
+### 副業
+
+#### 2019/4 ~ 現在 : パーストワン株式会社
+
+- 知人が経営している業務用空調機器販売を行う企業のシステム開発
+  - LPおよび社内向け業務システムの開発、保守
+  - IT関連施策についての助言・提案
+
+#### 2021/7 ~ 2023/6 : MENTAにおける技術相談
+
+- MENTAにおいて、メンターとして[Kintoneによる業務アプリケーション構築のサポート](https://menta.work/plan/4060)
+
+## 経験
+
+- Web Application Engineerとしての10年以上の実務経験
+- アジャイルソフトウェア開発、自動テスト、CI/CD、ブランチ戦略等の手法に関する5年以上の実務経験
+- Site Reliability Engineerとしての3年以上の実務経験
+- チームリーダーとしての3年以上の実務経験
+  - 最大5名程度のメンバーに対して、OJT、目標設定、評価、プロジェクトマネジメントを実施
+  - 開発ロードマップ・OKR策定の主導
+  - 採用要件の規定および採用選考の設計・参加
+
+### 技術スキル
+
+**太字**は好きなものです
+
+#### 5年以上の実務経験があり、現在も活用している
+
+- **Kubernetes**, **Terraform**, GitHub Actions, Docker
+- **Amazon Web Services**
+- MySQL, Redis, nginx, Ubuntu
+- **TypeScript**, JavaScript, SQL, ShellScript
+- **Python**, Go
+
+#### 実務経験があり、現在も活用している
+
+- Ruby on Rails, Ruby
+- New Relic, Prometheus, Argo CD
+- Google Cloud, Google Apps Script
+
+#### 過去に利用経験がある
+
+- HTML, CSS, jQuery, Vue.js, React
+- CircleCI, Datadog, Sentry
+- VB.NET, ASP.NET, Java, Swift, Express
+- PostgreSQL, IBM Db2, SQL Server, IBM Watson, JP1/AJS3
+- Red Hat Enterprise Linux, Windows Server, On-premise
+- Kintone, Salesforce
+
+### イベント参加・登壇
+
+|   参加日   | イベント名    | 内容                                                                                                                                                                                                       |
+| :--------: | :------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2025/7/12  | SRE NEXT 2025 | [登壇（オンコール⼊⾨〜ページャーが鳴る前に、あなたが備えられること〜）](https://speakerdeck.com/yktakaha4/before-the-pager-rings)                                                                         |
+| 2024/12/8  | ISUCON14      | [参加（163位 / 8319点）](https://zenn.dev/lapras_inc/articles/postmortem_isucon14)                                                                                                                         |
+| 2023/11/25 | ISUCON13      | [参加（149位 / 14995点）](https://zenn.dev/yktakaha4/articles/postmortem_isucon13)                                                                                                                         |
+| 2022/10/15 | PyCon JP 2022 | [登壇（Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処）](https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu) |
+| 2022/7/23  | ISUCON12      | 予選参加（209位 / 4703点）                                                                                                                                                                                 |
+| 2021/8/21  | ISUCON11      | [予選参加（130位 / 33750点）](https://zenn.dev/yktakaha4/articles/postmortem_isucon11)                                                                                                                     |
+
+### 資格・認定
+
+下位資格は省略しています
+
+| 取得日  | 資格・認定名                                                                                                           |
+| :-----: | :--------------------------------------------------------------------------------------------------------------------- |
+| 2025/9  | [Google Cloud Associate Cloud Engineer](https://www.credly.com/badges/f0e34a69-bec9-44e0-acf0-4c4a4ccdb1e7)            |
+| 2024/7  | [AWS Certified Solutions Architect – Professional](https://www.credly.com/badges/f615fbaf-b0b6-4650-8aa9-06798a2ba40e) |
+| 2022/6  | [Certified Kubernetes Administrator](https://www.credly.com/badges/bd2b44f2-2b09-4cbd-8ec7-511550831329)               |
+| 2022/1  | [Certified Kubernetes Application Developer](https://www.credly.com/badges/5bdf1fc8-74cc-4ac1-86ec-3b7676fd183b)       |
+| 2018/8  | Oracle Certified Java Programmer, Gold SE 8                                                                            |
+| 2017/11 | Linux Professional Institute Certification Level 1                                                                     |
+| 2014/6  | データベーススペシャリスト                                                                                             |
+| 2013/12 | 情報セキュリティスペシャリスト                                                                                         |
+
+## 公開アウトプット
+
+### 個人開発
+
+| 公開日  | 名称                                                                                             | 説明                                                                                         | 使用言語   |
+| :-----: | :----------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :--------- |
+| 2022/12 | [kunitori](https://zenn.dev/yktakaha4/articles/introducing_kunitori)                             | GitリポジトリのSLOCを集計して日本地図にプロットするCLIツール                                 | Go         |
+| 2022/3  | [Ducktify](https://zenn.dev/yktakaha4/articles/how_to_develop_ducktify)                          | ブラウザの発音状況に応じて自動でSpotifyの音量を増減させるChrome拡張                          | TypeScript |
+| 2022/1  | [kintone-form-model-generator](https://zenn.dev/yktakaha4/articles/kintone-form-model-generator) | Kintoneの型情報を自動生成するCLIツール                                                       | TypeScript |
+| 2018/8  | [AR文章画像](/img/ar_bunsyo_gazou.jpg)                                                           | ARKitを使ったiOS文字投影アプリ                                                               | Swift      |
+| 2016/4  | [babel](/img/babel.jpg)                                                                          | ハクスラ形式のiOSゲームアプリ。プログラミングと[作曲](https://on.soundcloud.com/zaxGt)を担当 | Swift      |
+
+### 技術記事
+
+### OSS活動
+
+## このページについて
+
+このページは[Docusaurus](https://docusaurus.io/)によって生成されました
+
+### 技術記事（詳細）
+
+1. 電子メール送信に関する技術
+   URL: https://zenn.dev/yktakaha4/articles/technology_for_sending_email
+公開日: 2022-03-28 | 媒体: zenn | いいね: 228 | タグ: AWS, smtp, 電子メール
+
+2. HTTPキャッシュに学ぶ、無理のないドキュメント更新運用
+   URL: https://zenn.dev/lapras_inc/articles/documentation_inspired_by_http_cache
+公開日: 2022-05-09 | 媒体: zenn | いいね: 226 | タグ: http, ドキュメンテーション
+
+3. CSRF(Cross-Site Request Forgery)攻撃について
+   URL: https://zenn.dev/yktakaha4/articles/study_csrf_attack
+公開日: 2022-10-30 | 媒体: zenn | いいね: 214 | タグ: CSRF, Security, Web
+
+4. Webアプリケーションにおけるタイムアウトについて
+   URL: https://zenn.dev/yktakaha4/articles/learn_about_web_application_timeouts
+公開日: 2024-09-25 | 媒体: zenn | いいね: 75 | タグ: AWS, Python, webアプリケーション, タイムアウト
+
+5. アジャイルなSREチームの運用
+   URL: https://zenn.dev/lapras_inc/articles/running_an_agile_sre_team
+公開日: 2023-04-25 | 媒体: zenn | いいね: 74 | タグ: SRE, アジャイル, ふりかえり
+
+6. Karpenterを再導入してEC2コストを削減した話
+   URL: https://team-blog.mitene.us/72e9cc4ce08f
+公開日: 2025-05-28 | 媒体: techBlog | いいね: 67 | タグ: AWS, Karpenter, EKS
+
+7. 情報技術に関する歴史や文化の本
+   URL: https://zenn.dev/yktakaha4/articles/history_books_on_information_technology
+公開日: 2023-07-01 | 媒体: zenn | いいね: 67 | タグ: コンピュータ, 情報技術, 読書
+
+8. HTML+jQueryでできたLPをwebpack+TypeScript+Cypressで楽しく保守する
+   URL: https://zenn.dev/yktakaha4/articles/update_lp_for_maintenanceability
+公開日: 2021-02-28 | 媒体: zenn | いいね: 50 | タグ: Cypress, HTML, jQuery, TypeScript, webpack
+
+9. TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った
+   URL: https://zenn.dev/yktakaha4/articles/kintone-form-model-generator
+公開日: 2022-01-09 | 媒体: zenn | いいね: 49 | タグ: CLI, kintone, TypeScript
+
+10. LAPRASの採用選考を受けて感じたCX(Candidate Experience)と、その重要性
+   URL: https://note.com/yktakaha4/n/n67789c25ad73
+公開日: 2021-01-27 | 媒体: note | いいね: 48 | タグ: エンジニア, 中途採用, 入社エントリ, 採用CX, LAPRAS
+
+11. リポジトリへの貢献量に応じて日本を手中に収めるCLIを作った
+   URL: https://zenn.dev/lapras_inc/articles/introducing_kunitori
+公開日: 2022-12-23 | 媒体: zenn | いいね: 44 | タグ: CLI, Git, Golang
+
+12. エラーバジェット枯渇時のプロダクションフリーズ運用マニュアル
+   URL: https://zenn.dev/lapras_inc/articles/production_freeze_manual
+公開日: 2022-02-28 | 媒体: zenn | いいね: 34 | タグ: SLO, SRE
+
+13. GitHub Actionsでコマンド失敗時の実行結果をIssueに貼り付けて投稿する
+   URL: https://qiita.com/yktakaha4/items/19877ad86b54c22420e9
+公開日: 2020-07-25 | 媒体: qiita | いいね: 31 | タグ: GitHubActions
+
+14. 新しいチームに加わるエンジニアのための "被" オンボーディングガイド v0.1.1
+   URL: https://note.com/yktakaha4/n/n2acd5a198fa3
+公開日: 2021-04-23 | 媒体: note | いいね: 29 | タグ: エンジニア, オンボーディング, LAPRAS
+
+15. AWS+EKSで稼働するWebアプリにSorryページを設計・実装する
+   URL: https://zenn.dev/lapras_inc/articles/how_to_make_sorry_page
+公開日: 2022-04-12 | 媒体: zenn | いいね: 24 | タグ: alb, AWS, EKS, Kubernetes, SRE
+
+16. TerraformでGitHub Actions OIDC with AWSを定義し、EKSに安全にアクセスする
+   URL: https://zenn.dev/lapras_inc/articles/access_eks_with_github_actions_oidc
+公開日: 2021-12-02 | 媒体: zenn | いいね: 23 | タグ: AWS, GitHub Actions, Kubernetes, Terraform
+
+17. ISUCON11に初参加したらおもろかった
+   URL: https://zenn.dev/yktakaha4/articles/postmortem_isucon11
+公開日: 2021-08-22 | 媒体: zenn | いいね: 23 | タグ: ISUCON
+
+18. Watson Discovery + Google Home + Spring Boot + Reactでミュージックアプリを作る（ソース付き）
+   URL: https://qiita.com/yktakaha4/items/e535c310f0532798e721
+公開日: 2018-05-16 | 媒体: qiita | いいね: 23 | タグ: Java, Watson, React, SpringBoot, GoogleHome
+
+19. ビデオ会議が始まったらSpotifyの音量を自動で下げてくれるChrome Extensionを作った
+   URL: https://zenn.dev/yktakaha4/articles/how_to_develop_ducktify
+公開日: 2022-03-19 | 媒体: zenn | いいね: 22 | タグ: AWS, Chrome Extension, React, Serverless Framework, Spotify
+
+20. Docker + Python + Redashでおひとり様データ分析基盤を作る
+   URL: https://qiita.com/yktakaha4/items/ebc8aa6987de82f93fba
+公開日: 2018-12-16 | 媒体: qiita | いいね: 21 | タグ: Python, Docker, Jupyter, redash, Luigi
+
+21. チームに知見が残るEKSクラスタバージョンアップ運用
+   URL: https://zenn.dev/lapras_inc/articles/steady_update_of_eks
+公開日: 2023-02-13 | 媒体: zenn | いいね: 20 | タグ: AWS, EKS, Kubernetes, Python
+
+22. Chromeに消されたCORS Preflight requestを確認する方法
+   URL: https://zenn.dev/yktakaha4/articles/analyze_cors_request_with_chrome
+公開日: 2022-03-20 | 媒体: zenn | いいね: 19 | タグ: Chrome, CORS
+
+23. JS + GAS + AWSでルーレットゲームを作ってウェディングパーティの余興を担当する（ソース付き）
+   URL: https://qiita.com/yktakaha4/items/50582331df743ecf565a
+公開日: 2019-01-02 | 媒体: qiita | いいね: 18 | タグ: JavaScript, jQuery, AWS, GoogleAppsScript
+
+24. ANSI artをつくろう
+   URL: https://zenn.dev/lapras_inc/articles/how_to_make_ansi_art
+公開日: 2022-12-01 | 媒体: zenn | いいね: 17 | タグ: ansiart, Python
+
+25. UptimeRobotとTerraformでおこなう死活監視
+   URL: https://zenn.dev/lapras_inc/articles/synthetic_monitoring_with_ur_and_tf
+公開日: 2022-10-19 | 媒体: zenn | いいね: 17 | タグ: Terraform, uptimerobot, 監視
+
+26. NestJS + OpenAPI(Swagger)からAPIクライアントを生成し型安全に通信する
+   URL: https://qiita.com/yktakaha4/items/0aecde44848d6a861bf5
+公開日: 2020-12-10 | 媒体: qiita | いいね: 17 | タグ: npm, TypeScript, OpenAPI, NestJS, GitHubActions
+
+27. 独自ドメインのGmailとAmazon SESをTerraformにて設定する
+   URL: https://zenn.dev/yktakaha4/articles/gmail_and_ses_by_tf
+公開日: 2020-10-09 | 媒体: zenn | いいね: 16 | タグ: AWS, Gmail, ses, Terraform
+
+28. Dashに日本語翻訳機能を付ける
+   URL: https://qiita.com/yktakaha4/items/557e2e3e8e49ab9ca951
+公開日: 2017-05-31 | 媒体: qiita | いいね: 16 | タグ: Dash, Automator, google翻訳
+
+29. IBM Watson + ぐるなびAPIでレストラン検索アプリを作る(ソース付き)
+   URL: https://qiita.com/yktakaha4/items/d14d643db28bc63c7b3f
+公開日: 2017-03-04 | 媒体: qiita | いいね: 16 | タグ: Java, JavaScript, Bluemix, Watson
+
+30. ログ基盤をPromtailからGrafana Alloyに移行する
+   URL: https://zenn.dev/mitene/articles/migrate-promtail-to-alloy
+公開日: 2025-09-01 | 媒体: zenn | いいね: 14 | タグ: alloy, Kubernetes, OpenTelemetry, promtail, zennfes2025infra
+
+31. シェルスクリプトからコマンド実行（っぽいもの）を抜き出すワンライナー
+   URL: https://qiita.com/yktakaha4/items/a11c7bc6245c37a6d428
+公開日: 2019-11-17 | 媒体: qiita | いいね: 14 | タグ: ShellScript, 正規表現, ワンライナー
+
+32. TerraformからServerless Frameworkで作ったAPIを参照する
+   URL: https://qiita.com/yktakaha4/items/a6fb117085f1fa546ed9
+公開日: 2019-08-06 | 媒体: qiita | いいね: 13 | タグ: AWS, Terraform, ServerlessFramework
+
+33. EKSアップグレードRTA in みてね 2025
+   URL: https://zenn.dev/mitene/articles/eks-upgrade-rta-in-mitene-2025
+公開日: 2025-12-04 | 媒体: zenn | いいね: 12 | タグ: AWS, EKS, Karpenter, Kubernetes
+
+34. （SRE的）作ってよかったドキュメント・表・運用
+   URL: https://zenn.dev/lapras_inc/articles/useful_documents_tables_and_operations_for_sre
+公開日: 2023-12-18 | 媒体: zenn | いいね: 12 | タグ: SRE, ドキュメンテーション, 運用
+
+35. ISUCON13に参加しました
+   URL: https://zenn.dev/lapras_inc/articles/postmortem_isucon13
+公開日: 2023-12-01 | 媒体: zenn | いいね: 12 | タグ: ISUCON
+
+36. Ebitengineでビジュアルリグレッションテストをやる
+   URL: https://zenn.dev/yktakaha4/articles/visual_regression_test_in_ebitengine
+公開日: 2022-10-03 | 媒体: zenn | いいね: 11 | タグ: Ebiten, Ebitengine, GitHub Actions, Golang, テスト
+
+37. Salesforce Bulk API 2.0 & 外部IDを使ったデータ移行をjsforceでおこなう
+   URL: https://zenn.dev/yktakaha4/articles/salesforce_bulk2_with_jsforce
+公開日: 2022-09-17 | 媒体: zenn | いいね: 9 | タグ: JavaScript, jsforce, Node.js, Salesforce
+
+38. terraform planを見やすくするワンライナー
+   URL: https://zenn.dev/yktakaha4/articles/pretty_print_tf_plan
+公開日: 2022-07-12 | 媒体: zenn | いいね: 8 | タグ: shell, Terraform
+
+39. Pythonで画像のビジュアルリグレッションテストを書く
+   URL: https://zenn.dev/lapras_inc/articles/visual_regression_test_in_python
+公開日: 2022-06-13 | 媒体: zenn | いいね: 8 | タグ: Python, Test
+
+40. AWSのRI/SP買い方メモ
+   URL: https://zenn.dev/yktakaha4/articles/how_to_buy_ri_and_sp
+公開日: 2022-02-05 | 媒体: zenn | いいね: 8 | タグ: AWS
+
+41. 個人的log4js設定
+   URL: https://zenn.dev/yktakaha4/articles/my-log4js-settings
+公開日: 2022-01-08 | 媒体: zenn | いいね: 8 | タグ: log4js, TypeScript
+
+42. CloudWatch ダッシュボードを定期的にSlack通知する（ソース付き）
+   URL: https://qiita.com/yktakaha4/items/3df6947c77599a722762
+公開日: 2020-03-14 | 媒体: qiita | いいね: 8 | タグ: AWS, TypeScript, CloudWatch, Slack, ServerlessFramework
+
+43. Watson Retrieve and RankをWebから使う
+   URL: https://qiita.com/yktakaha4/items/0a1dcad29162f02b3908
+公開日: 2016-11-20 | 媒体: qiita | いいね: 8 | タグ: Solr, Bluemix, Watson, node-red
+
+44. ISUCON14に参加しました
+   URL: https://zenn.dev/lapras_inc/articles/postmortem_isucon14
+公開日: 2024-12-01 | 媒体: zenn | いいね: 7 | タグ: ISUCON
+
+45. ALBとTerraformで作るHTTPリダイレクタ
+   URL: https://zenn.dev/lapras_inc/articles/redirector_with_alb
+公開日: 2023-08-06 | 媒体: zenn | いいね: 7 | タグ: alb, AWS, http, Terraform
+
+46. Terraformでサッと使える検証用EKS環境を作った
+   URL: https://zenn.dev/yktakaha4/articles/study_k8s_terraform
+公開日: 2021-09-11 | 媒体: zenn | いいね: 7 | タグ: AWS, EKS, Kubernetes, Terraform
+
+47. libfaketimeをインストールするワンライナー
+   URL: https://zenn.dev/yktakaha4/articles/libfaketime_oneliner
+公開日: 2021-06-28 | 媒体: zenn | いいね: 7 | タグ: libfaketime
+
+48. NestJSでOpenAPI(Swagger)定義をファイル出力する
+   URL: https://qiita.com/yktakaha4/items/97ea169ed97dbcdd25fb
+公開日: 2020-03-15 | 媒体: qiita | いいね: 7 | タグ: TypeScript, OpenAPI, NestJS
+
+49. 写経や情報共有に単体テストを役立てる
+   URL: https://zenn.dev/yktakaha4/articles/using_unit_tests_to_learn
+公開日: 2024-12-22 | 媒体: zenn | いいね: 6 | タグ: 単体テスト
+
+50. EKSのコンテナリソース最適化メモ
+   URL: https://zenn.dev/yktakaha4/articles/how_to_optimize_eks_containers
+公開日: 2024-12-12 | 媒体: zenn | いいね: 6 | タグ: AWS, EKS, Kubernetes
+
+51. SquidのTips集
+   URL: https://zenn.dev/yktakaha4/articles/squid_proxy_tips
+公開日: 2022-06-18 | 媒体: zenn | いいね: 6 | タグ: proxy, squid
+
+52. Lambda上で動くPythonにてSlack Appからのリクエストを検証する
+   URL: https://zenn.dev/yktakaha4/articles/verify_slack_signature_on_aws_lambda
+公開日: 2021-04-04 | 媒体: zenn | いいね: 6 | タグ: AWS, Lambda, Python, Slack
+
+53. CypressでStripe Elementsの自動テストをおこなう
+   URL: https://qiita.com/yktakaha4/items/13c3c13a0e13d0890371
+公開日: 2020-08-31 | 媒体: qiita | いいね: 6 | タグ: stripe, TypeScript, Cypress
+
+54. SourcegraphをGitHub Actions+CloudFormationで構築・管理する
+   URL: https://qiita.com/yktakaha4/items/336c85d5a3c4e04b9226
+公開日: 2019-11-17 | 媒体: qiita | いいね: 6 | タグ: AWS, CloudFormation, GitHubActions
+
+55. ECS(Fargate)のバッチをCloudFormationで作成する
+   URL: https://qiita.com/yktakaha4/items/f5a32d5f2e7a6263faa4
+公開日: 2019-10-11 | 媒体: qiita | いいね: 6 | タグ: AWS, CloudFormation, ECS
+
+56. Claude Codeにリポジトリを調べてもらうカスタムスラッシュコマンド
+   URL: https://zenn.dev/mitene/articles/claude-command-for-code-analysis
+公開日: 2025-09-16 | 媒体: zenn | いいね: 5 | タグ: Claude Code
+
+57. AWSの2FA認証をCLIからおこなうワンライナー
+   URL: https://zenn.dev/yktakaha4/articles/aws_2fa_oneliner
+公開日: 2022-06-22 | 媒体: zenn | いいね: 5 | タグ: AWS
+
+58. Basic認証付きのCloudFront + S3環境をCloudFormationで構築する
+   URL: https://zenn.dev/yktakaha4/articles/cf_with_basic_auth_in_cfn
+公開日: 2021-06-20 | 媒体: zenn | いいね: 5 | タグ: AWS, basic認証, CloudFormation, CloudFront, S3
+
+59. DataGripにてSSM接続の踏み台サーバを通じてRDSに接続する
+   URL: https://zenn.dev/yktakaha4/articles/connect_to_rds_with_datagrip_and_ssm
+公開日: 2021-01-17 | 媒体: zenn | いいね: 5 | タグ: AWS, DataGrip, RDS, ssm
+
+60. LP公開のためのインフラをTerraform + AWSでささっと？構築する（ソース付き）
+   URL: https://qiita.com/yktakaha4/items/bc26c38baea56f244c19
+公開日: 2019-07-15 | 媒体: qiita | いいね: 5 | タグ: AWS, Terraform
+
+61. 自分で価値を決めず、気軽にアウトプットしよう
+   URL: https://note.com/yktakaha4/n/n9642b2502371
+公開日: 2025-05-07 | 媒体: note | いいね: 4 | タグ: srenext
+
+62. Conftestでおこなうポリシーチェック
+   URL: https://zenn.dev/lapras_inc/articles/policy_check_with_conftest
+公開日: 2024-08-13 | 媒体: zenn | いいね: 4 | タグ: conftest, Kubernetes, Rundeck, Terraform
+
+63. Issueに紐づくGitHub Projectsの情報をGraphQL経由で取得する
+   URL: https://zenn.dev/yktakaha4/articles/get_github_projects_item_with_graphql
+公開日: 2023-03-29 | 媒体: zenn | いいね: 4 | タグ: githubprojects, GraphQL, Python
+
+64. データから2022年をふりかえる
+   URL: https://zenn.dev/lapras_inc/articles/looking_back_to_2022
+公開日: 2022-12-31 | 媒体: zenn | いいね: 4 | タグ: ポエム
+
+65. Amazon SESのEメール送信ログをAthenaでいい感じにクエリする
+   URL: https://zenn.dev/yktakaha4/articles/ses_delivery_log_with_athena
+公開日: 2022-09-23 | 媒体: zenn | いいね: 4 | タグ: athena, AWS, ses
+
+66. MacでMIDIファイルを再生&WAV出力する
+   URL: https://qiita.com/yktakaha4/items/009306108b9c9fe06a37
+公開日: 2019-01-06 | 媒体: qiita | いいね: 4 | タグ: MacOSX, MIDI
+
+67. VirtualBoxのUbuntuにssh可能にするワンライナー
+   URL: https://zenn.dev/yktakaha4/articles/vbox_ssh_one_liner
+公開日: 2025-12-30 | 媒体: zenn | いいね: 3 | タグ: Ubuntu, VirtualBox
+
+68. Serverless FrameworkでLambdaコンテナイメージを利用する
+   URL: https://qiita.com/yktakaha4/items/ead117870617f45c70d5
+公開日: 2020-12-18 | 媒体: qiita | いいね: 3 | タグ: TypeScript, Docker, lambda, ServerlessFramework, GitHubActions
+
+69. WindowsでGitHub Copilotをパッと開けるようにする
+   URL: https://zenn.dev/yktakaha4/articles/how_to_make_github_copilot_button
+公開日: 2024-12-16 | 媒体: zenn | いいね: 2 | タグ: GitHub Copilot, Windows
+
+70. MySQLTunerを実行するワンライナー
+   URL: https://zenn.dev/yktakaha4/articles/mysqltuner_oneliner
+公開日: 2021-08-15 | 媒体: zenn | いいね: 2 | タグ: mysqltuner
+
+71. PythonでIMAP接続に使われた暗号化バージョンをチェックする
+   URL: https://zenn.dev/yktakaha4/articles/check_imap_tls_version_in_python
+公開日: 2023-12-12 | 媒体: zenn | いいね: 1 | タグ: imap, Python
+
+72. unittestで特定の関数呼び出しをテスト全体でアサーションする
+   URL: https://zenn.dev/yktakaha4/articles/assert_function_calls_in_all_unittests
+公開日: 2023-10-03 | 媒体: zenn | いいね: 1 | タグ: Python, unittest
+
+73. Djangoで全テーブルのIDの採番状況をチェックする
+   URL: https://zenn.dev/yktakaha4/articles/describe_remaining_id_length_in_django
+公開日: 2023-05-02 | 媒体: zenn | いいね: 1 | タグ: django, Python
+
+74. MailHogにtelnet経由でテストメールを送る
+   URL: https://zenn.dev/yktakaha4/articles/send_mail_to_mailhog_with_telnet
+公開日: 2023-02-24 | 媒体: zenn | いいね: 1 | タグ: mailhog, smtp, telnet
+
+75. sls invoke localでdocker-composeで起動したコンテナに疎通する
+   URL: https://zenn.dev/yktakaha4/articles/sls_invoke_local_another_docker_container
+公開日: 2022-05-24 | 媒体: zenn | いいね: 1 | タグ: Docker, Serverless
+
+76. Kintone Webhookの型定義
+   URL: https://zenn.dev/yktakaha4/articles/kintone_webhook_type_definitions
+公開日: 2022-01-10 | 媒体: zenn | いいね: 1 | タグ: kintone, TypeScript
+
+77. TerraformでSet of objectsをfor_eachとfor式で走査する
+   URL: https://qiita.com/yktakaha4/items/2fa3700c660466b27175
+公開日: 2020-08-09 | 媒体: qiita | いいね: 1 | タグ: Terraform
+
+78. 社内ネットワークからパブリックIP付きのインスタンスでPacker buildする
+   URL: https://qiita.com/yktakaha4/items/e842f5be06f84ab15b10
+公開日: 2020-02-01 | 媒体: qiita | いいね: 1 | タグ: AWS, packer
+
+79. MP3のタグ情報をJSON形式で一括出力する
+   URL: https://qiita.com/yktakaha4/items/e4414714827db213e279
+公開日: 2020-01-05 | 媒体: qiita | いいね: 1 | タグ: ShellScript, ffmpeg, MP3
+
+80. 化けたMP3タグ文字を類似度測定ライブラリを使いつつ元に戻した
+   URL: https://qiita.com/yktakaha4/items/8cf9bc4b1910f0b5ca45
+公開日: 2018-02-11 | 媒体: qiita | いいね: 1 | タグ: Java, MP3
+
+81. Secrets Managerのシークレットを.envrcにコピーする
+   URL: https://qiita.com/yktakaha4/items/27e5e6acce55e5bcaf7f
+公開日: 2020-11-08 | 媒体: qiita | いいね: 0 | タグ: AWS
+
+82. LocalStackの起動待ちをするシェルスクリプト
+   URL: https://qiita.com/yktakaha4/items/ed88dbdfc0547ea41d28
+公開日: 2020-07-01 | 媒体: qiita | いいね: 0 | タグ: ShellScript, docker-compose, LocalStack
+
+83. PostgreSQLでCSV文字列から表を作る
+   URL: https://qiita.com/yktakaha4/items/cf0d990e5394dfe03231
+公開日: 2020-02-24 | 媒体: qiita | いいね: 0 | タグ: SQL, PostgreSQL
+
+84. USキーのMacbook上で動作するWindowsにて、右⌘でかな英数を切り替える
+   URL: https://qiita.com/yktakaha4/items/8f320bf69c76090e93e7
+公開日: 2019-05-26 | 媒体: qiita | いいね: 0 | タグ: Windows, AutoHotkey, MacBook, USキーボード
+
+85. MacのEclipseにてCompareMergeでSVN比較する
+   URL: https://qiita.com/yktakaha4/items/8cd0ddc993ff9b7cd502
+公開日: 2017-12-29 | 媒体: qiita | いいね: 0 | タグ: Eclipse, MacOSX, CompareMerge
+
+86. 私のZennの書き方 / How I Write on Zenn
+   URL: https://speakerdeck.com/yktakaha4/how-i-write-on-zenn
+公開日: 2025-12-12 | 媒体: speakerDeck
+
+87. オンコール⼊⾨〜ページャーが鳴る前に、あなたが備えられること〜 / Before The Pager Rings
+   URL: https://speakerdeck.com/yktakaha4/before-the-pager-rings
+公開日: 2025-07-12 | 媒体: speakerDeck
+
+88. Python Social Authで学ぶ、OAuth2.0認可コードフローにおける異常系への対処
+   URL: https://speakerdeck.com/yktakaha4/python-social-authdexue-bu-oauth2-dot-0ren-ke-kodohuroniokeruyi-chang-xi-henodui-chu
+公開日: 2022-10-15 | 媒体: speakerDeck
+
+89. LAPRAS Tech Blogのアーキテクチャ（インフラ編）
+   URL: https://tech-blog.lapras.com/techBlogs/tech-blog-infra
+公開日: 2022-07-04 | 媒体: techBlog  | タグ: AWS, AWS Amplify, Terraform, MicroCMS
+
+90. GitHub ActionsでServerless FrameworkのCI/CDパイプラインを構築する
+   URL: https://web.archive.org/web/20250328120534/https://www.hands-lab.com/tech/t5202/
+公開日: 2019-10-04 | 媒体: techBlog  | タグ: AWS
+
+91. すごいVBAをLambda+HTML帳票+Puppeteerに置き換えた話
+   URL: https://web.archive.org/web/20250328120534/https://www.hands-lab.com/tech/t4835/
+公開日: 2019-07-05 | 媒体: techBlog  | タグ: AWS, Node.js, PDF
+
+
+### OSS活動（詳細）
+
+1. fix: ファイル名にコロンが含まれるケースを考慮
+   URL: https://github.com/zenn-dev/zenn-editor/pull/551
+   マージ日: 2025-09-17 | リポジトリ: zenn-dev/zenn-editor (⭐722) | 変更行数: 18
+   言語: TypeScript
+
+2. Align max `--dml-batch-size` with the implementation
+   URL: https://github.com/github/gh-ost/pull/1575
+   マージ日: 2025-08-13 | リポジトリ: github/gh-ost (⭐13194) | 変更行数: 4
+   言語: Go
+
+3. fix typo
+   URL: https://github.com/grafana/alloy/pull/4148
+   マージ日: 2025-08-08 | リポジトリ: grafana/alloy (⭐2859) | 変更行数: 2
+   言語: Go
+
+4. add cloudfront domain to storage transfer job
+   URL: https://github.com/GoogleCloudPlatform/magic-modules/pull/14409
+   マージ日: 2025-08-06 | リポジトリ: GoogleCloudPlatform/magic-modules (⭐927) | 変更行数: 18
+   言語: Go Template
+
+5. Add postpone-cut-over-flag-file interactive command
+   URL: https://github.com/github/gh-ost/pull/1561
+   マージ日: 2025-07-02 | リポジトリ: github/gh-ost (⭐13194) | 変更行数: 62
+   言語: Go
+
+6. [ja] specify the version using the shortcode
+   URL: https://github.com/kubernetes/website/pull/51072
+   マージ日: 2025-05-28 | リポジトリ: kubernetes/website (⭐5164) | 変更行数: 2
+   言語: HTML
+
+7. Fix Ruby version managers settings
+   URL: https://github.com/yasslab/codespaces-railstutorial/pull/20
+   マージ日: 2024-10-15 | リポジトリ: yasslab/codespaces-railstutorial (⭐66) | 変更行数: 8
+   言語: Ruby
+
+8. Store current time when TaskResult started
+   URL: https://github.com/celery/django-celery-results/pull/432
+   マージ日: 2024-06-15 | リポジトリ: celery/django-celery-results (⭐774) | 変更行数: 91
+   言語: Python
+
+9. Set search conditions to query parameters
+   URL: https://github.com/axllent/mailpit/pull/303
+   マージ日: 2024-06-01 | リポジトリ: axllent/mailpit (⭐8632) | 変更行数: 127
+   言語: Go
+
+10. fix: handle none value
+   URL: https://github.com/domainaware/parsedmarc/pull/468
+   マージ日: 2024-02-20 | リポジトリ: domainaware/parsedmarc (⭐1198) | 変更行数: 58
+   言語: Python
+
+11. Fix description of diff suppress option
+   URL: https://github.com/databus23/helm-diff/pull/491
+   マージ日: 2024-01-09 | リポジトリ: databus23/helm-diff (⭐3317) | 変更行数: 4
+   言語: Go
+
+12. docs: fix resource id
+   URL: https://github.com/hashicorp/terraform-provider-aws/pull/34312
+   マージ日: 2023-11-09 | リポジトリ: hashicorp/terraform-provider-aws (⭐10722) | 変更行数: 4
+   言語: Go
+
+13. fix broken link
+   URL: https://github.com/aws/aws-eks-best-practices/pull/398
+   マージ日: 2023-10-17 | リポジトリ: aws/aws-eks-best-practices (⭐2147) | 変更行数: 4
+   言語: Python
+
+14. Add diffArgs to helmDefaults
+   URL: https://github.com/helmfile/helmfile/pull/1019
+   マージ日: 2023-09-14 | リポジトリ: helmfile/helmfile (⭐4948) | 変更行数: 73
+   言語: Go
+
+15. Add import of `aws_ses_active_receipt_rule_set` resource
+   URL: https://github.com/hashicorp/terraform-provider-aws/pull/27604
+   マージ日: 2023-06-17 | リポジトリ: hashicorp/terraform-provider-aws (⭐10722) | 変更行数: 52
+   言語: Go
+
+16. add about go run in wsl
+   URL: https://github.com/ebitengine/ebitengine.org/pull/17
+   マージ日: 2023-05-07 | リポジトリ: ebitengine/ebitengine.org (⭐34) | 変更行数: 8
+   言語: HTML
+
+17. add import `cloudflare_tunnel_config`
+   URL: https://github.com/cloudflare/terraform-provider-cloudflare/pull/2298
+   マージ日: 2023-03-20 | リポジトリ: cloudflare/terraform-provider-cloudflare (⭐1187) | 変更行数: 62
+   言語: Go
+
+18. add: set replacement-available-in to existing version.
+   URL: https://github.com/FairwindsOps/pluto/pull/457
+   マージ日: 2023-02-23 | リポジトリ: FairwindsOps/pluto (⭐2432) | 変更行数: 45
+   言語: Go
+
+19. add replacement-available-in
+   URL: https://github.com/FairwindsOps/pluto/pull/452
+   マージ日: 2023-02-22 | リポジトリ: FairwindsOps/pluto (⭐2432) | 変更行数: 441
+   言語: Go
+
+20. fix: add removed-in to storage.k8s.io/v1beta1.CSIStorageCapacity
+   URL: https://github.com/FairwindsOps/pluto/pull/448
+   マージ日: 2023-02-04 | リポジトリ: FairwindsOps/pluto (⭐2432) | 変更行数: 1
+   言語: Go
+
+21. fix: add message when parse of private key fails due to existing sso secret. Fixes #10420
+   URL: https://github.com/argoproj/argo-workflows/pull/10421
+   マージ日: 2023-02-02 | リポジトリ: argoproj/argo-workflows (⭐16409) | 変更行数: 35
+   言語: Go
+
+22. feat: support to FileInfo.Sys()
+   URL: https://github.com/liamg/memoryfs/pull/19
+   マージ日: 2023-01-24 | リポジトリ: liamg/memoryfs (⭐95) | 変更行数: 68
+   言語: Go
+
+23. fix: use FileMode.IsDir()
+   URL: https://github.com/liamg/memoryfs/pull/18
+   マージ日: 2023-01-24 | リポジトリ: liamg/memoryfs (⭐95) | 変更行数: 63
+   言語: Go
+
+24. feat: Add SetModified
+   URL: https://github.com/liamg/memoryfs/pull/17
+   マージ日: 2022-11-07 | リポジトリ: liamg/memoryfs (⭐95) | 変更行数: 172
+   言語: Go
+
+25. Fix flake8
+   URL: https://github.com/python-social-auth/social-core/pull/707
+   マージ日: 2022-08-26 | リポジトリ: python-social-auth/social-core (⭐904) | 変更行数: 183
+   言語: Python
+
+26. Add description of SOCIAL_AUTH_QIITA_IDENTIFIED_BY_PERMANENT_ID
+   URL: https://github.com/python-social-auth/social-docs/pull/116
+   マージ日: 2022-08-26 | リポジトリ: python-social-auth/social-docs (⭐34) | 変更行数: 5
+   言語: 
+
+27. Identify Qiita users by permanent_id
+   URL: https://github.com/python-social-auth/social-core/pull/698
+   マージ日: 2022-08-26 | リポジトリ: python-social-auth/social-core (⭐904) | 変更行数: 104
+   言語: Python
+
+28. Add `tags` and `tags_all` argument to `aws_ecrpublic_repository`
+   URL: https://github.com/hashicorp/terraform-provider-aws/pull/26057
+   マージ日: 2022-08-02 | リポジトリ: hashicorp/terraform-provider-aws (⭐10722) | 変更行数: 226
+   言語: Go
+
+29. update requirements python version
+   URL: https://github.com/localstack/docs/pull/178
+   マージ日: 2022-06-05 | リポジトリ: localstack/docs (⭐69) | 変更行数: 10
+   言語: HTML
+
+30. Add ci
+   URL: https://github.com/showwin/kintai-paccho/pull/23
+   マージ日: 2022-04-18 | リポジトリ: showwin/kintai-paccho (⭐14) | 変更行数: 908
+   言語: Python
+
+31. add unit test
+   URL: https://github.com/showwin/kintai-paccho/pull/22
+   マージ日: 2022-04-15 | リポジトリ: showwin/kintai-paccho (⭐14) | 変更行数: 1630
+   言語: Python
+
+32. add index.d.ts
+   URL: https://github.com/elwerene/libreoffice-convert/pull/77
+   マージ日: 2022-03-29 | リポジトリ: elwerene/libreoffice-convert (⭐305) | 変更行数: 1731
+   言語: JavaScript
+
+33. feat: set url if bookmark title is empty
+   URL: https://github.com/kawamataryo/chikamichi/pull/71
+   マージ日: 2022-03-10 | リポジトリ: kawamataryo/chikamichi (⭐315) | 変更行数: 20
+   言語: TypeScript, Vue
+
+34. fix clear cache if Employee are updated
+   URL: https://github.com/showwin/kintai-paccho/pull/15
+   マージ日: 2021-12-24 | リポジトリ: showwin/kintai-paccho (⭐14) | 変更行数: 1
+   言語: Python
+
+35. Update index.rst
+   URL: https://github.com/doc1oo/LovelyComposerDocs/pull/1
+   マージ日: 2021-12-21 | リポジトリ: doc1oo/LovelyComposerDocs (⭐13) | 変更行数: 2
+   言語: Python
+
+36. docs: client.yml file path in snap
+   URL: https://github.com/Rigellute/spotify-tui/pull/778
+   マージ日: 2021-04-26 | リポジトリ: Rigellute/spotify-tui (⭐18963) | 変更行数: 2
+   言語: Rust
+
+37. docs: Describe an example of a Geometry type
+   URL: https://github.com/typeorm/typeorm/pull/7116
+   マージ日: 2021-01-11 | リポジトリ: typeorm/typeorm (⭐36288) | 変更行数: 5
+   言語: TypeScript
+
+38. docs: add enable SQS Event Source
+   URL: https://github.com/serverless/serverless/pull/8420
+   マージ日: 2020-10-28 | リポジトリ: serverless/serverless (⭐46947) | 変更行数: 1
+   言語: JavaScript
+
+39. Document log levels
+   URL: https://github.com/amazon-connect/amazon-connect-streams/pull/265
+   マージ日: 2020-08-15 | リポジトリ: amazon-connect/amazon-connect-streams (⭐448) | 変更行数: 15
+   言語: JavaScript
+
+40. fix: clear pending messages when call purge_queue
+   URL: https://github.com/getmoto/moto/pull/3208
+   マージ日: 2020-08-03 | リポジトリ: getmoto/moto (⭐8168) | 変更行数: 33
+   言語: Python
+
+41. update exceptions.md
+   URL: https://github.com/typescript-book-ja/typescript-book-jp/pull/126
+   マージ日: 2020-07-18 | リポジトリ: typescript-book-ja/typescript-book-jp (⭐318) | 変更行数: 2
+   言語: TypeScript
+
+42. Warning state initialization
+   URL: https://github.com/championswimmer/vuex-module-decorators/pull/248
+   マージ日: 2020-04-25 | リポジトリ: championswimmer/vuex-module-decorators (⭐1781) | 変更行数: 4
+   言語: TypeScript
+
+
+---
+このファイルは自動生成されました。最終更新: 2026-02-08 13:02:31

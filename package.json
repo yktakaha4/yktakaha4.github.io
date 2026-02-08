@@ -21,6 +21,7 @@
     "test:e2e": "vitest run --config vitest.config.e2e.mts",
     "refresh-components-data": "npm run fetch-github-pull-requests && npm run fetch-qiita-items && npm run fetch-zenn-articles && npm run fetch-zenn-topics && npm run fetch-note-contents && npm run fetch-speakerdeck-slides && npm run build-components-data",
     "build-components-data": "ts-node -P tsconfig.scripts.json src/services/scripts/buildComponentsData.ts",
+    "generate-llm-txt": "ts-node -P tsconfig.scripts.json src/services/scripts/generateLLMTxt.ts",
     "fetch-github-pull-requests": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchGitHubPullRequests.ts",
     "fetch-qiita-items": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchQiitaItems.ts",
     "fetch-zenn-articles": "ts-node -P tsconfig.scripts.json src/services/scripts/fetchZennArticles.ts",
