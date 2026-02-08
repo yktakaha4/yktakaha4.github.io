@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyktakaha_4_github_io=self.webpackChunkyktakaha_4_github_io||[]).push([[760],{760:(e,a,i)=>{i.r(a),i.d(a,{default:()=>h});var t=i(6540),c=i(4848);const h=()=>((0,t.useEffect)(()=>{window.location.replace("/")},[]),(0,c.jsx)("div",{children:"Redirecting..."}))}}]);
