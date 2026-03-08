@@ -85,20 +85,6 @@
       ]
     },
     {
-      "title": "HTML+jQueryでできたLPをwebpack+TypeScript+Cypressで楽しく保守する",
-      "url": "https://zenn.dev/yktakaha4/articles/update_lp_for_maintenanceability",
-      "publishedAt": "2021-02-28T07:39:55.316Z",
-      "likes": 50,
-      "publisher": "zenn",
-      "tags": [
-        "Cypress",
-        "HTML",
-        "jQuery",
-        "TypeScript",
-        "webpack"
-      ]
-    },
-    {
       "title": "TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った",
       "url": "https://zenn.dev/yktakaha4/articles/kintone-form-model-generator",
       "publishedAt": "2022-01-09T11:24:07.611Z",
@@ -108,6 +94,20 @@
         "CLI",
         "kintone",
         "TypeScript"
+      ]
+    },
+    {
+      "title": "HTML+jQueryでできたLPをwebpack+TypeScript+Cypressで楽しく保守する",
+      "url": "https://zenn.dev/yktakaha4/articles/update_lp_for_maintenanceability",
+      "publishedAt": "2021-02-28T07:39:55.316Z",
+      "likes": 49,
+      "publisher": "zenn",
+      "tags": [
+        "Cypress",
+        "HTML",
+        "jQuery",
+        "TypeScript",
+        "webpack"
       ]
     },
     {
