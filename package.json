@@ -64,7 +64,7 @@
     "jsdom": "^28.1.0",
     "nock": "^14.0.11",
     "npm-check": "^6.0.1",
-    "pdfjs-dist": "^5.4.624",
+    "pdfjs-dist": "^5.5.207",
     "prettier": "^3.8.1",
     "textlint": "^15.5.2",
     "textlint-rule-preset-jtf-style": "^3.0.3",
