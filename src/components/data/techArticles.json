@@ -235,6 +235,19 @@
       ]
     },
     {
+      "title": "チームに知見が残るEKSクラスタバージョンアップ運用",
+      "url": "https://zenn.dev/lapras_inc/articles/steady_update_of_eks",
+      "publishedAt": "2023-02-13T02:11:32.729Z",
+      "likes": 21,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "EKS",
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    {
       "title": "Docker + Python + Redashでおひとり様データ分析基盤を作る",
       "url": "https://qiita.com/yktakaha4/items/ebc8aa6987de82f93fba",
       "publishedAt": "2018-12-16T12:23:04.000Z",
@@ -246,19 +259,6 @@
         "Jupyter",
         "redash",
         "Luigi"
-      ]
-    },
-    {
-      "title": "チームに知見が残るEKSクラスタバージョンアップ運用",
-      "url": "https://zenn.dev/lapras_inc/articles/steady_update_of_eks",
-      "publishedAt": "2023-02-13T02:11:32.729Z",
-      "likes": 20,
-      "publisher": "zenn",
-      "tags": [
-        "AWS",
-        "EKS",
-        "Kubernetes",
-        "Python"
       ]
     },
     {
