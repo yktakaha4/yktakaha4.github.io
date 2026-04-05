@@ -228,6 +228,14 @@
       "published": true
     },
     {
+      "slug": "measure_wired_lan_speed_in_house",
+      "topics": [
+        "iperf3",
+        "lan"
+      ],
+      "published": true
+    },
+    {
       "slug": "migrate-promtail-to-alloy",
       "topics": [
         "alloy",
