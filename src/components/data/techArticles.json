@@ -694,6 +694,19 @@
       ]
     },
     {
+      "title": "Conftestでおこなうポリシーチェック",
+      "url": "https://zenn.dev/lapras_inc/articles/policy_check_with_conftest",
+      "publishedAt": "2024-08-13T00:54:17.780Z",
+      "likes": 5,
+      "publisher": "zenn",
+      "tags": [
+        "conftest",
+        "Kubernetes",
+        "Rundeck",
+        "Terraform"
+      ]
+    },
+    {
       "title": "AWSの2FA認証をCLIからおこなうワンライナー",
       "url": "https://zenn.dev/yktakaha4/articles/aws_2fa_oneliner",
       "publishedAt": "2022-06-22T03:03:30.389Z",
@@ -736,19 +749,6 @@
       "publisher": "note",
       "tags": [
         "srenext"
-      ]
-    },
-    {
-      "title": "Conftestでおこなうポリシーチェック",
-      "url": "https://zenn.dev/lapras_inc/articles/policy_check_with_conftest",
-      "publishedAt": "2024-08-13T00:54:17.780Z",
-      "likes": 4,
-      "publisher": "zenn",
-      "tags": [
-        "conftest",
-        "Kubernetes",
-        "Rundeck",
-        "Terraform"
       ]
     },
     {
