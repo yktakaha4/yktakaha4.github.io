@@ -22,11 +22,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          node-version: '24'
+      # - uses: actions/cache@v4
+      #   with:
+      #     path: node_modules
+      #     key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
       - run: npm ci
 
   refresh:
@@ -38,11 +38,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          node-version: '24'
+      # - uses: actions/cache@v4
+      #   with:
+      #     path: node_modules
+      #     key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
       - run: npm run refresh-components-data
         env:
           GITHUB_PAT: ${{ secrets.X_GITHUB_PAT }}
