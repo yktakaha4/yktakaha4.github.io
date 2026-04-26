@@ -387,6 +387,19 @@
       ]
     },
     {
+      "title": "EKSアップグレードRTA in みてね 2025",
+      "url": "https://zenn.dev/mitene/articles/eks-upgrade-rta-in-mitene-2025",
+      "publishedAt": "2025-12-03T23:00:01.720Z",
+      "likes": 13,
+      "publisher": "zenn",
+      "tags": [
+        "AWS",
+        "EKS",
+        "Karpenter",
+        "Kubernetes"
+      ]
+    },
+    {
       "title": "TerraformからServerless Frameworkで作ったAPIを参照する",
       "url": "https://qiita.com/yktakaha4/items/a6fb117085f1fa546ed9",
       "publishedAt": "2019-08-05T16:04:05.000Z",
@@ -396,19 +409,6 @@
         "AWS",
         "Terraform",
         "ServerlessFramework"
-      ]
-    },
-    {
-      "title": "EKSアップグレードRTA in みてね 2025",
-      "url": "https://zenn.dev/mitene/articles/eks-upgrade-rta-in-mitene-2025",
-      "publishedAt": "2025-12-03T23:00:01.720Z",
-      "likes": 12,
-      "publisher": "zenn",
-      "tags": [
-        "AWS",
-        "EKS",
-        "Karpenter",
-        "Kubernetes"
       ]
     },
     {
