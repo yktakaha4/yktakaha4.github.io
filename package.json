@@ -62,7 +62,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "jsdom": "^29.1.1",
-    "nock": "^14.0.13",
+    "nock": "^14.0.14",
     "npm-check": "^6.0.1",
     "pdfjs-dist": "^5.4.624",
     "prettier": "^3.8.3",
