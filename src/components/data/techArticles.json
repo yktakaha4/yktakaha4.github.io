@@ -336,6 +336,20 @@
       ]
     },
     {
+      "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
+      "url": "https://zenn.dev/mitene/articles/migrate-promtail-to-alloy",
+      "publishedAt": "2025-09-01T00:48:44.543Z",
+      "likes": 16,
+      "publisher": "zenn",
+      "tags": [
+        "alloy",
+        "Kubernetes",
+        "OpenTelemetry",
+        "promtail",
+        "zennfes2025infra"
+      ]
+    },
+    {
       "title": "Dashに日本語翻訳機能を付ける",
       "url": "https://qiita.com/yktakaha4/items/557e2e3e8e49ab9ca951",
       "publishedAt": "2017-05-30T20:22:51.000Z",
@@ -358,20 +372,6 @@
         "JavaScript",
         "Bluemix",
         "Watson"
-      ]
-    },
-    {
-      "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
-      "url": "https://zenn.dev/mitene/articles/migrate-promtail-to-alloy",
-      "publishedAt": "2025-09-01T00:48:44.543Z",
-      "likes": 15,
-      "publisher": "zenn",
-      "tags": [
-        "alloy",
-        "Kubernetes",
-        "OpenTelemetry",
-        "promtail",
-        "zennfes2025infra"
       ]
     },
     {
