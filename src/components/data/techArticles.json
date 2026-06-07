@@ -27,7 +27,7 @@
       "title": "CSRF(Cross-Site Request Forgery)攻撃について",
       "url": "https://zenn.dev/yktakaha4/articles/study_csrf_attack",
       "publishedAt": "2022-10-30T13:41:45.651Z",
-      "likes": 215,
+      "likes": 214,
       "publisher": "zenn",
       "tags": [
         "CSRF",
@@ -207,20 +207,6 @@
       ]
     },
     {
-      "title": "Watson Discovery + Google Home + Spring Boot + Reactでミュージックアプリを作る（ソース付き）",
-      "url": "https://qiita.com/yktakaha4/items/e535c310f0532798e721",
-      "publishedAt": "2018-05-15T15:06:30.000Z",
-      "likes": 23,
-      "publisher": "qiita",
-      "tags": [
-        "Java",
-        "Watson",
-        "React",
-        "SpringBoot",
-        "GoogleHome"
-      ]
-    },
-    {
       "title": "ビデオ会議が始まったらSpotifyの音量を自動で下げてくれるChrome Extensionを作った",
       "url": "https://zenn.dev/yktakaha4/articles/how_to_develop_ducktify",
       "publishedAt": "2022-03-19T02:53:52.282Z",
@@ -232,6 +218,20 @@
         "React",
         "Serverless Framework",
         "Spotify"
+      ]
+    },
+    {
+      "title": "Watson Discovery + Google Home + Spring Boot + Reactでミュージックアプリを作る（ソース付き）",
+      "url": "https://qiita.com/yktakaha4/items/e535c310f0532798e721",
+      "publishedAt": "2018-05-15T15:06:30.000Z",
+      "likes": 22,
+      "publisher": "qiita",
+      "tags": [
+        "Java",
+        "Watson",
+        "React",
+        "SpringBoot",
+        "GoogleHome"
       ]
     },
     {
