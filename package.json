@@ -35,7 +35,7 @@
     "@octokit/graphql": "^9.0.3",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.21",
-    "fast-xml-parser": "^5.8.0",
+    "fast-xml-parser": "^5.9.0",
     "fs-extra": "^11.3.5",
     "log4js": "^6.9.1",
     "prism-react-renderer": "^2.4.0",
