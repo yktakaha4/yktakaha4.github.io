@@ -3,6 +3,7 @@
 .envrc
 coverage/
 .node-version
+.npm-cache/
 
 # Dependencies
 /node_modules
