@@ -707,6 +707,18 @@
       ]
     },
     {
+      "title": "Issueに紐づくGitHub Projectsの情報をGraphQL経由で取得する",
+      "url": "https://zenn.dev/yktakaha4/articles/get_github_projects_item_with_graphql",
+      "publishedAt": "2023-03-29T08:17:42.538Z",
+      "likes": 5,
+      "publisher": "zenn",
+      "tags": [
+        "githubprojects",
+        "GraphQL",
+        "Python"
+      ]
+    },
+    {
       "title": "AWSの2FA認証をCLIからおこなうワンライナー",
       "url": "https://zenn.dev/yktakaha4/articles/aws_2fa_oneliner",
       "publishedAt": "2022-06-22T03:03:30.389Z",
@@ -749,18 +761,6 @@
       "publisher": "note",
       "tags": [
         "srenext"
-      ]
-    },
-    {
-      "title": "Issueに紐づくGitHub Projectsの情報をGraphQL経由で取得する",
-      "url": "https://zenn.dev/yktakaha4/articles/get_github_projects_item_with_graphql",
-      "publishedAt": "2023-03-29T08:17:42.538Z",
-      "likes": 4,
-      "publisher": "zenn",
-      "tags": [
-        "githubprojects",
-        "GraphQL",
-        "Python"
       ]
     },
     {
