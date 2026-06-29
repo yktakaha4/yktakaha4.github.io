@@ -65,7 +65,7 @@
     "nock": "^14.0.16",
     "npm-check": "^6.0.1",
     "pdfjs-dist": "^5.4.624",
-    "prettier": "^3.8.4",
+    "prettier": "^3.9.3",
     "textlint": "^15.7.1",
     "textlint-rule-preset-jtf-style": "^3.0.3",
     "ts-node": "^10.9.2",
