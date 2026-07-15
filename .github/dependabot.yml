@@ -17,6 +17,13 @@ updates:
         patterns:
           - '@docusaurus/*'
 
+      eslint:
+        patterns:
+          - 'eslint'
+          - '@eslint/*'
+          - '@typescript-eslint/*'
+          - 'eslint-*'
+
       react:
         patterns:
           - 'react'
