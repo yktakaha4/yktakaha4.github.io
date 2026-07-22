@@ -39,8 +39,8 @@
     "fs-extra": "^11.3.6",
     "log4js": "^6.9.1",
     "prism-react-renderer": "^2.4.0",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "react-icons": "^5.7.0"
   },
   "devDependencies": {
