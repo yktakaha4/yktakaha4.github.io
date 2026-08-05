@@ -14,8 +14,7 @@ import { writeJson } from 'fs-extra';
 import { logger } from '@/services/logging';
 
 export type TechArticleSortOrder =
-  | 'publishedAt desc'
-  | 'likes desc, publishedAt desc';
+  'publishedAt desc' | 'likes desc, publishedAt desc';
 
 export type TechArticle = {
   publishedAt: Date;

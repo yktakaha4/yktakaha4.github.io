@@ -1,13 +1,7 @@
 import { Icon } from '@/components/ui/Tag';
 
 export type TechArticlePublisher =
-  | 'zenn'
-  | 'qiita'
-  | 'note'
-  | 'techBlog'
-  | 'speakerDeck'
-  | 'others'
-  | string;
+  'zenn' | 'qiita' | 'note' | 'techBlog' | 'speakerDeck' | 'others' | string;
 const techArticlePublisherName: {
   [key in TechArticlePublisher]: string;
 } = {
