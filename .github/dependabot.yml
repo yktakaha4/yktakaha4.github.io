@@ -6,6 +6,8 @@ updates:
       interval: daily
       time: '21:00'
       timezone: Asia/Tokyo
+    cooldown:
+      default-days: 14
 
     groups:
       vitest:
