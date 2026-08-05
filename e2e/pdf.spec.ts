@@ -35,7 +35,9 @@ describe('pdf', () => {
     if (!fs.existsSync(pdfPath)) {
       throw new Error(`Pdf file is not found: ${pdfPath}`);
     }
-    document = await getDocument(pdfPath).promise;
+    document = await getDocument({
+      data: new Uint8Array(await fs.readFile(pdfPath)),
+    }).promise;
   });
 
   test('ページ数が一定である', () => {
