@@ -129,7 +129,7 @@
       "post_type": "Article",
       "slug": "migrate-promtail-to-alloy",
       "comments_count": 0,
-      "bookmarked_count": 4,
+      "bookmarked_count": 5,
       "body_letters_count": 17832,
       "article_type": "tech",
       "emoji": "⚙️",
@@ -139,7 +139,7 @@
       "pinned": false,
       "path": "/mitene/articles/migrate-promtail-to-alloy",
       "principal_type": "Publication",
-      "liked_count": 18,
+      "liked_count": 19,
       "is_suspending_private": false,
       "title": "ログ基盤をPromtailからGrafana Alloyに移行する",
       "user": {

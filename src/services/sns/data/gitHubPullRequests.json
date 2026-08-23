@@ -843,7 +843,7 @@
             "login": "argoproj"
           },
           "isFork": false,
-          "stargazerCount": 2351,
+          "stargazerCount": 2353,
           "languages": {
             "edges": [
               {
@@ -2432,7 +2432,7 @@
             "login": "grafana"
           },
           "isFork": false,
-          "stargazerCount": 3437,
+          "stargazerCount": 3454,
           "languages": {
             "edges": [
               {
@@ -2440,14 +2440,14 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 11561716
+                "size": 11598463
               },
               {
                 "node": {
                   "name": "Jsonnet",
                   "color": "#0064bd"
                 },
-                "size": 163347
+                "size": 165928
               },
               {
                 "node": {
@@ -2461,7 +2461,7 @@
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 34933
+                "size": 35983
               },
               {
                 "node": {
@@ -2936,7 +2936,7 @@
             "login": "github"
           },
           "isFork": false,
-          "stargazerCount": 13521,
+          "stargazerCount": 13533,
           "languages": {
             "edges": [
               {
@@ -3772,14 +3772,14 @@
                   "name": "Go Template",
                   "color": "#00ADD8"
                 },
-                "size": 5172271
+                "size": 5138454
               },
               {
                 "node": {
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 1388552
+                "size": 1392960
               },
               {
                 "node": {
@@ -4177,7 +4177,7 @@
             "login": "github"
           },
           "isFork": false,
-          "stargazerCount": 13521,
+          "stargazerCount": 13533,
           "languages": {
             "edges": [
               {
@@ -4217,7 +4217,7 @@
             "login": "kubernetes"
           },
           "isFork": false,
-          "stargazerCount": 5337,
+          "stargazerCount": 5345,
           "languages": {
             "edges": [
               {
@@ -4225,7 +4225,7 @@
                   "name": "HTML",
                   "color": "#e34c26"
                 },
-                "size": 79682122
+                "size": 79691630
               },
               {
                 "node": {
@@ -5483,7 +5483,7 @@
             "login": "helmfile"
           },
           "isFork": false,
-          "stargazerCount": 5175,
+          "stargazerCount": 5184,
           "languages": {
             "edges": [
               {
@@ -5762,7 +5762,7 @@
             "login": "celery"
           },
           "isFork": false,
-          "stargazerCount": 785,
+          "stargazerCount": 786,
           "languages": {
             "edges": [
               {
@@ -5809,7 +5809,7 @@
             "login": "axllent"
           },
           "isFork": false,
-          "stargazerCount": 10121,
+          "stargazerCount": 10185,
           "languages": {
             "edges": [
               {
@@ -5817,7 +5817,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 651033
+                "size": 654926
               },
               {
                 "node": {
@@ -6204,7 +6204,7 @@
             "login": "domainaware"
           },
           "isFork": false,
-          "stargazerCount": 1280,
+          "stargazerCount": 1285,
           "languages": {
             "edges": [
               {
@@ -6219,7 +6219,7 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 24499
+                "size": 23723
               },
               {
                 "node": {
@@ -7543,7 +7543,7 @@
             "login": "databus23"
           },
           "isFork": false,
-          "stargazerCount": 3480,
+          "stargazerCount": 3482,
           "languages": {
             "edges": [
               {
@@ -7551,7 +7551,7 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 226217
+                "size": 230364
               },
               {
                 "node": {
@@ -8465,7 +8465,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 11047,
+          "stargazerCount": 11044,
           "languages": {
             "edges": [
               {
@@ -8473,28 +8473,28 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 83429637
+                "size": 83892693
               },
               {
                 "node": {
                   "name": "Groovy",
                   "color": "#4298b8"
                 },
-                "size": 510564
+                "size": 510904
               },
               {
                 "node": {
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 389602
+                "size": 394009
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 59923
+                "size": 59346
               },
               {
                 "node": {
@@ -8508,7 +8508,7 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 28489
+                "size": 28612
               },
               {
                 "node": {
@@ -8561,7 +8561,7 @@
             "login": "aws"
           },
           "isFork": false,
-          "stargazerCount": 2158,
+          "stargazerCount": 2157,
           "languages": {
             "edges": [
               {
@@ -8894,7 +8894,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 11047,
+          "stargazerCount": 11044,
           "languages": {
             "edges": [
               {
@@ -8902,28 +8902,28 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 83429637
+                "size": 83892693
               },
               {
                 "node": {
                   "name": "Groovy",
                   "color": "#4298b8"
                 },
-                "size": 510564
+                "size": 510904
               },
               {
                 "node": {
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 389602
+                "size": 394009
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 59923
+                "size": 59346
               },
               {
                 "node": {
@@ -8937,7 +8937,7 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 28489
+                "size": 28612
               },
               {
                 "node": {
@@ -8998,7 +8998,7 @@
                   "name": "HTML",
                   "color": "#e34c26"
                 },
-                "size": 1180144
+                "size": 1180414
               },
               {
                 "node": {
@@ -9098,7 +9098,7 @@
             "login": "cloudflare"
           },
           "isFork": false,
-          "stargazerCount": 1315,
+          "stargazerCount": 1317,
           "languages": {
             "edges": [
               {
@@ -9227,7 +9227,7 @@
             "login": "hashicorp"
           },
           "isFork": false,
-          "stargazerCount": 11047,
+          "stargazerCount": 11044,
           "languages": {
             "edges": [
               {
@@ -9235,28 +9235,28 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 83429637
+                "size": 83892693
               },
               {
                 "node": {
                   "name": "Groovy",
                   "color": "#4298b8"
                 },
-                "size": 510564
+                "size": 510904
               },
               {
                 "node": {
                   "name": "HCL",
                   "color": "#844FBA"
                 },
-                "size": 389602
+                "size": 394009
               },
               {
                 "node": {
                   "name": "Makefile",
                   "color": "#427819"
                 },
-                "size": 59923
+                "size": 59346
               },
               {
                 "node": {
@@ -9270,7 +9270,7 @@
                   "name": "Shell",
                   "color": "#89e051"
                 },
-                "size": 28489
+                "size": 28612
               },
               {
                 "node": {
@@ -9323,7 +9323,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2567,
+          "stargazerCount": 2569,
           "languages": {
             "edges": [
               {
@@ -9384,7 +9384,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2567,
+          "stargazerCount": 2569,
           "languages": {
             "edges": [
               {
@@ -9445,7 +9445,7 @@
             "login": "FairwindsOps"
           },
           "isFork": false,
-          "stargazerCount": 2567,
+          "stargazerCount": 2569,
           "languages": {
             "edges": [
               {
@@ -9506,7 +9506,7 @@
             "login": "argoproj"
           },
           "isFork": false,
-          "stargazerCount": 16902,
+          "stargazerCount": 16927,
           "languages": {
             "edges": [
               {
@@ -9514,14 +9514,14 @@
                   "name": "Go",
                   "color": "#00ADD8"
                 },
-                "size": 6197327
+                "size": 6229962
               },
               {
                 "node": {
                   "name": "TypeScript",
                   "color": "#3178c6"
                 },
-                "size": 792698
+                "size": 792689
               },
               {
                 "node": {
@@ -13707,7 +13707,7 @@
             "login": "Rigellute"
           },
           "isFork": false,
-          "stargazerCount": 19301,
+          "stargazerCount": 19316,
           "languages": {
             "edges": [
               {
@@ -13916,7 +13916,7 @@
             "login": "typeorm"
           },
           "isFork": false,
-          "stargazerCount": 36631,
+          "stargazerCount": 36632,
           "languages": {
             "edges": [
               {
@@ -14500,7 +14500,7 @@
             "login": "serverless"
           },
           "isFork": false,
-          "stargazerCount": 46919,
+          "stargazerCount": 46917,
           "languages": {
             "edges": [
               {
@@ -14800,7 +14800,7 @@
             "login": "amazon-connect"
           },
           "isFork": false,
-          "stargazerCount": 459,
+          "stargazerCount": 460,
           "languages": {
             "edges": [
               {
@@ -14808,7 +14808,7 @@
                   "name": "JavaScript",
                   "color": "#f1e05a"
                 },
-                "size": 9983025
+                "size": 10032733
               }
             ]
           }
@@ -14833,7 +14833,7 @@
             "login": "getmoto"
           },
           "isFork": false,
-          "stargazerCount": 8614,
+          "stargazerCount": 8622,
           "languages": {
             "edges": [
               {
@@ -14841,7 +14841,7 @@
                   "name": "Python",
                   "color": "#3572A5"
                 },
-                "size": 26360090
+                "size": 26540934
               },
               {
                 "node": {
