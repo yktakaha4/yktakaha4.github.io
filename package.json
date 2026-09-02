@@ -57,7 +57,7 @@
     "@typescript-eslint/eslint-plugin": "^8.67.0",
     "@typescript-eslint/parser": "^8.64.0",
     "@vitejs/plugin-react": "^6.0.5",
-    "@vitest/coverage-v8": "^4.1.10",
+    "@vitest/coverage-v8": "^4.1.11",
     "@vitest/ui": "^4.0.14",
     "babel-plugin-tsconfig-paths-module-resolver": "^1.0.4",
     "eslint": "^10.8.1",
