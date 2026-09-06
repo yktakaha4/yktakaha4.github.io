@@ -1337,7 +1337,7 @@
       "post_type": "Article",
       "slug": "kintone-form-model-generator",
       "comments_count": 2,
-      "bookmarked_count": 0,
+      "bookmarked_count": 1,
       "body_letters_count": 11978,
       "article_type": "tech",
       "emoji": "🧑‍🦲",
@@ -1347,7 +1347,7 @@
       "pinned": false,
       "path": "/yktakaha4/articles/kintone-form-model-generator",
       "principal_type": "User",
-      "liked_count": 49,
+      "liked_count": 50,
       "is_suspending_private": false,
       "title": "TypeScript Compiler APIでKintoneの型情報を自動生成するCLIツールを作った",
       "user": {
