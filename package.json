@@ -32,7 +32,7 @@
     "@docusaurus/core": "^3.10.2",
     "@docusaurus/preset-classic": "^3.10.2",
     "@mdx-js/react": "^3.1.1",
-    "@octokit/graphql": "^9.0.4",
+    "@octokit/graphql": "^9.0.5",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.23",
     "fast-xml-parser": "^5.11.1",
