@@ -57,8 +57,8 @@
     "@typescript-eslint/eslint-plugin": "^8.69.0",
     "@typescript-eslint/parser": "^8.64.0",
     "@vitejs/plugin-react": "^6.1.1",
-    "@vitest/coverage-v8": "^4.1.11",
-    "@vitest/ui": "^4.0.14",
+    "@vitest/coverage-v8": "^5.0.0",
+    "@vitest/ui": "^5.0.0",
     "babel-plugin-tsconfig-paths-module-resolver": "^1.0.4",
     "eslint": "^10.9.1",
     "eslint-config-prettier": "^10.1.8",
@@ -74,7 +74,7 @@
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.9.3",
     "vite-tsconfig-paths": "^6.1.1",
-    "vitest": "^4.0.14"
+    "vitest": "^5.0.0"
   },
   "browserslist": {
     "production": [
