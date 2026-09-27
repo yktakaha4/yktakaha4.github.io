@@ -118,7 +118,10 @@
         "plan": "pro",
         "pro": true,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -156,7 +159,10 @@
         "plan": "pro",
         "pro": true,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -194,7 +200,10 @@
         "plan": "pro",
         "pro": true,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -316,7 +325,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -382,7 +394,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -420,7 +435,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -486,7 +504,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -552,7 +573,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -646,7 +670,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -740,7 +767,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -778,7 +808,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -816,7 +849,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -854,7 +890,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -920,7 +959,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -1126,7 +1168,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -1192,7 +1237,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -1230,7 +1278,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -1352,7 +1403,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
@@ -1502,7 +1556,10 @@
         "plan": "free",
         "pro": false,
         "avatar_registered": true,
-        "announcement_subscribable": false
+        "newsletter_subscribable": false,
+        "connect_visible": false,
+        "ask_the_author_url": null,
+        "question_box_url": null
       },
       "suspended_by_publication": false
     },
