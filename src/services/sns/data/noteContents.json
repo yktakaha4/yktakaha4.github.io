@@ -85,7 +85,7 @@
       "imageCount": 1,
       "format": "4.0",
       "capabilities": {
-        "amazonpayCampaign": false,
+        "amazonpayCampaign": true,
         "amazonpay": false,
         "guestAmazonpay": false,
         "rubyText": true,
@@ -111,7 +111,7 @@
       "status": "published",
       "name": "新しいチームに加わるエンジニアのための \"被\" オンボーディングガイド v0.1.1",
       "description": null,
-      "likeCount": 28,
+      "likeCount": 29,
       "price": 0,
       "key": "n2acd5a198fa3",
       "slug": "slug-n2acd5a198fa3",
@@ -200,7 +200,7 @@
       "imageCount": 0,
       "format": "3.3",
       "capabilities": {
-        "amazonpayCampaign": false,
+        "amazonpayCampaign": true,
         "amazonpay": false,
         "guestAmazonpay": false,
         "rubyText": true,
@@ -325,7 +325,7 @@
       "imageCount": 0,
       "format": "3.2",
       "capabilities": {
-        "amazonpayCampaign": false,
+        "amazonpayCampaign": true,
         "amazonpay": false,
         "guestAmazonpay": false,
         "rubyText": true,
