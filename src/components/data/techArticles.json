@@ -4,7 +4,7 @@
       "title": "電子メール送信に関する技術",
       "url": "https://zenn.dev/yktakaha4/articles/technology_for_sending_email",
       "publishedAt": "2022-03-28T04:00:47.989Z",
-      "likes": 227,
+      "likes": 229,
       "publisher": "zenn",
       "tags": [
         "AWS",
@@ -151,7 +151,7 @@
       "title": "GitHub Actionsでコマンド失敗時の実行結果をIssueに貼り付けて投稿する",
       "url": "https://qiita.com/yktakaha4/items/19877ad86b54c22420e9",
       "publishedAt": "2020-07-24T16:59:38.000Z",
-      "likes": 31,
+      "likes": 30,
       "publisher": "qiita",
       "tags": [
         "GitHubActions"
@@ -660,18 +660,6 @@
       ]
     },
     {
-      "title": "SourcegraphをGitHub Actions+CloudFormationで構築・管理する",
-      "url": "https://qiita.com/yktakaha4/items/336c85d5a3c4e04b9226",
-      "publishedAt": "2019-11-16T18:51:10.000Z",
-      "likes": 6,
-      "publisher": "qiita",
-      "tags": [
-        "AWS",
-        "CloudFormation",
-        "GitHubActions"
-      ]
-    },
-    {
       "title": "ECS(Fargate)のバッチをCloudFormationで作成する",
       "url": "https://qiita.com/yktakaha4/items/f5a32d5f2e7a6263faa4",
       "publishedAt": "2019-10-11T07:06:59.000Z",
@@ -740,6 +728,18 @@
         "CloudFormation",
         "CloudFront",
         "S3"
+      ]
+    },
+    {
+      "title": "SourcegraphをGitHub Actions+CloudFormationで構築・管理する",
+      "url": "https://qiita.com/yktakaha4/items/336c85d5a3c4e04b9226",
+      "publishedAt": "2019-11-16T18:51:10.000Z",
+      "likes": 5,
+      "publisher": "qiita",
+      "tags": [
+        "AWS",
+        "CloudFormation",
+        "GitHubActions"
       ]
     },
     {
